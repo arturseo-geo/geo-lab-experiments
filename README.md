@@ -10,4 +10,5 @@ GEO Lab experiment data, CSVs, and research artefacts — thegeolab.net
 | [E027](e027/) | Perplexity Zero-Variance Replication (14-day) | Published | [10.5281/zenodo.20085754](https://doi.org/10.5281/zenodo.20085754) |
 | [E030](e030/) | Fan-out Query Length × Citation Rate | In Analysis | TBC — 2026-06-06 |
 | [E042](e042/) | Cross-Platform Retrieval Mechanism Map | Complete | TBC — 2026-06-06 |
+| [E043](e043/) | 3-Day Perplexity Determinism Measurement (Jaccard) | Complete | — |
 | [E047](e047/) | Namespace Competitor Coverage Map (Phase 0) | Active | — |
