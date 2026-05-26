@@ -1,0 +1,8 @@
+domain,platform,robots_txt_accessible,perplexitybot_allowed,gptbot_allowed,claudebot_allowed,googlebot_allowed,notes,session_date
+thegeolab.net,all,,,,,,baseline,
+thatware.co,Perplexity,,,,,,competitor - Wikidata active,
+thatware.co,ChatGPT,,,,,,competitor - Wikidata active,
+thatware.co,Gemini,,,,,,competitor - Wikidata active,
+hashmeta.ai,Perplexity,,,,,,competitor,
+hashmeta.ai,ChatGPT,,,,,,competitor,
+hashmeta.ai,Gemini,,,,,,competitor,
