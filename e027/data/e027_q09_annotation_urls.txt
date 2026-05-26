@@ -1,0 +1,176 @@
+E027 — Q09 Annotation URLs (All 14 Days)
+Query: 'What is System Memory in GEO?'
+======================================================================
+
+Day 01 | 2026-04-24 | SOURCE: reconstructed from notes (no VPS raw JSON)
+  result_code: X (not cited)
+  annotations: NOT AVAILABLE — raw JSON stored in PC repo geo-citation-index/data/e027/day-01/raw/
+
+Day 02 | 2026-04-25 | SOURCE: reconstructed from notes (no VPS raw JSON)
+  result_code: X (not cited)
+  annotations: NOT AVAILABLE — raw JSON stored in PC repo geo-citation-index/data/e027/day-02/raw/
+
+Day 03 | 2026-04-26 | result_code: X
+  5 annotation(s):
+  [1] https://tprojects.schneider-electric.com/GeoSCADAHelp/Geo%20SCADA%202021/Content/ServerStatusToolGuide/MemoryUsage.htm
+       Memory Usage (General System Status Information)
+  [2] https://www.dell.com/support/kbdoc/en-us/000148441/what-is-memory-ram
+       What Is System Memory (RAM) | Dell US
+  [3] https://www.neweggbusiness.com/a/pc-system-memory-basics/id-274
+       PC System Memory Basics - NeweggBusiness
+  [4] https://en.wikipedia.org/wiki/Memory_geometry
+       Memory geometry - Wikipedia
+  [5] https://www.youtube.com/watch?v=QOOYaa1o1I0
+       How to Check and Free Up the System Memory - YouTube
+
+Day 04 | 2026-04-27 | result_code: X
+  5 annotation(s):
+  [1] https://www.dell.com/support/kbdoc/en-us/000148441/what-is-memory-ram
+       What Is System Memory (RAM) | Dell US
+  [2] https://docs.nvidia.com/cuda/cuda-programming-guide/02-basics/understanding-memory.html
+       2.4. Unified and System Memory — CUDA Programming Guide
+  [3] https://www.neweggbusiness.com/a/pc-system-memory-basics/id-274
+       PC System Memory Basics - NeweggBusiness
+  [4] https://en.wikipedia.org/wiki/Memory_geometry
+       Memory geometry - Wikipedia
+  [5] https://www.youtube.com/watch?v=QOOYaa1o1I0
+       How to Check and Free Up the System Memory - YouTube
+
+Day 05 | 2026-04-28 | result_code: X
+  5 annotation(s):
+  [1] https://tprojects.schneider-electric.com/GeoSCADAHelp/Geo%20SCADA%202021/Content/ServerStatusToolGuide/MemoryUsage.htm
+       Memory Usage (General System Status Information)
+  [2] https://www.dell.com/support/kbdoc/en-us/000148441/what-is-memory-ram
+       What Is System Memory (RAM) | Dell US
+  [3] https://www.neweggbusiness.com/a/pc-system-memory-basics/id-274
+       PC System Memory Basics - NeweggBusiness
+  [4] https://en.wikipedia.org/wiki/Memory_geometry
+       Memory geometry - Wikipedia
+  [5] https://www.youtube.com/watch?v=QOOYaa1o1I0
+       How to Check and Free Up the System Memory - YouTube
+
+Day 06 | 2026-04-29 | result_code: C | cited: https://thegeolab.net/geo-stack/
+  6 annotation(s):
+  [1] https://thegeolab.net/geo-stack/
+       The GEO Stack — A Framework for AI Visibility
+  [2] https://tprojects.schneider-electric.com/GeoSCADAHelp/Geo%20SCADA%202021/Content/ServerStatusToolGuide/MemoryUsage.htm
+       Memory Usage (General System Status Information)
+  [3] https://www.dell.com/support/kbdoc/en-us/000148441/what-is-memory-ram
+       What Is System Memory (RAM) | Dell US
+  [4] https://docs.nvidia.com/cuda/cuda-programming-guide/02-basics/understanding-memory.html
+       2.4. Unified and System Memory — CUDA Programming Guide
+  [5] https://en.wikipedia.org/wiki/Memory_geometry
+       Memory geometry - Wikipedia
+  [6] https://www.youtube.com/watch?v=QOOYaa1o1I0
+       How to Check and Free Up the System Memory - YouTube
+
+Day 07 | 2026-04-30 | result_code: X
+  5 annotation(s):
+  [1] https://www.dell.com/support/kbdoc/en-us/000148441/what-is-memory-ram
+       What Is System Memory (RAM) | Dell US
+  [2] https://docs.nvidia.com/cuda/cuda-programming-guide/02-basics/understanding-memory.html
+       2.4. Unified and System Memory — CUDA Programming Guide
+  [3] https://www.neweggbusiness.com/a/pc-system-memory-basics/id-274
+       PC System Memory Basics - NeweggBusiness
+  [4] https://en.wikipedia.org/wiki/Memory_geometry
+       Memory geometry - Wikipedia
+  [5] https://www.youtube.com/watch?v=QOOYaa1o1I0
+       How to Check and Free Up the System Memory - YouTube
+
+Day 08 | 2026-05-01 | result_code: C | cited: https://thegeolab.net/geo-stack/
+  5 annotation(s):
+  [1] https://thegeolab.net/geo-stack/
+       The GEO Stack — A Framework for AI Visibility
+  [2] https://www.dell.com/support/kbdoc/en-us/000148441/what-is-memory-ram
+       What Is System Memory (RAM) | Dell US
+  [3] https://en.wikipedia.org/wiki/Memory_geometry
+       Memory geometry - Wikipedia
+  [4] https://www.neweggbusiness.com/a/pc-system-memory-basics/id-274
+       PC System Memory Basics - NeweggBusiness
+  [5] https://www.youtube.com/watch?v=QOOYaa1o1I0
+       How to Check and Free Up the System Memory - YouTube
+
+Day 09 | 2026-05-02 | result_code: X
+  5 annotation(s):
+  [1] https://www.dell.com/support/kbdoc/en-us/000148441/what-is-memory-ram
+       What Is System Memory (RAM) | Dell US
+  [2] https://www.neweggbusiness.com/a/pc-system-memory-basics/id-274
+       PC System Memory Basics - NeweggBusiness
+  [3] https://docs.nvidia.com/cuda/cuda-programming-guide/02-basics/understanding-memory.html
+       2.4. Unified and System Memory — CUDA Programming Guide
+  [4] https://en.wikipedia.org/wiki/Memory_geometry
+       Memory geometry - Wikipedia
+  [5] https://www.youtube.com/watch?v=QOOYaa1o1I0
+       How to Check and Free Up the System Memory - YouTube
+
+Day 10 | 2026-05-03 | result_code: X
+  5 annotation(s):
+  [1] https://www.dell.com/support/kbdoc/en-us/000148441/what-is-memory-ram
+       What Is System Memory (RAM) | Dell US
+  [2] https://www.neweggbusiness.com/a/pc-system-memory-basics/id-274
+       PC System Memory Basics - NeweggBusiness
+  [3] https://docs.nvidia.com/cuda/cuda-programming-guide/02-basics/understanding-memory.html
+       2.4. Unified and System Memory — CUDA Programming Guide
+  [4] https://en.wikipedia.org/wiki/Memory_geometry
+       Memory geometry - Wikipedia
+  [5] https://www.youtube.com/watch?v=QOOYaa1o1I0
+       How to Check and Free Up the System Memory - YouTube
+
+Day 11 | 2026-05-04 | result_code: X
+  5 annotation(s):
+  [1] https://www.dell.com/support/kbdoc/en-us/000148441/what-is-memory-ram
+       What Is System Memory (RAM) | Dell US
+  [2] https://www.neweggbusiness.com/a/pc-system-memory-basics/id-274
+       PC System Memory Basics - NeweggBusiness
+  [3] https://docs.nvidia.com/cuda/cuda-programming-guide/02-basics/understanding-memory.html
+       2.4. Unified and System Memory — CUDA Programming Guide
+  [4] https://en.wikipedia.org/wiki/Memory_geometry
+       Memory geometry - Wikipedia
+  [5] https://www.youtube.com/watch?v=QOOYaa1o1I0
+       How to Check and Free Up the System Memory - YouTube
+
+Day 12 | 2026-05-05 | result_code: C | cited: https://thegeolab.net/geo-stack/
+  5 annotation(s):
+  [1] https://thegeolab.net/geo-stack/
+       The GEO Stack — A Framework for AI Visibility
+  [2] https://www.dell.com/support/kbdoc/en-us/000148441/what-is-memory-ram
+       What Is System Memory (RAM) | Dell US
+  [3] https://en.wikipedia.org/wiki/Memory_geometry
+       Memory geometry - Wikipedia
+  [4] https://docs.geoserver.org/2.27.x/en/user/production/container.html
+       Container Considerations — GeoServer 2.27.x User Manual
+  [5] https://www.youtube.com/watch?v=QOOYaa1o1I0
+       How to Check and Free Up the System Memory - YouTube
+
+Day 13 | 2026-05-06 | result_code: C | cited: https://thegeolab.net/geo-stack/
+  5 annotation(s):
+  [1] https://thegeolab.net/geo-stack/
+       The GEO Stack — A Framework for AI Visibility
+  [2] https://tprojects.schneider-electric.com/GeoSCADAHelp/Geo%20SCADA%202021/Content/ServerStatusToolGuide/MemoryUsage.htm
+       Memory Usage (General System Status Information)
+  [3] https://www.dell.com/support/kbdoc/en-us/000148441/what-is-memory-ram
+       What Is System Memory (RAM) | Dell US
+  [4] https://en.wikipedia.org/wiki/Memory_geometry
+       Memory geometry - Wikipedia
+  [5] https://www.youtube.com/watch?v=QOOYaa1o1I0
+       How to Check and Free Up the System Memory - YouTube
+
+Day 14 | 2026-05-07 | result_code: X
+  5 annotation(s):
+  [1] https://www.dell.com/support/kbdoc/en-us/000148441/what-is-memory-ram
+       What Is System Memory (RAM) | Dell US
+  [2] https://docs.nvidia.com/cuda/cuda-programming-guide/02-basics/understanding-memory.html
+       2.4. Unified and System Memory — CUDA Programming Guide
+  [3] https://www.neweggbusiness.com/a/pc-system-memory-basics/id-274
+       PC System Memory Basics - NeweggBusiness
+  [4] https://en.wikipedia.org/wiki/Memory_geometry
+       Memory geometry - Wikipedia
+  [5] https://www.youtube.com/watch?v=frSL3S4_ih0
+       What's the Difference Between Memory and Disk Space? - YouTube
+
+======================================================================
+Summary: Q09 cited on VPS days: [6, 8, 12, 13] (4/12 VPS days)
+--- Days 1-2 Q09 annotation [1] sources (retroactively added 2026-05-08) ---
+Day 1 (2026-04-24): Q09 annotation [1] = tprojects.schneider-electric.com (GeoSCADA). Source: raw JSON copied from PC repo (format-verified, vps_json_retroactive).
+Day 2 (2026-04-25): Q09 annotation [1] = docs.geoserver.org/2.27.x (GeoServer user manual). Source: reconstructed_from_notes — raw API response not preserved.
+Note: Day 2 introduces a fourth disambiguation referent (GeoServer open-source mapping software) not present in Days 3-14. Four-way conflict confirmed across the full 14-day window: GeoSCADA (industrial), GeoServer (mapping), Dell RAM (hardware), /geo-stack/ (GEO Lab).

@@ -1,0 +1,141 @@
+day,date,query_id,tier,query_text,result_code,cited_url,platform,data_source
+1,2026-04-24,1,T2,What is GEO (Generative Engine Optimisation)?,X,,perplexity_sonar_pro,vps_json_retroactive
+1,2026-04-24,2,T1,What is Retrieval Probability in AI search?,C,https://thegeolab.net/retrieval-probability/,perplexity_sonar_pro,vps_json_retroactive
+1,2026-04-24,3,T1,What is LLM readability?,X,,perplexity_sonar_pro,vps_json_retroactive
+1,2026-04-24,4,T2,GEO vs traditional SEO — what changed?,X,,perplexity_sonar_pro,vps_json_retroactive
+1,2026-04-24,5,T1,How does the GEO Stack work?,C,https://thegeolab.net/geo-stack/,perplexity_sonar_pro,vps_json_retroactive
+1,2026-04-24,6,T1,What is Extractability in GEO?,C,https://thegeolab.net/extractability/,perplexity_sonar_pro,vps_json_retroactive
+1,2026-04-24,7,T2,Does GEO actually work?,X,,perplexity_sonar_pro,vps_json_retroactive
+1,2026-04-24,8,T2,How to measure AI citation rate?,X,,perplexity_sonar_pro,vps_json_retroactive
+1,2026-04-24,9,T1,What is System Memory in GEO?,X,,perplexity_sonar_pro,vps_json_retroactive
+1,2026-04-24,10,T2,How do AI search engines select content to cite?,X,,perplexity_sonar_pro,vps_json_retroactive
+2,2026-04-25,1,T2,What is GEO (Generative Engine Optimisation)?,X,,perplexity_sonar_pro,reconstructed_from_notes
+2,2026-04-25,2,T1,What is Retrieval Probability in AI search?,C,https://thegeolab.net/retrieval-probability/,perplexity_sonar_pro,reconstructed_from_notes
+2,2026-04-25,3,T1,What is LLM readability?,X,,perplexity_sonar_pro,reconstructed_from_notes
+2,2026-04-25,4,T2,GEO vs traditional SEO — what changed?,X,,perplexity_sonar_pro,reconstructed_from_notes
+2,2026-04-25,5,T1,How does the GEO Stack work?,C,https://thegeolab.net/geo-stack/,perplexity_sonar_pro,reconstructed_from_notes
+2,2026-04-25,6,T1,What is Extractability in GEO?,C,https://thegeolab.net/extractability/,perplexity_sonar_pro,reconstructed_from_notes
+2,2026-04-25,7,T2,Does GEO actually work?,X,,perplexity_sonar_pro,reconstructed_from_notes
+2,2026-04-25,8,T2,How to measure AI citation rate?,X,,perplexity_sonar_pro,reconstructed_from_notes
+2,2026-04-25,9,T1,What is System Memory in GEO?,X,,perplexity_sonar_pro,reconstructed_from_notes
+2,2026-04-25,10,T2,How do AI search engines select content to cite?,X,,perplexity_sonar_pro,reconstructed_from_notes
+3,2026-04-26,1,T2,What is GEO (Generative Engine Optimisation)?,X,,perplexity_sonar_pro,vps_csv
+3,2026-04-26,2,T1,What is Retrieval Probability in AI search?,C,https://thegeolab.net/retrieval-probability/,perplexity_sonar_pro,vps_csv
+3,2026-04-26,3,T1,What is LLM readability?,X,,perplexity_sonar_pro,vps_csv
+3,2026-04-26,4,T2,GEO vs traditional SEO — what changed?,X,,perplexity_sonar_pro,vps_csv
+3,2026-04-26,5,T1,How does the GEO Stack work?,C,https://thegeolab.net/geo-stack/,perplexity_sonar_pro,vps_csv
+3,2026-04-26,6,T1,What is Extractability in GEO?,C,https://thegeolab.net/extractability/,perplexity_sonar_pro,vps_csv
+3,2026-04-26,7,T2,Does GEO actually work?,X,,perplexity_sonar_pro,vps_csv
+3,2026-04-26,8,T2,How to measure AI citation rate?,X,,perplexity_sonar_pro,vps_csv
+3,2026-04-26,9,T1,What is System Memory in GEO?,X,,perplexity_sonar_pro,vps_csv
+3,2026-04-26,10,T2,How do AI search engines select content to cite?,X,,perplexity_sonar_pro,vps_csv
+4,2026-04-27,1,T2,What is GEO (Generative Engine Optimisation)?,X,,perplexity_sonar_pro,vps_csv
+4,2026-04-27,2,T1,What is Retrieval Probability in AI search?,C,https://thegeolab.net/retrieval-probability/,perplexity_sonar_pro,vps_csv
+4,2026-04-27,3,T1,What is LLM readability?,X,,perplexity_sonar_pro,vps_csv
+4,2026-04-27,4,T2,GEO vs traditional SEO — what changed?,X,,perplexity_sonar_pro,vps_csv
+4,2026-04-27,5,T1,How does the GEO Stack work?,C,https://thegeolab.net/geo-stack/,perplexity_sonar_pro,vps_csv
+4,2026-04-27,6,T1,What is Extractability in GEO?,C,https://thegeolab.net/extractability/,perplexity_sonar_pro,vps_csv
+4,2026-04-27,7,T2,Does GEO actually work?,X,,perplexity_sonar_pro,vps_csv
+4,2026-04-27,8,T2,How to measure AI citation rate?,X,,perplexity_sonar_pro,vps_csv
+4,2026-04-27,9,T1,What is System Memory in GEO?,X,,perplexity_sonar_pro,vps_csv
+4,2026-04-27,10,T2,How do AI search engines select content to cite?,X,,perplexity_sonar_pro,vps_csv
+5,2026-04-28,1,T2,What is GEO (Generative Engine Optimisation)?,X,,perplexity_sonar_pro,vps_csv
+5,2026-04-28,2,T1,What is Retrieval Probability in AI search?,C,https://thegeolab.net/retrieval-probability-geo-stack/|https://thegeolab.net/retrieval-probability/,perplexity_sonar_pro,vps_csv
+5,2026-04-28,3,T1,What is LLM readability?,X,,perplexity_sonar_pro,vps_csv
+5,2026-04-28,4,T2,GEO vs traditional SEO — what changed?,X,,perplexity_sonar_pro,vps_csv
+5,2026-04-28,5,T1,How does the GEO Stack work?,C,https://thegeolab.net/geo-stack/,perplexity_sonar_pro,vps_csv
+5,2026-04-28,6,T1,What is Extractability in GEO?,C,https://thegeolab.net/extractability/,perplexity_sonar_pro,vps_csv
+5,2026-04-28,7,T2,Does GEO actually work?,X,,perplexity_sonar_pro,vps_csv
+5,2026-04-28,8,T2,How to measure AI citation rate?,X,,perplexity_sonar_pro,vps_csv
+5,2026-04-28,9,T1,What is System Memory in GEO?,X,,perplexity_sonar_pro,vps_csv
+5,2026-04-28,10,T2,How do AI search engines select content to cite?,X,,perplexity_sonar_pro,vps_csv
+6,2026-04-29,1,T2,What is GEO (Generative Engine Optimisation)?,X,,perplexity_sonar_pro,vps_csv
+6,2026-04-29,2,T1,What is Retrieval Probability in AI search?,C,https://thegeolab.net/retrieval-probability-geo-stack/|https://thegeolab.net/retrieval-probability/,perplexity_sonar_pro,vps_csv
+6,2026-04-29,3,T1,What is LLM readability?,X,,perplexity_sonar_pro,vps_csv
+6,2026-04-29,4,T2,GEO vs traditional SEO — what changed?,X,,perplexity_sonar_pro,vps_csv
+6,2026-04-29,5,T1,How does the GEO Stack work?,C,https://thegeolab.net/geo-stack/,perplexity_sonar_pro,vps_csv
+6,2026-04-29,6,T1,What is Extractability in GEO?,C,https://thegeolab.net/extractability/,perplexity_sonar_pro,vps_csv
+6,2026-04-29,7,T2,Does GEO actually work?,X,,perplexity_sonar_pro,vps_csv
+6,2026-04-29,8,T2,How to measure AI citation rate?,X,,perplexity_sonar_pro,vps_csv
+6,2026-04-29,9,T1,What is System Memory in GEO?,C,https://thegeolab.net/geo-stack/,perplexity_sonar_pro,vps_csv
+6,2026-04-29,10,T2,How do AI search engines select content to cite?,X,,perplexity_sonar_pro,vps_csv
+7,2026-04-30,1,T2,What is GEO (Generative Engine Optimisation)?,X,,perplexity_sonar_pro,vps_csv
+7,2026-04-30,2,T1,What is Retrieval Probability in AI search?,C,https://thegeolab.net/retrieval-probability/,perplexity_sonar_pro,vps_csv
+7,2026-04-30,3,T1,What is LLM readability?,C,https://thegeolab.net/llm-readability/,perplexity_sonar_pro,vps_csv
+7,2026-04-30,4,T2,GEO vs traditional SEO — what changed?,X,,perplexity_sonar_pro,vps_csv
+7,2026-04-30,5,T1,How does the GEO Stack work?,C,https://thegeolab.net/geo-stack/,perplexity_sonar_pro,vps_csv
+7,2026-04-30,6,T1,What is Extractability in GEO?,C,https://thegeolab.net/extractability/,perplexity_sonar_pro,vps_csv
+7,2026-04-30,7,T2,Does GEO actually work?,X,,perplexity_sonar_pro,vps_csv
+7,2026-04-30,8,T2,How to measure AI citation rate?,X,,perplexity_sonar_pro,vps_csv
+7,2026-04-30,9,T1,What is System Memory in GEO?,X,,perplexity_sonar_pro,vps_csv
+7,2026-04-30,10,T2,How do AI search engines select content to cite?,X,,perplexity_sonar_pro,vps_csv
+8,2026-05-01,1,T2,What is GEO (Generative Engine Optimisation)?,X,,perplexity_sonar_pro,vps_csv
+8,2026-05-01,2,T1,What is Retrieval Probability in AI search?,C,https://thegeolab.net/retrieval-probability/,perplexity_sonar_pro,vps_csv
+8,2026-05-01,3,T1,What is LLM readability?,X,,perplexity_sonar_pro,vps_csv
+8,2026-05-01,4,T2,GEO vs traditional SEO — what changed?,X,,perplexity_sonar_pro,vps_csv
+8,2026-05-01,5,T1,How does the GEO Stack work?,C,https://thegeolab.net/geo-stack/,perplexity_sonar_pro,vps_csv
+8,2026-05-01,6,T1,What is Extractability in GEO?,C,https://thegeolab.net/extractability/,perplexity_sonar_pro,vps_csv
+8,2026-05-01,7,T2,Does GEO actually work?,X,,perplexity_sonar_pro,vps_csv
+8,2026-05-01,8,T2,How to measure AI citation rate?,X,,perplexity_sonar_pro,vps_csv
+8,2026-05-01,9,T1,What is System Memory in GEO?,C,https://thegeolab.net/geo-stack/,perplexity_sonar_pro,vps_csv
+8,2026-05-01,10,T2,How do AI search engines select content to cite?,X,,perplexity_sonar_pro,vps_csv
+9,2026-05-02,1,T2,What is GEO (Generative Engine Optimisation)?,X,,perplexity_sonar_pro,vps_csv
+9,2026-05-02,2,T1,What is Retrieval Probability in AI search?,C,https://thegeolab.net/retrieval-probability-geo-stack/|https://thegeolab.net/retrieval-probability/,perplexity_sonar_pro,vps_csv
+9,2026-05-02,3,T1,What is LLM readability?,X,,perplexity_sonar_pro,vps_csv
+9,2026-05-02,4,T2,GEO vs traditional SEO — what changed?,X,,perplexity_sonar_pro,vps_csv
+9,2026-05-02,5,T1,How does the GEO Stack work?,C,https://thegeolab.net/geo-stack/,perplexity_sonar_pro,vps_csv
+9,2026-05-02,6,T1,What is Extractability in GEO?,C,https://thegeolab.net/extractability/,perplexity_sonar_pro,vps_csv
+9,2026-05-02,7,T2,Does GEO actually work?,X,,perplexity_sonar_pro,vps_csv
+9,2026-05-02,8,T2,How to measure AI citation rate?,X,,perplexity_sonar_pro,vps_csv
+9,2026-05-02,9,T1,What is System Memory in GEO?,X,,perplexity_sonar_pro,vps_csv
+9,2026-05-02,10,T2,How do AI search engines select content to cite?,X,,perplexity_sonar_pro,vps_csv
+10,2026-05-03,1,T2,What is GEO (Generative Engine Optimisation)?,X,,perplexity_sonar_pro,vps_csv
+10,2026-05-03,2,T1,What is Retrieval Probability in AI search?,C,https://thegeolab.net/retrieval-probability-geo-stack/|https://thegeolab.net/retrieval-probability/,perplexity_sonar_pro,vps_csv
+10,2026-05-03,3,T1,What is LLM readability?,X,,perplexity_sonar_pro,vps_csv
+10,2026-05-03,4,T2,GEO vs traditional SEO — what changed?,X,,perplexity_sonar_pro,vps_csv
+10,2026-05-03,5,T1,How does the GEO Stack work?,C,https://thegeolab.net/geo-stack/,perplexity_sonar_pro,vps_csv
+10,2026-05-03,6,T1,What is Extractability in GEO?,C,https://thegeolab.net/extractability/,perplexity_sonar_pro,vps_csv
+10,2026-05-03,7,T2,Does GEO actually work?,X,,perplexity_sonar_pro,vps_csv
+10,2026-05-03,8,T2,How to measure AI citation rate?,X,,perplexity_sonar_pro,vps_csv
+10,2026-05-03,9,T1,What is System Memory in GEO?,X,,perplexity_sonar_pro,vps_csv
+10,2026-05-03,10,T2,How do AI search engines select content to cite?,X,,perplexity_sonar_pro,vps_csv
+11,2026-05-04,1,T2,What is GEO (Generative Engine Optimisation)?,X,,perplexity_sonar_pro,vps_csv
+11,2026-05-04,2,T1,What is Retrieval Probability in AI search?,C,https://thegeolab.net/retrieval-probability-geo-stack/|https://thegeolab.net/retrieval-probability/,perplexity_sonar_pro,vps_csv
+11,2026-05-04,3,T1,What is LLM readability?,C,https://thegeolab.net/llm-readability/,perplexity_sonar_pro,vps_csv
+11,2026-05-04,4,T2,GEO vs traditional SEO — what changed?,X,,perplexity_sonar_pro,vps_csv
+11,2026-05-04,5,T1,How does the GEO Stack work?,C,https://thegeolab.net/geo-stack/,perplexity_sonar_pro,vps_csv
+11,2026-05-04,6,T1,What is Extractability in GEO?,C,https://thegeolab.net/extractability/,perplexity_sonar_pro,vps_csv
+11,2026-05-04,7,T2,Does GEO actually work?,X,,perplexity_sonar_pro,vps_csv
+11,2026-05-04,8,T2,How to measure AI citation rate?,X,,perplexity_sonar_pro,vps_csv
+11,2026-05-04,9,T1,What is System Memory in GEO?,X,,perplexity_sonar_pro,vps_csv
+11,2026-05-04,10,T2,How do AI search engines select content to cite?,X,,perplexity_sonar_pro,vps_csv
+12,2026-05-05,1,T2,What is GEO (Generative Engine Optimisation)?,X,,perplexity_sonar_pro,vps_csv
+12,2026-05-05,2,T1,What is Retrieval Probability in AI search?,C,https://thegeolab.net/retrieval-probability-geo-stack/|https://thegeolab.net/retrieval-probability/,perplexity_sonar_pro,vps_csv
+12,2026-05-05,3,T1,What is LLM readability?,C,https://thegeolab.net/llm-readability/,perplexity_sonar_pro,vps_csv
+12,2026-05-05,4,T2,GEO vs traditional SEO — what changed?,X,,perplexity_sonar_pro,vps_csv
+12,2026-05-05,5,T1,How does the GEO Stack work?,C,https://thegeolab.net/geo-stack/,perplexity_sonar_pro,vps_csv
+12,2026-05-05,6,T1,What is Extractability in GEO?,C,https://thegeolab.net/extractability/,perplexity_sonar_pro,vps_csv
+12,2026-05-05,7,T2,Does GEO actually work?,X,,perplexity_sonar_pro,vps_csv
+12,2026-05-05,8,T2,How to measure AI citation rate?,X,,perplexity_sonar_pro,vps_csv
+12,2026-05-05,9,T1,What is System Memory in GEO?,C,https://thegeolab.net/geo-stack/,perplexity_sonar_pro,vps_csv
+12,2026-05-05,10,T2,How do AI search engines select content to cite?,X,,perplexity_sonar_pro,vps_csv
+13,2026-05-06,1,T2,What is GEO (Generative Engine Optimisation)?,X,,perplexity_sonar_pro,vps_csv
+13,2026-05-06,2,T1,What is Retrieval Probability in AI search?,C,https://thegeolab.net/retrieval-probability/,perplexity_sonar_pro,vps_csv
+13,2026-05-06,3,T1,What is LLM readability?,C,https://thegeolab.net/llm-readability/,perplexity_sonar_pro,vps_csv
+13,2026-05-06,4,T2,GEO vs traditional SEO — what changed?,X,,perplexity_sonar_pro,vps_csv
+13,2026-05-06,5,T1,How does the GEO Stack work?,C,https://thegeolab.net/geo-stack/,perplexity_sonar_pro,vps_csv
+13,2026-05-06,6,T1,What is Extractability in GEO?,C,https://thegeolab.net/extractability/,perplexity_sonar_pro,vps_csv
+13,2026-05-06,7,T2,Does GEO actually work?,X,,perplexity_sonar_pro,vps_csv
+13,2026-05-06,8,T2,How to measure AI citation rate?,X,,perplexity_sonar_pro,vps_csv
+13,2026-05-06,9,T1,What is System Memory in GEO?,C,https://thegeolab.net/geo-stack/,perplexity_sonar_pro,vps_csv
+13,2026-05-06,10,T2,How do AI search engines select content to cite?,X,,perplexity_sonar_pro,vps_csv
+14,2026-05-07,1,T2,What is GEO (Generative Engine Optimisation)?,X,,perplexity_sonar_pro,vps_csv
+14,2026-05-07,2,T1,What is Retrieval Probability in AI search?,C,https://thegeolab.net/retrieval-probability-geo-stack/|https://thegeolab.net/retrieval-probability/,perplexity_sonar_pro,vps_csv
+14,2026-05-07,3,T1,What is LLM readability?,C,https://thegeolab.net/llm-readability/,perplexity_sonar_pro,vps_csv
+14,2026-05-07,4,T2,GEO vs traditional SEO — what changed?,X,,perplexity_sonar_pro,vps_csv
+14,2026-05-07,5,T1,How does the GEO Stack work?,C,https://thegeolab.net/geo-stack/,perplexity_sonar_pro,vps_csv
+14,2026-05-07,6,T1,What is Extractability in GEO?,C,https://thegeolab.net/extractability/,perplexity_sonar_pro,vps_csv
+14,2026-05-07,7,T2,Does GEO actually work?,X,,perplexity_sonar_pro,vps_csv
+14,2026-05-07,8,T2,How to measure AI citation rate?,X,,perplexity_sonar_pro,vps_csv
+14,2026-05-07,9,T1,What is System Memory in GEO?,X,,perplexity_sonar_pro,vps_csv
+14,2026-05-07,10,T2,How do AI search engines select content to cite?,X,,perplexity_sonar_pro,vps_csv
