@@ -1,0 +1,90 @@
+# E030 Statistical Summary
+
+**Experiment:** E030 — Query Length × Citation Rate
+**Dataset:** `/opt/e030/data/e030_measurements.csv`
+**Analysis date:** 2026-05-24
+**Completeness:** 225 rows × 15 columns | 5 days × 3 pages × 3 tiers × 5 queries/cell — complete, no missing values
+
+---
+
+## Primary Outcome: Citation Rate by Length Tier
+
+| Tier | Cited | Total | Rate | 95% CI (Wilson) |
+|------|-------|-------|------|-----------------|
+| 2-4w | 46 | 75 | 61.3% | [50.0%–71.5%] |
+| 6-8w | 27 | 75 | 36.0% | [26.1%–47.3%] |
+| 10-12w | 12 | 75 | 16.0% | [9.4%–25.9%] |
+
+**Direction:** Monotonic negative — shorter queries are cited more. 2-4w → 6-8w → 10-12w. No reversals across any page or day.
+
+---
+
+## Page × Length Tier Matrix
+
+| Page | 2-4w | 6-8w | 10-12w | Row total |
+|------|------|------|--------|-----------|
+| /extractability/ | 14/25 (56%) | 5/25 (20%) | 0/25 (0%) | 19/75 (25%) |
+| /geo-stack/ | 12/25 (48%) | 10/25 (40%) | 5/25 (20%) | 27/75 (36%) |
+| /retrieval-probability/ | 20/25 (80%) | 12/25 (48%) | 7/25 (28%) | 39/75 (52%) |
+
+**Notable:** /extractability/ 10-12w = 0/25 — complete suppression at longest tier. /retrieval-probability/ leads at every tier, consistent with higher page authority.
+
+---
+
+## Statistical Tests (Welch's t-test + Cohen's d)
+
+| Comparison | Mean diff | t-stat | p-value | Sig? | Cohen's d | Effect size | vs E016 noise floor (22.0pp) |
+|------------|-----------|--------|---------|------|-----------|-------------|------------------------------|
+| 2-4w vs 6-8w | 25.3% | 3.1871 | 0.0018 | Yes | 0.5204 | Medium (≥0.5) | ABOVE |
+| 6-8w vs 10-12w | 20.0% | 2.8485 | 0.0051 | Yes | 0.4652 | Small (<0.5) | BELOW |
+| 2-4w vs 10-12w | 45.3% | 6.3977 | <0.0001 | Yes | 1.0447 | Large (≥0.8) | ABOVE |
+
+**Interpretation:**
+- 2-4w vs 10-12w: large effect (d=1.04), 45.3pp — unambiguously above noise floor. Primary finding is robust.
+- 2-4w vs 6-8w: medium effect (d=0.52), 25.3pp — above noise floor. Reliable.
+- 6-8w vs 10-12w: significant (p=0.005) but 20.0pp diff is marginally *below* the 22.0pp E016 noise threshold (d=0.47). Treat with caution — directionally consistent but not conclusively separable from noise.
+
+---
+
+## Day-Over-Day Stability
+
+| Day | Date | Cited | Total | Rate |
+|-----|------|-------|-------|------|
+| 1 | 2026-05-19 | 17 | 45 | 37.8% |
+| 2 | 2026-05-20 | 18 | 45 | 40.0% |
+| 3 | 2026-05-21 | 16 | 45 | 35.6% |
+| 4 | 2026-05-22 | 17 | 45 | 37.8% |
+| 5 | 2026-05-23 | 17 | 45 | 37.8% |
+
+**Chi-square test:** χ²=0.1891, df=4, p=0.9958 — no significant day-over-day drift. Experiment was stable across the full 5-day window.
+
+---
+
+## Routing Anomaly Log
+
+Three persistent routing anomalies identified across 12 anomaly-rows:
+
+| Query ID | Expected URL | Retrieved URL | Days affected | Cited | Type |
+|----------|-------------|----------------|---------------|-------|------|
+| geostack_6_5 | /geo-stack/ | /geo-brand-citation-index/ | [1,2,4,5] | 0/5 | Hard wrong-routing — target never cited |
+| extract_6_2 | /extractability/ | /geo-stack/ | [1,2,3,4,5] | 0/5 | Hard wrong-routing — target never cited |
+| retprob_6_1 | /retrieval-probability/ | /geo-stack/ (co-retrieved) | [3,4,5] | 5/5 | Co-retrieval — correct page cited all 5 days; /geo-stack/ also returned days 3–5 |
+
+**Notes:**
+- geostack_6_5 and extract_6_2 are hard misbindings: Perplexity routes to a semantically adjacent page and never cites the target. Both score cited=0 so they do not inflate citation counts.
+- retprob_6_1 is a co-retrieval event, not a routing failure: correct_page_retrieved=1 and cited=1 on all 5 days. On days 3–5 /geo-stack/ was *also* retrieved alongside /retrieval-probability/. Pre-logged anomaly confirmed as co-citation, not a miss.
+- The two pre-logged anomalies (geostack_6_5, retprob_6_1) match the record. extract_6_2 is an additional anomaly not previously logged.
+- Note: `correct_page_retrieved == 0` rows (140 total) are non-citations, not routing errors.
+
+---
+
+## Unexpected Findings
+
+1. **/extractability/ 10-12w = 0/25 (0%)** — complete citation suppression. All 25 measurements returned no citation at this cell. Possible explanation: /extractability/ is a lower-authority page and the 10-12w query tier creates enough semantic diffusion to fall below Perplexity's retrieval threshold entirely.
+2. **Clean monotonic direction across all three pages** — the negative length effect holds for every page individually, not just in aggregate. This strengthens the causal inference.
+3. **extract_6_2 is a new anomaly** (not in pre-experiment anomaly log). Stable misbinding to /geo-stack/ across all 5 days. Query is semantically ambiguous between extractability and GEO Stack content.
+4. **geostack_6_5 missed day 3** — routing anomaly logged on days 1, 2, 4, 5 but not day 3 (day 3 shows correct_page_retrieved=0, wrong_page_retrieved=NaN). Possible transient correct routing on day 3 that still failed to cite.
+
+---
+
+*Generated by e030_step7_summary.py | Raw data read-only*
