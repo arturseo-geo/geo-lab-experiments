@@ -1,0 +1,16 @@
+query_id,target_page,rank_1_domain,rank_1_count,rank_2_domain,rank_2_count,rank_3_domain,rank_3_count,rank_4_domain,rank_4_count,rank_5_domain,rank_5_count,thegeolab_cited_count,thegeolab_cited_rate,namespace_flag
+gs_q1,/geo-stack/,arxiv.org,3,digitalapplied.com,3,github.com,3,coherentsolutions.com,3,youtube.com,2,0,0.0,CONTESTED
+gs_q2,/geo-stack/,help.qlik.com,2,okankaplanedu.github.io,2,doc.esri.com,2,libguides.brown.edu,2,developers.google.com,2,0,0.0,GIS
+gs_q3,/geo-stack/,planet.osgeo.org,3,arxiv.org,2,youtube.com,2,geoawesome.com,2,xyht.com,2,0,0.0,GIS
+gs_q4,/geo-stack/,arxiv.org,2,zozimus.com,2,evertune.ai,2,everything-pr.com,2,libguides.utk.edu,2,0,0.0,CONTESTED
+gs_q5,/geo-stack/,theamericanreporter.com,5,everything-pr.com,5,digitalapplied.com,5,libguides.utk.edu,5,docs.alphageo.ai,5,0,0.0,PR_SPAM
+ex_q1,/extractability/,lumar.io,5,iquanti.com,5,limelightmarketing.com,5,airops.com,5,nav43.com,5,0,0.0,CONCEPT_OWNED
+ex_q2,/extractability/,lumar.io,5,youtube.com,5,bradleebartlett.com,4,atakinteractive.com,4,enstein.com,4,0,0.0,CONCEPT_OWNED
+ex_q3,/extractability/,lumar.io,5,llamaindex.ai,5,1digitalagency.com,5,arxiv.org,5,lobehub.com,5,0,0.0,CONCEPT_OWNED
+ex_q4,/extractability/,arxiv.org,4,pubs.acs.org,4,acsess.onlinelibrary.wiley.com,4,support.ledger.com,4,nav43.com,4,0,0.0,CONCEPT_OWNED
+ex_q5,/extractability/,lumar.io,5,pubs.acs.org,5,limelightmarketing.com,5,almcorp.com,5,nav43.com,5,0,0.0,CONCEPT_OWNED
+rp_q1,/retrieval-probability/,elevam.es,5,arxiv.org,5,geo.libretexts.org,5,groundingpage.com,5,openaccess.thecvf.com,5,5,1.0,CLEAN
+rp_q2,/retrieval-probability/,jakobnielsenphd.substack.com,5,seoplugin.ai,5,arxiv.org,5,guides.nyu.edu,4,youtube.com,4,0,0.0,CONCEPT_OWNED
+rp_q3,/retrieval-probability/,arxiv.org,5,quantum-journal.org,5,en.wikipedia.org,5,catalog.sjsu.edu,5,link.aps.org,4,0,0.0,CONCEPT_OWNED
+rp_q4,/retrieval-probability/,arxiv.org,2,dl.acm.org,2,help.activecampaign.com,2,egusphere.copernicus.org,2,en.wikipedia.org,2,0,0.0,CONTESTED
+rp_q5,/retrieval-probability/,en.wikipedia.org,5,arxiv.org,5,experienceleague.adobe.com,5,stats.ox.ac.uk,5,papers.ssrn.com,5,0,0.0,CONCEPT_OWNED

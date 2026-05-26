@@ -1,0 +1,26 @@
+=== E047 Phase 0 — Namespace Contamination Report ===
+Date: 2026-05-26
+
+/geo-stack/ namespace analysis:
+  GIS domains present: {'planet.osgeo.org': 3, 'doc.esri.com': 2}
+  Queries most contaminated: ['gs_q3:3', 'gs_q2:2']
+  Contamination rate: 5/25 rows (20%)
+  Recommended fix: Add explicit disambiguation block to /geo-stack/ page: "The GEO Stack is a framework for AI citation, not a geospatial software stack."
+
+/extractability/ namespace analysis:
+  Concept-owning domain: lumar.io (20 appearances out of 25 rows)
+  Queries affected: ['ex_q1', 'ex_q2', 'ex_q3', 'ex_q5']
+  Contamination rate: 20/25 rows (80%)
+  Secondary competitor: ('nav43.com', 14)
+  Recommended fix: Add standalone definition section to /extractability/ matching lumar.io's crawlability score framing, with explicit GEO context.
+
+/retrieval-probability/ namespace analysis:
+  Clean queries (cited >= 4): ['rp_q1']
+  Contaminated queries (0 citations): ['rp_q2', 'rp_q3', 'rp_q4', 'rp_q5']
+  IR namespace leakage (Wikipedia/academic): {'arxiv.org': 17, 'en.wikipedia.org': 13, 'dl.acm.org': 5}
+  Recommended fix: Add explicit entity anchors to rp_q2–rp_q5 target content: tie "retrieval probability" firmly to GEO/AI search context, not information retrieval theory.
+
+=== M1 Baseline Readiness ===
+/retrieval-probability/: READY — rp_q1 100% cited; 4 queries need IR disambiguation
+/geo-stack/:            NOT READY — GIS namespace contamination on all 5 gs_* queries; disambiguation page required before M1
+/extractability/:       NOT READY — lumar.io concept ownership on ex_q1–q3; content gap must be closed before M1

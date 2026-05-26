@@ -1,0 +1,84 @@
+domain,total_appearances,gs_appearances,ex_appearances,rp_appearances,query_ids_present,is_thegeolab,is_known_competitor
+arxiv.org,41,7,12,22,"ex_q3, ex_q4, ex_q5, gs_q1, gs_q3, gs_q4, rp_q1, rp_q2, rp_q3, rp_q4, rp_q5",0,1
+lumar.io,20,0,20,0,"ex_q1, ex_q2, ex_q3, ex_q5",0,1
+youtube.com,15,4,7,4,"ex_q2, ex_q4, gs_q1, gs_q3, rp_q2",0,0
+nav43.com,14,0,14,0,"ex_q1, ex_q4, ex_q5",0,0
+en.wikipedia.org,13,0,0,13,"rp_q2, rp_q3, rp_q4, rp_q5",0,1
+limelightmarketing.com,12,0,12,0,"ex_q1, ex_q4, ex_q5",0,0
+digitalapplied.com,10,10,0,0,"gs_q1, gs_q3, gs_q5",0,0
+pubs.acs.org,9,0,9,0,"ex_q4, ex_q5",0,0
+groundingpage.com,9,0,0,9,"rp_q1, rp_q2",0,0
+everything-pr.com,8,8,0,0,"gs_q2, gs_q4, gs_q5",0,1
+evertune.ai,7,7,0,0,"gs_q4, gs_q5",0,0
+libguides.utk.edu,7,7,0,0,"gs_q4, gs_q5",0,0
+docs.alphageo.ai,6,6,0,0,"gs_q2, gs_q5",0,0
+papers.ssrn.com,6,0,0,6,"rp_q2, rp_q5",0,0
+github.com,5,5,0,0,"gs_q1, gs_q3",0,0
+theamericanreporter.com,5,5,0,0,gs_q5,0,1
+iquanti.com,5,0,5,0,ex_q1,0,0
+airops.com,5,0,5,0,ex_q1,0,0
+semrush.com,5,0,5,0,ex_q1,0,0
+llamaindex.ai,5,0,5,0,ex_q3,0,0
+1digitalagency.com,5,0,5,0,ex_q3,0,0
+lobehub.com,5,0,5,0,ex_q3,0,0
+campaigncreators.com,5,0,5,0,ex_q3,0,0
+syntacticsinc.com,5,0,5,0,ex_q3,0,0
+almcorp.com,5,0,5,0,ex_q5,0,0
+elevam.es,5,0,0,5,rp_q1,0,0
+geo.libretexts.org,5,0,0,5,rp_q1,0,0
+openaccess.thecvf.com,5,0,0,5,rp_q1,0,0
+thegeolab.net,5,0,0,5,rp_q1,1,0
+muckrack.com,5,0,0,5,rp_q1,0,0
+jakobnielsenphd.substack.com,5,0,0,5,rp_q2,0,0
+seoplugin.ai,5,0,0,5,rp_q2,0,0
+quantum-journal.org,5,0,0,5,rp_q3,0,0
+dl.acm.org,5,0,0,5,"rp_q3, rp_q4",0,0
+catalog.sjsu.edu,5,0,0,5,rp_q3,0,0
+experienceleague.adobe.com,5,0,0,5,rp_q5,0,0
+stats.ox.ac.uk,5,0,0,5,rp_q5,0,0
+datarevolt.agency,4,4,0,0,gs_q5,0,0
+bradleebartlett.com,4,0,4,0,ex_q2,0,0
+atakinteractive.com,4,0,4,0,ex_q2,0,0
+enstein.com,4,0,4,0,ex_q2,0,0
+xodo.com,4,0,4,0,ex_q3,0,0
+averi.ai,4,0,4,0,ex_q3,0,0
+acsess.onlinelibrary.wiley.com,4,0,4,0,ex_q4,0,0
+support.ledger.com,4,0,4,0,ex_q4,0,0
+practicalecommerce.com,4,0,4,0,ex_q5,0,0
+guides.nyu.edu,4,0,0,4,rp_q2,0,0
+jacobmarks.com,4,0,0,4,rp_q2,0,0
+link.aps.org,4,0,0,4,rp_q3,0,0
+pxp.io,4,0,0,4,rp_q5,0,0
+epubs.siam.org,4,0,0,4,rp_q5,0,0
+coherentsolutions.com,3,3,0,0,gs_q1,0,0
+planet.osgeo.org,3,3,0,0,gs_q3,0,1
+ryrob.com,3,0,3,0,ex_q2,0,0
+conductor.com,3,0,3,0,ex_q2,0,0
+frontiersin.org,3,0,2,1,"ex_q5, rp_q5",0,0
+geomotiv.com,2,2,0,0,gs_q1,0,0
+help.qlik.com,2,2,0,0,gs_q2,0,0
+okankaplanedu.github.io,2,2,0,0,gs_q2,0,0
+doc.esri.com,2,2,0,0,gs_q2,0,0
+libguides.brown.edu,2,2,0,0,gs_q2,0,0
+developers.google.com,2,2,0,0,gs_q2,0,0
+geoawesome.com,2,2,0,0,gs_q3,0,0
+xyht.com,2,2,0,0,gs_q3,0,0
+thinkgeo.com,2,2,0,0,gs_q3,0,0
+zozimus.com,2,2,0,0,gs_q4,0,0
+help.activecampaign.com,2,0,0,2,rp_q4,0,0
+egusphere.copernicus.org,2,0,0,2,rp_q4,0,0
+amilis.co.uk,2,0,0,2,rp_q4,0,0
+machinerelations.ai,1,1,0,0,gs_q1,0,0
+singularity.digital,1,1,0,0,gs_q1,0,0
+intel.wd1.myworkdayjobs.com,1,1,0,0,gs_q1,0,0
+logarithmic.com,1,1,0,0,gs_q5,0,0
+claudefa.st,1,0,1,0,ex_q2,0,0
+humanafterall.ca,1,0,1,0,ex_q2,0,0
+geoptie.com,1,0,1,0,ex_q2,0,0
+useomnia.com,1,0,1,0,ex_q2,0,0
+searchatlas.com,1,0,1,0,ex_q3,0,0
+clickrank.ai,1,0,1,0,ex_q3,0,0
+lawdify.com,1,0,0,1,rp_q2,0,0
+symphonyai.com,1,0,0,1,rp_q2,0,0
+mindstudio.ai,1,0,0,1,rp_q2,0,0
+personal.ntu.edu.sg,1,0,0,1,rp_q3,0,0
