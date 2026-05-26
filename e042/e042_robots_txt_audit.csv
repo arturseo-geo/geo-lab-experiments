@@ -1,8 +1,8 @@
 domain,platform,robots_txt_accessible,perplexitybot_allowed,gptbot_allowed,claudebot_allowed,googlebot_allowed,notes,session_date
-thegeolab.net,all,,,,,,baseline,
-thatware.co,Perplexity,,,,,,competitor - Wikidata active,
-thatware.co,ChatGPT,,,,,,competitor - Wikidata active,
-thatware.co,Gemini,,,,,,competitor - Wikidata active,
-hashmeta.ai,Perplexity,,,,,,competitor,
-hashmeta.ai,ChatGPT,,,,,,competitor,
-hashmeta.ai,Gemini,,,,,,competitor,
+thegeolab.net,all,1,1,1,1,1,"Most comprehensive AI bot policy in set. Explicit Allow:/ for PerplexityBot, GPTBot, ClaudeBot (multiple variants), Gemini-Deep-Research, Google-Extended. Content-Signal: ai-train=no, search=yes. Blocks DeepSeekBot, Ai2Bot-Dolma, cohere-training-data-crawler.",2026-05-19
+thatware.co,Perplexity,1,1,1,1,1,"No explicit PerplexityBot rule — falls through to wildcard Allow. GPTBot: explicit Allow:/ Crawl-delay:10. ClaudeBot: wildcard. Gemini/Bard: explicit Allow:/ Crawl-delay:10. Has ai.txt, llms.txt, ai-manifesto.json, vector-feed.xml.",2026-05-19
+thatware.co,ChatGPT,1,1,1,1,1,Same as Perplexity row — domain-level policy. GPTBot explicit Allow:/ Crawl-delay:10.,2026-05-19
+thatware.co,Gemini,1,1,1,1,1,Same as Perplexity row — domain-level policy. Gemini/Bard explicit Allow:/ Crawl-delay:10.,2026-05-19
+hashmeta.ai,Perplexity,1,1,1,1,1,Minimal robots.txt — only blocks /wp-admin/. No AI-specific rules. All bots fall through to wildcard Allow.,2026-05-19
+hashmeta.ai,ChatGPT,1,1,1,1,1,Same as Perplexity row — domain-level policy. No AI-specific rules.,2026-05-19
+hashmeta.ai,Gemini,1,1,1,1,1,Same as Perplexity row — domain-level policy. No AI-specific rules.,2026-05-19
