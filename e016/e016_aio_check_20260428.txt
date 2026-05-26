@@ -1,0 +1,22 @@
+# E016 AIO manual check — captured 2026-04-28T16:55:44Z
+# Source: Google Sheet 1s1zDp8EG828b3w8TDsgFIE8i_0nsVHNHTCCfY4RTbS4
+# Target domain: thegeolab.net
+# Method: read C/M/X code in AIO column (col F) of each Day N tab, rows R04-R13
+# Format: Day N | YYYY-MM-DD | aio_cited_count
+
+Day 1 | 2026-04-13 | aio_cited=0
+Day 2 | 2026-04-14 | aio_cited=0
+Day 3 | 2026-04-15 | aio_cited=0
+Day 4 | 2026-04-16 | aio_cited=0
+Day 5 | 2026-04-17 | aio_cited=0
+
+TOTAL AIO citations across 50 checks (10 queries x 5 days): 0
+AIO_confirmed_zero: true
+
+LIMITATION — raw DataForSEO AIO responses were NOT stored in the sheet.
+Only processed C/M/X codes plus free-text notes (e.g. 'AIO present but not cited',
+'no AIO present (12 SERP items)'). The notes column shows the live observer recorded
+AIO presence/absence per query, but the raw DataForSEO JSON response is not retained.
+This will be recorded as a methodological limitation in the Zenodo preprint:
+the AIO zero-citation finding rests on the human-coded C/M/X column rather than on
+post-hoc verifiable raw responses.

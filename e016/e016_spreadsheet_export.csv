@@ -1,0 +1,107 @@
+E016 — Noise Floor Measurement Log
+Experiment: 30-Check Protocol Reliability & Noise Floor · thegeolab.net · April 2026
+
+RECORDING CODES
+C = Citation (thegeolab.net URL appears as a named source link in the response)
+M = Mention (thegeolab.net or The GEO Lab named in response text no link)
+X = No appearance (site not referenced in any form)
+
+DAY 1 — Mon 13 Apr 2026 · Publishing freeze active
+Session time completed,10:04 (Perplexity),10:04 (ChatGPT),10:04 (AIO),Notes
+Tier,Query,Perplexity sonar-pro,ChatGPT gpt-4o-mini,Google AIO,Notes / observed URL
+T2,What is GEO (Generative Engine Optimisation)?,X,X,X,AIO present but not cited
+T1,What is Retrieval Probability in AI search?,C,X,X,https://thegeolab.net/retrieval-probability/ | no AIO present (12 SERP items)
+T1,What is LLM readability?,X,X,X,AIO present but not cited
+T2,GEO vs traditional SEO — what changed?,X,X,X,no AIO present (12 SERP items)
+T1,How does the GEO Stack work?,C,X,X,https://thegeolab.net/geo-stack/ | AIO present but not cited
+T1,What is Extractability in GEO?,C,X,X,https://thegeolab.net/extractability/ | AIO present but not cited
+T2,Does GEO actually work?,X,X,X,AIO present but not cited
+T2,How to measure AI citation rate?,X,X,X,no AIO present (11 SERP items)
+T1,What is System Memory in GEO?,C,X,X,https://thegeolab.net/system-memory/ | AIO present but not cited
+T2,How do AI search engines select content to cite?,X,X,X,AIO present but not cited
+Citations today,,4,0,0,
+Citation rate today,,40%,0%,0%,
+Combined citation rate today (all 3 platforms / 30),,13.3%,,,
+Note: ChatGPT — DataForSEO API ignored web_search=true flag (web_search=false in response); answered from training data not live web
+
+DAY 2 — Tue 14 Apr 2026 · Publishing freeze active
+Session time completed,10:04 (Perplexity),10:04 (ChatGPT),10:04 (AIO),Notes
+Tier,Query,Perplexity sonar-pro,ChatGPT gpt-4o-mini,Google AIO,Notes / observed URL
+T2,What is GEO (Generative Engine Optimisation)?,X,X,X,AIO present but not cited
+T1,What is Retrieval Probability in AI search?,C,X,X,https://thegeolab.net/retrieval-probability-geo-stack/ | AIO present but not cited
+T1,What is LLM readability?,X,X,X,AIO present but not cited
+T2,GEO vs traditional SEO — what changed?,X,X,X,AIO present but not cited
+T1,How does the GEO Stack work?,C,C,X,https://thegeolab.net/geo-stack/ | https://thegeolab.net/?utm_source=openai | AIO present but not cited
+T1,What is Extractability in GEO?,C,C,X,https://thegeolab.net/extractability/ | https://thegeolab.net/?utm_source=openai | no AIO present (11 SERP items)
+T2,Does GEO actually work?,X,X,X,AIO present but not cited
+T2,How to measure AI citation rate?,X,X,X,no AIO present (11 SERP items)
+T1,What is System Memory in GEO?,C,X,X,https://thegeolab.net/system-memory/ | AIO present but not cited
+T2,How do AI search engines select content to cite?,X,X,X,AIO present but not cited
+Citations today,,4,2,0,
+Citation rate today,,40%,20%,0%,
+Combined citation rate today (all 3 platforms / 30),,20.0%,,,
+
+DAY 3 — Wed 15 Apr 2026 · Publishing freeze active
+Session time completed,10:03 (Perplexity),10:03 (ChatGPT),10:03 (AIO),Notes
+Tier,Query,Perplexity sonar-pro,ChatGPT gpt-4o-mini,Google AIO,Notes / observed URL
+T2,What is GEO (Generative Engine Optimisation)?,X,X,X,AIO present but not cited
+T1,What is Retrieval Probability in AI search?,C,X,X,https://thegeolab.net/retrieval-probability-geo-stack/ | AIO present but not cited
+T1,What is LLM readability?,X,X,X,AIO present but not cited
+T2,GEO vs traditional SEO — what changed?,X,X,X,AIO present but not cited
+T1,How does the GEO Stack work?,C,C,X,https://thegeolab.net/geo-stack/ | https://thegeolab.net/?utm_source=openai | AIO present but not cited
+T1,What is Extractability in GEO?,C,X,X,https://thegeolab.net/extractability/ | no AIO present (11 SERP items)
+T2,Does GEO actually work?,X,X,X,AIO present but not cited
+T2,How to measure AI citation rate?,X,X,X,AIO present but not cited
+T1,What is System Memory in GEO?,C,X,X,https://thegeolab.net/system-memory/ | AIO present but not cited
+T2,How do AI search engines select content to cite?,X,X,X,AIO present but not cited
+Citations today,,4,1,0,
+Citation rate today,,40%,10%,0%,
+Combined citation rate today (all 3 platforms / 30),,16.7%,,,
+
+DAY 4 — Thu 16 Apr 2026 · Publishing freeze active
+Session time completed,10:05 (Perplexity),10:05 (ChatGPT),10:05 (AIO),Notes
+Tier,Query,Perplexity sonar-pro,ChatGPT gpt-4o-mini,Google AIO,Notes / observed URL
+T2,What is GEO (Generative Engine Optimisation)?,X,X,X,AIO present but not cited
+T1,What is Retrieval Probability in AI search?,C,X,X,https://thegeolab.net/retrieval-probability-geo-stack/ | AIO present but not cited
+T1,What is LLM readability?,X,X,X,AIO present but not cited
+T2,GEO vs traditional SEO — what changed?,X,X,X,AIO present but not cited
+T1,How does the GEO Stack work?,C,C,X,https://thegeolab.net/geo-stack/ | https://thegeolab.net/?utm_source=openai | AIO present but not cited
+T1,What is Extractability in GEO?,C,X,X,https://thegeolab.net/extractability/ | AIO present but not cited
+T2,Does GEO actually work?,X,X,X,AIO present but not cited
+T2,How to measure AI citation rate?,X,X,X,AIO present but not cited
+T1,What is System Memory in GEO?,C,X,X,https://thegeolab.net/system-memory/ | AIO present but not cited
+T2,How do AI search engines select content to cite?,X,X,X,no AIO present (10 SERP items)
+Citations today,,4,1,0,
+Citation rate today,,40%,10%,0%,
+Combined citation rate today (all 3 platforms / 30),,16.7%,,,
+
+DAY 5 — Fri 17 Apr 2026 · Publishing freeze active
+Session time completed,10:04 (Perplexity),10:04 (ChatGPT),10:04 (AIO),Notes
+Tier,Query,Perplexity sonar-pro,ChatGPT gpt-4o-mini,Google AIO,Notes / observed URL
+T2,What is GEO (Generative Engine Optimisation)?,X,X,X,AIO present but not cited
+T1,What is Retrieval Probability in AI search?,C,X,X,https://thegeolab.net/retrieval-probability-geo-stack/ | AIO present but not cited
+T1,What is LLM readability?,X,X,X,AIO present but not cited
+T2,GEO vs traditional SEO — what changed?,X,X,X,AIO present but not cited
+T1,How does the GEO Stack work?,C,C,X,https://thegeolab.net/geo-stack/ | https://thegeolab.net/?utm_source=openai | AIO present but not cited
+T1,What is Extractability in GEO?,C,X,X,https://thegeolab.net/extractability/ | AIO present but not cited
+T2,Does GEO actually work?,X,X,X,AIO present but not cited
+T2,How to measure AI citation rate?,X,X,X,AIO present but not cited
+T1,What is System Memory in GEO?,C,X,X,https://thegeolab.net/system-memory/ | AIO present but not cited
+T2,How do AI search engines select content to cite?,X,X,X,AIO present but not cited
+Citations today,,4,1,0,
+Citation rate today,,40%,10%,0%,
+Combined citation rate today (all 3 platforms / 30),,16.7%,,,
+
+SUMMARY
+Metric,Day 1 (13 Apr),Day 2 (14 Apr),Day 3 (15 Apr),Day 4 (16 Apr),Day 5 (17 Apr),5-Day Avg,Min,Max,Noise Floor Range
+Perplexity citations,4,4,4,4,4,4,4,4,4–4
+ChatGPT citations,0,2,1,1,1,1,0,2,0–2
+Google AIO citations,0,0,0,0,0,0,0,0,0–0
+Perplexity rate,40%,40%,40%,40%,40%,40%,40%,40%,40%–40%
+ChatGPT rate,0%,20%,10%,10%,10%,10%,0%,20%,0%–20%
+Google AIO rate,0%,0%,0%,0%,0%,0%,0%,0%,0%–0%
+Combined citation rate,13.3%,20.0%,16.7%,16.7%,16.7%,16.7%,13.3%,20.0%,13.3%–20.0%
+
+TIER SPLIT (Perplexity only)
+Tier 1 — Proprietary queries (citations/day),4,4,4,4,4,4
+Tier 2 — Category queries (citations/day),0,0,0,0,0,0

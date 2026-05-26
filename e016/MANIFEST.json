@@ -1,0 +1,22 @@
+{
+  "README.md": {
+    "sha256": "bd89432b6a9a45170324463e05b331789c0aba1359cd70f55f0fafb93caa81e6",
+    "size": 3719
+  },
+  "paper.md": {
+    "sha256": "74ee96d27e133c07d5aaba9e5e30a83edf7ce044f7bd18d84b2294218addfa59",
+    "size": 34472
+  },
+  "data/e016_aio_check_20260428.txt": {
+    "sha256": "41539e8ce43bb0e019712eb99dc54405e75c23a625312a8fd148e423320fc826",
+    "size": 1062
+  },
+  "data/e016_annotation_rerun_20260428.json": {
+    "sha256": "97b520c99e6fb32448cb5881a919c8ff23cc5db6fda1cfc1646e3fb849b0a04f",
+    "size": 16699
+  },
+  "data/e016_spreadsheet_export.csv": {
+    "sha256": "cbc35b333c2a09974cc921fb1b3b44d28f1873a632f163aa1b6c6e52b4d039c2",
+    "size": 7397
+  }
+}

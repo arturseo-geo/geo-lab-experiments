@@ -1,0 +1,440 @@
+{
+  "run_type": "retrospective_annotation_capture",
+  "purpose": "methodological_completeness_for_zenodo_preprint",
+  "experiment": "E016",
+  "rerun_for_days": [
+    1,
+    2
+  ],
+  "model": "sonar-pro",
+  "return_citations": true,
+  "captured_at_utc": "2026-04-28T16:52:56Z",
+  "query_set_source": "/opt/e027/e027_daily_run.py (E014 universal query set)",
+  "queries": [
+    {
+      "query_id": 1,
+      "tier": "T2",
+      "query_text": "What is GEO (Generative Engine Optimisation)?",
+      "annotations": [
+        {
+          "url": "https://arxiv.org/pdf/2311.09735",
+          "title": "[PDF] GEO: Generative Engine Optimization - arXiv",
+          "position": 1
+        },
+        {
+          "url": "https://blog.hubspot.com/marketing/generative-engine-optimization",
+          "title": "Generative engine optimization: What we know so far about ...",
+          "position": 2
+        },
+        {
+          "url": "https://a16z.com/geo-over-seo/",
+          "title": "How Generative Engine Optimization (GEO) Rewrites the Rules of ...",
+          "position": 3
+        },
+        {
+          "url": "https://www.optimizely.com/optimization-glossary/generative-engine-optimization-geo/",
+          "title": "What is generative engine optimization (GEO)?",
+          "position": 4
+        },
+        {
+          "url": "https://searchengineland.com/what-is-generative-engine-optimization-geo-444418",
+          "title": "Generative engine optimization (GEO): How to win AI mentions",
+          "position": 5
+        },
+        {
+          "url": "https://www.semrush.com/blog/generative-engine-optimization/",
+          "title": "Generative Engine Optimization: A Practical Guide - Semrush",
+          "position": 6
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "tier": "T1",
+      "query_text": "What is Retrieval Probability in AI search?",
+      "annotations": [
+        {
+          "url": "https://thegeolab.net/retrieval-probability-geo-stack/",
+          "title": "Optimize AI Retrieval Probability - GEO Stack - The GEO Lab",
+          "position": 1
+        },
+        {
+          "url": "https://thegeolab.net/retrieval-probability/",
+          "title": "Retrieval Probability \u2014 The Core Variable of GEO",
+          "position": 2
+        },
+        {
+          "url": "https://grro.io/glossary/retrieval",
+          "title": "What is Retrieval? | AI Search Glossary - GRRO",
+          "position": 3
+        },
+        {
+          "url": "https://unstructured.io/insights/what-is-information-retrieval-for-ai-applications",
+          "title": "What Is Information Retrieval? A Modern Overview for AI | Unstructured",
+          "position": 4
+        },
+        {
+          "url": "https://ipullrank.com/probability-ai-search",
+          "title": "AI Search: How Generative Engine Optimization Reshapes SEO",
+          "position": 5
+        },
+        {
+          "url": "https://discoveredlabs.com/blog/how-does-llm-retrieval-work-for-ai-search-aeo-guide",
+          "title": "How does LLM retrieval work for AI search? (AEO Guide)",
+          "position": 6
+        },
+        {
+          "url": "https://searchministry.au/blog/llm-retrieval-methods-ai-seo",
+          "title": "Why Retrieval Is the New Ranking: 12 LLM Methods Reshaping AI ...",
+          "position": 7
+        },
+        {
+          "url": "https://www.buriedagency.com/post/why-ai-search-is-probabalistic",
+          "title": "Why AI search is probabilistic (volatility & hallucinations explained)",
+          "position": 8
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=HGMIpQx6mjU",
+          "title": "Navigate the probabilistic world of AI search \u2013 with Garrett Sussman",
+          "position": 9
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "tier": "T1",
+      "query_text": "What is LLM readability?",
+      "annotations": [
+        {
+          "url": "https://www.kopp-online-marketing.com/llm-readability-chunk-relevance-the-most-influential-factors-to-become-citation-worthy-by-llms",
+          "title": "LLM Readability & Chunk Relevance - The most influential factors to ...",
+          "position": 1
+        },
+        {
+          "url": "https://neuraltrust.ai/blog/readability-analysis-in-english",
+          "title": "Readability Analysis for LLMs in English - NeuralTrust AI",
+          "position": 2
+        },
+        {
+          "url": "https://seantrott.substack.com/p/measuring-the-readability-of-texts",
+          "title": "Measuring the \"readability\" of texts with Large Language Models",
+          "position": 3
+        },
+        {
+          "url": "https://adsby.co/blog/llms-txt-explained-boosting-website-s-ai-readability/",
+          "title": "LLMs.txt Explained: Boosting Your Website's AI Readability - Adsby",
+          "position": 4
+        },
+        {
+          "url": "https://www.media-village.co.uk/marketing/llm-readable-content-guide/",
+          "title": "LLM-Readable Content: How to Structure Content for LLMs in 2026",
+          "position": 5
+        },
+        {
+          "url": "https://www.mintlify.com/blog/how-to-improve-llm-readability",
+          "title": "GEO guide to optimize writing for LLMs - Mintlify",
+          "position": 6
+        },
+        {
+          "url": "https://allmond.app/glossary/llm-readability",
+          "title": "What is LLM Readability? | Allmond Glossary",
+          "position": 7
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "tier": "T2",
+      "query_text": "GEO vs traditional SEO \u2014 what changed?",
+      "annotations": [
+        {
+          "url": "https://www.celerant.com/blog/is-geo-replacing-seo/",
+          "title": "SEO vs GEO: What's Changing and What Retailers Need to Know",
+          "position": 1
+        },
+        {
+          "url": "https://www.aimpakt.com/blog/geo-vs-seo-whats-changed-and-why-it-matters/",
+          "title": "GEO vs SEO: What's Changed and Why It Matters - Aimpakt",
+          "position": 2
+        },
+        {
+          "url": "https://www.mabbly.com/ideas/geo-vs-seo/",
+          "title": "Is GEO the New SEO? How the Search Game Is Changing - Mabbly",
+          "position": 3
+        },
+        {
+          "url": "https://www.wearetg.com/blog/geo-vs-seo/",
+          "title": "GEO vs SEO: Understanding the Evolution of AI-Powered Search",
+          "position": 4
+        },
+        {
+          "url": "https://www.clickforest.com/en/blog/geo-seo-evolution",
+          "title": "GEO Marketing: SEO Evolution in the AI Era 2026 - ClickForest",
+          "position": 5
+        },
+        {
+          "url": "https://cmr.berkeley.edu/2025/11/will-geo-overtake-seo/",
+          "title": "Will GEO Overtake SEO? - California Management Review",
+          "position": 6
+        },
+        {
+          "url": "https://ellevate.fr/en/blog/SEO-vs.-Geo:-Understanding-the-Difference/",
+          "title": "Understanding the difference between traditional SEO and AI ...",
+          "position": 7
+        }
+      ]
+    },
+    {
+      "query_id": 5,
+      "tier": "T1",
+      "query_text": "How does the GEO Stack work?",
+      "annotations": [
+        {
+          "url": "https://thegeolab.net/geo-stack/",
+          "title": "The GEO Stack \u2014 A Framework for AI Visibility",
+          "position": 1
+        },
+        {
+          "url": "https://www.geometrics.com/community/geode-software/stacking-technical-note/",
+          "title": "Stacking Technical Note \u2013 \u2013 Software \u2013 Geometrics Forum",
+          "position": 2
+        },
+        {
+          "url": "https://eseospace.com/geo-stack-i-teach-my-clients/",
+          "title": "The GEO Stack I Teach to My Private Clients - eSEOspace",
+          "position": 3
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Y_kFtvc7K5c",
+          "title": "Could You Explain What Geo Stacks And Cloud Pages Are?",
+          "position": 4
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/azure-stack/user/pattern-geo-distributed?view=azs-2601",
+          "title": "Geo-distributed app pattern in Azure Stack Hub - Microsoft Learn",
+          "position": 5
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=fN1qt8-Ygtc",
+          "title": "GeoStacker for Blender Stack Anything in Seconds - YouTube",
+          "position": 6
+        },
+        {
+          "url": "https://lauralake.com/geo-stack-brand-discoverability/",
+          "title": "The GEO Stack: 7 Surfaces That Make Your Brand Impossible To Miss",
+          "position": 7
+        },
+        {
+          "url": "https://the-geostack-project.github.io",
+          "title": "The GeoStack Project | A Self-Study Beginner Course in Open ...",
+          "position": 8
+        }
+      ]
+    },
+    {
+      "query_id": 6,
+      "tier": "T1",
+      "query_text": "What is Extractability in GEO?",
+      "annotations": [
+        {
+          "url": "https://thegeolab.net/extractability/",
+          "title": "Extractability \u2014 Content for Machine Retrieval - The GEO Lab",
+          "position": 1
+        },
+        {
+          "url": "https://www.incremys.com/en/resources/blog/technical-geo",
+          "title": "Technical GEO Optimisations: Make Your Pages Citable - Incremys",
+          "position": 2
+        },
+        {
+          "url": "https://www.gen-optima.com/geo/the-4-pillar-geo-framework/",
+          "title": "The 4 Pillar GEO Framework - GenOptima",
+          "position": 3
+        },
+        {
+          "url": "https://seovendor.co/a-systems-view-of-geo-what-metrics-actually-control-visibility/",
+          "title": "A Systems View of GEO: What Metrics Actually Control Visibility",
+          "position": 4
+        },
+        {
+          "url": "https://kime.ai/blog/how-to-structure-content-for-llm-extraction-geo-guide-2026",
+          "title": "How to Structure Content for LLM Extraction: A GEO Guide for 2026",
+          "position": 5
+        },
+        {
+          "url": "https://www.mandr-group.com/explain-it-to-me-like-im-an-ai-geo-content-tactics/",
+          "title": "Explain It to Me Like I'm an AI: GEO Content Tactics - M&R Marketing",
+          "position": 6
+        },
+        {
+          "url": "https://seenos.ai/geo-core-organization/tldr-summary-boxes",
+          "title": "Summary Boxes for AI Extractability: Why They Work + Template ...",
+          "position": 7
+        },
+        {
+          "url": "https://eseospace.com/blog/how-to-create-extractable-snippets-for-ai-tools/",
+          "title": "How to Create Extractable Snippets for AI Tools & GEO - eSEOspace",
+          "position": 8
+        },
+        {
+          "url": "https://mdazizurrahman.com.bd/what-is-geo/",
+          "title": "Generative Engine Optimization (GEO): Complete Guide 2026",
+          "position": 9
+        }
+      ]
+    },
+    {
+      "query_id": 7,
+      "tier": "T2",
+      "query_text": "Does GEO actually work?",
+      "annotations": [
+        {
+          "url": "https://www.relato.com/blog/generative-engine-optimization/",
+          "title": "Generative Engine Optimization (GEO): How Does it Actually Work?",
+          "position": 1
+        },
+        {
+          "url": "https://iamondemand.com/blog/the-tech-marketers-guide-to-generative-engine-optimization-geo/",
+          "title": "The Tech Marketer's Guide to GEO: Optimize Content for AI Discovery",
+          "position": 2
+        },
+        {
+          "url": "https://searchengineland.com/what-is-generative-engine-optimization-geo-444418",
+          "title": "Generative engine optimization (GEO): How to win AI mentions",
+          "position": 3
+        },
+        {
+          "url": "https://singularity.digital/insights/is-geo-worth-it/",
+          "title": "Is Generative Engine Optimization (GEO) Worth It?",
+          "position": 4
+        },
+        {
+          "url": "https://www.seerinteractive.com/insights/what-is-generative-engine-optimization-geo",
+          "title": "What Is Generative Engine Optimization (GEO) & How Does It ...",
+          "position": 5
+        },
+        {
+          "url": "https://a16z.com/geo-over-seo/",
+          "title": "How Generative Engine Optimization (GEO) Rewrites the Rules of ...",
+          "position": 6
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=rXbFNCMKl34",
+          "title": "The truth about Generative Engine Optimization (GEO) - YouTube",
+          "position": 7
+        }
+      ]
+    },
+    {
+      "query_id": 8,
+      "tier": "T2",
+      "query_text": "How to measure AI citation rate?",
+      "annotations": [
+        {
+          "url": "https://trydecoding.com/ai-citation-tracking/",
+          "title": "AI Citation Tracking - Decoding",
+          "position": 1
+        },
+        {
+          "url": "https://siftly.ai/blog/tools-measure-citation-rates-ai-generated-content-brands-2026",
+          "title": "AI Citation Tracking Tools for Brands (2026 Guide)",
+          "position": 2
+        },
+        {
+          "url": "https://www.averi.ai/how-to/how-to-track-ai-citations-and-measure-geo-success-the-2026-metrics-guide",
+          "title": "How to Track AI Citations: 7 GEO Metrics That Matter - Averi AI",
+          "position": 3
+        },
+        {
+          "url": "https://www.stackmatix.com/blog/ai-citation-tracking-tools",
+          "title": "AI Citation Tracking Tools: Monitor Your Brand (2026) - Stackmatix",
+          "position": 4
+        },
+        {
+          "url": "https://opttab.com/ai-dictionary/citation-rate",
+          "title": "Citation Rate - AI Dictionary - Opttab",
+          "position": 5
+        },
+        {
+          "url": "https://ayzeo.com/features/citation-analytics",
+          "title": "AI Citation Analytics - Track Brand Citations Across AI Platforms",
+          "position": 6
+        },
+        {
+          "url": "https://duaneforresterdecodes.substack.com/p/your-brand-is-being-cited-by-ai-heres",
+          "title": "Your Brand Is Being Cited by AI. Here's How to Measure It.",
+          "position": 7
+        }
+      ]
+    },
+    {
+      "query_id": 9,
+      "tier": "T1",
+      "query_text": "What is System Memory in GEO?",
+      "annotations": [
+        {
+          "url": "https://tprojects.schneider-electric.com/GeoSCADAHelp/Geo%20SCADA%202021/Content/ServerStatusToolGuide/MemoryUsage.htm",
+          "title": "Memory Usage (General System Status Information)",
+          "position": 1
+        },
+        {
+          "url": "https://www.dell.com/support/kbdoc/en-us/000148441/what-is-memory-ram",
+          "title": "What Is System Memory (RAM) | Dell US",
+          "position": 2
+        },
+        {
+          "url": "https://www.neweggbusiness.com/a/pc-system-memory-basics/id-274",
+          "title": "PC System Memory Basics - NeweggBusiness",
+          "position": 3
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Memory_geometry",
+          "title": "Memory geometry - Wikipedia",
+          "position": 4
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=QOOYaa1o1I0",
+          "title": "How to Check and Free Up the System Memory - YouTube",
+          "position": 5
+        }
+      ]
+    },
+    {
+      "query_id": 10,
+      "tier": "T2",
+      "query_text": "How do AI search engines select content to cite?",
+      "annotations": [
+        {
+          "url": "https://www.neptuneweb.com/blog/how-ai-search-engines-decide-what-to-cite-and-why-its-changing-search",
+          "title": "How AI Search Engines Decide What to Cite - Neptune Web",
+          "position": 1
+        },
+        {
+          "url": "https://www.upfront-ai.com/post/how-ai-search-engines-decide-what-content-to-cite",
+          "title": "How AI Search Engines Decide What Content to Cite",
+          "position": 2
+        },
+        {
+          "url": "https://wellows.com/blog/how-ai-selects-sites-to-cite/",
+          "title": "How AI Selects Sites To Cite in SEO - Wellows (2026 Guide)",
+          "position": 3
+        },
+        {
+          "url": "https://thinkdmg.com/the-rise-of-citable-content-how-to-build-pages-ai-search-engines-quote/",
+          "title": "The Rise of Citable Content: How AI Search Engines Choose Sources",
+          "position": 4
+        },
+        {
+          "url": "https://www.brightedge.com/resources/weekly-ai-search-insights/how-different-ai-search-engines-choose-which-brands-to-recommend",
+          "title": "How AI Engines Choose Brands - BrightEdge",
+          "position": 5
+        },
+        {
+          "url": "https://www.xfunnel.ai/blog/what-sources-do-ai-search-engines-choose",
+          "title": "What sources do AI Search Engines cite? Analysis of 40k responses ...",
+          "position": 6
+        }
+      ]
+    }
+  ]
+}
