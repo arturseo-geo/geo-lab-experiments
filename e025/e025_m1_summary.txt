@@ -1,0 +1,41 @@
+E025 M1 — Citation Rate Summary
+Date: 2026-05-22  |  29 days post Wave-1 deployment
+============================================================
+
+Perplexity
+  T1: 20/25 (80.0%)  |  T2: 0/25 (0.0%)
+ChatGPT
+  T1: 1/25 (4.0%)  |  T2: 0/25 (0.0%)
+Google AIO
+  T1: 0/25 (0.0%)  |  T2: 0/25 (0.0%)
+
+Combined T2 (all platforms): 0/75 (0.0%)
+
+M0 Baseline (E016, 2026-04-13):
+  T1 Perplexity M0: 80%
+  T2 Perplexity M0: 0%
+
+M1 Perplexity:
+  T1: 80.0%  (M0 was 80%)
+  T2: 0.0%  (M0 was 0%)
+
+DECISION TREE OUTCOME:
+  Primary: STRONG NULL — authority gate holds
+
+Wave 2 status: Wikidata Q139710735 deleted by EPIC 2026-05-09.
+  Falsification criterion 4 triggered. Wave 2 = deployment failure null.
+  Wave 3 (OpenAIRE) independent — proceed.
+
+DETAILED: Perplexity T2 citations by query
+  T2-Q1 (what is generative engine optimisation): 0/5
+  T2-Q2 (how to optimise for AI search): 0/5
+  T2-Q3 (AI citation rate factors): 0/5
+  T2-Q4 (how does Perplexity choose sources): 0/5
+  T2-Q5 (GEO vs SEO differences): 0/5
+
+DETAILED: Perplexity T1 citations by query
+  T1-Q1 (GEO Stack framework): 5/5 slugs=['slug=/geo-stack/']
+  T1-Q2 (retrievability in GEO): 0/5
+  T1-Q3 (GEO citation rate measurement): 5/5 slugs=['slug=/e030-fan-out-length-citation-rate/']
+  T1-Q4 (extractability score GEO): 5/5 slugs=['slug=/extractability/']
+  T1-Q5 (Artur Ferreira GEO Lab): 5/5 slugs=['slug=/about/']
