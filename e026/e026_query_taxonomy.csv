@@ -1,0 +1,151 @@
+query_id,target_page,category,query_text,word_count
+geostack-factual-1,/geo-stack/,Factual,What is the GEO Stack framework in AI search,9
+geostack-factual-2,/geo-stack/,Factual,What are the five layers of the GEO Stack,9
+geostack-factual-3,/geo-stack/,Factual,Define the GEO Stack model for generative engine optimisation,9
+geostack-entity-1,/geo-stack/,Entity,What is the Retrieval Probability layer in GEO Stack,9
+geostack-entity-2,/geo-stack/,Entity,How does Entity Reinforcement work in the GEO Stack,9
+geostack-entity-3,/geo-stack/,Entity,What does the System Memory layer measure in GEO Stack,10
+geostack-semantic-1,/geo-stack/,Semantic,How is the GEO Stack framework structured for AI citation,10
+geostack-semantic-2,/geo-stack/,Semantic,How does the GEO Stack improve citation in AI search,10
+geostack-semantic-3,/geo-stack/,Semantic,What approach does the GEO Stack take to optimisation,9
+geostack-compare-1,/geo-stack/,Compare,GEO Stack versus traditional SEO frameworks for AI search,9
+geostack-compare-2,/geo-stack/,Compare,How does the GEO Stack differ from standard SEO models,10
+geostack-compare-3,/geo-stack/,Compare,Retrieval Probability versus Extractability in the GEO Stack,8
+geostack-tutorial-1,/geo-stack/,Tutorial,How to apply the five GEO Stack layers step by step,11
+geostack-tutorial-2,/geo-stack/,Tutorial,Guide to optimising a page with the GEO Stack layers,10
+geostack-tutorial-3,/geo-stack/,Tutorial,How do I implement the GEO Stack on my site,10
+geostack-attribute-1,/geo-stack/,Attribute,How many layers does the GEO Stack framework have,9
+geostack-attribute-2,/geo-stack/,Attribute,Which GEO Stack layer most affects citation rate,8
+geostack-attribute-3,/geo-stack/,Attribute,What order are the five GEO Stack layers applied,9
+geostack-followup-1,/geo-stack/,Follow-up,After building the GEO Stack what should I measure next,10
+geostack-followup-2,/geo-stack/,Follow-up,Once GEO Stack layers are set what comes after,9
+geostack-followup-3,/geo-stack/,Follow-up,What follows Structural Authority in the GEO Stack sequence,9
+geostack-anticipate-1,/geo-stack/,Anticipate,What tools measure the GEO Stack layers for citation,9
+geostack-anticipate-2,/geo-stack/,Anticipate,How do I track GEO Stack performance over time,9
+geostack-anticipate-3,/geo-stack/,Anticipate,What metrics show GEO Stack layers are working,8
+geostack-insight-1,/geo-stack/,Insight,Is the GEO Stack the best framework for AI visibility,10
+geostack-insight-2,/geo-stack/,Insight,Why does the GEO Stack matter for generative engine optimisation,10
+geostack-insight-3,/geo-stack/,Insight,Is layered GEO Stack optimisation worth the effort in 2026,10
+geostack-transact-1,/geo-stack/,Transact,Best service to implement the GEO Stack framework,8
+geostack-transact-2,/geo-stack/,Transact,Who offers GEO Stack optimisation as a service,8
+geostack-transact-3,/geo-stack/,Transact,Hire a consultant for GEO Stack citation optimisation,8
+extract-factual-1,/extractability/,Factual,What is extractability in AI search citation,7
+extract-factual-2,/extractability/,Factual,What does content extractability mean in generative engine optimisation,9
+extract-factual-3,/extractability/,Factual,Define passage extractability for AI search engines,7
+extract-entity-1,/extractability/,Entity,How does Perplexity assess the extractability of a page,9
+extract-entity-2,/extractability/,Entity,How does an AI engine judge passage extractability,8
+extract-entity-3,/extractability/,Entity,What role does extractability play in Perplexity citation,8
+extract-semantic-1,/extractability/,Semantic,How do I make my content more extractable for AI,10
+extract-semantic-2,/extractability/,Semantic,How can I improve the extractability of my pages,9
+extract-semantic-3,/extractability/,Semantic,What makes content easier for AI to extract,8
+extract-compare-1,/extractability/,Compare,Extractability versus retrieval probability what is the difference,8
+extract-compare-2,/extractability/,Compare,How does extractability differ from structured data markup,8
+extract-compare-3,/extractability/,Compare,Extractability versus readability for AI search citation,7
+extract-tutorial-1,/extractability/,Tutorial,Step-by-step guide to making content extractable for AI,8
+extract-tutorial-2,/extractability/,Tutorial,How to structure a passage for maximum extractability,8
+extract-tutorial-3,/extractability/,Tutorial,How do I increase a page's extractability score,8
+extract-attribute-1,/extractability/,Attribute,What word count makes a passage maximally extractable,8
+extract-attribute-2,/extractability/,Attribute,What sentence structure improves passage extractability for AI,8
+extract-attribute-3,/extractability/,Attribute,What page features raise the extractability score,7
+extract-followup-1,/extractability/,Follow-up,Once a page is extractable what should I optimise next,10
+extract-followup-2,/extractability/,Follow-up,After improving extractability how do I confirm it worked,9
+extract-followup-3,/extractability/,Follow-up,What comes after extractability in citation optimisation,7
+extract-anticipate-1,/extractability/,Anticipate,What tools measure extractability for SEO,6
+extract-anticipate-2,/extractability/,Anticipate,How do I monitor extractability across my site,8
+extract-anticipate-3,/extractability/,Anticipate,What metrics track content extractability over time,7
+extract-insight-1,/extractability/,Insight,Is extractability the most underrated GEO factor in 2026,9
+extract-insight-2,/extractability/,Insight,Why does extractability matter for AI search citation,8
+extract-insight-3,/extractability/,Insight,Does higher extractability reliably lift citation rate,7
+extract-transact-1,/extractability/,Transact,Best service to audit page extractability,6
+extract-transact-2,/extractability/,Transact,Who offers content extractability audits for AI search,8
+extract-transact-3,/extractability/,Transact,Hire an expert to improve page extractability,7
+retprob-factual-1,/retrieval-probability/,Factual,What is retrieval probability in AI search,7
+retprob-factual-2,/retrieval-probability/,Factual,Define retrieval probability for generative engine optimisation,7
+retprob-factual-3,/retrieval-probability/,Factual,What does retrieval probability mean in the GEO Stack,9
+retprob-entity-1,/retrieval-probability/,Entity,How does Perplexity calculate retrieval probability for a page,9
+retprob-entity-2,/retrieval-probability/,Entity,What determines retrieval probability in an AI engine,8
+retprob-entity-3,/retrieval-probability/,Entity,How does retrieval probability decide the candidate set,8
+retprob-semantic-1,/retrieval-probability/,Semantic,How do I raise my page's retrieval probability,8
+retprob-semantic-2,/retrieval-probability/,Semantic,How can content reach the AI retrieval set,8
+retprob-semantic-3,/retrieval-probability/,Semantic,What lifts the chance of being retrieved by AI,9
+retprob-compare-1,/retrieval-probability/,Compare,Retrieval probability versus citation rate what is the difference,9
+retprob-compare-2,/retrieval-probability/,Compare,How does retrieval differ from synthesis in AI search,9
+retprob-compare-3,/retrieval-probability/,Compare,Retrieval probability versus relevance for AI search citation,8
+retprob-tutorial-1,/retrieval-probability/,Tutorial,How to improve retrieval probability step by step,8
+retprob-tutorial-2,/retrieval-probability/,Tutorial,Guide to getting a page into the retrieval set,9
+retprob-tutorial-3,/retrieval-probability/,Tutorial,How do I optimise a page for retrieval probability,9
+retprob-attribute-1,/retrieval-probability/,Attribute,What factors influence retrieval probability for AI citation,8
+retprob-attribute-2,/retrieval-probability/,Attribute,Which signals raise a page's retrieval probability,7
+retprob-attribute-3,/retrieval-probability/,Attribute,What page properties affect AI retrieval probability most,8
+retprob-followup-1,/retrieval-probability/,Follow-up,Once retrieved how does a page get cited,8
+retprob-followup-2,/retrieval-probability/,Follow-up,After improving retrieval probability what should I measure next,9
+retprob-followup-3,/retrieval-probability/,Follow-up,What comes after retrieval in the citation pipeline,8
+retprob-anticipate-1,/retrieval-probability/,Anticipate,What tools measure retrieval probability for AI search,8
+retprob-anticipate-2,/retrieval-probability/,Anticipate,How do I track whether my page gets retrieved,9
+retprob-anticipate-3,/retrieval-probability/,Anticipate,What metrics show retrieval probability is improving,7
+retprob-insight-1,/retrieval-probability/,Insight,Is retrieval probability the real bottleneck for AI citation,9
+retprob-insight-2,/retrieval-probability/,Insight,Why does retrieval probability matter more than content quality,9
+retprob-insight-3,/retrieval-probability/,Insight,Does retrieval probability predict citation better than relevance,8
+retprob-transact-1,/retrieval-probability/,Transact,Best service to improve page retrieval probability,7
+retprob-transact-2,/retrieval-probability/,Transact,Who offers retrieval probability audits for AI search,8
+retprob-transact-3,/retrieval-probability/,Transact,Hire a consultant to raise retrieval probability,7
+entityreinf-factual-1,/entity-reinforcement/,Factual,What is entity reinforcement in AI search,7
+entityreinf-factual-2,/entity-reinforcement/,Factual,Define entity reinforcement for generative engine optimisation,7
+entityreinf-factual-3,/entity-reinforcement/,Factual,What does entity reinforcement mean in the GEO Stack,9
+entityreinf-entity-1,/entity-reinforcement/,Entity,How does entity reinforcement use knowledge graph signals,8
+entityreinf-entity-2,/entity-reinforcement/,Entity,What role do named entities play in AI citation,9
+entityreinf-entity-3,/entity-reinforcement/,Entity,How does sameAs linking reinforce a page's entities,8
+entityreinf-semantic-1,/entity-reinforcement/,Semantic,How do I strengthen entity signals on my pages,9
+entityreinf-semantic-2,/entity-reinforcement/,Semantic,How can I reinforce entities for AI search,8
+entityreinf-semantic-3,/entity-reinforcement/,Semantic,What makes a page's entities clearer to AI,8
+entityreinf-compare-1,/entity-reinforcement/,Compare,Entity reinforcement versus entity density what is the difference,9
+entityreinf-compare-2,/entity-reinforcement/,Compare,How does entity reinforcement differ from structural authority,8
+entityreinf-compare-3,/entity-reinforcement/,Compare,Named entity signals versus keyword density for AI citation,9
+entityreinf-tutorial-1,/entity-reinforcement/,Tutorial,How to reinforce entities on a page step by step,10
+entityreinf-tutorial-2,/entity-reinforcement/,Tutorial,Guide to adding entity signals for AI search,8
+entityreinf-tutorial-3,/entity-reinforcement/,Tutorial,How do I improve entity reinforcement on my site,9
+entityreinf-attribute-1,/entity-reinforcement/,Attribute,What entity signals most affect AI search citation,8
+entityreinf-attribute-2,/entity-reinforcement/,Attribute,How much entity density does a page need,8
+entityreinf-attribute-3,/entity-reinforcement/,Attribute,Which entity properties raise citation probability for AI,8
+entityreinf-followup-1,/entity-reinforcement/,Follow-up,After reinforcing entities what should I optimise next,8
+entityreinf-followup-2,/entity-reinforcement/,Follow-up,Once entities are reinforced how do I verify it,9
+entityreinf-followup-3,/entity-reinforcement/,Follow-up,What comes after entity reinforcement in the GEO Stack,9
+entityreinf-anticipate-1,/entity-reinforcement/,Anticipate,What tools measure entity reinforcement for SEO,7
+entityreinf-anticipate-2,/entity-reinforcement/,Anticipate,How do I track entity signals across my site,9
+entityreinf-anticipate-3,/entity-reinforcement/,Anticipate,What metrics show entity reinforcement is working,7
+entityreinf-insight-1,/entity-reinforcement/,Insight,Is entity reinforcement the most overlooked GEO factor,8
+entityreinf-insight-2,/entity-reinforcement/,Insight,Why does entity reinforcement matter for AI citation,8
+entityreinf-insight-3,/entity-reinforcement/,Insight,Does stronger entity reinforcement reliably improve citation rate,8
+entityreinf-transact-1,/entity-reinforcement/,Transact,Best service to audit entity reinforcement for SEO,8
+entityreinf-transact-2,/entity-reinforcement/,Transact,Who offers entity reinforcement for AI search visibility,8
+entityreinf-transact-3,/entity-reinforcement/,Transact,Hire an expert to reinforce page entities,7
+structauth-factual-1,/structural-authority/,Factual,What is structural authority in AI search,7
+structauth-factual-2,/structural-authority/,Factual,Define structural authority for generative engine optimisation,7
+structauth-factual-3,/structural-authority/,Factual,What does structural authority mean in the GEO Stack,9
+structauth-entity-1,/structural-authority/,Entity,How does internal linking build structural authority,7
+structauth-entity-2,/structural-authority/,Entity,What role does site architecture play in structural authority,9
+structauth-entity-3,/structural-authority/,Entity,How does topical clustering reinforce structural authority,7
+structauth-semantic-1,/structural-authority/,Semantic,How do I build structural authority on my site,9
+structauth-semantic-2,/structural-authority/,Semantic,How can site structure improve AI search citation,8
+structauth-semantic-3,/structural-authority/,Semantic,What strengthens a page's structural authority for AI,8
+structauth-compare-1,/structural-authority/,Compare,Structural authority versus domain authority what is the difference,9
+structauth-compare-2,/structural-authority/,Compare,How does structural authority differ from entity reinforcement,8
+structauth-compare-3,/structural-authority/,Compare,Internal linking versus backlinks for structural authority,7
+structauth-tutorial-1,/structural-authority/,Tutorial,How to build structural authority step by step,8
+structauth-tutorial-2,/structural-authority/,Tutorial,Guide to internal linking for structural authority,7
+structauth-tutorial-3,/structural-authority/,Tutorial,How do I improve structural authority across my site,9
+structauth-attribute-1,/structural-authority/,Attribute,What signals contribute to structural authority for AI,8
+structauth-attribute-2,/structural-authority/,Attribute,How many internal links build structural authority,7
+structauth-attribute-3,/structural-authority/,Attribute,Which structural factors most affect AI search citation,8
+structauth-followup-1,/structural-authority/,Follow-up,After building structural authority what should I optimise next,9
+structauth-followup-2,/structural-authority/,Follow-up,Once structural authority is set how do I measure it,10
+structauth-followup-3,/structural-authority/,Follow-up,What comes after structural authority in the GEO Stack,9
+structauth-anticipate-1,/structural-authority/,Anticipate,What tools measure structural authority for SEO,7
+structauth-anticipate-2,/structural-authority/,Anticipate,How do I track structural authority over time,8
+structauth-anticipate-3,/structural-authority/,Anticipate,What metrics show structural authority is improving,7
+structauth-insight-1,/structural-authority/,Insight,Is structural authority underrated in generative engine optimisation,8
+structauth-insight-2,/structural-authority/,Insight,Why does structural authority matter for AI citation,8
+structauth-insight-3,/structural-authority/,Insight,Does stronger structural authority reliably lift citation rate,8
+structauth-transact-1,/structural-authority/,Transact,Best service to build structural authority for SEO,8
+structauth-transact-2,/structural-authority/,Transact,Who offers structural authority audits for AI search,8
+structauth-transact-3,/structural-authority/,Transact,Hire a consultant to improve structural authority,7
