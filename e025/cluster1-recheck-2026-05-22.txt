@@ -1,0 +1,12 @@
+Cluster-1 Citation Recheck — 2026-05-22
+Baseline (2026-05-15): 0% both platforms
+==================================================
+
+C1-Q1 | perplexity-sonar-pro | cited=N rank= size=9 notes=
+C1-Q1 | chatgpt-gpt4o-mini | cited=N rank= size=0 notes=no-annotations
+C1-Q2 | perplexity-sonar-pro | cited=N rank= size=8 notes=
+C1-Q2 | chatgpt-gpt4o-mini | cited=N rank= size=0 notes=no-annotations
+
+Competitor domains (Perplexity, full annotation set):
+  C1-Q1 (what is generative engine optimisation): []
+  C1-Q2 (what is GEO in digital marketing): []
