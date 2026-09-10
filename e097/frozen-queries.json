@@ -1,0 +1,18 @@
+{
+  "experiment": "E097",
+  "protocol": "e097-e100-prereg-v1.2",
+  "frozen_date": "2026-09-06",
+  "query_count": 8,
+  "engines": ["ChatGPT", "Gemini", "Perplexity", "AIO"],
+  "renders_per_query": 10,
+  "queries": [
+    "how do AI search engines handle hreflang",
+    "does hreflang affect which language version AI search cites",
+    "how do AI assistants choose between translated versions of a page",
+    "do you need hreflang for AI search visibility",
+    "how to optimise a multilingual website for AI search",
+    "can AI search engines cite the wrong language version of a page",
+    "does AI search treat translated pages as duplicate content",
+    "which URL do AI search engines cite when a page exists in several languages"
+  ]
+}

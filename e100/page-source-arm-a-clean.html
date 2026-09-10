@@ -1,0 +1,95 @@
+<!-- wp:html -->
+<p>AI search engines can only cite the content their crawlers can access. A hard paywall will usually keep the full article out of AI answers. Metered and client-side paywalls may not.</p>
+
+<p>That is the short answer. The details depend on what the server gives the crawler, and that varies by paywall and engine.</p>
+
+<h2>What does "reading" a paywalled page mean?</h2>
+
+<p>An AI search engine can discover content in two ways. It may crawl and store the page in advance, or fetch it while generating an answer.</p>
+
+<p>In both cases, the request will usually arrive without subscription cookies or an active login. The engine sees whatever the server returns.</p>
+
+<p>This is where the type of paywall matters:</p>
+
+<ul>
+<li>A hard paywall gives the crawler a preview and a login prompt.</li>
+<li>A metered paywall may serve the complete article until the free allowance is reached.</li>
+<li>A client-side paywall sends the complete article in the HTML, then uses JavaScript to hide it from the reader.</li>
+</ul>
+
+<p>These pages may look equally restricted to a visitor, but they can look very different to a crawler.</p>
+
+<h2>Do AI assistants cite content behind a paywall?</h2>
+
+<p>They can cite whatever they were able to read.</p>
+
+<p>If the crawler received only a short preview, the engine may still cite the page, but only for information contained in that preview.</p>
+
+<p>If it received the complete article through a metered or client-side paywall, the page may be treated much like openly accessible content.</p>
+
+<p>If the crawler was blocked before receiving any useful text, the article is unlikely to become a citation candidate.</p>
+
+<p>Some publishers also have licensing agreements that provide their content directly to AI companies without relying on a normal crawl. These arrangements are not visible from the page itself and cannot be reproduced through a markup change.</p>
+
+<h2>How do AI search engines handle gated content?</h2>
+
+<p>Gated content usually sits behind a form, email request or account login. From a crawler's perspective, that often works like a hard paywall: it receives a landing page or short description instead of the asset.</p>
+
+<p>Many gated assets are also deliberately kept out of search indexes. That can make them invisible to AI search at both the crawling and indexing stages.</p>
+
+<p>If a report or white paper has a public landing page, an AI engine may cite that page. It cannot reliably cite claims inside the report unless it was also able to access the report itself.</p>
+
+<h2>Is paywalled content indexed by AI search?</h2>
+
+<p>Only the part served to the crawler can be indexed.</p>
+
+<p>Google supports flexible sampling and structured data that identifies paywalled sections. Because AI Overviews use Google's search infrastructure, they can inherit what Google has indexed.</p>
+
+<p>Other engines do not publicly document an equivalent paywall signal. The safest assumption is that they store or use the text their crawler received.</p>
+
+<p>A page can therefore exist in an AI engine's index while containing little more than a headline, standfirst and subscription prompt.</p>
+
+<h2>Can AI answer engines see content behind a login?</h2>
+
+<p>Not when the restriction is properly enforced by the server.</p>
+
+<p>If the server requires a valid session before returning the article, the crawler receives no protected content.</p>
+
+<p>Client-side restrictions are different. If the complete article is sent in the HTML and JavaScript merely hides it in the browser, a crawler reading the raw HTML may still see everything. That is a common and often unintended content leak.</p>
+
+<h2>Do AI search engines cite subscription-only articles?</h2>
+
+<p>They can, particularly when:</p>
+
+<ol>
+<li>the subscription wall is applied only in the browser;</li>
+<li>a metered paywall gives the crawler access within its free allowance; or</li>
+<li>the publisher has a direct content agreement with the engine.</li>
+</ol>
+
+<p>Without one of those routes, a subscription article may still be cited for its headline or public introduction, but not necessarily for anything inside the protected body.</p>
+
+<h2>How to make paywalled content visible without giving it away</h2>
+
+<p>Give crawlers and readers a deliberate, useful excerpt instead of an empty stub.</p>
+
+<p>A strong opening section can explain the subject and state the article's main finding accurately while keeping the supporting detail behind the paywall. This gives an AI engine something meaningful to retrieve without exposing the full work.</p>
+
+<p>For Google, mark the protected section with the structured data it provides for paywalled content. Keep the title and opening paragraph outside the wall, and make them specific enough to explain what the article contains.</p>
+
+<p>Avoid serving the complete article to crawlers while showing readers a restricted version. That is cloaking, may breach search-engine guidelines and defeats the purpose of protecting the content.</p>
+
+<h2>Does a paywall stop a page being cited in AI answers?</h2>
+
+<p>A hard, server-side paywall will usually stop the protected body from being used.</p>
+
+<p>A metered or client-side paywall may not. A page with a substantial public excerpt sits somewhere between the two: it can be cited for the information in the excerpt, while the rest remains protected.</p>
+
+<h2>What has not been measured</h2>
+
+<p>This explanation is based on how paywalls respond to crawler requests, public documentation about retrieval and what can be observed in live systems.</p>
+
+<p>There is no public controlled experiment that keeps an article fixed, changes only the type of paywall and measures citation rates separately for each AI engine.</p>
+
+<p>Until that test exists, a useful open excerpt is the safest practical approach, not a proven citation lever.</p>
+<!-- /wp:html -->

@@ -1,0 +1,18 @@
+{
+  "experiment": "E100",
+  "protocol": "e097-e100-prereg-v1.2",
+  "frozen_date": "2026-09-06",
+  "query_count": 8,
+  "engines": ["ChatGPT"],
+  "renders_per_query": 10,
+  "queries": [
+    "can AI search engines read paywalled articles",
+    "do AI assistants cite content behind a paywall",
+    "how do AI search engines handle gated content",
+    "is paywalled content indexed by AI search",
+    "can AI answer engines see content behind a login",
+    "do AI search engines cite subscription-only articles",
+    "how to make paywalled content visible to AI search without giving it away",
+    "does a paywall stop a page being cited in AI answers"
+  ]
+}
