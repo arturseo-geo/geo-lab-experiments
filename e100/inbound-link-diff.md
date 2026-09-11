@@ -10,8 +10,8 @@
 ```html
     <li><a href="https://thegeolab.net/failure-registry/">GEO Lab Failure Registry</a></li>
   </ul>
-
-  <h2>Sources</h2>
+</div>
+<!-- /wp:html -->
 ```
 
 **Replace with:**
@@ -19,8 +19,8 @@
     <li><a href="https://thegeolab.net/failure-registry/">GEO Lab Failure Registry</a></li>
     <li><a href="https://thegeolab.net/guides/paywalls-and-ai-search-a/">Can AI search engines read paywalled content?</a> · <a href="https://thegeolab.net/guides/paywalls-and-ai-search-b/">Can AI search engines read paywalled content?</a></li>
   </ul>
-
-  <h2>Sources</h2>
+</div>
+<!-- /wp:html -->
 ```
 
 **Notes:**

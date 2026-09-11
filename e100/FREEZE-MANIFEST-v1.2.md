@@ -56,22 +56,30 @@ From the first paragraph down: byte-identical to the clean arm.
 | E100 shared body from first ¶ (exported file) | a85274885b18741417d647b569d62fa5 |
 | **Shared body byte-identical** | **YES** |
 
-## Inbound links (staged — NOT applied to live posts)
+## Inbound links (APPLIED at publish)
 
 **Source post:** 1872 — "The ChatGPT Pre-Retrieval Gate"
 **Anchor text (both arms):** Can AI search engines read paywalled content?
 **Position:** Single `<li>` in Related section, arm A link then arm B link, separated by ` · `
-**Apply:** at publish time only. Diff in `e100/inbound-link-diff.md`.
+**Applied:** 2026-09-11 08:00 UTC. Diff in `e100/inbound-link-diff.md`.
 
 ## Retired slugs (removed — verified absent)
 
 - /guides/paywalled-content-ai-search/ — not found in WP or nginx
 - /notes/paywalled-content-ai-search/ — not found in WP or nginx
 
-## Draft URLs (WP preview)
+## Live URLs
 
-- E100-A (CLEAN): https://thegeolab.net/?page_id=2213
-- E100-B (CLUTTER): https://thegeolab.net/?page_id=2214
+- E100-A (CLEAN): https://thegeolab.net/guides/paywalls-and-ai-search-a/
+- E100-B (CLUTTER): https://thegeolab.net/guides/paywalls-and-ai-search-b/
+
+## Publish timestamps (UTC)
+
+| ID | Slug | Condition | post_date_gmt | post_modified_gmt |
+|----|------|-----------|---------------|-------------------|
+| 2210 | guides (parent) | -- | 2026-09-10 21:09:51 | 2026-09-11 08:00:40 |
+| 2213 | paywalls-and-ai-search-a | CLEAN | 2026-09-11 08:00:45 | 2026-09-11 08:00:45 |
+| 2214 | paywalls-and-ai-search-b | CLUTTER | 2026-09-11 08:00:45 | 2026-09-11 08:00:45 |
 
 ## Body md5 scope
 
@@ -89,9 +97,25 @@ The category label `<div class="category-label">Technical Guides</div>` renders 
 
 The spec says "category label (rendered above the H1)". This would require the label to be outside post_content, which the current theme architecture does not support without a template override. For E100's purpose (testing the labrador snippet window), what matters is the HTML source order: the junk occupies the ~200 chars between the H1 token and the snippet payload paragraph. The visual position is secondary.
 
+## Parent page
+
+| Field | Value |
+|-------|-------|
+| ID | 2210 |
+| Slug | guides |
+| URL | https://thegeolab.net/guides/ |
+| Status | publish |
+| Robots | noindex, follow |
+| Body | Empty (heading only, no content) |
+| Sitemap | Excluded (noindex) |
+
+## E100 clutter-arm widget
+
+The E100-B clutter arm (ID 2214, `/guides/paywalls-and-ai-search-b/`) contains one internal link to `/what-is-generative-engine-optimisation/` inside the widget-box element. This link is part of the declared manipulation (clutter set between H1 and snippet payload). It is the only non-anchor link in any of the four experiment bodies.
+
 ## Status
 
-Draft. Publish waits on Phase 2 clearance from AJ.
+**Published.** E100-A: 2026-09-11 08:00:45 UTC. E100-B: 2026-09-11 08:00:45 UTC (aligned).
 
 ## Corrections (applied 2026-09-10, same session)
 
@@ -99,3 +123,14 @@ Draft. Publish waits on Phase 2 clearance from AJ.
 2. **`/guides/` parent page (ID 2210) set to draft.** Was published; now draft until Phase 2 clearance.
 3. **Category label position clarified.** Renders after H1 in HTML (inside post_content), not above it visually. Functionally correct for snippet-window testing.
 4. **Tag `e097-e100-prereg-v1.2` force-moved** to the corrections commit to include these fixes.
+
+## Publish (2026-09-11)
+
+1. All five pages published (parent 2210 + four experiment pages 2213-2214).
+2. Parent page set to noindex,follow, empty body, excluded from sitemap.
+3. Inbound link diff for post 1872 corrected (original referenced non-existent `<h2>Sources</h2>`; fixed to anchor on `</ul></div><!-- /wp:html -->`).
+4. Inbound links applied to source posts 1875 and 1872.
+5. Timestamps aligned: arm B = arm A within each pair; post_modified = post_date on all four experiment pages.
+6. JSON-LD: RankMath-only (BreadcrumbList, WebSite, Organization). No entity-graph injection, no FAQPage, no datePublished/dateModified in schema.
+7. Sitemap: four experiment pages present in page-sitemap.xml, parent excluded.
+8. E100-B clutter arm verified: all 5 elements present between H1 and first paragraph (category label, date, TOC, image, widget with internal link to /what-is-generative-engine-optimisation/).
