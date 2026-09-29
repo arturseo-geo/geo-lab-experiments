@@ -50,7 +50,7 @@ A deterministic extraction script is committed at e100/phase0/snippet_offset.py.
 
 All eight reads are identical. Saved and live match. Browser and Googlebot match (not cloaked). Arm A offset = 0, arm B offset = 520.
 
-### T0 artefact md5s
+### Phase 0 artefact md5s (captured 16 Sep 2026, before T0)
 
 | File | md5 |
 |------|-----|
@@ -62,6 +62,8 @@ All eight reads are identical. Saved and live match. Browser and Googlebot match
 Browser and Googlebot served identical content on both arms (md5 match per arm).
 
 ## Index status at capture start (29 Sep 2026)
+
+T0(E100) is 21 September 2026: the protocol sets T0 at the deposit date of the document (e100-prereg-v1.4, line 11), and v1.4 was deposited on 21 September 2026.
 
 Phase 0 is a pre-T0 gate (section 2.5: "Gates (all passed before this deposit)"). The registered capture-time abort condition covers index status only (section 2.5: "if either arm drops from the index during the capture window, every call in that window is voided").
 
