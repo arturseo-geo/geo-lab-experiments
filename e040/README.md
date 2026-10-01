@@ -1,9 +1,10 @@
 ## E040: Query Rewrite Form and Citation Rate
 
 - Experiment ID: E040
-- Query set frozen: 2026-10-01
-- Frozen file sha256: 84dbc9a08e1bae87424de0839b93dfce67f5aadc16e1f5e830a585c223419ff2
+- Query set frozen: 2026-10-01 (freeze 2, supersedes 7190dbe)
+- Frozen file sha256: e9415f33ab28e676e4613bf689330a0c3c84d9d9610865042f81eeffe61a8571
 - Queries: 45 (15 clusters x 3 forms A/B/C across 3 pages)
+- Intent columns: intent_class_author (4-class, author-assigned), intent_5class_tool (5-class, web tool)
 
 ### Instrument
 
