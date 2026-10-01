@@ -1,0 +1,62 @@
+[
+  {
+    "query_num": 1,
+    "tier": "T2",
+    "query_text": "What is GEO (Generative Engine Optimisation)?",
+    "target_page": "category (no single target)"
+  },
+  {
+    "query_num": 2,
+    "tier": "T1",
+    "query_text": "What is Retrieval Probability in AI search?",
+    "target_page": "/retrieval-probability/"
+  },
+  {
+    "query_num": 3,
+    "tier": "T1",
+    "query_text": "What is LLM readability?",
+    "target_page": "/llm-readability/"
+  },
+  {
+    "query_num": 4,
+    "tier": "T2",
+    "query_text": "GEO vs traditional SEO — what changed?",
+    "target_page": "category (no single target)"
+  },
+  {
+    "query_num": 5,
+    "tier": "T1",
+    "query_text": "How does the GEO Stack work?",
+    "target_page": "/geo-stack/"
+  },
+  {
+    "query_num": 6,
+    "tier": "T1",
+    "query_text": "What is Extractability in GEO?",
+    "target_page": "/extractability/"
+  },
+  {
+    "query_num": 7,
+    "tier": "T2",
+    "query_text": "Does GEO actually work?",
+    "target_page": "category (no single target)"
+  },
+  {
+    "query_num": 8,
+    "tier": "T2",
+    "query_text": "How to measure AI citation rate?",
+    "target_page": "category (no single target)"
+  },
+  {
+    "query_num": 9,
+    "tier": "T1",
+    "query_text": "What is System Memory in GEO?",
+    "target_page": "/system-memory/"
+  },
+  {
+    "query_num": 10,
+    "tier": "T2",
+    "query_text": "How do AI search engines select content to cite?",
+    "target_page": "category (no single target)"
+  }
+]

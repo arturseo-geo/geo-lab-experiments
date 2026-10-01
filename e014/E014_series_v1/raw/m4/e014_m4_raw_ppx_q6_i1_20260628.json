@@ -1,0 +1,95 @@
+{
+  "version": "0.1.20260610",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "5.1342 sec.",
+  "cost": 0.013257,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "06282013-1516-0612-0000-3e6ce0440523",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "5.0797 sec.",
+      "cost": 0.013257,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "perplexity",
+        "llm_responses",
+        "live"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "llm_responses",
+        "se": "perplexity",
+        "user_prompt": "What is Extractability in GEO?",
+        "model_name": "sonar-pro",
+        "web_search": true
+      },
+      "result": [
+        {
+          "model_name": "sonar-pro",
+          "input_tokens": 14,
+          "output_tokens": 441,
+          "reasoning_tokens": 0,
+          "web_search": true,
+          "money_spent": 0.012657,
+          "datetime": "2026-06-28 20:13:29 +00:00",
+          "items": [
+            {
+              "type": "message",
+              "sections": [
+                {
+                  "type": "text",
+                  "text": "Extractability in **GEO (Generative Engine Optimization)** is how easily an AI or \u201canswer engine\u201d can lift a **clean, self\u2011contained answer block** from your content and reuse it accurately in a generated response.[1][3][5]\n\nIn the GEO context, extractability focuses on whether your pages contain chunks of text that:\n\n- **Stand alone**: Each key claim or paragraph makes sense on its own, without needing surrounding context.[1][5]  \n- **Answer-first**: The core answer to the page\u2019s main question appears within the first ~80\u2013150 words, not buried in narrative setup.[3][5]  \n- **Are clearly structured**: Content is organized under literal, descriptive headings and clear sections so an AI can locate and copy the relevant passage easily.[1][3][6]  \n- **Name entities explicitly**: The block clearly states what company, product, concept, or person it describes, and what category it belongs to (e.g., \u201cX is a cybersecurity platform\u2026\u201d).[3][5]  \n- **Are citation-ready**: Claims are tied to evidence or source trails, making the lifted passage trustworthy and attributable in an AI-generated answer.[3][5]\n\nIn a **GEO audit**, extractability is one of the core checks: the auditor evaluates whether \u201ca clean, useful answer can be pulled from your pages without an AI system having to dig through paragraphs of vague marketing copy.\u201d[3] Improving extractability typically involves:\n\n- Putting direct answers at the top of the page (first 80\u2013150 words)[3][5]  \n- Using clear question-style headings and avoiding generic marketing openers[1][3]  \n- Writing self-contained answer blocks with a direct claim, named entity, and evidence[1][5]  \n- Maintaining good semantic HTML (proper headings, lists, paragraphs) so answer engines can parse sections reliably[3][5]\n\nThis meaning is specific to GEO and AI search. In chemistry and materials science, \u201cextractability\u201d instead refers to how much of a compound can be extracted into a solvent under given conditions,[2][7][8][9] but that is a different context from GEO.",
+                  "annotations": [
+                    {
+                      "title": "Extractability - Parsnipp",
+                      "url": "https://parsnipp.com/glossary/extractability/"
+                    },
+                    {
+                      "title": "extractability - Wiktionary, the free dictionary",
+                      "url": "https://en.wiktionary.org/wiki/extractability"
+                    },
+                    {
+                      "title": "GEO Audit Checklist: Entity, Proof, and Extractability | SavageAudit",
+                      "url": "https://savageaudit.com/blog/geo-audit-checklist"
+                    },
+                    {
+                      "title": "How does ABKE GEO translate our technical expertise into ... - AB\u5ba2",
+                      "url": "https://www.cnabke.com/en/faq/abke-ab%E5%AE%A2-geo-translating-technical-expertise-into-ai-citable-facts-product-faq.html"
+                    },
+                    {
+                      "title": "Extractable Content \u2014 Definition - Glossary - AuthorityTech",
+                      "url": "https://authoritytech.io/glossary/extractable-content"
+                    },
+                    {
+                      "title": "SEO Truths: GEO, Extractability, Influence & Durability - LinkedIn",
+                      "url": "https://www.linkedin.com/posts/rquintan_the-truths-what-holds-up-across-platforms-activity-7430304063503851520-hVEB"
+                    },
+                    {
+                      "title": "Leachable vs. Extractable- What are they, what's the difference, and ...",
+                      "url": "https://hollandapt.com/leachable-vs-extractable-what-are-they-whats-the-difference-and-why-are-they-a-hot-button-topic-in-single-use-processes-today/"
+                    },
+                    {
+                      "title": "Manufacturer-Provided Extractable | Leachables - EAG Laboratories",
+                      "url": "https://www.eag.com/app-note/how-to-evaluate-manufacturer-provided-extractable-information/"
+                    },
+                    {
+                      "title": "A comprehensive study of the effect of elevated temperature on the ...",
+                      "url": "https://pubmed.ncbi.nlm.nih.gov/37516062/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fan_out_queries": null
+        }
+      ]
+    }
+  ]
+}

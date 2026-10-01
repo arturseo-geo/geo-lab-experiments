@@ -1,0 +1,87 @@
+{
+  "version": "0.1.20260610",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "4.7942 sec.",
+  "cost": 0.01245,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "06282017-1516-0612-0000-0ece200c138f",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "4.7686 sec.",
+      "cost": 0.01245,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "perplexity",
+        "llm_responses",
+        "live"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "llm_responses",
+        "se": "perplexity",
+        "user_prompt": "GEO vs traditional SEO \u2014 what changed?",
+        "model_name": "sonar-pro",
+        "web_search": true
+      },
+      "result": [
+        {
+          "model_name": "sonar-pro",
+          "input_tokens": 15,
+          "output_tokens": 387,
+          "reasoning_tokens": 0,
+          "web_search": true,
+          "money_spent": 0.01185,
+          "datetime": "2026-06-28 20:17:11 +00:00",
+          "items": [
+            {
+              "type": "message",
+              "sections": [
+                {
+                  "type": "text",
+                  "text": "**GEO** has changed the goal of search optimization from *rank in a results list* to *be cited or included in an AI-generated answer*.[1][2][4] In practice, that means traditional **SEO** still matters, but it now works alongside **GEO** rather than being replaced by it.[2][3][6]\n\nWhat changed most:\n\n- **Target outcome**\n  - **SEO:** earn clicks by ranking high on Google/Bing result pages.[2][4]\n  - **GEO:** earn visibility inside synthesized answers from AI systems like chat-based search or AI Overviews.[1][2][6]\n\n- **How content is judged**\n  - **SEO:** strong emphasis on keywords, backlinks, technical health, and page authority.[1][4]\n  - **GEO:** stronger emphasis on clear answers, entity understanding, structured content, credibility, and explicit signals that help AI systems identify and cite the source.[1][3][6]\n\n- **Where visibility happens**\n  - **SEO:** on the search engine results page.[2][4]\n  - **GEO:** inside the answer itself, often before any click occurs.[3][6]\n\n- **How success is measured**\n  - **SEO:** rankings, traffic, CTR, and organic sessions.[2][3][4]\n  - **GEO:** citation frequency, share of voice in AI answers, and whether the brand is mentioned or used as a source.[1][3][4]\n\n- **User behavior**\n  - Traditional search was about *finding links*.\n  - AI search is increasingly about *receiving answers* directly, which can reduce clicks to websites.[1][6]\n\nThe key strategic shift is that content now needs to work for both systems: it should still be indexable and rank well for classic search, while also being easy for AI models to understand, trust, and cite.[2][3][6]",
+                  "annotations": [
+                    {
+                      "title": "As AI Use Soars, Companies Shift From SEO To GEO - Forbes",
+                      "url": "https://www.forbes.com/sites/johnwerner/2025/05/04/as-ai-use-soars-companies-shift-from-seo-to-geo/"
+                    },
+                    {
+                      "title": "GEO vs. Traditional SEO: What Business Owners Need to Know",
+                      "url": "https://www.321webmarketing.com/blog/geo-vs-traditional-seo-what-business-owners-need-to-know-about-the-shift/"
+                    },
+                    {
+                      "title": "Generative Engine Optimization (GEO) vs Traditional SEO - Cognizo",
+                      "url": "https://www.cognizo.ai/blog/geo-vs-traditional-seo"
+                    },
+                    {
+                      "title": "Is GEO the New SEO? How the Search Game Is Changing | Mabbly",
+                      "url": "https://www.mabbly.com/ideas/geo-vs-seo/"
+                    },
+                    {
+                      "title": "How to differentiate between GEO and SEO for marketers - LinkedIn",
+                      "url": "https://www.linkedin.com/posts/optimization_whats-the-difference-between-geo-and-seo-activity-7356389945768361985-ZvCr"
+                    },
+                    {
+                      "title": "The shift from SEO to GEO: What marketers need to know about AI ...",
+                      "url": "https://www.contentful.com/blog/seo-geo-shift-marketers-ai-search/"
+                    },
+                    {
+                      "title": "GEO is trending, but does SEO even matter anymore? - Reddit",
+                      "url": "https://www.reddit.com/r/b2bmarketing/comments/1qbdbtw/geo_is_trending_but_does_seo_even_matter_anymore/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fan_out_queries": null
+        }
+      ]
+    }
+  ]
+}

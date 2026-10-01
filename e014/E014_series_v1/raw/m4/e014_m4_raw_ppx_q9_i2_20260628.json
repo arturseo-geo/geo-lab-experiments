@@ -1,0 +1,87 @@
+{
+  "version": "0.1.20260610",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "6.4928 sec.",
+  "cost": 0.014787,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "06282016-1516-0612-0000-c6c972464a21",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "6.4666 sec.",
+      "cost": 0.014787,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "perplexity",
+        "llm_responses",
+        "live"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "llm_responses",
+        "se": "perplexity",
+        "user_prompt": "What is System Memory in GEO?",
+        "model_name": "sonar-pro",
+        "web_search": true
+      },
+      "result": [
+        {
+          "model_name": "sonar-pro",
+          "input_tokens": 14,
+          "output_tokens": 543,
+          "reasoning_tokens": 0,
+          "web_search": true,
+          "money_spent": 0.014187,
+          "datetime": "2026-06-28 20:16:06 +00:00",
+          "items": [
+            {
+              "type": "message",
+              "sections": [
+                {
+                  "type": "text",
+                  "text": "In GEO contexts, **system memory** generally refers to the **on\u2011board volatile RAM (and related working memory) that the GEO device or satellite\u2019s processing system uses to run software, buffers data, and manage operations**, as opposed to long\u2011term data storage like flash or disks.\n\nBecause \u201cGEO\u201d is overloaded (can mean *Geographic Information systems*, *Geostationary Earth Orbit satellites*, or specific products/platforms named GEO), the core concept of *system memory* is essentially the same:\n\n- It is **temporary working memory used by the CPU/processor while the system is running**, typically implemented as **RAM (Random Access Memory)**.[1][2][3]  \n- It **holds instructions, intermediate results, buffers, and control structures** needed by firmware, operating systems, and applications during operation.[1][2][3]  \n- It is **volatile**: content is lost when power is removed, unlike flash, ROM, or disks that provide persistent storage.[1][2][5]\n\n### What \u201csystem memory\u201d usually includes\n\n- **Main RAM**:  \n  The primary memory attached to the processor (e.g., DDR SDRAM, DDR2, DDR3, etc.) that stores data and code while programs are executing.[2]  \n- **Reserved or managed portions of RAM**:  \n  Some platforms reserve part of system memory for drivers, kernel, or specific services (for example, SANsymphony reserves a portion of total physical memory for its own use).[4]  \n- **Buffers and control structures**:  \n  Documentation often says \u201cyou must provide an area of system memory to contain the channel control data structure,\u201d which means you allocate RAM for internal control/metadata required by hardware or communication channels.[3]\n\n### System memory vs. other memory in GEO systems\n\nIn many technical documents (including satellite and embedded GEO systems):\n\n- **System memory (RAM)**  \n  - Used for: real\u2011time processing, attitude/orbit control algorithms, instrument data buffering, housekeeping, communication stacks, etc.  \n  - Volatile, fast, random access; accessed in any order.[1][2]\n\n- **Non\u2011volatile storage (flash, ROM, SSD, etc.)**  \n  - Used for: firmware, long\u2011term mission data, configuration, logs.  \n  - Not usually called \u201csystem memory\u201d; often explicitly distinguished from RAM.[3][5]\n\nSo if a GEO manual or specification refers to *\u201cavailable system memory,\u201d \u201csystem memory usage,\u201d or \u201creserve X KiB of system memory\u201d*, it is talking about **how much RAM (plus possibly closely\u2011coupled working memory) is present and usable for the GEO system\u2019s processing tasks**, not the long\u2011term storage capacity.",
+                  "annotations": [
+                    {
+                      "title": "PC System Memory Basics - NeweggBusiness",
+                      "url": "https://www.neweggbusiness.com/a/pc-system-memory-basics/id-274"
+                    },
+                    {
+                      "title": "What Is System Memory (RAM) | Dell US",
+                      "url": "https://www.dell.com/support/kbdoc/en-us/000148441/what-is-memory-ram"
+                    },
+                    {
+                      "title": "What do they mean saying SYSTEM MEMORY - Stack Overflow",
+                      "url": "https://stackoverflow.com/questions/36745036/what-do-they-mean-saying-system-memory"
+                    },
+                    {
+                      "title": "System Memory Considerations(Formerly Known as FAQ 1543)",
+                      "url": "https://docs.datacore.com/SSV-WebHelp/SSV-WebHelp/FAQ/Best-Practices-and-Guidelines/System_Memory_Considerations.htm"
+                    },
+                    {
+                      "title": "10+ Key Memory & Storage Systems: Crash Course System Design #5",
+                      "url": "https://www.youtube.com/watch?v=lX4CrbXMsNQ"
+                    },
+                    {
+                      "title": "System Memory detected is below 8GB but I have 16g - Reddit",
+                      "url": "https://www.reddit.com/r/horizon/comments/j700hj/system_memory_detected_is_below_8gb_but_i_have_16g/"
+                    },
+                    {
+                      "title": "System memory metricset | Beats - Elastic",
+                      "url": "https://www.elastic.co/docs/reference/beats/metricbeat/metricbeat-metricset-system-memory"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fan_out_queries": null
+        }
+      ]
+    }
+  ]
+}

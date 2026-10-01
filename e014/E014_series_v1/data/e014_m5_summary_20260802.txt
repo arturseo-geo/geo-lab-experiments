@@ -1,0 +1,285 @@
+E014 M5 — Longitudinal Citation Measurement: Month 5
+Date: 2026-08-02
+Data file: /home/ajdev/e014/data/e014_m5_20260802.csv
+Total checks: 50 (30 Perplexity x 3 iters + 10 ChatGPT + 10 Google AIO)
+
+=== MEASUREMENT DESIGN ===
+Queries: 10 (5 T1 proprietary + 5 T2 category) — universal E014 query set
+  T1: Q2 Retrieval Probability, Q3 LLM readability, Q5 GEO Stack,
+      Q6 Extractability, Q9 System Memory
+  T2: Q1 What is GEO, Q4 Optimise for AI, Q7 GEO vs SEO,
+      Q8 Measure citation rate, Q10 Does GEO work
+
+Platforms:
+  Perplexity: sonar-pro, web_search=true, 3 iterations (I1/I2/I3)
+    Method change: fresh Chrome incognito profile per query (no session bleed)
+  ChatGPT: GPT-4o with browsing, forced-search (method change, M5 = new baseline)
+  Google AIO: serp_organic_live_advanced, asynchronous_ai_overview=true
+
+Scoring: C = thegeolab.net URL in annotations/sources, X = absent.
+  Citation = C only.
+
+=== 1. RAW RESULTS TABLE ===
+
+Query               | Tier | PPX_I1 | PPX_I2 | PPX_I3 | GPT_I1 | GOO_I1 |
+--------------------|------|--------|--------|--------|--------|--------|
+Q1  What is GEO?    |  T2  |   X    |   X    |   X    |   X    |   X    |
+Q2  Retrieval Prob   |  T1  |   C    |   C    |   C    |   C    |   C    |
+Q3  LLM readability  |  T1  |   C    |   C    |   C    |   C    |   X    |
+Q4  Optimise for AI  |  T2  |   X    |   X    |   X    |   X    |   X    |
+Q5  GEO Stack        |  T1  |   C    |   C    |   C    |   C    |   C    |
+Q6  Extractability   |  T1  |   C    |   C    |   C    |   X    |   C    |
+Q7  GEO vs SEO       |  T2  |   X    |   X    |   X    |   X    |   X    |
+Q8  Measure citrate  |  T2  |   X    |   X    |   X    |   X    |   X    |
+Q9  System Memory    |  T1  |   C    |   C    |   C    |   C    |   C    |
+Q10 Does GEO work?   |  T2  |   X    |   C    |   X    |   X    |   X    |
+
+=== 2. PER-PLATFORM CITATION RATES ===
+
+Platform    | Checks | Citations | Rate
+------------|--------|-----------|------
+Perplexity  |   30   |    16     | 53.3%
+ChatGPT     |   10   |     4     | 40.0%
+Google AIO  |   10   |     4     | 40.0%
+------------|--------|-----------|------
+M5 TOTAL    |   50   |    24     | 48.0%
+
+Perplexity per-query:
+  Q1  T2: 0/3 =   0%
+  Q2  T1: 3/3 = 100%
+  Q3  T1: 3/3 = 100%
+  Q4  T2: 0/3 =   0%
+  Q5  T1: 3/3 = 100%
+  Q6  T1: 3/3 = 100%
+  Q7  T2: 0/3 =   0%
+  Q8  T2: 0/3 =   0%
+  Q9  T1: 3/3 = 100%
+  Q10 T2: 1/3 =  33%
+
+=== 3. T1 / T2 GAP ===
+
+Tier | Queries         | Checks | Citations | Rate
+-----|-----------------|--------|-----------|------
+T1   | Q2,Q3,Q5,Q6,Q9 |   25   |    23     | 92.0%
+T2   | Q1,Q4,Q7,Q8,Q10|   25   |     1     |  4.0%
+T1-T2 gap: +88 pp
+
+T1 by platform:
+  Perplexity T1: 15/15 = 100.0%
+  ChatGPT T1:     4/5  =  80.0%
+  Google T1:      4/5   =  80.0%
+
+T2 by platform:
+  Perplexity T2: 1/15 =  6.7% (Q10 I2 only)
+  ChatGPT T2:    0/5  =  0.0%
+  Google T2:     0/5  =  0.0%
+
+=== 4. M5 vs M4 DELTA ===
+
+Metric          | M4        | M5        | Delta
+----------------|-----------|-----------|-------
+Combined rate   |  6.0%     | 48.0%     | +42.0 pp
+Perplexity      |  3.3%     | 53.3%     | +50.0 pp
+ChatGPT         | 20.0%     | 40.0%     | +20.0 pp
+Google AIO      |  0.0%     | 40.0%     | +40.0 pp
+T1              | 12.0%     | 92.0%     | +80.0 pp
+T2              |  0.0%     |  4.0%     | +4.0 pp
+
+=== 5. RECONSTRUCTION DESCRIPTIONS (verbatim AI text for C results) ===
+
+Q2 — Perplexity I1:
+  thegeolab /retrieval-probability/ cited for 'what it means' + 'why it matters';
+  Stanford IR book for classical P(R|d,q) def
+  URL: /retrieval-probability/
+
+Q2 — Perplexity I2:
+  thegeolab /retrieval-probability/ cited 3x (AI-search framing, why-it-matters,
+  example); Stanford IR for classical def
+  URL: /retrieval-probability/
+
+Q2 — Perplexity I3:
+  thegeolab /retrieval-probability/ as Layer-1; Stanford IR + RASA/nebulatech +
+  ipullrank secondary
+  URL: /retrieval-probability/
+
+Q2 — ChatGPT I1 (forced-search):
+  thegeolab /retrieval-probability/ cited as [1] lead; gov.uk/ahrefs secondary
+  URL: /retrieval-probability/
+
+Q2 — Google AIO I1:
+  AIO cites thegeolab /retrieval-probability/ ('The Core Variable of GEO');
+  also iPullRank, heybuffy, omnia
+  URL: /retrieval-probability/
+
+Q3 — Perplexity I1:
+  thegeolab /llm-readability/ cited in 'in practice' + example; media-village secondary
+  URL: /llm-readability/
+
+Q3 — Perplexity I2:
+  kopp-online-marketing now dominant source; thegeolab /llm-readability/ cited once
+  (human-vs-LLM section)
+  URL: /llm-readability/
+
+Q3 — Perplexity I3:
+  thegeolab /llm-readability/ back as primary this iteration
+  URL: /llm-readability/
+
+Q3 — ChatGPT I1 (forced-search):
+  thegeolab /llm-readability/ cited [1] lead; Wikipedia/ScienceDirect secondary
+  URL: /llm-readability/
+
+Q5 — Perplexity I1:
+  5-layer answer; sources list thegeolab /geo-stack/ + /field-manual/ +
+  /extractability/; eseospace also present
+  URL: /geo-stack/
+
+Q5 — Perplexity I2:
+  thegeolab /geo-stack/ primary 5-layer source; linkedin 3-layer noted as alt model
+  URL: /geo-stack/
+
+Q5 — Perplexity I3:
+  thegeolab /geo-stack/ + /field-manual/ + /extractability/ in sources;
+  answer prefixed 'DIRECT_RESPONSE'
+  URL: /geo-stack/
+
+Q5 — ChatGPT I1 (forced-search):
+  thegeolab /geo-stack/ [1] w/ entity attribution 'developed by Artur Ferreira
+  at The GEO Lab'; Stage 0 quoted
+  URL: /geo-stack/
+
+Q5 — Google AIO I1:
+  AIO cites thegeolab /geo-stack/ with explicit attribution 'developed by Artur
+  Ferreira at The GEO Lab'; Field Manual referenced
+  URL: /geo-stack/
+
+Q6 — Perplexity I1:
+  DOMINANT: /extractability/ cited 6x, /geo-stack/ for Layer-2 placement,
+  /10-extractability-signals-ai-citation/; answer-first/independence/compression
+  traits lifted verbatim
+  URL: /extractability/
+
+Q6 — Perplexity I2:
+  menra co-leads def+example this pass; thegeolab /extractability/ +
+  /10-extractability-signals-ai-citation/ still cited
+  URL: /extractability/
+
+Q6 — Perplexity I3:
+  thegeolab /extractability/ back as primary (menra secondary)
+  URL: /extractability/
+
+Q6 — Google AIO I1:
+  AIO cites thegeolab /extractability/ + /geo-stack/ for Layer-2 framing;
+  lumar + authoritytech secondary
+  URL: /extractability/
+
+Q9 — Perplexity I1:
+  System Memory framed as Layer 5; sourced from thegeolab /geo-stack/,
+  NOT /system-memory/. Page substitution pattern.
+  URL: /geo-stack/
+
+Q9 — Perplexity I2:
+  Layer-5 framing sourced from thegeolab /geo-stack/ repeatedly;
+  /system-memory/ again NOT cited. Page substitution persists.
+  URL: /geo-stack/
+
+Q9 — Perplexity I3:
+  thegeolab via /geo-stack/ again; /system-memory/ not cited.
+  Page substitution 3/3 on Perplexity.
+  URL: /geo-stack/
+
+Q9 — ChatGPT I1 (forced-search):
+  thegeolab via /geo-stack/; GEO Wiki secondary; /system-memory/ not cited.
+  Page substitution now seen on all 3 engines.
+  URL: /geo-stack/
+
+Q9 — Google AIO I1:
+  AIO answers via thegeolab /geo-stack/ ('System Memory is Layer 5');
+  Dell RAM = namespace noise; /system-memory/ NOT the cited page
+  URL: /geo-stack/
+
+Q10 — Perplexity I2:
+  heybuffy dominant but thegeolab /does-geo-work/ cited for the
+  'declarative/structured content' lever. First T2 citation in E014 history.
+  URL: /does-geo-work/
+
+=== 6. STABLE / NEW / LOST CITATIONS ===
+
+STABLE (present in M4 AND M5):
+  - Q5 Perplexity: thegeolab.net/geo-stack/ — cited M4 I2 only, now 3/3
+  - Q5 ChatGPT: thegeolab.net/geo-stack/ — stable across M4-M5
+
+NEW (first confirmed citation in M5):
+  - Q2 ALL PLATFORMS: thegeolab.net/retrieval-probability/ — FIRST EVER citation.
+    M1-M4 = 0/120+ across all platforms and iterations.
+    Confirmed null at 30+ Perplexity iterations through M3. Now 5/5 checks = 100%.
+    Significance: the longest-running null in E014 has broken through.
+  - Q3 Perplexity: thegeolab.net/llm-readability/ — FIRST Perplexity citation.
+    M4 ChatGPT had Q3 (1/10), but Perplexity was 0/12. Now 3/3.
+  - Q3 ChatGPT: thegeolab.net/llm-readability/ — second consecutive month (M4+M5).
+  - Q6 Perplexity RECOVERED: thegeolab.net/extractability/ — was 3/3 M1-M3,
+    dropped to 0/3 in M4, now 3/3 again. Recovery confirmed.
+  - Q9 ALL PLATFORMS: thegeolab.net/geo-stack/ (page substitution for /system-memory/).
+    M4 had 0/5 (all platforms), now 5/5. Page substitution pattern: all engines
+    answer via /geo-stack/ not /system-memory/.
+  - Q10 Perplexity I2: thegeolab.net/does-geo-work/ — FIRST T2 citation in
+    E014 history. T2 rate moves from 0% (M1-M4) to 4%.
+
+LOST (present in M4, absent in M5):
+  - Q6 ChatGPT: was C in M3, X in M4, X in M5. ChatGPT Q6 = stochastic.
+    However, Google AIO Q6 and Perplexity Q6 both recovered, so loss is
+    platform-specific, not content-driven.
+
+=== 7. SUBSIDIARY FINDINGS ===
+
+1. ChatGPT method change — forced-search (M5 = new baseline):
+   M5 ChatGPT leg uses forced-search (browsing explicitly triggered).
+   This changes the measurement method from M1-M4 (where ChatGPT could
+   choose whether to search). M5 ChatGPT results are NOT directly
+   comparable to M1-M4 ChatGPT. M5 establishes the new forced-search
+   baseline for future months.
+
+2. Perplexity method change — fresh Chrome incognito profile per query:
+   Each query run in a fresh incognito profile to eliminate session bleed
+   and personalisation. This tightens measurement validity but means M5
+   Perplexity results reflect zero-personalisation conditions.
+
+3. Q9 page substitution — cross-engine pattern:
+   All three engines (Perplexity 3/3, ChatGPT 1/1, Google AIO 1/1) cite
+   /geo-stack/ when asked about System Memory, NOT /system-memory/.
+   The hub page has absorbed the layer page for this query. This is a
+   structural pattern, not stochastic: 5/5 = 100% page substitution rate.
+
+4. Q2 breakthrough — from longest null to full saturation:
+   /retrieval-probability/ was the longest-running null in E014 (0 citations
+   across M1-M4, 120+ checks). M5 = 5/5 across all platforms. This is the
+   single largest per-query swing in the study.
+
+5. Q5 entity attribution surfaced on ChatGPT and Google AIO:
+   Both ChatGPT and AIO explicitly attribute the GEO Stack to
+   'Artur Ferreira at The GEO Lab'. Entity graph work is producing
+   visible attribution in AI answers.
+
+6. T2 remains near-null but no longer absolute zero:
+   Q10 Perplexity I2 cited /does-geo-work/ — first T2 citation in E014
+   history (5 months, 125 T2 checks). Rate: 1/25 = 4%.
+   All other T2 queries remain 0%.
+
+=== 8. CITATION STABILITY MATRIX (M1-M5) ===
+
+Query  | Tier | M1 PPX | M2 PPX | M3 PPX | M4 PPX | M5 PPX | M3 GPT | M4 GPT | M5 GPT | M3 GOO | M4 GOO | M5 GOO |
+-------|------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+Q2     |  T1  |   X    |   X    |  0/3   |  0/3   |  3/3   |   X    |   X    |   C    |   X    |   X    |   C    |
+Q3     |  T1  |   X    |   X    |  0/3   |  0/3   |  3/3   |   X    |   C    |   C    |   X    |   X    |   X    |
+Q5     |  T1  |   X    |   X    |  0/3   |  1/3   |  3/3   |   X    |   C    |   C    |   C    |   X    |   C    |
+Q6     |  T1  | 100%   | 100%   |  3/3   |  0/3   |  3/3   |   X    |   X    |   X    |   C    |   X    |   C    |
+Q9     |  T1  |  ~33%  |  ~20%  |  0/3   |  0/3   |  3/3   |   X    |   X    |   C    |   X    |   X    |   C    |
+T2 all |  T2  |   0%   |   0%   |  0/15  |  0/15  |  1/15  |  0/5   |  0/5   |  0/5   |  0/5   |  0/5   |  0/5   |
+
+M1/M2: Perplexity only. ChatGPT/AIO measured from M3 onward.
+M5 ChatGPT = forced-search (method change, new baseline).
+
+=== FILES ===
+/home/ajdev/e014/data/e014_m5_20260802.csv — 50-row M5 dataset
+  Columns: run_id, platform, iteration, query_num, query_tier, query_text,
+           code, url_cited, reconstruction_description, timestamp_utc, notes
+/home/ajdev/e014/data/e014_m5_summary_20260802.txt — this file

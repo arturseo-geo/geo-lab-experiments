@@ -1,0 +1,91 @@
+{
+  "version": "0.1.20260610",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "5.8352 sec.",
+  "cost": 0.015138,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "06282012-1516-0612-0000-7bd55bd8fc84",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "5.7786 sec.",
+      "cost": 0.015138,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "perplexity",
+        "llm_responses",
+        "live"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "llm_responses",
+        "se": "perplexity",
+        "user_prompt": "What is Retrieval Probability in AI search?",
+        "model_name": "sonar-pro",
+        "web_search": true
+      },
+      "result": [
+        {
+          "model_name": "sonar-pro",
+          "input_tokens": 16,
+          "output_tokens": 566,
+          "reasoning_tokens": 0,
+          "web_search": true,
+          "money_spent": 0.014538,
+          "datetime": "2026-06-28 20:12:30 +00:00",
+          "items": [
+            {
+              "type": "message",
+              "sections": [
+                {
+                  "type": "text",
+                  "text": "**Retrieval probability** in AI search is the **likelihood that a given document or passage will be selected by the retrieval layer and passed into the model as evidence for an answer**, across all the probabilistic steps of modern RAG/AI search systems.[1][3][4][5][8]\n\nIn traditional search, visibility is mainly about *rank position* (e.g., \u201cI\u2019m #3 for this keyword\u201d). In AI search and RAG systems, visibility shifts to *whether and how often you get retrieved at all*:\n\n- The **AI retrieval layer** sits between the user\u2019s query and the model\u2019s answer, filtering a huge corpus down to a small set of \u201celigible\u201d passages (often tens to a few hundred).[1][4][7]  \n- Modern AI search is **probabilistic at every stage**: queries are expanded into variations, passages are scored in vector space, re-ranked with statistical methods, and then sampled into the final answer.[2][3][4][5][8]  \n- Because these steps involve randomness, thresholds, and comparative scoring, **the same query can yield different retrieved passages on different runs**, even from the same index.[3][8]\n\nIn that context, **retrieval probability** means:\n\n> For a specific query (and its fan-out into subqueries), *what is the probability that a particular chunk/document will be among the retrieved, re\u2011ranked, and ultimately used passages?*[3][4][5][8]\n\nKey drivers of higher retrieval probability:\n\n- **Semantic closeness in embedding space**: Queries are converted to vector embeddings; chunks that are semantically close are more likely to be retrieved.[4][5]  \n- **Chunk-level structure and clarity**: Systems index and retrieve self-contained text segments (200\u2013400 tokens) that can stand alone; clear entities, explicit relationships, and direct answers make a chunk more retrievable.[4]  \n- **Authority and trust signals**: Clear authorship, transparent sourcing, consistent terminology, and fresh content increase the chance of being selected when competing passages are similar.[1][3]  \n- **Performance across multiple subqueries**: With query fan-out and aggregation methods such as reciprocal rank fusion, chunks that rank well across several subqueries are more likely to surface and be cited.[3][5]\n\nPractically, for AI/SEO work this leads to a shift in measurement:\n\n- In probabilistic AI search, **\u201cvisibility\u201d is better measured as the *frequency and persistence* with which your content is retrieved and cited**, not a single fixed rank.[3][8]  \n- Your optimization goal is to **maximize the retrieval probability** of your best passages across many query variants and retrieval paths, so they consistently enter the model\u2019s evidence set.",
+                  "annotations": [
+                    {
+                      "title": "AI Retrieval Layer Explained: How AI Finds and Chooses Content",
+                      "url": "https://www.useomnia.com/knowledge-base/ai-retrieval-layer"
+                    },
+                    {
+                      "title": "Information Retrieval & Intelligence: How It Works for AI - Splunk",
+                      "url": "https://www.splunk.com/en_us/blog/learn/information-retrieval.html"
+                    },
+                    {
+                      "title": "AI Search: How Generative Engine Optimization Reshapes SEO",
+                      "url": "https://ipullrank.com/probability-ai-search"
+                    },
+                    {
+                      "title": "Retrieval-Layer SEO: Why Most Marketers Are Losing AI Search ...",
+                      "url": "https://kurtuhlir.com/retrieval-layer-seo-why-most-marketers-are-losing-ai-search-and-how-to-win/"
+                    },
+                    {
+                      "title": "How does LLM retrieval work for AI search? (AEO Guide)",
+                      "url": "https://discoveredlabs.com/blog/how-does-llm-retrieval-work-for-ai-search-aeo-guide"
+                    },
+                    {
+                      "title": "How AI Solves the Impossible Search Problem - YouTube",
+                      "url": "https://www.youtube.com/watch?v=laaBLUxJUMY"
+                    },
+                    {
+                      "title": "Azure AI Search: Outperforming vector search with hybrid retrieval ...",
+                      "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/azure-ai-search-outperforming-vector-search-with-hybrid-retrieval-and-reranking/3929167"
+                    },
+                    {
+                      "title": "Why AI search answers change: A probabilistic game of retrieval",
+                      "url": "https://www.linkedin.com/posts/ipullrank_ever-ask-the-same-question-in-ai-search-twice-activity-7382010698966634496-8Qvu"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fan_out_queries": null
+        }
+      ]
+    }
+  ]
+}

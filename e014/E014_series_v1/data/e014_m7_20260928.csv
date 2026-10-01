@@ -1,0 +1,51 @@
+run_id,platform,iteration,query_num,query_tier,query_text,code,url_cited,reconstruction_description,timestamp_utc,notes
+e014_m7_20260928,perplexity,1,Q1,T2,What is GEO (Generative Engine Optimisation)?,X,,,2026-09-28 session start approx 14:00 UTC,reconstruction_description not captured at M7.
+e014_m7_20260928,perplexity,2,Q1,T2,What is GEO (Generative Engine Optimisation)?,X,,,2026-09-28 (time not recorded),
+e014_m7_20260928,perplexity,3,Q1,T2,What is GEO (Generative Engine Optimisation)?,X,,,2026-09-28 (time not recorded),
+e014_m7_20260928,perplexity,1,Q2,T1,What is Retrieval Probability in AI search?,C,https://thegeolab.net/retrieval-probability/,,2026-09-28 session start approx 14:00 UTC,
+e014_m7_20260928,perplexity,2,Q2,T1,What is Retrieval Probability in AI search?,C,https://thegeolab.net/what-raises-retrieval-probability/,,2026-09-28 (time not recorded),"Cited /what-raises-retrieval-probability/, a second thegeolab page for the same concept."
+e014_m7_20260928,perplexity,3,Q2,T1,What is Retrieval Probability in AI search?,C,https://thegeolab.net/what-raises-retrieval-probability/,,2026-09-28 (time not recorded),"Cited /what-raises-retrieval-probability/, a second thegeolab page for the same concept."
+e014_m7_20260928,perplexity,1,Q3,T1,What is LLM readability?,C,https://thegeolab.net/llm-readability/,,2026-09-28 session start approx 14:00 UTC,
+e014_m7_20260928,perplexity,2,Q3,T1,What is LLM readability?,C,https://thegeolab.net/llm-readability/,,2026-09-28 (time not recorded),
+e014_m7_20260928,perplexity,3,Q3,T1,What is LLM readability?,C,https://thegeolab.net/llm-readability/,,2026-09-28 (time not recorded),
+e014_m7_20260928,perplexity,1,Q4,T2,GEO vs traditional SEO — what changed?,X,,,2026-09-28 session start approx 14:00 UTC,
+e014_m7_20260928,perplexity,2,Q4,T2,GEO vs traditional SEO — what changed?,X,,,2026-09-28 (time not recorded),
+e014_m7_20260928,perplexity,3,Q4,T2,GEO vs traditional SEO — what changed?,X,,,2026-09-28 (time not recorded),
+e014_m7_20260928,perplexity,1,Q5,T1,How does the GEO Stack work?,C,https://thegeolab.net/geo-stack/,,2026-09-28 session start approx 14:00 UTC,
+e014_m7_20260928,perplexity,2,Q5,T1,How does the GEO Stack work?,C,https://thegeolab.net/geo-stack/,,2026-09-28 (time not recorded),
+e014_m7_20260928,perplexity,3,Q5,T1,How does the GEO Stack work?,C,https://thegeolab.net/geo-stack/,,2026-09-28 (time not recorded),
+e014_m7_20260928,perplexity,1,Q6,T1,What is Extractability in GEO?,C,https://thegeolab.net/extractability/,,2026-09-28 session start approx 14:00 UTC,
+e014_m7_20260928,perplexity,2,Q6,T1,What is Extractability in GEO?,C,https://thegeolab.net/extractability/,,2026-09-28 (time not recorded),
+e014_m7_20260928,perplexity,3,Q6,T1,What is Extractability in GEO?,C,https://thegeolab.net/extractability/,,2026-09-28 (time not recorded),
+e014_m7_20260928,perplexity,1,Q7,T2,Does GEO actually work?,X,,,2026-09-28 session start approx 14:00 UTC,
+e014_m7_20260928,perplexity,2,Q7,T2,Does GEO actually work?,X,,,2026-09-28 (time not recorded),
+e014_m7_20260928,perplexity,3,Q7,T2,Does GEO actually work?,X,,,2026-09-28 (time not recorded),
+e014_m7_20260928,perplexity,1,Q8,T2,How to measure AI citation rate?,X,,,2026-09-28 session start approx 14:00 UTC,
+e014_m7_20260928,perplexity,2,Q8,T2,How to measure AI citation rate?,X,,,2026-09-28 (time not recorded),
+e014_m7_20260928,perplexity,3,Q8,T2,How to measure AI citation rate?,X,,,2026-09-28 (time not recorded),
+e014_m7_20260928,perplexity,1,Q9,T1,What is System Memory in GEO?,C,https://thegeolab.net/geo-stack/ https://thegeolab.net/system-memory/,,2026-09-28 session start approx 14:00 UTC,
+e014_m7_20260928,perplexity,2,Q9,T1,What is System Memory in GEO?,X,,,2026-09-28 (time not recorded),"Resolved to GEOS / PC-GEOS operating system (bluewaysw.github.io); namespace collision. A same-slot confirmation re-run after this read returned the framework (C); logged here as i2-probe only, not substituted for this recorded read."
+e014_m7_20260928,perplexity,3,Q9,T1,What is System Memory in GEO?,C,https://thegeolab.net/geo-stack/ https://thegeolab.net/system-memory/,,2026-09-28 (time not recorded),
+e014_m7_20260928,perplexity,1,Q10,T2,How do AI search engines select content to cite?,X,,,2026-09-28 session start approx 14:00 UTC,
+e014_m7_20260928,perplexity,2,Q10,T2,How do AI search engines select content to cite?,X,,,2026-09-28 (time not recorded),
+e014_m7_20260928,perplexity,3,Q10,T2,How do AI search engines select content to cite?,X,,,2026-09-28 (time not recorded),
+e014_m7_20260928,chatgpt,1,Q1,T2,What is GEO (Generative Engine Optimisation)?,X,,,2026-09-28 (time not recorded),"Primed with 'search the web for:'. Three earlier unprimed reads (Q1, Q2, Q3) answered from model memory with no sources and were discarded as invalid, not coded."
+e014_m7_20260928,chatgpt,1,Q2,T1,What is Retrieval Probability in AI search?,C,https://thegeolab.net/retrieval-probability/,,2026-09-28 (time not recorded),"Primed with 'search the web for:'. Three earlier unprimed reads (Q1, Q2, Q3) answered from model memory with no sources and were discarded as invalid, not coded."
+e014_m7_20260928,chatgpt,1,Q3,T1,What is LLM readability?,C,https://thegeolab.net/llm-readability/,,2026-09-28 (time not recorded),"Primed with 'search the web for:'. Three earlier unprimed reads (Q1, Q2, Q3) answered from model memory with no sources and were discarded as invalid, not coded."
+e014_m7_20260928,chatgpt,1,Q4,T2,GEO vs traditional SEO — what changed?,X,,,2026-09-28 (time not recorded),"Primed with 'search the web for:'. Three earlier unprimed reads (Q1, Q2, Q3) answered from model memory with no sources and were discarded as invalid, not coded."
+e014_m7_20260928,chatgpt,1,Q5,T1,How does the GEO Stack work?,C,https://thegeolab.net/geo-stack/,,2026-09-28 (time not recorded),"Primed with 'search the web for:'. Three earlier unprimed reads (Q1, Q2, Q3) answered from model memory with no sources and were discarded as invalid, not coded. Source chips labelled 'The GEO Lab'; full URL not captured in the pasted output. Coded C on the chip label."
+e014_m7_20260928,chatgpt,1,Q6,T1,What is Extractability in GEO?,C,https://thegeolab.net/extractability/,,2026-09-28 (time not recorded),"Primed with 'search the web for:'. Three earlier unprimed reads (Q1, Q2, Q3) answered from model memory with no sources and were discarded as invalid, not coded."
+e014_m7_20260928,chatgpt,1,Q7,T2,Does GEO actually work?,X,,,2026-09-28 (time not recorded),"Primed with 'search the web for:'. Three earlier unprimed reads (Q1, Q2, Q3) answered from model memory with no sources and were discarded as invalid, not coded."
+e014_m7_20260928,chatgpt,1,Q8,T2,How to measure AI citation rate?,X,,,2026-09-28 (time not recorded),"Primed with 'search the web for:'. Three earlier unprimed reads (Q1, Q2, Q3) answered from model memory with no sources and were discarded as invalid, not coded."
+e014_m7_20260928,chatgpt,1,Q9,T1,What is System Memory in GEO?,C,https://thegeolab.net/geo-stack/,,2026-09-28 (time not recorded),"Primed with 'search the web for:'. Three earlier unprimed reads (Q1, Q2, Q3) answered from model memory with no sources and were discarded as invalid, not coded."
+e014_m7_20260928,chatgpt,1,Q10,T2,How do AI search engines select content to cite?,X,,,2026-09-28 (time not recorded),"Primed with 'search the web for:'. Three earlier unprimed reads (Q1, Q2, Q3) answered from model memory with no sources and were discarded as invalid, not coded."
+e014_m7_20260928,google_aio,1,Q1,T2,What is GEO (Generative Engine Optimisation)?,X,,,2026-09-28 (time not recorded),Google organic positions captured 28 Sep: thegeolab.net absent from the organic top results. AIO miss consistent with the organic rank gate.
+e014_m7_20260928,google_aio,1,Q2,T1,What is Retrieval Probability in AI search?,C,https://thegeolab.net/retrieval-probability/ https://thegeolab.net/what-raises-retrieval-probability/,,2026-09-28 (time not recorded),
+e014_m7_20260928,google_aio,1,Q3,T1,What is LLM readability?,C,https://thegeolab.net/llm-readability/,,2026-09-28 (time not recorded),
+e014_m7_20260928,google_aio,1,Q4,T2,GEO vs traditional SEO — what changed?,X,,,2026-09-28 (time not recorded),Google organic positions captured 28 Sep: thegeolab.net absent from the organic top results. AIO miss consistent with the organic rank gate.
+e014_m7_20260928,google_aio,1,Q5,T1,How does the GEO Stack work?,C,https://thegeolab.net/geo-stack/ https://thegeolab.net/field-manual/,,2026-09-28 (time not recorded),
+e014_m7_20260928,google_aio,1,Q6,T1,What is Extractability in GEO?,C,https://thegeolab.net/extractability/,,2026-09-28 (time not recorded),
+e014_m7_20260928,google_aio,1,Q7,T2,Does GEO actually work?,X,,,2026-09-28 (time not recorded),Google organic positions captured 28 Sep: thegeolab.net absent from the organic top results. AIO miss consistent with the organic rank gate.
+e014_m7_20260928,google_aio,1,Q8,T2,How to measure AI citation rate?,X,,,2026-09-28 (time not recorded),Google organic positions captured 28 Sep: thegeolab.net absent from the organic top results. AIO miss consistent with the organic rank gate.
+e014_m7_20260928,google_aio,1,Q9,T1,What is System Memory in GEO?,C,https://thegeolab.net/geo-stack/ https://thegeolab.net/system-memory/,,2026-09-28 (time not recorded),Resolved to the framework; the M6 Geo SCADA collision did not recur.
+e014_m7_20260928,google_aio,1,Q10,T2,How do AI search engines select content to cite?,X,,,2026-09-28 (time not recorded),Google organic positions captured 28 Sep: thegeolab.net absent from the organic top results. AIO miss consistent with the organic rank gate.

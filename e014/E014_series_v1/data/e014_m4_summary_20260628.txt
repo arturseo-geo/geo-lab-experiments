@@ -1,0 +1,74 @@
+E014 M4 — Longitudinal Citation Measurement: Month 4
+Date: 20260628
+Completed: 2026-06-28T17:27:37Z
+Data file: /home/ajdev/e014/data/e014_m4_20260628.csv
+Total checks: 50 (canonical) + 2 (exploratory)
+
+=== 1. RAW RESULTS TABLE ===
+
+Query               | Tier | PPX_I1 | PPX_I2 | PPX_I3 | GPT_I1 | GOO_I1 |
+--------------------|------|--------|--------|--------|--------|--------|
+Q01 What is GEO (Gener |  T2  |   X    |   X    |   X    |   X    |   X    |
+Q02 What is Retrieval  |  T1  |   X    |   X    |   X    |   X    |   X    |
+Q03 What is LLM readab |  T1  |   X    |   X    |   X    |   C    |   X    |
+Q04 GEO vs traditional |  T2  |   X    |   X    |   X    |   X    |   X    |
+Q05 How does the GEO S |  T1  |   X    |   C    |   X    |   C    |   X    |
+Q06 What is Extractabi |  T1  |   X    |   X    |   X    |   X    |   X    |
+Q07 Does GEO actually  |  T2  |   X    |   X    |   X    |   X    |   X    |
+Q08 How to measure AI  |  T2  |   X    |   X    |   X    |   X    |   X    |
+Q09 What is System Mem |  T1  |   X    |   X    |   X    |   X    |   X    |
+Q10 How do AI search e |  T2  |   X    |   X    |   X    |   X    |   X    |
+
+=== 2. PER-PLATFORM CITATION RATES ===
+
+Platform    | Checks | Citations | Rate
+------------|--------|-----------|------
+Perplexity  |   30   |     1     | 3.3%
+ChatGPT     |   10   |     2     | 20.0%
+Google AIO  |   10   |     0     | 0.0%
+------------|--------|-----------|------
+M4 TOTAL    |   50   |     3     | 6.0%
+
+=== 3. T1 / T2 GAP ===
+
+Tier | Checks | Citations | Rate
+-----|--------|-----------|------
+T1   |   25   |     3     | 12.0%
+T2   |   25   |     0     | 0.0%
+
+=== 4. M4 vs M3 DELTA ===
+
+Metric          | M3        | M4        | Delta
+----------------|-----------|-----------|-------
+Combined rate   | 12.0%     | 6.0%     | -6.0 pp
+Perplexity      | 10.0%     | 3.3%     | -6.7 pp
+ChatGPT         | 10.0%     | 20.0%     | +10.0 pp
+Google AIO      | 20.0%     | 0.0%     | -20.0 pp
+T1              | 24.0%     | 12.0%     | -12.0 pp
+T2              |  0.0%     | 0.0%     | +0.0 pp
+
+=== 5. EXPLORATORY PROBES ===
+
+  Q2alt: [X] What is retrieval probability in generative engine optimisation?
+    Note: E030 phrasing test — query-retrieval-mismatch hypothesis
+
+  Q9alt: [C] What is System Memory in the GEO Stack framework?
+    Note: RAM-disambiguation hypothesis
+    Cited: https://thegeolab.net/geo-stack/|https://thegeolab.net/system-memory/
+
+=== 6. RECONSTRUCTION DESCRIPTIONS ===
+
+Q5 perplexity I2:
+  URL: https://thegeolab.net/geo-stack/
+  Desc: The **GEO Stack** is a layered framework for making your content more visible and more frequently *cited* by AI systems (LLMs) in their answers, by optimizing how it’s retrieved, understood, and remembered across a specific pipeline.[1][5]
+
+Below is how it works, step by step.
+
+---
+
+## 1. The overal
+
+=== FILES ===
+/home/ajdev/e014/data/e014_m4_20260628.csv
+/home/ajdev/e014/data/e014_m4_summary_20260628.txt
+Raw JSONs: /home/ajdev/e014/data/e014_m4_raw_*_20260628.json

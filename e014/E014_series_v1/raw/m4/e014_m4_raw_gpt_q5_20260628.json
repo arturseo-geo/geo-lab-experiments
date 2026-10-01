@@ -1,0 +1,183 @@
+{
+  "version": "0.1.20260610",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "114.1552 sec.",
+  "cost": 0.004,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "06282021-1516-0629-0000-105d22ef1f4e",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "114.0941 sec.",
+      "cost": 0.004,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "chat_gpt",
+        "llm_scraper",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "llm_scraper",
+        "se": "chat_gpt",
+        "keyword": "How does the GEO Stack work?",
+        "location_name": "United Kingdom",
+        "language_code": "en",
+        "force_web_search": true,
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "How does the GEO Stack work?",
+          "location_code": 2826,
+          "language_code": "en",
+          "model": "gpt-5-5",
+          "check_url": "https://chatgpt.com/?prompt=How%20does%20the%20GEO%20Stack%20work%3F&hints=search",
+          "datetime": "2026-06-28 17:23:38 +00:00",
+          "markdown": "The **GEO Stack** is a framework used in *Generative Engine Optimisation (GEO)* \u2014 basically the newer discipline focused on how content gets **found, extracted, and cited by AI systems** like ChatGPT, Perplexity, Gemini, and Google AI Overviews.\n\nOne of the most referenced versions is the **five-layer GEO Stack**, which describes how AI systems decide whether to use your content in an answer. [thegeolab.net](https://thegeolab.net/geo-stack/?utm_source=chatgpt.com)\n\n---\n\n## The GEO Stack (simple breakdown)\n\nThink of it as a **pipeline from \u201cyour page exists\u201d \u2192 \u201cAI actually uses it in an answer.\u201d**\n\n### 1. Retrieval Probability\nThis is the entry gate.\n\nBefore anything else, your content has to be:\n- Indexed by search engines\n- Relevant enough to be retrieved in candidate results\n- Often already ranking in at least the top ~30 results\n\nIf you fail here, AI systems never even \u201csee\u201d your page.\n\n---\n\n### 2. Extractability\nOnce your page is retrieved, the AI asks:\n> \u201cCan I easily pull useful information from this?\u201d\n\nThis depends on:\n- Clear headings and structure\n- Short, self-contained paragraphs\n- Explicit answers (not buried content)\n- Clean HTML / readable formatting\n\nIf content is messy or ambiguous, it gets ignored even if it ranks.\n\n---\n\n### 3. Entity Reinforcement\nHere the system checks:\n> \u201cDo I understand *what this is about* and who/what it\u2019s connected to?\u201d\n\nAI models rely heavily on **entities** (brands, people, concepts).\n\nStrong GEO content:\n- Repeats key entities consistently\n- Uses clear naming (no ambiguity)\n- Connects concepts to known topics\n\nThis improves confidence that your page is \u201cabout the right thing.\u201d\n\n---\n\n### 4. Structural Authority\nNow the AI evaluates trust signals in structure and context:\n\n- Schema markup (FAQ, Article, Organization, etc.)\n- Citations and references\n- Internal linking structure\n- Clear authorship and publication context\n\nThis layer is about:  \n> \u201cDoes this look like a reliable source I can quote?\u201d\n\n---\n\n### 5. System Memory\nThe most advanced layer.\n\nThis is about whether systems:\n- Repeatedly see your brand/content across sources\n- Remember it as a trusted entity over time\n- Reinforce it across multiple retrieval cycles\n\nIt\u2019s not just one page \u2014 it\u2019s **your overall presence in the AI ecosystem**.\n\n---\n\n## The key idea behind the GEO Stack\n\nAll layers are **sequential and dependent**:\n\nIf Retrieval fails \u2192 nothing else matters  \nIf Extractability is weak \u2192 AI can\u2019t use your content  \nIf Entity signals are unclear \u2192 AI misinterprets you  \nIf Authority is weak \u2192 AI won\u2019t cite you  \nIf Memory is strong \u2192 you become a \u201cdefault source\u201d\n\n[thegeolab.net](https://thegeolab.net/geo-stack/?utm_source=chatgpt.com)\n\n---\n\n## How it differs from classic SEO thinking\n\nTraditional SEO asks:\n- \u201cCan I rank?\u201d\n\nGEO Stack asks:\n- \u201cCan I be *retrieved, understood, extracted, and cited by an AI answer engine*?\u201d\n\nSo instead of just ranking pages, you're optimizing for:\n- inclusion in AI-generated answers\n- citation frequency\n- semantic clarity at the chunk (section) level\n\n---\n\nIf you want, I can map the GEO Stack directly onto your own website or content strategy so you can see where you\u2019d actually improve first.",
+          "search_results": [
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://geneo.app/blog/geo-generative-engine-optimization-marketing-stack/?utm_source=chatgpt.com",
+              "domain": "geneo.app",
+              "title": "GEO Explained: How Generative Engine Optimization Elevates Marketing",
+              "description": "December 09, 2025 1 min read  HOW GEO FITS INTO THE MODERN MARKETING STACK  Discover what GEO (Generative Engine Optimization) is, how it differs from SEO, and where it fits into the modern marketing...",
+              "breadcrumb": "geneo.app"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://geneo.app/blog/geo-platforms-technical-architecture-ultimate-guide/?utm_source=chatgpt.com",
+              "domain": "geneo.app",
+              "title": "Technical Architecture of GEO Platforms: The Ultimate Guide",
+              "description": "December 03, 2025 1 min read  TECHNICAL ARCHITECTURE BEHIND GENERATIVE ENGINE OPTIMIZATION (GEO) PLATFORMS  Explore the comprehensive technical architecture behind Generative Engine Optimization (GEO...",
+              "breadcrumb": "geneo.app"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://geostack.com.br/os-7-pilares-do-generative-engine-optimization-framework-geostack/?utm_source=chatgpt.com",
+              "domain": "geostack.com.br",
+              "title": "Os 7 pilares do Generative Engine Optimization (framework Geostack) - Geostack - Ag\u00eancia de GEO",
+              "description": "OS 7 PILARES DO GENERATIVE ENGINE OPTIMIZATION (FRAMEWORK GEOSTACK)  Por Andr\u00e9 HP / maio 5, 2026  Os 7 pilares do Generative Engine Optimization, no framework da GeoStack, s\u00e3o as sete camadas operaci...",
+              "breadcrumb": "geostack.com.br"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://veroti.com/insights/generative-engine-optimization-for-shopify/?utm_source=chatgpt.com",
+              "domain": "veroti.com",
+              "title": "Generative Engine Optimization for Shopify: The Five-Layer Stack \u2014 Jan Veroti",
+              "description": "May 23, 2026 \u00b7 Jan Veroti \u00b7 GEO \u00b7 AI SEO \u00b7 Shopify \u00b7 Architecture  GENERATIVE ENGINE OPTIMIZATION FOR SHOPIFY: THE FIVE-LAYER STACK.  Image: Generative Engine Optimization for Shopify: the five-layer...",
+              "breadcrumb": "veroti.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://geodocs.dev/geo/what-is-geo?utm_source=chatgpt.com",
+              "domain": "geodocs.dev",
+              "title": "What Is GEO? Generative Engine Optimization Defined | Geodocs.dev",
+              "description": "WHAT IS GEO? GENERATIVE ENGINE OPTIMIZATION DEFINED  geo guide beginner 13 min read 2,402 words Updated May 2026  ShareLinkedInCopy Link  Explore with AI  Open this article in your favorite AI assist...",
+              "breadcrumb": "geodocs.dev"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://smartmoneymedia.org/guides/generative-engine-optimization?utm_source=chatgpt.com",
+              "domain": "smartmoneymedia.org",
+              "title": "Generative Engine Optimization (GEO): Complete Pillar Guide",
+              "description": "GENERATIVE ENGINE OPTIMIZATION (GEO): COMPLETE PILLAR GUIDE  Smart Money Media Team17 min read Updated Jun 26, 2026  Share:  Generative Engine Optimization (GEO) is the discipline of engineering a br...",
+              "breadcrumb": "smartmoneymedia.org"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.brightter.com/articles/inside-a-modern-geo-stack-vectorization-chunking-indexing-and-retrieval-for-brand-content?utm_source=chatgpt.com",
+              "domain": "www.brightter.com",
+              "title": "Inside the GEO Stack for AI Brand Discovery in 2026",
+              "description": "7 min read  Generative Engine Optimization (GEO)  INSIDE A MODERN GEO STACK: VECTORIZATION, CHUNKING, INDEXING, AND RETRIEVAL FOR BRAND CONTENT  Written By:  Raj Tyagi  7 min read  INSIDE A MODERN GE...",
+              "breadcrumb": "brightter.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.pepper.inc/blog/what-is-geo/?utm_source=chatgpt.com",
+              "domain": "www.pepper.inc",
+              "title": "What is GEO? The Definitive 2026 Guide to Generative Engine Optimization | Pepper Content",
+              "description": "WHAT IS GEO? THE DEFINITIVE 2026 GUIDE TO GENERATIVE ENGINE OPTIMIZATION  Dhriti  \u2022  Posted on 12/06/26\u202220 min read  Image: What is GEO? The Definitive 2026 Guide to Generative Engine Optimization  T...",
+              "breadcrumb": "pepper.inc"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://geoz.ai/blogs/the-2025-geo-stack-from-logs-to-citations?utm_source=chatgpt.com",
+              "domain": "geoz.ai",
+              "title": "The 2025 GEO Stack: From Logs to Citations - geoZ.ai",
+              "description": "THE 2025 GEO STACK: FROM LOGS TO CITATIONS  Author: geoZ Team \u2022 Updated date: October 15, 2025  Image: The 2025 GEO Stack: From Logs to Citations  THE 2025 GEO STACK: FROM LOGS TO CITATIONS  SUMMARY (...",
+              "breadcrumb": "geoz.ai"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.insightscout.co/guides/what-is-geo-generative-engine-optimization?utm_source=chatgpt.com",
+              "domain": "www.insightscout.co",
+              "title": "What is GEO (Generative Engine Optimization)? | InsightScout",
+              "description": "WHAT IS GEO (GENERATIVE ENGINE OPTIMIZATION)?  GEO \u2014 Generative Engine Optimization \u2014 is the practice of getting your product mentioned in the answers AI assistants produce. It is the new layer above...",
+              "breadcrumb": "insightscout.co"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://thegeolab.net/field-manual/?utm_source=chatgpt.com",
+              "domain": "thegeolab.net",
+              "title": "GEO Field Manual \u2014 Practical GEO Guide",
+              "description": "GEO FIELD MANUAL: THE COMPLETE PRACTITIONER GUIDE  The GEO Field Manual is the most comprehensive free resource on Generative Engine Optimisation \u2014 a full practitioner guide covering all five GEO Stac...",
+              "breadcrumb": "thegeolab.net"
+            }
+          ],
+          "sources": [
+            {
+              "type": "chat_gpt_source",
+              "title": "The GEO Stack: How the Five-Layer GEO Framework Works",
+              "snippet": null,
+              "domain": "thegeolab.net",
+              "url": "https://thegeolab.net/geo-stack/?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "The GEO Lab",
+              "publication_date": "2026-03-12 00:00:00 +00:00",
+              "markdown": null
+            }
+          ],
+          "fan_out_queries": [
+            "geo stack how does GEO stack work GEO stack marketing meaning GEO SEO GEO GEO stack architecture"
+          ],
+          "brand_entities": null,
+          "se_results_count": 0,
+          "item_types": [
+            "chat_gpt_text"
+          ],
+          "items_count": 1,
+          "items": [
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "markdown": "The **GEO Stack** is a framework used in *Generative Engine Optimisation (GEO)* \u2014 basically the newer discipline focused on how content gets **found, extracted, and cited by AI systems** like ChatGPT, Perplexity, Gemini, and Google AI Overviews.\n\nOne of the most referenced versions is the **five-layer GEO Stack**, which describes how AI systems decide whether to use your content in an answer. [thegeolab.net](https://thegeolab.net/geo-stack/?utm_source=chatgpt.com)\n\n---\n\n## The GEO Stack (simple breakdown)\n\nThink of it as a **pipeline from \u201cyour page exists\u201d \u2192 \u201cAI actually uses it in an answer.\u201d**\n\n### 1. Retrieval Probability\nThis is the entry gate.\n\nBefore anything else, your content has to be:\n- Indexed by search engines\n- Relevant enough to be retrieved in candidate results\n- Often already ranking in at least the top ~30 results\n\nIf you fail here, AI systems never even \u201csee\u201d your page.\n\n---\n\n### 2. Extractability\nOnce your page is retrieved, the AI asks:\n> \u201cCan I easily pull useful information from this?\u201d\n\nThis depends on:\n- Clear headings and structure\n- Short, self-contained paragraphs\n- Explicit answers (not buried content)\n- Clean HTML / readable formatting\n\nIf content is messy or ambiguous, it gets ignored even if it ranks.\n\n---\n\n### 3. Entity Reinforcement\nHere the system checks:\n> \u201cDo I understand *what this is about* and who/what it\u2019s connected to?\u201d\n\nAI models rely heavily on **entities** (brands, people, concepts).\n\nStrong GEO content:\n- Repeats key entities consistently\n- Uses clear naming (no ambiguity)\n- Connects concepts to known topics\n\nThis improves confidence that your page is \u201cabout the right thing.\u201d\n\n---\n\n### 4. Structural Authority\nNow the AI evaluates trust signals in structure and context:\n\n- Schema markup (FAQ, Article, Organization, etc.)\n- Citations and references\n- Internal linking structure\n- Clear authorship and publication context\n\nThis layer is about:  \n> \u201cDoes this look like a reliable source I can quote?\u201d\n\n---\n\n### 5. System Memory\nThe most advanced layer.\n\nThis is about whether systems:\n- Repeatedly see your brand/content across sources\n- Remember it as a trusted entity over time\n- Reinforce it across multiple retrieval cycles\n\nIt\u2019s not just one page \u2014 it\u2019s **your overall presence in the AI ecosystem**.\n\n---\n\n## The key idea behind the GEO Stack\n\nAll layers are **sequential and dependent**:\n\nIf Retrieval fails \u2192 nothing else matters  \nIf Extractability is weak \u2192 AI can\u2019t use your content  \nIf Entity signals are unclear \u2192 AI misinterprets you  \nIf Authority is weak \u2192 AI won\u2019t cite you  \nIf Memory is strong \u2192 you become a \u201cdefault source\u201d\n\n[thegeolab.net](https://thegeolab.net/geo-stack/?utm_source=chatgpt.com)\n\n---\n\n## How it differs from classic SEO thinking\n\nTraditional SEO asks:\n- \u201cCan I rank?\u201d\n\nGEO Stack asks:\n- \u201cCan I be *retrieved, understood, extracted, and cited by an AI answer engine*?\u201d\n\nSo instead of just ranking pages, you're optimizing for:\n- inclusion in AI-generated answers\n- citation frequency\n- semantic clarity at the chunk (section) level\n\n---\n\nIf you want, I can map the GEO Stack directly onto your own website or content strategy so you can see where you\u2019d actually improve first.",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "The GEO Stack: How the Five-Layer GEO Framework Works",
+                  "snippet": null,
+                  "domain": "thegeolab.net",
+                  "url": "https://thegeolab.net/geo-stack/?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "The GEO Lab",
+                  "publication_date": "2026-03-12 00:00:00 +00:00",
+                  "markdown": null
+                }
+              ],
+              "brand_entities": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

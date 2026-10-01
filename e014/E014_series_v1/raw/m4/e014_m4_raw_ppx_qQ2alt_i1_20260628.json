@@ -1,0 +1,91 @@
+{
+  "version": "0.1.20260610",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "9.2466 sec.",
+  "cost": 0.020259,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "06282027-1516-0612-0000-4f127a1e86c9",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "9.2151 sec.",
+      "cost": 0.020259,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "perplexity",
+        "llm_responses",
+        "live"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "llm_responses",
+        "se": "perplexity",
+        "user_prompt": "What is retrieval probability in generative engine optimisation?",
+        "model_name": "sonar-pro",
+        "web_search": true
+      },
+      "result": [
+        {
+          "model_name": "sonar-pro",
+          "input_tokens": 18,
+          "output_tokens": 907,
+          "reasoning_tokens": 0,
+          "web_search": true,
+          "money_spent": 0.019659,
+          "datetime": "2026-06-28 20:27:24 +00:00",
+          "items": [
+            {
+              "type": "message",
+              "sections": [
+                {
+                  "type": "text",
+                  "text": "**Retrieval probability in Generative Engine Optimization (GEO) is the likelihood that a piece of content will be *pulled into the RAG pipeline* and used as a source when a generative engine answers a specific query.** In GEO, you are optimizing not just for \u201cranking\u201d but for this probability of being retrieved and then cited inside the AI-generated response.[1][3][4]\n\n---\n\n### How retrieval probability fits into GEO\n\nModern **generative engines** (e.g., AI Overviews, Perplexity, Gemini, Claude) use **Retrieval\u2011Augmented Generation (RAG)**:\n\n1. The engine expands the user\u2019s query into one or more **sub\u2011queries / synthetic queries**.[1][3]  \n2. It sends these to a search index or API and retrieves a set of candidate documents or passages (often top 5\u201310 or more).[1][3]  \n3. Those candidates are scored and **probabilistically re\u2011ranked**, and only some are fed into the final answer.[1][3]\n\nWithin this pipeline:\n\n- **Retrieval probability** = probability that your page (or passage) is:\n  - Included in the initial candidate set for one of those sub\u2011queries, and  \n  - Survives the probabilistic re\u2011ranking to become part of the context the LLM uses or cites.[1][3][4]\n\nThis is different from traditional SEO where you mainly optimize for a **deterministic ranking position** (e.g., top 3 results); in GEO, there is a **stochastic retrieval process** where multiple strong passages \u201ccompete,\u201d and which source gets used can vary run\u2011to\u2011run.[1][4]\n\n---\n\n### What determines retrieval probability?\n\nKey factors that directly affect retrieval probability in GEO:\n\n- **Visibility in underlying search results**  \n  Your content must rank high enough in the conventional index the engine calls (Google, Bing, etc.) to be in the candidate set at all.[3]  \n  Good classic SEO therefore *raises* retrieval probability.\n\n- **Semantic match & query fan\u2011out**  \n  Engines use **dense retrieval / embeddings** rather than simple keyword matching.[1]  \n  Synthetic sub\u2011queries (\u201cquery fan\u2011out\u201d) mean you need to match not just the main query but the *related questions* the engine generates.[1][2]  \n  If your content semantically aligns with those, its retrieval probability increases.\n\n- **Passage\u2011level strength (not just page\u2011level)**  \n  Dense retrievers often work on **passages** rather than whole pages.[1]  \n  Self\u2011contained sections with clear claims, evidence, and context are more likely to be retrieved and selected.[1][4]\n\n- **LLM\u2011friendliness and structure**  \n  Content that is **modular, declarative, and structured** (headings, bullet points, explicit summaries, tables, schema) is easier for LLMs to detect as relevant and cite.[2][3][4]  \n  This improves the probability that, once retrieved, it is *kept* and quoted.\n\n- **Authority, freshness, and brand signals**  \n  Probabilistic reranking often weighs **authority signals** and **freshness**.[1][3][4][5]  \n  Strong domain authority, recognizable brand, and up\u2011to\u2011date information shift the probabilities toward your content.\n\n---\n\n### GEO as \u201coptimization of retrieval probability\u201d\n\nMany GEO practitioners describe the core shift as moving:\n\n- From **\u201cHow do I get to position #1?\u201d**  \n- To **\u201cHow do I maximize the probability that my content is retrieved and cited in AI answers across many related queries?\u201d**[1][3][4]\n\nIn practical terms, that means:\n\n- Improving **baseline search visibility** (classic SEO) so you enter the candidate pool.[3][5]  \n- Designing **LLM\u2011ready content** (clear, factual, schema\u2011marked, modular) so semantic retrieval and reranking favor your passages.[2][3][4]  \n- Targeting **query fan\u2011out** and long\u2011tail questions to be retrievable for the broader set of prompts generative engines use.[1][2][5]\n\nSo when GEO articles talk about \u201cshifting visibility from rankings to retrieval probability,\u201d they are referring to this statistical chance that your content is chosen by the RAG + LLM pipeline as part of the answer, rather than merely appearing as a blue link on a SERP.[1][4]",
+                  "annotations": [
+                    {
+                      "title": "AI Search: How Generative Engine Optimization Reshapes SEO",
+                      "url": "https://ipullrank.com/probability-ai-search"
+                    },
+                    {
+                      "title": "How To Win in Generative Engine Optimization (GEO)",
+                      "url": "https://www.searchenginejournal.com/win-generative-engine-optimization-peecai-spa/550612/"
+                    },
+                    {
+                      "title": "Generative Engine Optimization - The Ultimate Guide - Qwairy",
+                      "url": "https://www.qwairy.co/guides/complete-guide-to-generative-engine-optimization"
+                    },
+                    {
+                      "title": "Generative Engine Optimization: Guide to AI Search Success",
+                      "url": "https://parachutedesign.ca/blog/generative-engine-optimization/"
+                    },
+                    {
+                      "title": "Generative Engine Optimization: Everything You Need to Know",
+                      "url": "https://mangools.com/blog/generative-engine-optimization/"
+                    },
+                    {
+                      "title": "Intro to Generative Engine Optimization for AWESOME AI ... - YouTube",
+                      "url": "https://www.youtube.com/watch?v=xgNylb7XYto"
+                    },
+                    {
+                      "title": "[PDF] GEO: Generative Engine Optimization - arXiv",
+                      "url": "https://arxiv.org/pdf/2311.09735"
+                    },
+                    {
+                      "title": "An AI Expert's Introduction to Generative Engine Optimization (GEO)",
+                      "url": "https://ai.gopubby.com/an-ai-experts-introduction-to-generative-engine-optimization-geo-e7b3cc4e64e7"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fan_out_queries": null
+        }
+      ]
+    }
+  ]
+}

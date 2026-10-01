@@ -1,0 +1,91 @@
+{
+  "version": "0.1.20260610",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "11.7640 sec.",
+  "cost": 0.023133,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "06282016-1516-0612-0000-1ff8be5d8294",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "11.7491 sec.",
+      "cost": 0.023133,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "perplexity",
+        "llm_responses",
+        "live"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "llm_responses",
+        "se": "perplexity",
+        "user_prompt": "What is Retrieval Probability in AI search?",
+        "model_name": "sonar-pro",
+        "web_search": true
+      },
+      "result": [
+        {
+          "model_name": "sonar-pro",
+          "input_tokens": 16,
+          "output_tokens": 1099,
+          "reasoning_tokens": 0,
+          "web_search": true,
+          "money_spent": 0.022533,
+          "datetime": "2026-06-28 20:16:54 +00:00",
+          "items": [
+            {
+              "type": "message",
+              "sections": [
+                {
+                  "type": "text",
+                  "text": "**Retrieval probability** in AI search is the *likelihood that a particular document or passage will be selected by the retrieval system and passed to the generative model as evidence for an answer*, given a user\u2019s query.[1][3][4][8]\n\nIn modern **AI search / RAG systems**, visibility is no longer mainly \u201cwhat rank does my page have?\u201d but \u201c*how often does my content get retrieved into the answer pipeline?*\u201d. This is what many practitioners mean by **retrieval probability**.[3][8]\n\n### How retrieval probability arises in AI search\n\nMost AI search stacks follow a multi-step pipeline:\n\n1. **Query fan-out / expansion**  \n   The original user query is turned into several *sub-queries* or variants (query fan\u2011out). Systems often generate 2\u20134 sub\u2011queries for simple prompts and up to hundreds for complex reasoning.[3][5]  \n   Each variant creates a new \u201cpath\u201d on which a document could be retrieved, contributing to its overall retrieval probability.[3][5][8]\n\n2. **Vector (semantic) retrieval**  \n   Queries and documents are converted into **embeddings** (high\u2011dimensional vectors) and matched by semantic similarity, not just keywords.[3][4][5]  \n   From potentially millions of documents, the system retrieves only the top **50\u2013200 chunks/passages** that are closest in vector space.[4][7]  \n   If your passage is not in this set, its retrieval probability for that query path is effectively **zero**.[4][7]\n\n3. **Re\u2011ranking and probabilistic scoring**  \n   Retrieved passages are **re\u2011scored** by more expensive models (cross\u2011encoders, PRP, ranking prompts) that evaluate relevance, clarity, authority, and evidentiary strength.[3][4][7]  \n   - Models may use **probabilistic ranking principles (PRP)**, comparing pairs of passages and deciding which is more relevant, framing ranking as a sequence of probability-based decisions.[3]  \n   - Some systems use **reciprocal rank fusion (RRF)** across multiple sub\u2011queries: each document\u2019s fused score depends on how often and how high it appears across different retrievals.[5]  \n\n   Because these processes involve probabilistic models and multiple stochastic choices, **which passages make the final cut can vary from run to run**, even for the same query.[3][8]  \n   This variability is exactly what creates a *distribution* over retrieval outcomes\u2014i.e., a **retrieval probability** for each passage.[3][8]\n\n4. **Generation and citation**  \n   The language model then generates an answer using only the selected passages and allocates citations.[1][3][4]  \n   Content that is retrieved frequently across many query variations has **high retrieval probability** and thus high odds of being cited and influencing answers.[1][3][4][8]  \n\n### Relationship to traditional IR and ranking\n\nIn classic information retrieval, probabilistic models estimate the **probability that a document is relevant to a query**, then rank documents accordingly.[2]  \nAI search extends this idea:\n\n- Retrieval is **chunk-level** and semantic (vector-based), not page-level and keyword-only.[3][4][5]  \n- Systems care about **frequency and persistence** of being selected across probabilistic retrieval paths, not just a single deterministic rank.[3][8]  \n- Practically, the \u201cmetric that matters\u201d for visibility is how often a passage is retrieved (its empirical retrieval probability), not its one\u2011time position.[3][8]\n\n### Why retrieval probability matters for SEO / AEO\n\nBecause AI search answers can change between runs for the same query, **rank tracking** alone is misleading.[3][8]  \nFor brands and content creators:\n\n- If your content consistently lands in the **top N retrieved chunks** across many sub\u2011queries, your **retrieval probability** is high, and you are more likely to be cited in AI answers.[1][3][4][5][8]  \n- If your content rarely or never enters those top N sets, your retrieval probability is low, and you remain invisible to AI search even if your page is strong in classic SEO terms.[1][3][4]\n\n### Factors that increase retrieval probability (practical view)\n\nPractitioners of \u201cRetrieval Layer SEO\u201d and \u201cGenerative Engine Optimization\u201d highlight several content properties that directly affect retrievability:[1][3][4][5]\n\n- **Semantic clarity and chunking**  \n  - Self-contained passages of ~200\u2013400 tokens.[4]  \n  - Clear entities and relationships; minimal vague pronouns and \u201cas mentioned above\u201d references.[4]  \n- **Direct, extractable answers**  \n  - Concise, well-structured answers early in the text.[1][4]  \n- **Trust and authority signals**  \n  - Clear authorship, transparent sourcing, dates, and up\u2011to\u2011date content.[1][4]  \n- **Consistency across queries and modalities**  \n  - Being retrieved and scored well across many sub\u2011queries and ranking methods (which RRF then rewards).[5][8]\n\nIn short, **retrieval probability** is the *effective chance that your content is selected into the AI system\u2019s evidence set for a given query (and its variations)*, governed by semantic similarity, probabilistic ranking, and trust/quality signals rather than fixed keyword-based positions.[1][2][3][4][5][8]",
+                  "annotations": [
+                    {
+                      "title": "AI Retrieval Layer Explained: How AI Finds and Chooses Content",
+                      "url": "https://www.useomnia.com/knowledge-base/ai-retrieval-layer"
+                    },
+                    {
+                      "title": "Information Retrieval & Intelligence: How It Works for AI - Splunk",
+                      "url": "https://www.splunk.com/en_us/blog/learn/information-retrieval.html"
+                    },
+                    {
+                      "title": "AI Search: How Generative Engine Optimization Reshapes SEO",
+                      "url": "https://ipullrank.com/probability-ai-search"
+                    },
+                    {
+                      "title": "Retrieval-Layer SEO: Why Most Marketers Are Losing AI Search ...",
+                      "url": "https://kurtuhlir.com/retrieval-layer-seo-why-most-marketers-are-losing-ai-search-and-how-to-win/"
+                    },
+                    {
+                      "title": "How does LLM retrieval work for AI search? (AEO Guide)",
+                      "url": "https://discoveredlabs.com/blog/how-does-llm-retrieval-work-for-ai-search-aeo-guide"
+                    },
+                    {
+                      "title": "How AI Solves the Impossible Search Problem - YouTube",
+                      "url": "https://www.youtube.com/watch?v=laaBLUxJUMY"
+                    },
+                    {
+                      "title": "Azure AI Search: Outperforming vector search with hybrid retrieval ...",
+                      "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/azure-ai-search-outperforming-vector-search-with-hybrid-retrieval-and-reranking/3929167"
+                    },
+                    {
+                      "title": "Why AI search answers change: A probabilistic game of retrieval",
+                      "url": "https://www.linkedin.com/posts/ipullrank_ever-ask-the-same-question-in-ai-search-twice-activity-7382010698966634496-8Qvu"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fan_out_queries": null
+        }
+      ]
+    }
+  ]
+}

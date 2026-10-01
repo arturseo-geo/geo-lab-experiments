@@ -1,0 +1,95 @@
+{
+  "version": "0.1.20260610",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "16.4943 sec.",
+  "cost": 0.032976,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "06282013-1516-0612-0000-451736949c49",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "16.4852 sec.",
+      "cost": 0.032976,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "perplexity",
+        "llm_responses",
+        "live"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "llm_responses",
+        "se": "perplexity",
+        "user_prompt": "Does GEO actually work?",
+        "model_name": "sonar-pro",
+        "web_search": true
+      },
+      "result": [
+        {
+          "model_name": "sonar-pro",
+          "input_tokens": 12,
+          "output_tokens": 1756,
+          "reasoning_tokens": 0,
+          "web_search": true,
+          "money_spent": 0.032376,
+          "datetime": "2026-06-28 20:13:49 +00:00",
+          "items": [
+            {
+              "type": "message",
+              "sections": [
+                {
+                  "type": "text",
+                  "text": "GEO (Generative Engine Optimization) *can* work in the sense that you can influence how often and how accurately AI systems mention or cite your brand\u2014but today it is **limited, unstable, and mostly an extension of good SEO/brand building rather than a proven new discipline**.[1][3][5][7][8]\n\nBelow is how it works, where it helps, and where the hype exceeds reality.\n\n---\n\n## 1. What \u201cworking\u201d means for GEO\n\nWhen people say \u201cGEO works,\u201d they usually mean one or more of:\n\n- **More brand mentions in AI answers** (ChatGPT, Gemini, Perplexity, Claude, Google AI Overviews, etc.)[1][3][4][5]  \n- **More citations/links from those answers to your site** (reference rate, not just rankings)[4][5]  \n- **Some incremental traffic and conversions originating from AI tools**[1][5]  \n\nThese are real, measurable outcomes: brands are seeing *AI-driven traffic spikes*, more **brand stickiness** (recognition from repeated mentions), and higher **conversion rates** from the smaller number of GEO-driven clicks because users have already \u201cdone the research\u201d in the AI tool.[1][5]\n\nSo in that narrow sense, yes\u2014GEO can work.\n\n---\n\n## 2. The important caveat: GEO is mostly SEO + entity/brand optimization\n\nMultiple sources stress that GEO is **not a fundamentally new system**; it is built on top of search and uses the same ranking and quality signals.[1][2][3][5][7][8]\n\n- AI search engines run **live queries**, expand them, validate results, and select sources much like a traditional search engine.[2][8]  \n- Google explicitly says its generative AI features are **rooted in core Search ranking and quality systems**, using RAG to pull pages from the normal index.[8]  \n- Community and practitioner consensus:  \n  - \u201cGEO is real, but its name makes it seem like a separate field when it\u2019s really just the next step in what good SEO should already be doing.\u201d[7]  \n  - \u201cIn short, yes! The best practices for SEO continue to be relevant\u2026 while terms like AEO or GEO are common, many suggested \u2018hacks\u2019 aren\u2019t effective or supported by how Google Search actually works.\u201d[8]  \n\n**Implication:**  \nIf your **technical SEO, content quality, and entity/brand signals** are strong, you\u2019re already doing most of what \u201cworks\u201d for GEO. Specialized GEO tools or \u201chacks\u201d rarely unlock a separate, magical channel.\n\n---\n\n## 3. Where GEO *does* add something new\n\nEven though it sits on top of SEO, GEO shifts the **focus and metrics**:\n\n- **From clicks to references**: Instead of only caring about ranking positions and CTR, you care about how often your brand is **named or cited** in AI outputs.[4][5]  \n- **From single queries to chained queries**: GEO content aims to remain the **authoritative source across a chain of follow-up questions**, not just the first query.[5]  \n- **From pages to entities**: You optimize the **entity (brand, product, person)** to be recognized and trusted by AI systems as the \u201cthing\u201d behind an answer.[3][4][5]  \n- New platforms (Profound, Goodie, Daydream, etc.) are emerging to:\n  - Run synthetic prompts at scale  \n  - Measure **share of voice** in AI outputs  \n  - Track sentiment and message consistency  \n  - Fine\u2011tune models to mirror brand-relevant query patterns[4][9]  \n\nThese layers don\u2019t replace SEO but can **help bigger brands manage and measure their presence in the AI layer** more systematically.[4][5][9]\n\n---\n\n## 4. Does it move the needle on traffic and revenue?\n\nEvidence so far:\n\n- AI search & chatbots do send **some** incremental traffic, but volume is still **far lower than traditional search**:\n  - \u201cAI search sends some traffic, but it\u2019s still 91% less than traditional search. Chatbots? Ninety-six percent less.\u201d[5]  \n- The **conversion rate** of those GEO-originating clicks tends to be *higher*, because:\n  - The user has already compared options in the AI interface  \n  - The click is often a late-stage, high\u2011intent visit[5]  \n\nSo GEO \u201cworks\u201d better for:\n\n- **Brand visibility and consideration** (being part of the AI-generated short list)  \n- **High-intent, lower-volume conversions** from AI-referred traffic  \n\nIt does *not* yet work as a primary growth channel comparable to classic SEO or paid search, especially for most small and mid-size sites.[5][7]\n\n---\n\n## 5. What practitioners are finding in real tests\n\nFrom SEO practitioners and marketers testing GEO:\n\n- After months of experimentation, even experienced GEO practitioners \u201cstill can\u2019t figure out what\u2019s moving the needle,\u201d because AI search behavior is built on many of the same noisy signals as search.[2][7]  \n- Most GEO tools \u201cfail at AI search visibility by focusing on reporting, not execution\u201d\u2014great dashboards but little proven ability to change whether models cite you.[9]  \n- Reddit and industry discussions broadly agree:\n  - GEO is **a mix of reality and hype**[7]  \n  - You can be #1 in Google but **still invisible in ChatGPT** for the same query, because what matters is being named by sources the model trusts (authoritative publications, entities, knowledge bases), not just your own ranking.[7]  \n\nSo far, **no one has a repeatable, universally reliable formula** for forcing LLMs to mention a given brand across topics.\n\n---\n\n## 6. Risks and failure modes\n\nSome GEO tactics clearly *do not* work long term, and can harm your organic visibility:\n\n- **Scaled, low\u2011quality content** aimed at \u201cfeeding the AI layer\u201d can cause:\n  - Short\u2011term traffic spikes  \n  - Later collapses after search algorithm updates[6][8]  \n- \u201cFake citations\u201d or manipulative content strategies that try to trick AI systems are flagged as:\n  - Risky  \n  - Misaligned with how Google\u2019s AI and ranking systems actually function[6][8]  \n- Google warns that many GEO/AEO \u201chacks\u201d are ineffective and not supported by how Search and its AI features work.[8]  \n\nIf a GEO vendor mainly sells **bulk content generation and speculative tricks**, that\u2019s a red flag.[6]\n\n---\n\n## 7. How to make GEO \u201cwork\u201d in a sensible way\n\nIf your goal is practical impact rather than hype:\n\n1. **Get your SEO fundamentals right**  \n   - Technical SEO, crawlability, structured data, and clean site architecture remain primary.[3][7][8]\n\n2. **Strengthen your entity/brand signals**  \n   - Consistent naming, schema markup, and presence on authoritative sites help AI systems recognize you as an entity worth citing.[3][5][7][8]\n\n3. **Create action\u2011oriented, how\u2011to content**  \n   - AI tools rely heavily on clear, practical \u201chow to do X\u201d resources.[1][5]  \n   - Content that enables users to *take action*, not just read information, is more likely to be used as a source.[1][5]\n\n4. **Focus on trust and authority, not hacks**  \n   - Earn mentions and links from high\u2011authority domains  \n   - Align with Google\u2019s quality guidelines instead of chasing short\u2011term GEO tricks.[7][8]\n\n5. **Measure reference rate and AI visibility**  \n   - Use GEO-oriented tools or manual prompting to track:\n     - How often you\u2019re named or cited  \n     - How your brand is described  \n     - Which competing entities get referenced instead[4][5][9]  \n\nUnder that approach, GEO \u201cworks\u201d as a **strategic extension of SEO and brand marketing**, not a standalone miracle channel.\n\n---\n\n## 8. Direct answer to your question\n\n- **Yes, GEO is real and can deliver benefits**: more AI mentions, some incremental high\u2011intent traffic, and stronger brand presence in generative interfaces.[1][4][5][7]  \n- **But no, GEO is not a mature, reliably controllable system yet**: most gains still come from classic SEO, entity optimization, and brand authority rather than GEO\u2011specific tricks or tools.[2][7][8][9]  \n- For most organizations today, the safest claim is: **GEO works best when treated as an extra visibility layer built on top of solid SEO and content practices\u2014not as \u201cthe new SEO\u201d or a shortcut to growth.**[5][7][8]",
+                  "annotations": [
+                    {
+                      "title": "Generative Engine Optimization (GEO): How It Works & How to Track It",
+                      "url": "https://www.relato.com/blog/generative-engine-optimization"
+                    },
+                    {
+                      "title": "The GEO Myth: Why AI Search Is Just SEO in Disguise - YouTube",
+                      "url": "https://www.youtube.com/watch?v=btkrk3yXYbk"
+                    },
+                    {
+                      "title": "What Is Generative Engine Optimization (GEO) & How Does It ...",
+                      "url": "https://www.seerinteractive.com/insights/what-is-generative-engine-optimization-geo"
+                    },
+                    {
+                      "title": "How Generative Engine Optimization (GEO) Rewrites the Rules of ...",
+                      "url": "https://a16z.com/geo-over-seo/"
+                    },
+                    {
+                      "title": "What is Generative Engine Optimization (GEO) and how does it ...",
+                      "url": "https://www.contentful.com/blog/generative-engine-optimization-seo/"
+                    },
+                    {
+                      "title": "Generative Engine Optimization: Is It Safe and How to Do ... - YouTube",
+                      "url": "https://www.youtube.com/watch?v=zKdjde0JYwk"
+                    },
+                    {
+                      "title": "Is GEO (Generative Engine Optimization) actually the \"\"New SEO ...",
+                      "url": "https://www.reddit.com/r/DigitalMarketing/comments/1rrlehg/is_geo_generative_engine_optimization_actually/"
+                    },
+                    {
+                      "title": "Optimizing your website for generative AI features on Google Search",
+                      "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide"
+                    },
+                    {
+                      "title": "Why Most GEO Tools Fail at AI Search Visibility (And What Actually ...",
+                      "url": "https://hackernoon.com/why-most-geo-tools-fail-at-ai-search-visibility-and-what-actually-works"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fan_out_queries": null
+        }
+      ]
+    }
+  ]
+}

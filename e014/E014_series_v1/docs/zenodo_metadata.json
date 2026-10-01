@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "upload_type": "dataset",
+    "title": "E014: System Memory Longitudinal Citation Study (Perplexity, ChatGPT, Google AI Overviews), February to September 2026",
+    "creators": [
+      {
+        "name": "Ferreira, Artur",
+        "affiliation": "The GEO Lab",
+        "orcid": "0009-0004-4072-9741"
+      }
+    ],
+    "description": "Observational longitudinal dataset, not pre-registered, deposited after series close with its full deviation log. Monthly measurement of whether Perplexity, ChatGPT and Google AI Overviews cite thegeolab.net for ten frozen queries (five concept queries, five category queries), 28 February to 28 September 2026. Tier 1 concept-query citation held at 92% to 96% for three consecutive months (M5 to M7) on a fixed instrument; category queries stayed at 0%. The M4 to M5 rise coincided with an instrument change and is not attributed to accumulation. Includes coded CSVs M2 to M7, M4 raw API responses, an M6 control-entity probe, the frozen query set, codebook and deviation log.",
+    "access_right": "open",
+    "license": "cc-by-4.0",
+    "keywords": [
+      "generative engine optimisation",
+      "GEO",
+      "AI search",
+      "citation rate",
+      "Perplexity",
+      "ChatGPT",
+      "Google AI Overviews",
+      "longitudinal",
+      "System Memory",
+      "GEO Stack"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "https://thegeolab.net/e014-month-1-citation-rate-baseline/",
+        "relation": "isDocumentedBy",
+        "resource_type": "publication-other"
+      }
+    ],
+    "language": "eng"
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "version": "0.1.20260610",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "14.0848 sec.",
+  "cost": 0.004,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "06282023-1516-0629-0000-43a80b6613ec",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "14.0286 sec.",
+      "cost": 0.004,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "chat_gpt",
+        "llm_scraper",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "llm_scraper",
+        "se": "chat_gpt",
+        "keyword": "What is Extractability in GEO?",
+        "location_name": "United Kingdom",
+        "language_code": "en",
+        "force_web_search": true,
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "What is Extractability in GEO?",
+          "location_code": 2826,
+          "language_code": "en",
+          "model": "gpt-5-5",
+          "check_url": "https://chatgpt.com/?prompt=What%20is%20Extractability%20in%20GEO%3F&hints=search",
+          "datetime": "2026-06-28 17:23:55 +00:00",
+          "markdown": "In **Generative Engine Optimization (GEO)**, **extractability** is the degree to which an AI system can isolate, understand, and reuse a specific piece of content when generating an answer. In other words, it's about whether a passage can stand on its own and be accurately quoted, summarized, or cited by an AI model. [searchengineland.com](https://searchengineland.com/guide/what-is-geo?utm_source=chatgpt.com)\n\nUnlike traditional SEO, where the goal is often to rank an entire page, GEO focuses on making **individual passages** usable by AI systems. A page might rank well in search results, but if the relevant section is difficult for an AI to interpret or separate from surrounding context, it may never appear in an AI-generated response. [searchengineland.com](https://searchengineland.com/guide/what-is-geo?utm_source=chatgpt.com)[arxiv.org](https://arxiv.org/abs/2311.09735?utm_source=chatgpt.com)\n\n### What makes content highly extractable?\n\nAI systems generally prefer content that has these characteristics:\n\n- **Answers the question immediately.** Put the key point in the first sentence or two.\n- **Self-contained paragraphs.** Each paragraph should make sense without relying on phrases like \"as mentioned above\" or \"this.\"\n- **Clear headings.** Headings should describe exactly what follows.\n- **Specific facts.** Concrete numbers, definitions, examples, and comparisons are easier to reuse than vague statements.\n- **Simple structure.** Bullet lists, tables, definitions, and step-by-step instructions are often easier to extract than long narrative prose. [searchengineland.com](https://searchengineland.com/guide/what-is-geo?utm_source=chatgpt.com)\n\n### Example\n\n**Low extractability**\n\n> After discussing several approaches above, it's clear this method works best because of those reasons.\n\nAn AI has to understand the previous paragraphs to know what \"this method\" and \"those reasons\" refer to.\n\n**High extractability**\n\n> **Extractability** is the ability of a content section to be understood and reused by an AI system without requiring additional context. Content with clear definitions, descriptive headings, and self-contained explanations is more likely to be cited.\n\nThis paragraph retains its meaning even if it's read by itself.\n\n### Why it matters in GEO\n\nModern AI search systems typically retrieve relevant passages (sometimes called \"chunks\") rather than entire web pages. Those passages are then synthesized into an answer. If a passage isn't easily interpreted on its own, it is less likely to be selected, even if the page itself is authoritative or ranks highly in traditional search. [searchengineland.com](https://searchengineland.com/guide/what-is-geo?utm_source=chatgpt.com)\n\n### Is extractability an official metric?\n\nNot exactly. \"Extractability\" is a term that's becoming common in the GEO community, but there is **no universal industry standard or formal metric** used by all AI platforms. Different researchers and practitioners define and measure it slightly differently. The underlying idea\u2014that content should be easy for retrieval-augmented AI systems to isolate and reuse\u2014is well aligned with how modern AI search systems work, even though the specific term isn't an official ranking signal published by companies like OpenAI or Google. [searchengineland.com](https://searchengineland.com/guide/what-is-geo?utm_source=chatgpt.com)[arxiv.org](https://arxiv.org/abs/2311.09735?utm_source=chatgpt.com)",
+          "search_results": [
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://thegeolab.net/extractability/?utm_source=chatgpt.com",
+              "domain": "thegeolab.net",
+              "title": "Extractability in GEO: What It Is and How to Protect It",
+              "description": "EXTRACTABILITY IN GEO: WHAT IT IS AND HOW TO PROTECT IT  GEO Stack Layers  Overview \u00b7 Retrieval Probability \u00b7 Extractability \u00b7 Entity Reinforcement \u00b7 Structural Authority \u00b7 System Memory  By Artur Fe...",
+              "breadcrumb": "thegeolab.net"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://thegeolab.net/what-is-generative-engine-optimisation/?utm_source=chatgpt.com",
+              "domain": "thegeolab.net",
+              "title": "What Is Generative Engine Optimisation? \u2014 The GEO Lab Guide",
+              "description": "WHAT IS GENERATIVE ENGINE OPTIMISATION? \u2014 THE GEO LAB GUIDE  By Artur Ferreira \u00b7 The GEO Lab \u00b7 Last updated: 12 March 2026  What Is Generative Engine Optimisation? The Complete GEO Guide  How AI sear...",
+              "breadcrumb": "thegeolab.net"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://thegeolab.net/field-manual/?utm_source=chatgpt.com",
+              "domain": "thegeolab.net",
+              "title": "GEO Field Manual \u2014 Practical GEO Guide",
+              "description": "GEO FIELD MANUAL: THE COMPLETE PRACTITIONER GUIDE  The GEO Field Manual is the most comprehensive free resource on Generative Engine Optimisation \u2014 a full practitioner guide covering all five GEO Stac...",
+              "breadcrumb": "thegeolab.net"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://thegeolab.net/?utm_source=chatgpt.com",
+              "domain": "thegeolab.net",
+              "title": "The GEO Lab \u2014 Generative Engine Optimisation Research",
+              "description": "THE GEO LAB \u2014 ENGINEERING SEARCH FOR THE GENERATIVE ERA  Last updated: 3 March 2026 \u00b7 Revised with latest GEO research and updated comparison data.  The GEO Lab studies how content is retrieved, extr...",
+              "breadcrumb": "thegeolab.net"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://geo.wiki/?utm_source=chatgpt.com",
+              "domain": "geo.wiki",
+              "title": "Generative Engine Optimization Encyclopedia \u00b7 GEO Wiki",
+              "description": "GENERATIVE ENGINE OPTIMIZATION  * * *  Generative Engine Optimization (GEO) is the practice of making content discoverable, accurate, and citable inside AI-generated answers \u2014 the synthesized respons...",
+              "breadcrumb": "geo.wiki"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://nrlc.ai/en-us/generative-engine-optimization/extractability/?utm_source=chatgpt.com",
+              "domain": "nrlc.ai",
+              "title": "Extractability in Generative Search",
+              "description": "EXTRACTABILITY IN GENERATIVE SEARCH  The foundation of generative visibility  Definition:  Extractability is the degree to which a piece of content can be interpreted, isolated, compressed, and reuse...",
+              "breadcrumb": "nrlc.ai"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.muratulusoy.de/en/glossary/geo.html?utm_source=chatgpt.com",
+              "domain": "www.muratulusoy.de",
+              "title": "GEO - Generative Engine Optimization Explained \u00b7 Murat Ulusoy",
+              "description": "GENERATIVE ENGINE OPTIMIZATION (GEO)  Generative Engine Optimization is the discipline that builds content, entities and technical infrastructure so that generative search systems - ChatGPT, Perplexi...",
+              "breadcrumb": "muratulusoy.de"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://vydera.com/en/glossary/geo-generative-engine-optimization?utm_source=chatgpt.com",
+              "domain": "vydera.com",
+              "title": "GEO (Generative Engine Optimization): definition and complete guide | Vydera",
+              "description": "WHAT IS GEO (GENERATIVE ENGINE OPTIMIZATION)?  Definition  GEO (Generative Engine Optimization) is the practice of optimizing a brand's presence and visibility in AI-generated responses from platform...",
+              "breadcrumb": "vydera.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.shadow.inc/resources/what-is-geo?utm_source=chatgpt.com",
+              "domain": "www.shadow.inc",
+              "title": "What is Generative Engine Optimization (GEO)? | Shadow",
+              "description": "WHAT IS GENERATIVE ENGINE OPTIMIZATION (GEO)?  Generative Engine Optimization (GEO) is the practice of structuring web content so AI search engines like ChatGPT and Perplexity cite it.  Last updated:...",
+              "breadcrumb": "shadow.inc"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.promptarchitect.app/blog/what-is-geo-generative-engine-optimization?utm_source=chatgpt.com",
+              "domain": "www.promptarchitect.app",
+              "title": "What is GEO? Generative Engine Optimization Explained (2026)",
+              "description": "WHAT IS GEO? GENERATIVE ENGINE OPTIMIZATION EXPLAINED (2026)  Generative Engine Optimization (GEO) defined: what it is, how it differs from AEO and SEO, and the 2026 playbook for earning citations in...",
+              "breadcrumb": "promptarchitect.app"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://authoritytech.io/glossary/geo?utm_source=chatgpt.com",
+              "domain": "authoritytech.io",
+              "title": "GEO \u2014 Definition | AuthorityTech Glossary",
+              "description": "Defined term  GEO  Generative Engine Optimization \u2014 the practice of structuring and distributing content so generative AI engines cite it in synthesized answers.  GEO stands for Generative Engine Opt...",
+              "breadcrumb": "authoritytech.io"
+            }
+          ],
+          "sources": [
+            {
+              "type": "chat_gpt_source",
+              "title": "Generative engine optimization (GEO): How to win AI mentions",
+              "snippet": null,
+              "domain": "searchengineland.com",
+              "url": "https://searchengineland.com/guide/what-is-geo?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "Search Engine Land",
+              "publication_date": "2026-02-11 00:00:00 +00:00",
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "GEO: Generative Engine Optimization",
+              "snippet": null,
+              "domain": "arxiv.org",
+              "url": "https://arxiv.org/abs/2311.09735?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "arXiv",
+              "publication_date": "2023-11-16 10:06:09 +00:00",
+              "markdown": null
+            }
+          ],
+          "fan_out_queries": null,
+          "brand_entities": null,
+          "se_results_count": 0,
+          "item_types": [
+            "chat_gpt_text"
+          ],
+          "items_count": 1,
+          "items": [
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "markdown": "In **Generative Engine Optimization (GEO)**, **extractability** is the degree to which an AI system can isolate, understand, and reuse a specific piece of content when generating an answer. In other words, it's about whether a passage can stand on its own and be accurately quoted, summarized, or cited by an AI model. [searchengineland.com](https://searchengineland.com/guide/what-is-geo?utm_source=chatgpt.com)\n\nUnlike traditional SEO, where the goal is often to rank an entire page, GEO focuses on making **individual passages** usable by AI systems. A page might rank well in search results, but if the relevant section is difficult for an AI to interpret or separate from surrounding context, it may never appear in an AI-generated response. [searchengineland.com](https://searchengineland.com/guide/what-is-geo?utm_source=chatgpt.com)[arxiv.org](https://arxiv.org/abs/2311.09735?utm_source=chatgpt.com)\n\n### What makes content highly extractable?\n\nAI systems generally prefer content that has these characteristics:\n\n- **Answers the question immediately.** Put the key point in the first sentence or two.\n- **Self-contained paragraphs.** Each paragraph should make sense without relying on phrases like \"as mentioned above\" or \"this.\"\n- **Clear headings.** Headings should describe exactly what follows.\n- **Specific facts.** Concrete numbers, definitions, examples, and comparisons are easier to reuse than vague statements.\n- **Simple structure.** Bullet lists, tables, definitions, and step-by-step instructions are often easier to extract than long narrative prose. [searchengineland.com](https://searchengineland.com/guide/what-is-geo?utm_source=chatgpt.com)\n\n### Example\n\n**Low extractability**\n\n> After discussing several approaches above, it's clear this method works best because of those reasons.\n\nAn AI has to understand the previous paragraphs to know what \"this method\" and \"those reasons\" refer to.\n\n**High extractability**\n\n> **Extractability** is the ability of a content section to be understood and reused by an AI system without requiring additional context. Content with clear definitions, descriptive headings, and self-contained explanations is more likely to be cited.\n\nThis paragraph retains its meaning even if it's read by itself.\n\n### Why it matters in GEO\n\nModern AI search systems typically retrieve relevant passages (sometimes called \"chunks\") rather than entire web pages. Those passages are then synthesized into an answer. If a passage isn't easily interpreted on its own, it is less likely to be selected, even if the page itself is authoritative or ranks highly in traditional search. [searchengineland.com](https://searchengineland.com/guide/what-is-geo?utm_source=chatgpt.com)\n\n### Is extractability an official metric?\n\nNot exactly. \"Extractability\" is a term that's becoming common in the GEO community, but there is **no universal industry standard or formal metric** used by all AI platforms. Different researchers and practitioners define and measure it slightly differently. The underlying idea\u2014that content should be easy for retrieval-augmented AI systems to isolate and reuse\u2014is well aligned with how modern AI search systems work, even though the specific term isn't an official ranking signal published by companies like OpenAI or Google. [searchengineland.com](https://searchengineland.com/guide/what-is-geo?utm_source=chatgpt.com)[arxiv.org](https://arxiv.org/abs/2311.09735?utm_source=chatgpt.com)",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Generative engine optimization (GEO): How to win AI mentions",
+                  "snippet": null,
+                  "domain": "searchengineland.com",
+                  "url": "https://searchengineland.com/guide/what-is-geo?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "Search Engine Land",
+                  "publication_date": "2026-02-11 00:00:00 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "GEO: Generative Engine Optimization",
+                  "snippet": null,
+                  "domain": "arxiv.org",
+                  "url": "https://arxiv.org/abs/2311.09735?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "arXiv",
+                  "publication_date": "2023-11-16 10:06:09 +00:00",
+                  "markdown": null
+                }
+              ],
+              "brand_entities": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

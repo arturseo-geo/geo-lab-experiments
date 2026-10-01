@@ -1,0 +1,95 @@
+{
+  "version": "0.1.20260610",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "17.8487 sec.",
+  "cost": 0.036456,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "06282014-1516-0612-0000-157b026c8d75",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "17.7908 sec.",
+      "cost": 0.036456,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "perplexity",
+        "llm_responses",
+        "live"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "llm_responses",
+        "se": "perplexity",
+        "user_prompt": "How do AI search engines select content to cite?",
+        "model_name": "sonar-pro",
+        "web_search": true
+      },
+      "result": [
+        {
+          "model_name": "sonar-pro",
+          "input_tokens": 17,
+          "output_tokens": 1987,
+          "reasoning_tokens": 0,
+          "web_search": true,
+          "money_spent": 0.035856,
+          "datetime": "2026-06-28 20:14:36 +00:00",
+          "items": [
+            {
+              "type": "message",
+              "sections": [
+                {
+                  "type": "text",
+                  "text": "AI search engines select content to cite by adding an extra **filtering and interpretation layer** on top of traditional search: they first understand the query, retrieve many candidates, then pick only the pages that are **relevant, clear, verifiable, well\u2011structured, neutral, and trustworthy enough to safely stand in as evidence**.[2][4][6]\n\nBelow is how that process typically works and what criteria matter.\n\n---\n\n## 1. Overall process: from query to citation\n\nMost AI search engines follow a similar pipeline:[2][6][9]\n\n1. **Query understanding**  \n   - Use NLP and semantic search to interpret the user\u2019s intent, entities, and context, not just keywords.[6]  \n   - Reformulate or expand the query internally to cover related concepts.\n\n2. **Source retrieval (recall layer)**  \n   - Pull candidate documents from web indexes and other data sources using semantic and keyword search.[2][6]  \n   - This step still relies on conventional ranking signals (links, relevance, etc.), but its goal is to build a *pool* of potential evidence, not decide the final citations.[4]\n\n3. **Content selection (filtering layer)**  \n   - From that pool, the system prioritizes content that is **clear, authoritative, well\u2011structured, and easy to summarize accurately**.[2][6]  \n   - It rejects sources that are too promotional, ambiguous, speculative, or structurally messy.[1][2][4]\n\n4. **Answer generation**  \n   - The LLM synthesizes an answer from the selected evidence, aiming for a direct, concise response that reflects the mainstream or most credible understanding.[2][6]\n\n5. **Citation attachment**  \n   - The engine attaches citations to specific parts of the answer, usually choosing the sources that best support each statement or definition.[2][6][9]  \n   - Some engines provide multiple citations per claim (e.g., Perplexity) while others give a few representative links.[3][6][7]\n\nThe key difference from \u201cclassic\u201d search is that the engine is **designed to answer, not just list pages**, so citation requires an extra editorial judgment: *Can this page safely represent this idea?*[2]\n\n---\n\n## 2. Core selection criteria\n\n### a) Relevance to the exact question\n\n- Pages must closely match the **specific question**, not just the broad topic.[1]  \n- Content that focuses on **one clear concept or task** (e.g., \u201chow AI search engines select content to cite\u201d) is easier to retrieve and reuse than mixed-topic or generic pages.[1][4]  \n- AI engines increasingly reward pages that answer full, natural\u2011language questions directly, because that aligns with how users now query (\u201cHow do I\u2026?\u201d instead of short keyword strings).[4]\n\n### b) Clarity and \u201creference\u2011grade\u201d writing\n\nAI systems favor content that can **stand in as a reference** with minimal reinterpretation:[2][3]\n\n- **Represents an idea clearly**: concise explanations that don\u2019t require heavy caveats.[2]  \n- **Can be summarized safely**: condensing the content should not distort its meaning or introduce risk.[2]  \n- **Citation\u2011grade prose**: structured summaries, clear terminology, and content that reads more like a reference section than a marketing or narrative piece.[3]  \n\nNarrative\u2011first, story\u2011heavy pages are less likely to be cited, even if they rank well, because they are harder to quote or compress into factual snippets.[3]\n\n### c) Verifiability and corroboration\n\n- Pages that present **clear facts, definitions, or stepwise explanations** that can be checked against other reliable sources are more likely to be cited.[1][2]  \n- Engines look for **alignment with established understanding**, preferring explanations consistent with other trusted sources rather than fringe or contradictory takes.[2]  \n- Authority increasingly comes from **corroboration across multiple sources**, not from backlinks or popularity alone.[1]\n\n### d) Neutrality and risk minimization\n\n- AI systems avoid pages that are **overly persuasive, opinion\u2011heavy, or promotional**, because they are harder to reuse safely in diverse contexts and increase the risk of biased or misleading answers.[1]  \n- **Neutral, descriptive language** is easier to ground and less likely to cause \u201challucinations\u201d when summarized.[1][2]\n\n### e) Structure and extractability\n\nEngines need to reliably extract the right snippet without misinterpreting it:\n\n- **Clear headings and logical flow** help the model locate and isolate relevant sections.[1]  \n- **Answer\u2011first structure**\u2014where sections open with a direct answer\u2014is strongly favored in systems like Google\u2019s AI Overviews, which often pull from the beginning of content blocks.[4]  \n- Pages with **standalone sections** that can work in isolation (each answering a sub\u2011question directly) are easier to reuse.[4]  \n\nA top\u2011ranking page can still be skipped if the answer is buried, gated, or structurally opaque.[4]\n\n### f) Freshness and durability\n\n- For fast\u2011changing topics, **recency** and evidence of updates matter; AI systems prefer content aligned with current understanding.[1][4]  \n- They especially favor **principle\u2011based, conceptual, and foundational explanations** that remain valid over time, as these can be reused across many queries without going stale.[2]\n\n### g) Expertise and trust (E\u2011E\u2011A\u2011T)\n\nGoogle and similar systems apply E\u2011E\u2011A\u2011T (Experience, Expertise, Authoritativeness, Trustworthiness) as a **binary gate** for AI citations:[4]\n\n- Analysis of thousands of AI Overview citations found that **96% came from sources with strong E\u2011E\u2011A\u2011T signals** (clear author attribution, expert credentials, reputable site, etc.).[4]  \n- If a page does not demonstrate documented expertise or trust signals, it often never enters the citation pool, even if it ranks organically.[4]\n\n---\n\n## 3. Page\u2011level vs domain\u2011level decisions\n\n- AI systems **select pages, not entire domains**: citation eligibility can vary widely within the same site depending on how each page is written and structured.[1][3]  \n- That said, engines do develop **domain preferences**\u2014an \u201ceditorial identity\u201d describing which sites they trust for which intent types.[3][6][7]  \n  - For example, one analysis found ChatGPT Search strongly prefers **Wikipedia** for education, recommendations, comparisons, and purchase intents, favoring reference\u2011style content.[3]  \n  - Different AI engines show distinct patterns: some lean toward news sites, others toward community discussions, YouTube, or expert blogs.[3][6][7]\n\nIn practice, the model often cites sources that **look like the sources it already trusts**, reinforcing existing editorial patterns.[3]\n\n---\n\n## 4. Engine\u2011specific citation behaviors\n\nDifferent AI search tools apply the general logic above with their own biases:[3][5][6][7]\n\n- **ChatGPT Search**  \n  - Uses live web retrieval, actively looking for citation\u2011ready sources rather than relying solely on training data.[3]  \n  - Prefers **Wikipedia and reference\u2011grade prose** across many intents.[3][6]\n\n- **Google AI Overviews (Gemini in search)**  \n  - Adds filters on top of traditional ranking: **extractability, E\u2011E\u2011A\u2011T strength, freshness, and answer\u2011first structure**.[4]  \n  - May skip even top organic results if the answer is buried or author information is unclear.[4]  \n\n- **Perplexity**  \n  - Emphasizes **multi\u2011citation**, showing several sources per claim and drawing from editorials, reviews, affiliate sites, user\u2011generated content, and blogs when relevant.[6][7]\n\n- **Others (various generative search tools)**  \n  - Exhibit mixed citation practices, sometimes fabricating links or pointing to syndicated copies rather than original news sources, revealing current weaknesses in citation resolution.[5]\n\nCitation styles also vary: some engines show in\u2011line numbered references, others side\u2011panel sources, and some are starting to include or omit citations selectively depending on answer confidence.[7]\n\n---\n\n## 5. Practical implications for content creators\n\nIf you care about having your content cited by AI search engines (sometimes called **GEO \u2013 Generative Engine Optimization**), research indicates you should:[1][2][4][8][9]\n\n- **Answer clearly and early**: Put a direct, explicit answer in the first 1\u20132 sentences of the page or section.  \n- **Use a question\u2011aligned structure**: Organize content around the actual questions users ask, with standalone sections for each.  \n- **Write reference\u2011grade explanations**: Prioritize clarity, definitions, and stepwise reasoning over pure storytelling or sales copy.  \n- **Demonstrate expertise and trust**: Show author credentials, cite your own sources, and maintain a reputable, well\u2011maintained site.  \n- **Keep content neutral and factual**: Reduce hype and opinion density; separate analysis from facts.  \n- **Improve entity clarity**: Describe what your product, company, or concept *is* in precise terms (e.g., \u201cX is a project management tool\u2026\u201d rather than vague marketing language).[8]  \n- **Maintain freshness**: Update content where facts can go out of date; favor durable explanations for evergreen topics.\n\n---\n\n## 6. Limitations and current citation problems\n\nResearch and audits also show that current AI search engines have **citation flaws**:[5][7]\n\n- They often **cite the wrong articles**, especially with syndicated content, or link to copies instead of originals.[5]  \n- Some engines ignore or mishandle **robots.txt / Robot Exclusion Protocol**, raising concerns about publisher control over being cited or used for training",
+                  "annotations": [
+                    {
+                      "title": "How AI Selects Sites To Cite in SEO - Wellows (2026 Guide)",
+                      "url": "https://wellows.com/blog/how-ai-selects-sites-to-cite/"
+                    },
+                    {
+                      "title": "How AI Search Engines Decide What to Cite - Neptune Web",
+                      "url": "https://www.neptuneweb.com/blog/how-ai-search-engines-decide-what-to-cite-and-why-its-changing-search"
+                    },
+                    {
+                      "title": "How AI Engines Choose and Cite Sources: A 7-Month Analysis",
+                      "url": "https://www.conductor.com/academy/how-ai-citations-differ/"
+                    },
+                    {
+                      "title": "How to build content that AI search engines actually cite",
+                      "url": "https://fiftyfiveandfive.com/resources/how-to-build-content-that-ai-search-engines-actually-cite/"
+                    },
+                    {
+                      "title": "AI Search Has a Citation Problem - Columbia Journalism Review",
+                      "url": "https://www.cjr.org/tow_center/we-compared-eight-ai-search-engines-theyre-all-bad-at-citing-news.php"
+                    },
+                    {
+                      "title": "how AI Search engines generate, select, and cite responses for ...",
+                      "url": "https://www.linkedin.com/pulse/how-ai-search-engines-generate-select-cite-responses-queries-misra-ptgqc"
+                    },
+                    {
+                      "title": "What sources do AI Search Engines cite? Analysis of 40k responses ...",
+                      "url": "https://www.xfunnel.ai/blog/what-sources-do-ai-search-engines-choose"
+                    },
+                    {
+                      "title": "How to Get Your Website Cited by AI Search Engines",
+                      "url": "https://www.freshboost.co/blogs/how-ai-search-engines-choose-which-websites-to-cite"
+                    },
+                    {
+                      "title": "How do AI search engines choose which sources to cite? - Reddit",
+                      "url": "https://www.reddit.com/r/GEO_FAQ/comments/1uah8ia/how_do_ai_search_engines_choose_which_sources_to/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fan_out_queries": null
+        }
+      ]
+    }
+  ]
+}

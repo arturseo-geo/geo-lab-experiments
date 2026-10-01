@@ -1,0 +1,263 @@
+{
+  "version": "0.1.20260610",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "69.1205 sec.",
+  "cost": 0.004,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "06282018-1516-0629-0000-ffe0fbc6eafc",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "69.0696 sec.",
+      "cost": 0.004,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "chat_gpt",
+        "llm_scraper",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "llm_scraper",
+        "se": "chat_gpt",
+        "keyword": "What is GEO (Generative Engine Optimisation)?",
+        "location_name": "United Kingdom",
+        "language_code": "en",
+        "force_web_search": true,
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "What is GEO (Generative Engine Optimisation)?",
+          "location_code": 2826,
+          "language_code": "en",
+          "model": "gpt-5-5",
+          "check_url": "https://chatgpt.com/?prompt=What%20is%20GEO%20%28Generative%20Engine%20Optimisation%29%3F&hints=search",
+          "datetime": "2026-06-28 17:19:36 +00:00",
+          "markdown": "**Generative Engine Optimisation (GEO)** is the practice of creating and structuring content so that AI-powered systems are more likely to **find, understand, trust, and cite** it when generating answers. Instead of optimizing for a high position in traditional search results, GEO aims to increase the chances that your content is incorporated into AI-generated responses. [geodocs.dev](https://geodocs.dev/geo/what-is-geo?utm_source=chatgpt.com)[arxiv.org](https://arxiv.org/abs/2311.09735?utm_source=chatgpt.com)\n\n### How GEO differs from SEO\n\nAlthough GEO builds on many SEO principles, they have different goals:\n\n| SEO | GEO |\n|------|------|\n| Optimizes for search engine rankings | Optimizes for inclusion in AI-generated answers |\n| Success is measured by rankings and clicks | Success is measured by citations, mentions, and recommendations in AI responses |\n| Focuses on keywords, backlinks, and technical SEO | Focuses on clarity, authority, structured information, and answer-ready content |\n\n\nIn practice, strong SEO often supports GEO, but it doesn't guarantee that AI systems will use your content. [geodocs.dev](https://geodocs.dev/geo/what-is-geo?utm_source=chatgpt.com)[arxiv.org](https://arxiv.org/abs/2311.09735?utm_source=chatgpt.com)\n\n### Why GEO has become important\n\nMore people are asking questions directly to AI assistants rather than clicking through multiple search results. AI systems typically:\n\n- Retrieve information from multiple sources.\n- Compare and synthesize those sources.\n- Generate a direct answer.\n- Sometimes cite or link to the sources they used.\n\nBusinesses and publishers therefore want their content to be among the sources AI systems consider authoritative enough to reference. [geodocs.dev](https://geodocs.dev/geo/what-is-geo?utm_source=chatgpt.com)[arxiv.org](https://arxiv.org/abs/2311.09735?utm_source=chatgpt.com)\n\n### What makes content GEO-friendly?\n\nWhile no one can guarantee that an AI system will cite a page, practices commonly associated with GEO include:\n\n- Writing clear, direct answers to common questions.\n- Organizing content with descriptive headings.\n- Supporting factual claims with reliable sources.\n- Demonstrating expertise and topical depth.\n- Keeping information accurate and up to date.\n- Using structured data where appropriate.\n- Building a consistent, trustworthy presence across the web, not just on your own website. [geodocs.dev](https://geodocs.dev/geo/what-is-geo?utm_source=chatgpt.com)\n\n### Is GEO a separate discipline?\n\nThe term was introduced in a 2023 academic paper, which explored methods for improving the visibility of content in generative search systems and showed that certain optimization strategies could significantly increase how often content appeared in AI-generated responses. Since then, the concept has been widely adopted in digital marketing. [geodocs.dev](https://geodocs.dev/geo/what-is-geo?utm_source=chatgpt.com)[arxiv.org](https://arxiv.org/abs/2311.09735?utm_source=chatgpt.com)\n\n### An example\n\nSuppose someone asks an AI assistant:\n\n> \"What's the best way to reduce household energy bills?\"\n\nA traditional SEO strategy aims to have your article rank on the first page of search results.\n\nA GEO strategy aims to have the AI assistant summarize your advice and cite your guide as one of the sources used to answer the question.\n\n### Looking ahead\n\nGEO is still evolving because AI systems differ in how they retrieve information, evaluate sources, and generate answers. Rather than replacing SEO, it's generally viewed as an additional layer of optimization for an AI-assisted search landscape. The most durable approach is to publish accurate, well-structured, authoritative content that is useful to people first\u2014and readily understandable by AI systems second. [geodocs.dev](https://geodocs.dev/geo/what-is-geo?utm_source=chatgpt.com)[arxiv.org](https://arxiv.org/abs/2311.09735?utm_source=chatgpt.com)",
+          "search_results": [
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.deeplumen.com/glossary/generative-engine-optimization/?utm_source=chatgpt.com",
+              "domain": "www.deeplumen.com",
+              "title": "Generative Engine Optimization: Definition and GEO Relevance | DeepLumen",
+              "description": "DeepLumen Glossary  GENERATIVE ENGINE OPTIMIZATION  Generative engine optimization is the practice of improving the likelihood that AI answer engines retrieve, summarize, cite, and recommend a brand'...",
+              "breadcrumb": "deeplumen.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.muratulusoy.de/en/glossary/geo.html?utm_source=chatgpt.com",
+              "domain": "www.muratulusoy.de",
+              "title": "GEO - Generative Engine Optimization Explained \u00b7 Murat Ulusoy",
+              "description": "GENERATIVE ENGINE OPTIMIZATION (GEO)  Generative Engine Optimization is the discipline that builds content, entities and technical infrastructure so that generative search systems - ChatGPT, Perplexi...",
+              "breadcrumb": "muratulusoy.de"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.novabrandworks.com/blog/what-is-geo-generative-engine-optimization?utm_source=chatgpt.com",
+              "domain": "www.novabrandworks.com",
+              "title": "What is GEO? Generative Engine Optimization Defined for 2026",
+              "description": "WHAT IS GEO? GENERATIVE ENGINE OPTIMIZATION DEFINED FOR 2026  ImageDani Furmenek  May 3, 2026  7 min read  WHAT GEO ACTUALLY MEANS  Generative Engine Optimization (GEO) is the practice of making your...",
+              "breadcrumb": "novabrandworks.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://geo-guide.org/what-is-geo/?utm_source=chatgpt.com",
+              "domain": "geo-guide.org",
+              "title": "What is Generative Engine Optimization (GEO)? | GEO Guide",
+              "description": "WHAT IS GENERATIVE ENGINE OPTIMIZATION (GEO)?  The complete guide to making your brand the answer in AI search  Last updated: September 2025  DEFINITION  Generative Engine Optimization (GEO) is the p...",
+              "breadcrumb": "geo-guide.org"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.shadow.inc/resources/what-is-geo?utm_source=chatgpt.com",
+              "domain": "www.shadow.inc",
+              "title": "What is Generative Engine Optimization (GEO)? | Shadow",
+              "description": "WHAT IS GENERATIVE ENGINE OPTIMIZATION (GEO)?  Generative Engine Optimization (GEO) is the practice of structuring web content so AI search engines like ChatGPT and Perplexity cite it.  Last updated:...",
+              "breadcrumb": "shadow.inc"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://vydera.com/en/glossary/geo-generative-engine-optimization?utm_source=chatgpt.com",
+              "domain": "vydera.com",
+              "title": "GEO (Generative Engine Optimization): definition and complete guide | Vydera",
+              "description": "WHAT IS GEO (GENERATIVE ENGINE OPTIMIZATION)?  Definition  GEO (Generative Engine Optimization) is the practice of optimizing a brand's presence and visibility in AI-generated responses from platform...",
+              "breadcrumb": "vydera.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.otterlabs.co.uk/knowledge/what-is-geo?utm_source=chatgpt.com",
+              "domain": "www.otterlabs.co.uk",
+              "title": "What Is GEO? Generative Engine Optimisation Explained | Otter Labs",
+              "description": "WHAT IS GEO? HOW TO GET YOUR BUSINESS RECOMMENDED BY CHATGPT AND GOOGLE AI  22 Apr  Written By Phill Maddick  YouTube video player  * * *  Open Google right now and type a question, not a keyword. So...",
+              "breadcrumb": "otterlabs.co.uk"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.xictron.com/en/knowledge/geo/?utm_source=chatgpt.com",
+              "domain": "www.xictron.com",
+              "title": "GEO: Generative Engine Optimization Explained | XICTRON\u00ae",
+              "description": "GEO (GENERATIVE ENGINE OPTIMIZATION)  Topic: AI & GEO\u2022June 1, 2026  Back to knowledge base  Definition  Generative Engine Optimization (GEO) refers to measures that prepare website content so that AI...",
+              "breadcrumb": "xictron.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.1digitalagency.com/glossary/geo/?utm_source=chatgpt.com",
+              "domain": "www.1digitalagency.com",
+              "title": "GEO (Generative Engine Optimization) Definition | 1Digital\u00ae",
+              "description": "AI SEO Glossary  WHAT IS GEO?  1. Home 2. \u203a 3. AI SEO Glossary 4. \u203a 5. GEO  TL;DR \u2014 GEO (Generative Engine Optimization) is the umbrella discipline of optimizing for generative-AI surfaces \u2014 covering...",
+              "breadcrumb": "1digitalagency.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://aisearchglossary.com/terms/generative-engine-optimization?utm_source=chatgpt.com",
+              "domain": "aisearchglossary.com",
+              "title": "Generative Engine Optimization | GEO Glossary",
+              "description": "/terms/generative-engine-optimization \u00b7 5 min read \u00b7 foundational  GENERATIVE ENGINE OPTIMIZATION  Generative Engine Optimization (GEO) is the practice of structuring web content so that generative A...",
+              "breadcrumb": "aisearchglossary.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://elevam.es/en/geo-glossary/?utm_source=chatgpt.com",
+              "domain": "elevam.es",
+              "title": "Generative Engine Optimization (GEO): glossary, metrics and RAG",
+              "description": "GEO Glossary  GENERATIVE ENGINE OPTIMIZATION (GEO): METRICS GLOSSARY AND CONCEPTS  ByAsier L\u00f3pez Ruiz\u00b7CEO  What is GEO  WHAT IS GENERATIVE ENGINE OPTIMIZATION (GEO)?  Generative Engine Optimization (...",
+              "breadcrumb": "elevam.es"
+            }
+          ],
+          "sources": [
+            {
+              "type": "chat_gpt_source",
+              "title": "What Is GEO? Generative Engine Optimization Defined | Geodocs.dev",
+              "snippet": null,
+              "domain": "geodocs.dev",
+              "url": "https://geodocs.dev/geo/what-is-geo?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "Geodocs",
+              "publication_date": null,
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "GEO: Generative Engine Optimization",
+              "snippet": null,
+              "domain": "arxiv.org",
+              "url": "https://arxiv.org/abs/2311.09735?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "arXiv",
+              "publication_date": "2023-11-16 10:06:09 +00:00",
+              "markdown": null
+            }
+          ],
+          "fan_out_queries": null,
+          "brand_entities": null,
+          "se_results_count": 0,
+          "item_types": [
+            "chat_gpt_text",
+            "chat_gpt_table"
+          ],
+          "items_count": 3,
+          "items": [
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "markdown": "**Generative Engine Optimisation (GEO)** is the practice of creating and structuring content so that AI-powered systems are more likely to **find, understand, trust, and cite** it when generating answers. Instead of optimizing for a high position in traditional search results, GEO aims to increase the chances that your content is incorporated into AI-generated responses. [geodocs.dev](https://geodocs.dev/geo/what-is-geo?utm_source=chatgpt.com)[arxiv.org](https://arxiv.org/abs/2311.09735?utm_source=chatgpt.com)\n\n### How GEO differs from SEO\n\nAlthough GEO builds on many SEO principles, they have different goals:\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "What Is GEO? Generative Engine Optimization Defined | Geodocs.dev",
+                  "snippet": null,
+                  "domain": "geodocs.dev",
+                  "url": "https://geodocs.dev/geo/what-is-geo?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "Geodocs",
+                  "publication_date": null,
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "GEO: Generative Engine Optimization",
+                  "snippet": null,
+                  "domain": "arxiv.org",
+                  "url": "https://arxiv.org/abs/2311.09735?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "arXiv",
+                  "publication_date": "2023-11-16 10:06:09 +00:00",
+                  "markdown": null
+                }
+              ],
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_table",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "text": null,
+              "markdown": "| SEO | GEO |\n|------|------|\n| Optimizes for search engine rankings | Optimizes for inclusion in AI-generated answers |\n| Success is measured by rankings and clicks | Success is measured by citations, mentions, and recommendations in AI responses |\n| Focuses on keywords, backlinks, and technical SEO | Focuses on clarity, authority, structured information, and answer-ready content |\n\n",
+              "table": {
+                "table_header": [
+                  "SEO",
+                  "GEO"
+                ],
+                "table_content": [
+                  [
+                    "Optimizes for search engine rankings",
+                    "Optimizes for inclusion in AI-generated answers"
+                  ],
+                  [
+                    "Success is measured by rankings and clicks",
+                    "Success is measured by citations, mentions, and recommendations in AI responses"
+                  ],
+                  [
+                    "Focuses on keywords, backlinks, and technical SEO",
+                    "Focuses on clarity, authority, structured information, and answer-ready content"
+                  ]
+                ]
+              },
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "markdown": "\nIn practice, strong SEO often supports GEO, but it doesn't guarantee that AI systems will use your content. [geodocs.dev](https://geodocs.dev/geo/what-is-geo?utm_source=chatgpt.com)[arxiv.org](https://arxiv.org/abs/2311.09735?utm_source=chatgpt.com)\n\n### Why GEO has become important\n\nMore people are asking questions directly to AI assistants rather than clicking through multiple search results. AI systems typically:\n\n- Retrieve information from multiple sources.\n- Compare and synthesize those sources.\n- Generate a direct answer.\n- Sometimes cite or link to the sources they used.\n\nBusinesses and publishers therefore want their content to be among the sources AI systems consider authoritative enough to reference. [geodocs.dev](https://geodocs.dev/geo/what-is-geo?utm_source=chatgpt.com)[arxiv.org](https://arxiv.org/abs/2311.09735?utm_source=chatgpt.com)\n\n### What makes content GEO-friendly?\n\nWhile no one can guarantee that an AI system will cite a page, practices commonly associated with GEO include:\n\n- Writing clear, direct answers to common questions.\n- Organizing content with descriptive headings.\n- Supporting factual claims with reliable sources.\n- Demonstrating expertise and topical depth.\n- Keeping information accurate and up to date.\n- Using structured data where appropriate.\n- Building a consistent, trustworthy presence across the web, not just on your own website. [geodocs.dev](https://geodocs.dev/geo/what-is-geo?utm_source=chatgpt.com)\n\n### Is GEO a separate discipline?\n\nThe term was introduced in a 2023 academic paper, which explored methods for improving the visibility of content in generative search systems and showed that certain optimization strategies could significantly increase how often content appeared in AI-generated responses. Since then, the concept has been widely adopted in digital marketing. [geodocs.dev](https://geodocs.dev/geo/what-is-geo?utm_source=chatgpt.com)[arxiv.org](https://arxiv.org/abs/2311.09735?utm_source=chatgpt.com)\n\n### An example\n\nSuppose someone asks an AI assistant:\n\n> \"What's the best way to reduce household energy bills?\"\n\nA traditional SEO strategy aims to have your article rank on the first page of search results.\n\nA GEO strategy aims to have the AI assistant summarize your advice and cite your guide as one of the sources used to answer the question.\n\n### Looking ahead\n\nGEO is still evolving because AI systems differ in how they retrieve information, evaluate sources, and generate answers. Rather than replacing SEO, it's generally viewed as an additional layer of optimization for an AI-assisted search landscape. The most durable approach is to publish accurate, well-structured, authoritative content that is useful to people first\u2014and readily understandable by AI systems second. [geodocs.dev](https://geodocs.dev/geo/what-is-geo?utm_source=chatgpt.com)[arxiv.org](https://arxiv.org/abs/2311.09735?utm_source=chatgpt.com)",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "What Is GEO? Generative Engine Optimization Defined | Geodocs.dev",
+                  "snippet": null,
+                  "domain": "geodocs.dev",
+                  "url": "https://geodocs.dev/geo/what-is-geo?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "Geodocs",
+                  "publication_date": null,
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "GEO: Generative Engine Optimization",
+                  "snippet": null,
+                  "domain": "arxiv.org",
+                  "url": "https://arxiv.org/abs/2311.09735?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "arXiv",
+                  "publication_date": "2023-11-16 10:06:09 +00:00",
+                  "markdown": null
+                }
+              ],
+              "brand_entities": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

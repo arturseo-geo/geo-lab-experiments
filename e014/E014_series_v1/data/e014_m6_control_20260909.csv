@@ -1,0 +1,6 @@
+run_id,platform,iteration,query_num,query_tier,query_text,code,url_cited,reconstruction_description,timestamp_utc,notes
+M6,perplexity,1,Q_CTRL,CONTROL,What is the Skyscraper Technique in SEO?,X,,"semrush, rankmath; Brian Dean named, backlinko NOT in sources",2026-09-09 15:30,
+M6,perplexity,2,Q_CTRL,CONTROL,What is the Skyscraper Technique in SEO?,X,,"semrush, rankmath; same",2026-09-09 15:45,
+M6,perplexity,3,Q_CTRL,CONTROL,What is the Skyscraper Technique in SEO?,X,,"searchengineland, editorial.link, seoclarity + more; backlinko not cited",2026-09-09 16:00,
+M6,chatgpt,1,Q_CTRL,CONTROL,What is the Skyscraper Technique in SEO?,C,backlinko.com,backlinko in Sources + named inline,2026-09-09 16:40,
+M6,google_aio,1,Q_CTRL,CONTROL,What is the Skyscraper Technique in SEO?,X,,"AIO box: semrush/seoclarity/neilpatel cards; backlinko only in web results below box, not AIO box",2026-09-09 22:00,

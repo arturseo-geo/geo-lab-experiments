@@ -1,0 +1,95 @@
+{
+  "version": "0.1.20260610",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "7.7425 sec.",
+  "cost": 0.015867,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "06282015-1516-0612-0000-3dea286f6f30",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "7.7164 sec.",
+      "cost": 0.015867,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "perplexity",
+        "llm_responses",
+        "live"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "llm_responses",
+        "se": "perplexity",
+        "user_prompt": "What is Extractability in GEO?",
+        "model_name": "sonar-pro",
+        "web_search": true
+      },
+      "result": [
+        {
+          "model_name": "sonar-pro",
+          "input_tokens": 14,
+          "output_tokens": 615,
+          "reasoning_tokens": 0,
+          "web_search": true,
+          "money_spent": 0.015267,
+          "datetime": "2026-06-28 20:15:35 +00:00",
+          "items": [
+            {
+              "type": "message",
+              "sections": [
+                {
+                  "type": "text",
+                  "text": "Extractability in **GEO (Generative Engine Optimization)** is the degree to which your content can be cleanly *pulled out, understood, and reused* by AI answer engines as standalone, citation\u2011ready snippets.[1][2][4]\n\nIn the context of GEO (not \u201cgeographical\u201d or \u201cgene expression omnibus\u201d GEO), **extractability** specifically means:\n\n- **AI can identify and understand your key claims**  \n  It is \u201cthe degree to which AI systems can identify, understand, pull, and reuse useful information from your content.\u201d[1]\n\n- **Chunks work as standalone answer blocks**  \n  Extractable content is written so its key claims \u201ccan be pulled out of context and still make sense.\u201d[4]  \n  Large language models and answer engines ingest pages as *chunks*, not full linear articles; they \u201cretrieve chunks, evaluate them in isolation, and synthesize answers from the fragments\u201d that pass relevance and trust checks.[4]\n\n- **Answer\u2011first, self\u2011contained formatting**  \n  GEO audits describe extractability as checking \u201cwhether a clean, useful answer can be pulled from your pages without an AI system having to dig through paragraphs of vague marketing copy.\u201d[2]  \n  Practical guidance includes:\n  - Put a **direct answer in the first ~80\u2013150 words** of the page so AI doesn\u2019t have to infer it from long setup text.[2][4]  \n  - Use **literal, descriptive headings** and **semantic HTML** so answer engines can map sections to specific questions.[2]  \n  - Create **self\u2011contained answer blocks** where each paragraph clearly answers a question, names the relevant entity, and points to evidence.[4]\n\n- **Clear entities and attribution**  \n  A GEO audit looks at whether your site provides \u201cclear, verifiable, and extractable data\u201d about what your brand is, who it serves, and why it should be trusted.[2]  \n  Extractable blocks should:\n  - name the **entity and category** (e.g., \u201cX is a cybersecurity platform for financial institutions\u201d),[4]  \n  - attach **sources to claims** in proximity to the sentences they support,[4]  \n  - avoid pronoun\u2011heavy wording that becomes unclear when a single sentence is isolated.[4]\n\n- **Why it matters in GEO**  \n  Generative Engine Optimization \u201cfocuses on being included in generated answers,\u201d and \u201cextractable content is easier to retrieve, synthesize, and cite,\u201d making extractability \u201ca core part of GEO.\u201d[1]  \n  GEO practitioners explicitly treat extractability as one of the main pillars alongside entity clarity and proof: a GEO audit \u201cevaluates entity clarity, answer extractability, and brand proof to secure citations in AI\u2011generated answers.\u201d[2]  \n\nIf you\u2019re optimizing for GEO, you can think of **extractability** as:  \n> *Can an AI system copy one paragraph from this page and have it still answer a specific question, name the right entity, and be safe to cite?*  \nIf yes, that paragraph\u2014and by extension your page\u2014is extractable.[1][4]",
+                  "annotations": [
+                    {
+                      "title": "AI Extractability | How to Structure Content for AI Search",
+                      "url": "https://greenbananaseo.com/ai-search-optimization/extractability/"
+                    },
+                    {
+                      "title": "GEO Audit Checklist: Entity, Proof, and Extractability | SavageAudit",
+                      "url": "https://savageaudit.com/blog/geo-audit-checklist"
+                    },
+                    {
+                      "title": "How does ABKE GEO translate our technical expertise into ... - AB\u5ba2",
+                      "url": "https://www.cnabke.com/en/faq/abke-ab%E5%AE%A2-geo-translating-technical-expertise-into-ai-citable-facts-product-faq.html"
+                    },
+                    {
+                      "title": "Extractable Content \u2014 Definition - Glossary - AuthorityTech",
+                      "url": "https://authoritytech.io/glossary/extractable-content"
+                    },
+                    {
+                      "title": "SEO Truths: GEO, Extractability, Influence & Durability - LinkedIn",
+                      "url": "https://www.linkedin.com/posts/rquintan_the-truths-what-holds-up-across-platforms-activity-7430304063503851520-hVEB"
+                    },
+                    {
+                      "title": "rachadele/extract-geo-metadata - GitHub",
+                      "url": "https://github.com/rachadele/extract-geo-metadata"
+                    },
+                    {
+                      "title": "Leachable vs. Extractable- What are they, what's the difference, and ...",
+                      "url": "https://hollandapt.com/leachable-vs-extractable-what-are-they-whats-the-difference-and-why-are-they-a-hot-button-topic-in-single-use-processes-today/"
+                    },
+                    {
+                      "title": "[PDF] Q3E Guideline for Extractables and Leachables - FDA",
+                      "url": "https://www.fda.gov/media/189890/download"
+                    },
+                    {
+                      "title": "Geovariability and biodegradability of the water-extractable organic ...",
+                      "url": "https://www.sciencedirect.com/science/article/pii/003807179190047N"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fan_out_queries": null
+        }
+      ]
+    }
+  ]
+}

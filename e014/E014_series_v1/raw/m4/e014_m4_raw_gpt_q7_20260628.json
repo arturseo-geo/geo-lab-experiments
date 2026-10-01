@@ -1,0 +1,205 @@
+{
+  "version": "0.1.20260610",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "18.0909 sec.",
+  "cost": 0.004,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "06282023-1516-0629-0000-93505072603a",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "18.0343 sec.",
+      "cost": 0.004,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "chat_gpt",
+        "llm_scraper",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "llm_scraper",
+        "se": "chat_gpt",
+        "keyword": "Does GEO actually work?",
+        "location_name": "United Kingdom",
+        "language_code": "en",
+        "force_web_search": true,
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "Does GEO actually work?",
+          "location_code": 2826,
+          "language_code": "en",
+          "model": "gpt-5-5",
+          "check_url": "https://chatgpt.com/?prompt=Does%20GEO%20actually%20work%3F&hints=search",
+          "datetime": "2026-06-28 17:24:17 +00:00",
+          "markdown": "Short answer: **yes, GEO \u201cworks\u201d \u2014 but not in the way most people think, and it\u2019s not a magic switch.**\n\n\u201cGEO\u201d here usually means **Generative Engine Optimization**: trying to get your content or brand **mentioned or cited inside AI answers** (like ChatGPT-style search, Perplexity, Google AI Overviews) rather than just ranking on Google results pages. [geo-score.online](https://geo-score.online/learn/what-is-geo?utm_source=chatgpt.com)\n\n### So does it actually work in practice?\n\n**Yes, but only conditionally:**\n\nGEO tends to \u201cwork\u201d when:\n- Your content is **clear, factual, and easy for AI systems to quote**\n- You already have some level of **authority or external mentions**\n- Your information is **structured (FAQs, definitions, lists, schema, etc.)**\n- Other sources also reinforce your claims (AI systems prefer consensus)\n\nIt often *doesn\u2019t \u201cwork\u201d* when:\n- You\u2019re trying to game it with tricks or keyword stuffing\n- Your site has **no reputation, backlinks, or citations anywhere**\n- Your content is vague, opinion-heavy, or hard to extract cleanly\n- You expect predictable rankings (AI outputs are probabilistic)\n\n### The important catch\nGEO isn\u2019t a separate \u201cengine you optimize for\u201d in the way SEO is for Google.\n\nAI systems don\u2019t have a single ranking list. They:\n- Pull from multiple sources\n- Summarize probabilistically\n- Change outputs depending on wording, time, and context\n\nThat means **you can\u2019t reliably \u201crank #1 in AI answers\u201d the way you can on Google.**\n\nResearch even shows visibility in generative engines is **variable and requires repeated measurement rather than a fixed position**. [arxiv.org](https://arxiv.org/abs/2604.07585?utm_source=chatgpt.com)\n\n### The honest takeaway\n- GEO is real as a **strategy label**\n- The underlying mechanics are real (AI citation + retrieval systems)\n- But it\u2019s **not a separate growth channel with guaranteed control**\n- It\u2019s closer to: *\u201cgood SEO + strong brand presence + structured content + being widely referenced\u201d*\n\n### A useful way to think about it\nIf SEO is:\n> \u201cCan I rank on Google?\u201d\n\nThen GEO is:\n> \u201cWould an AI confidently reuse or cite my content in an answer?\u201d\n\nThose overlap a lot\u2014but GEO is **less controllable, more indirect, and harder to measure cleanly.**\n\n---\n\nIf you want, tell me what you mean by \u201cGEO\u201d (AI search, marketing, or something else), and I can make this more specific to your use case.",
+          "search_results": [
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://geodocs.dev/geo/what-is-geo?utm_source=chatgpt.com",
+              "domain": "geodocs.dev",
+              "title": "What Is GEO? Generative Engine Optimization Defined | Geodocs.dev",
+              "description": "WHAT IS GEO? GENERATIVE ENGINE OPTIMIZATION DEFINED  geo guide beginner 13 min read 2,402 words Updated May 2026  ShareLinkedInCopy Link  Explore with AI  Open this article in your favorite AI assist...",
+              "breadcrumb": "geodocs.dev"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.geointelligence.co.uk/blog/what-is-generative-engine-optimisation-geo?utm_source=chatgpt.com",
+              "domain": "www.geointelligence.co.uk",
+              "title": "What is Generative Engine Optimisation (GEO)? \u2014 GEO Intelligence | GEO Intelligence",
+              "description": "WHAT IS GENERATIVE ENGINE OPTIMISATION (GEO)?  GEO Intelligence 8 March 2026 8 min read  GEO AI search ChatGPT visibility Google AI Overviews UK businesses  THE SHORT ANSWER  Generative Engine Optimi...",
+              "breadcrumb": "geointelligence.co.uk"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.novabrandworks.com/blog/what-is-geo-generative-engine-optimization?utm_source=chatgpt.com",
+              "domain": "www.novabrandworks.com",
+              "title": "What is GEO? Generative Engine Optimization Defined for 2026",
+              "description": "WHAT IS GEO? GENERATIVE ENGINE OPTIMIZATION DEFINED FOR 2026  ImageDani Furmenek  May 3, 2026  7 min read  WHAT GEO ACTUALLY MEANS  Generative Engine Optimization (GEO) is the practice of making your...",
+              "breadcrumb": "novabrandworks.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.geo-tool.com/en/faq?utm_source=chatgpt.com",
+              "domain": "www.geo-tool.com",
+              "title": "FAQ - GEO & AI Visibility Questions",
+              "description": "Check & optimize your AI visibility  GEO FAQ CENTER: ANSWERS TO YOUR AI VISIBILITY QUESTIONS  Welcome to our GEO FAQ Center - Find answers to all your questions about Generative Engine Optimization...",
+              "breadcrumb": "geo-tool.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.geo-tool.com/en?utm_source=chatgpt.com",
+              "domain": "www.geo-tool.com",
+              "title": "GEO Tool: Measure & Optimize AI Visibility | geo-tool.com",
+              "description": "YOUR COMPETITORS ARE ALREADY VISIBLE IN CHATGPT. ARE YOU?  Find out in 47 seconds \u2013 free and with no obligation.  [Button: Analyze for free now \u2192]  GDPR Compliant 47 Seconds 100% Free  SEO IS DEAD - L...",
+              "breadcrumb": "geo-tool.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.cracklepr.com/what-is-geo?utm_source=chatgpt.com",
+              "domain": "www.cracklepr.com",
+              "title": "What Is GEO? Generative Engine Optimization Explained | Crackle PR",
+              "description": "WHAT IS GEO? GENERATIVE ENGINE OPTIMIZATION, EXPLAINED.  GEO (Generative Engine Optimization, not the geography term) is the optimization layer for AI search \u2014 what decides whether ChatGPT, Perplexit...",
+              "breadcrumb": "cracklepr.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://geogen.io/articles/what-is-generative-engine-optimization-geo-explained-simply?utm_source=chatgpt.com",
+              "domain": "geogen.io",
+              "title": "What Is Generative Engine Optimization? (GEO) Explained Simply",
+              "description": "Back to ArticlesJanuary 19, 2025  WHAT IS GENERATIVE ENGINE OPTIMIZATION? (GEO) EXPLAINED SIMPLY  Generative Engine Optimization AI Search SEO Strategy  Alessandro Benigni  Image: What Is Generative...",
+              "breadcrumb": "geogen.io"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.01media.com/guides/what-is-geo-ai-search-optimization.php?utm_source=chatgpt.com",
+              "domain": "www.01media.com",
+              "title": "What is GEO \u2014 AI Search Optimization and Why It Matters | 01 Media",
+              "description": "AI visibility  WHAT IS GEO \u2014 AND WHY YOUR BUSINESS NEEDS TO BE VISIBLE IN AI SEARCH, NOT JUST GOOGLE  Paul \u2022 31 March 2026 \u2022 Updated April 2026 \u2022 9 min read  More and more people ask ChatGPT, Gemini,...",
+              "breadcrumb": "01media.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://villion.io/en/blog/what-is-geo?utm_source=chatgpt.com",
+              "domain": "villion.io",
+              "title": "What Is GEO? A Complete Guide to AI Search Optimization | Villion",
+              "description": "Jan 15, 2026/Guides  WHAT IS GEO? A COMPLETE GUIDE TO AI SEARCH OPTIMIZATION  From the concept of GEO (Generative Engine Optimization) through how it works to where it differs from SEO \u2014 a complete g...",
+              "breadcrumb": "villion.io"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://webvy.co/geo/what-is-geo?utm_source=chatgpt.com",
+              "domain": "webvy.co",
+              "title": "What Is GEO? How Generative Engine Optimization Actually Works",
+              "description": "WHAT IS GEO? HOW GENERATIVE ENGINE OPTIMIZATION ACTUALLY WORKS  Mar 18, 2026 15 min read  Image: What is GEO - Generative Engine Optimization explained   Search is changing in a way many brands still...",
+              "breadcrumb": "webvy.co"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://geo-metric.ai/guides/what-is-geo/?utm_source=chatgpt.com",
+              "domain": "geo-metric.ai",
+              "title": "What is Generative Engine Optimization (GEO)? The Complete Guide - GEO-Metric.ai",
+              "description": "WHAT IS GENERATIVE ENGINE OPTIMIZATION (GEO)? THE COMPLETE GUIDE  The definitive guide to optimizing for AI search engines like ChatGPT, Claude, and Perplexity. Learn how GEO differs from SEO and why...",
+              "breadcrumb": "geo-metric.ai"
+            }
+          ],
+          "sources": [
+            {
+              "type": "chat_gpt_source",
+              "title": "What is GEO? Generative Engine Optimization Explained (2026)",
+              "snippet": null,
+              "domain": "geo-score.online",
+              "url": "https://geo-score.online/learn/what-is-geo?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "GEO-Score by Be-Found",
+              "publication_date": "2026-06-01 00:00:00 +00:00",
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Don't Measure Once: Measuring Visibility in AI Search (GEO)",
+              "snippet": null,
+              "domain": "arxiv.org",
+              "url": "https://arxiv.org/abs/2604.07585?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "arXiv",
+              "publication_date": "2026-04-08 20:38:05 +00:00",
+              "markdown": null
+            }
+          ],
+          "fan_out_queries": [
+            "does GEO AI search GEO tool GEO marketing GEO optimization what is GEO actually works"
+          ],
+          "brand_entities": null,
+          "se_results_count": 0,
+          "item_types": [
+            "chat_gpt_text"
+          ],
+          "items_count": 1,
+          "items": [
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "markdown": "Short answer: **yes, GEO \u201cworks\u201d \u2014 but not in the way most people think, and it\u2019s not a magic switch.**\n\n\u201cGEO\u201d here usually means **Generative Engine Optimization**: trying to get your content or brand **mentioned or cited inside AI answers** (like ChatGPT-style search, Perplexity, Google AI Overviews) rather than just ranking on Google results pages. [geo-score.online](https://geo-score.online/learn/what-is-geo?utm_source=chatgpt.com)\n\n### So does it actually work in practice?\n\n**Yes, but only conditionally:**\n\nGEO tends to \u201cwork\u201d when:\n- Your content is **clear, factual, and easy for AI systems to quote**\n- You already have some level of **authority or external mentions**\n- Your information is **structured (FAQs, definitions, lists, schema, etc.)**\n- Other sources also reinforce your claims (AI systems prefer consensus)\n\nIt often *doesn\u2019t \u201cwork\u201d* when:\n- You\u2019re trying to game it with tricks or keyword stuffing\n- Your site has **no reputation, backlinks, or citations anywhere**\n- Your content is vague, opinion-heavy, or hard to extract cleanly\n- You expect predictable rankings (AI outputs are probabilistic)\n\n### The important catch\nGEO isn\u2019t a separate \u201cengine you optimize for\u201d in the way SEO is for Google.\n\nAI systems don\u2019t have a single ranking list. They:\n- Pull from multiple sources\n- Summarize probabilistically\n- Change outputs depending on wording, time, and context\n\nThat means **you can\u2019t reliably \u201crank #1 in AI answers\u201d the way you can on Google.**\n\nResearch even shows visibility in generative engines is **variable and requires repeated measurement rather than a fixed position**. [arxiv.org](https://arxiv.org/abs/2604.07585?utm_source=chatgpt.com)\n\n### The honest takeaway\n- GEO is real as a **strategy label**\n- The underlying mechanics are real (AI citation + retrieval systems)\n- But it\u2019s **not a separate growth channel with guaranteed control**\n- It\u2019s closer to: *\u201cgood SEO + strong brand presence + structured content + being widely referenced\u201d*\n\n### A useful way to think about it\nIf SEO is:\n> \u201cCan I rank on Google?\u201d\n\nThen GEO is:\n> \u201cWould an AI confidently reuse or cite my content in an answer?\u201d\n\nThose overlap a lot\u2014but GEO is **less controllable, more indirect, and harder to measure cleanly.**\n\n---\n\nIf you want, tell me what you mean by \u201cGEO\u201d (AI search, marketing, or something else), and I can make this more specific to your use case.",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "What is GEO? Generative Engine Optimization Explained (2026)",
+                  "snippet": null,
+                  "domain": "geo-score.online",
+                  "url": "https://geo-score.online/learn/what-is-geo?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "GEO-Score by Be-Found",
+                  "publication_date": "2026-06-01 00:00:00 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Don't Measure Once: Measuring Visibility in AI Search (GEO)",
+                  "snippet": null,
+                  "domain": "arxiv.org",
+                  "url": "https://arxiv.org/abs/2604.07585?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "arXiv",
+                  "publication_date": "2026-04-08 20:38:05 +00:00",
+                  "markdown": null
+                }
+              ],
+              "brand_entities": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

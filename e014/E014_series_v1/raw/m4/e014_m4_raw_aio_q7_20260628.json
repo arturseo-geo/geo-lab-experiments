@@ -1,0 +1,553 @@
+{
+  "version": "0.1.20260610",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "1.5085 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "06282026-1516-0139-0000-bde0d693c05f",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "1.4293 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "Does GEO actually work?",
+        "location_name": "United Kingdom",
+        "language_code": "en",
+        "depth": 10,
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "Does GEO actually work?",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2826,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=Does%20GEO%20actually%20work%3F&hl=en&gl=GB&ie=UTF-8&uule=w+CAIQIFISCamRx0IRO1oCEXoliDJDoPjE",
+          "datetime": "2026-06-28 17:26:59 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "people_also_ask",
+            "discussions_and_forums",
+            "video",
+            "related_searches"
+          ],
+          "se_results_count": 131,
+          "pages_count": 1,
+          "items_count": 12,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": true,
+              "markdown": null,
+              "items": null,
+              "references": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+              "domain": "www.reddit.com",
+              "title": "What does GEO actually do that normal SEO doesn't ...",
+              "url": "https://www.reddit.com/r/AskMarketing/comments/1p2xaqi/what_does_geo_actually_do_that_normal_seo_doesnt/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "20+ comments  \u00b7  7 months ago",
+              "website_name": "Reddit\u00a0\u00b7\u00a0r/AskMarketing",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "I keep seeing people talk about Generative Engine Optimisation service offerings there strategical approach and all, but I didn't see any big difference ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "I've been hearing a lot about Generative Engine ...",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/digital_marketing/comments/1l8t628/ive_been_hearing_a_lot_about_generative_engine/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Is GEO (Generative Engine Optimization) actually ...",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/DigitalMarketing/comments/1rrlehg/is_geo_generative_engine_optimization_actually/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "More results from www.reddit.com",
+                  "description": null,
+                  "url": "https://www.google.com/search?q=Does+GEO+actually+work?+site:www.reddit.com&sca_esv=d6e1c856be29d3fa&hl=en&gl=GB&sa=X&ved=2ahUKEwjK4JyxuqqVAxW-UKQEHc2_AtsQrQIoAnoECCgQAw",
+                  "domain": "www.google.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How long does it take to see results from GEO?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_expanded_element",
+                      "featured_title": null,
+                      "url": "https://growthhackers.se/en/blog/how-long-does-it-take-to-see-results-from-geo",
+                      "domain": "growthhackers.se",
+                      "title": "GEO Results Timeline: See AI Search Visibility in 4-8 Weeks",
+                      "description": "How Long Does It Take to See Results from GEO? Quick answer: Most companies see initial AI search visibility within 4\u20138 weeks of structured content optimization. Meaningful, consistent traffic impact typically takes 3\u20136 months, while a durable competitive advantage compounds over 6\u201312 months.",
+                      "images": null,
+                      "timestamp": null,
+                      "table": null
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Is GEO worth it?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_expanded_element",
+                      "featured_title": null,
+                      "url": "https://www.seo.com/blog/do-i-need-geo/",
+                      "domain": "www.seo.com",
+                      "title": "Do I Need GEO? Yes, If You Want to Stay Agile in 2026 and Beyond",
+                      "description": "It makes you visible in generative engines\n One of the most basic reasons to have a GEO strategy is this: You won't maximize your visibility unless you have a GEO strategy in place. But now, with an SEO strategy, you know the value of optimizing for those engines. GEO is no different.",
+                      "images": null,
+                      "timestamp": null,
+                      "table": null
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Is GEO a real thing?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Does SEO actually work?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "discussions_and_forums",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]",
+              "title": "Discussions and forums",
+              "items": [
+                {
+                  "type": "discussions_and_forums_element",
+                  "title": "Is GEO (Generative Engine Optimization) actually the \"\"New SEO,\"\" or just ...",
+                  "url": "https://www.reddit.com/r/DigitalMarketing/comments/1rrlehg/is_geo_generative_engine_optimization_actually/",
+                  "domain": "www.reddit.com",
+                  "source": "Reddit",
+                  "description": null,
+                  "timestamp": "2026-03-28 17:26:59 +00:00",
+                  "posts_count": 40
+                },
+                {
+                  "type": "discussions_and_forums_element",
+                  "title": "What makes GEO more important than traditional SEO now?",
+                  "url": "https://www.quora.com/What-makes-GEO-more-important-than-traditional-SEO-now",
+                  "domain": "www.quora.com",
+                  "source": "Quora",
+                  "description": null,
+                  "timestamp": "2025-09-28 17:26:59 +00:00",
+                  "posts_count": 3
+                },
+                {
+                  "type": "discussions_and_forums_element",
+                  "title": "What are everyone's thoughts on GEO? Is it an evolution of SEO?",
+                  "url": "https://www.quora.com/What-are-everyone-s-thoughts-on-GEO-Is-it-an-evolution-of-SEO",
+                  "domain": "www.quora.com",
+                  "source": "Quora",
+                  "description": null,
+                  "timestamp": "2026-02-28 17:26:59 +00:00",
+                  "posts_count": 3
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Edward Sturm",
+                  "title": "Does GEO Actually Exist? An SEO Debate Gets Heated",
+                  "timestamp": "2026-06-26 17:26:59 +00:00",
+                  "url": "https://www.youtube.com/watch?v=CvZMiyDnMdI"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Edward Sturm",
+                  "title": "The GEO Myth: Why AI Search Is Just SEO in Disguise",
+                  "timestamp": "2026-03-28 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=btkrk3yXYbk"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Edward Sturm",
+                  "title": "Generative Engine Optimization: Is It Safe and How to Do It the ...",
+                  "timestamp": "2026-05-28 17:26:59 +00:00",
+                  "url": "https://www.youtube.com/watch?v=zKdjde0JYwk"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Merchynt",
+                  "title": "Google Killed AEO and GEO: Here's The Truth About AI SEO ...",
+                  "timestamp": "2026-05-28 17:26:59 +00:00",
+                  "url": "https://www.youtube.com/watch?v=zLHaGg_PSug"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+              "domain": "www.relato.com",
+              "title": "Generative Engine Optimization (GEO): How It Works ... - Relato",
+              "url": "https://www.relato.com/blog/generative-engine-optimization",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.relato.com \u203a Blog",
+              "website_name": "relato.com",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "26 Jun 2025 \u2014 This GEO guide covers how generative engine optimization works, how to get cited in AI answers, and how to track your AI visibility.",
+              "pre_snippet": "06/26/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "how generative engine optimization works"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "How Do GEO Platforms Work?",
+                  "description": null,
+                  "url": "https://www.relato.com/blog/generative-engine-optimization#how-do-geo-platforms-work",
+                  "domain": "www.relato.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "GEO vs SEO: Are they really...",
+                  "description": null,
+                  "url": "https://www.relato.com/blog/generative-engine-optimization#geo-vs-seo-are-they-really-different",
+                  "domain": "www.relato.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-06-26 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]",
+              "domain": "developers.google.com",
+              "title": "Google's Guide to Optimizing for Generative AI Features on ...",
+              "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://developers.google.com \u203a ... \u203a Documentation",
+              "website_name": "Google for Developers",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Generative Engine Optimization (GEO) are common online, many suggested \"hacks\" aren't effective or supported by how Google Search actually works.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "GEO",
+                "actually works"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]",
+              "domain": "www.contentful.com",
+              "title": "What is Generative Engine Optimization (GEO) and how ...",
+              "url": "https://www.contentful.com/blog/generative-engine-optimization-seo/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.contentful.com \u203a blog \u203a generative-engine-...",
+              "website_name": "Contentful",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "11 Jun 2025 \u2014 GEO shifts the focus from optimizing content for organic results to optimizing brands and entities for visibility in AI-powered outputs. Read more",
+              "pre_snippet": "06/11/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "GEO shifts the focus from optimizing content for organic results"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-06-11 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]",
+              "domain": "longform.group",
+              "title": "Why GEO and 'AI SEO' Don't Work as a Separate Discipline",
+              "url": "https://longform.group/blog/the-case-against-ai-seo/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://longform.group \u203a blog \u203a the-case-against-ai-seo",
+              "website_name": "longform.group",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "9 Jun 2026 \u2014 What Actually Works for GEO? Do the SEO well, and add the few inputs that help. Crawlability, clear and well-sourced content, and real authority\u00a0... Read more",
+              "pre_snippet": "06/09/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Actually Works",
+                "GEO",
+                "Do",
+                "help"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-06-09 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]",
+              "domain": "www.cheers.tech",
+              "title": "Does SEO Still Work? The Shift to GEO - Cheers",
+              "url": "https://www.cheers.tech/geo-academy/does-seo-still-work",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.cheers.tech \u203a GEO Academy",
+              "website_name": "cheers.tech",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "15 Nov 2025 \u2014 SEO isn't dead, but it's no longer enough. Here's how AI search is changing the game and what local businesses need to do differently.",
+              "pre_snippet": "11/15/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "SEO isn't dead, but it's no longer enough"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-11-15 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[20]/div[1]/div[1]",
+              "domain": "searchatlas.com",
+              "title": "Generative Engine Optimization (GEO): Practical Strategies ...",
+              "url": "https://searchatlas.com/blog/geo/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://searchatlas.com \u203a AI SEO",
+              "website_name": "Search Atlas",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "18 Jan 2026 \u2014 GEO increases the likelihood of being cited, strengthens entity recognition, and improves how brands are described inside informational\u00a0... Read more",
+              "pre_snippet": "01/18/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "GEO increases the likelihood of being cited"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-01-18 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Does geo actually work reddit",
+                "Does geo actually work for ai",
+                "How does geo work",
+                "GEO vs SEO vs AEO",
+                "What is GEO vs AEO",
+                "How to do GEO Generative Engine Optimization",
+                "What is geo in geography",
+                "GEO Optimization meaning"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

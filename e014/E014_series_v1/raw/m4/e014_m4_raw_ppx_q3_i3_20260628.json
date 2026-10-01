@@ -1,0 +1,91 @@
+{
+  "version": "0.1.20260610",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "5.7379 sec.",
+  "cost": 0.015504,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "06282016-1516-0612-0000-9b44e863050c",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "5.6802 sec.",
+      "cost": 0.015504,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "perplexity",
+        "llm_responses",
+        "live"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "llm_responses",
+        "se": "perplexity",
+        "user_prompt": "What is LLM readability?",
+        "model_name": "sonar-pro",
+        "web_search": true
+      },
+      "result": [
+        {
+          "model_name": "sonar-pro",
+          "input_tokens": 13,
+          "output_tokens": 591,
+          "reasoning_tokens": 0,
+          "web_search": true,
+          "money_spent": 0.014904,
+          "datetime": "2026-06-28 20:17:03 +00:00",
+          "items": [
+            {
+              "type": "message",
+              "sections": [
+                {
+                  "type": "text",
+                  "text": "LLM readability is **how easily and reliably a large language model can process, understand, and extract information from a piece of content**, beyond just how readable it is for humans.[1][2][3][7]\n\n### Core idea\n\n- **Definition:** LLM readability describes *how well content can be processed and captured by large language models (LLMs)*.[1][2][3]  \n  It focuses on the text\u2019s suitability for machine parsing and reasoning, not just human comprehension.[2]\n\n- **Purpose:** Content with high LLM readability is **more likely to be correctly understood, chunked, retrieved, and cited by AI systems** such as ChatGPT, Perplexity, or AI Overviews.[1][3][7]\n\n### Key factors that determine LLM readability\n\nAccording to Olaf Kopp\u2019s framework and GEO (Generative Engine Optimization) guidance, LLM readability depends on several structural and linguistic factors:[1][3][7]\n\n- **Natural language quality:** Clear, grammatically correct, non-keyword-stuffed language.[1][3]  \n- **Structuring:** Logical headings, short paragraphs, and explicit sections that make chunking easier.[1][3][7]  \n- **Chunk relevance:** Each passage (chunk) should focus on a specific topic or question so it can be retrieved precisely.[1][3][7]  \n- **Information hierarchy:** Clear heading hierarchy and consistent structure so models can infer relationships between sections.[1][3][7]  \n- **Context management:** Minimal ambiguity, clear referents (few vague pronouns), and enough context inside each chunk.[1][3][7]  \n- **Consistency and specificity:** Consistent terminology and explicit answers (numbers, entities, definitions) that LLMs can quote.[1][3]  \n- **Technical accessibility:** Fast loading and machine-friendly formats also help models access and process content.[3][5]\n\n### Why it matters\n\n- **Citation and traffic:** High LLM readability increases the chance that specific passages from your content are **selected and cited** in AI answers, which can drive traffic back to your site.[1][2][3][5]  \n- **AI-friendly documentation:** GEO and similar practices aim to make docs *readable, retrievable, and useful* to LLMs, not just rank in traditional search.[7]  \n- **New web standards:** Files like **LLMs.txt** provide structured, AI-readable summaries of sites to boost LLM readability and citation potential.[5]\n\n### Related but different: human readability via LLMs\n\nThere is also research using LLMs to *measure* human readability\u2014how easy a text is for people to understand\u2014by having models rate texts on clarity and complexity.[4][6]  \nThat \u201creadability using LLMs\u201d is about human comprehension, whereas **LLM readability (as above) is about AI comprehension and extraction**.[2][3][7]",
+                  "annotations": [
+                    {
+                      "title": "LLM Readability & Chunk Relevance - The most influential factors to ...",
+                      "url": "https://www.kopp-online-marketing.com/llm-readability-chunk-relevance-the-most-influential-factors-to-become-citation-worthy-by-llms"
+                    },
+                    {
+                      "title": "What is LLM Readability Optimization? - LinkedIn",
+                      "url": "https://www.linkedin.com/pulse/what-llm-readability-optimization-olaf-kopp--u3arf"
+                    },
+                    {
+                      "title": "Ultimate guide for llm readability optimization and better chunk ...",
+                      "url": "https://www.kopp-online-marketing.com/ultimate-guide-for-llm-readability-optimization-and-better-chunk-relevance"
+                    },
+                    {
+                      "title": "Measuring the \"readability\" of texts with Large Language Models",
+                      "url": "https://seantrott.substack.com/p/measuring-the-readability-of-texts"
+                    },
+                    {
+                      "title": "LLMs.txt Explained: Boosting Your Website's AI Readability - Adsby",
+                      "url": "https://adsby.co/blog/llms-txt-explained-boosting-website-s-ai-readability/"
+                    },
+                    {
+                      "title": "seantrott/llm_readability: Using LLMs to measure the readability of text.",
+                      "url": "https://github.com/seantrott/llm_readability"
+                    },
+                    {
+                      "title": "GEO guide to optimize writing for LLMs - Mintlify",
+                      "url": "https://www.mintlify.com/blog/how-to-improve-llm-readability"
+                    },
+                    {
+                      "title": "Readability & quality of large language model responses in CAR-T ...",
+                      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0006497125088731"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fan_out_queries": null
+        }
+      ]
+    }
+  ]
+}

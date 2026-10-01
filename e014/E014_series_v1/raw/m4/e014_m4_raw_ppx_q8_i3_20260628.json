@@ -1,0 +1,99 @@
+{
+  "version": "0.1.20260610",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "13.8188 sec.",
+  "cost": 0.029667,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "06282017-1516-0612-0000-3494f5b8a95e",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "13.8089 sec.",
+      "cost": 0.029667,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "perplexity",
+        "llm_responses",
+        "live"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "llm_responses",
+        "se": "perplexity",
+        "user_prompt": "How to measure AI citation rate?",
+        "model_name": "sonar-pro",
+        "web_search": true
+      },
+      "result": [
+        {
+          "model_name": "sonar-pro",
+          "input_tokens": 14,
+          "output_tokens": 1535,
+          "reasoning_tokens": 0,
+          "web_search": true,
+          "money_spent": 0.029067,
+          "datetime": "2026-06-28 20:18:09 +00:00",
+          "items": [
+            {
+              "type": "message",
+              "sections": [
+                {
+                  "type": "text",
+                  "text": "You measure **AI citation rate** by running a fixed set of relevant queries across AI engines on a regular cadence, logging when your brand or URLs are cited, and then computing a simple percentage: cited responses divided by total responses sampled.[2][3][4][5]\n\nBelow is a practical way to do it and the main variants used in current practice.\n\n---\n\n### 1. Decide what \u201ccitation rate\u201d you want to measure\n\nThere are two common definitions:\n\n1. **Share of Citation / AI Citation Rate (per query set)**  \n   - **Formula:**  \n     \\[\n     \\text{Citation rate} = \\frac{\\text{AI responses that cite your brand or URLs}}{\\text{total AI responses sampled}} \\times 100\n     \\]  \n     This is used by multiple frameworks to describe \u201chow often AI engines cite you when answering relevant prompts.\u201d[2][3][4][5]\n\n2. **Citation rate relative to mentions**  \n   - **Formula:**  \n     \\[\n     \\text{Citation rate} = \\frac{\\text{AI answers citing your content}}{\\text{total brand mentions}} \\times 100\n     \\]  \n     Here, you\u2019re asking: \u201cOf the times I\u2019m mentioned, how often do I get an actual clickable citation?\u201d[8]\n\nClarify which one you\u2019re targeting before building your tracker.\n\n---\n\n### 2. Build a query set (the core sampling step)\n\nCitation rate is **not available in any analytics dashboard**; it must be measured through **query sampling**.[2]\n\nA robust setup usually follows these steps:\n\n- **Pick 20\u201350 high\u2011intent queries**  \n  - Pull from Google Search Console, Ahrefs, or existing SEO data, focusing on queries where you already have some topical authority.[1][4]  \n  - Favor long\u2011tail, buyer\u2011intent questions (7+ words, comparisons, \u201cbest X for Y\u201d, \u201chow to\u2026\u201d).[1][7]\n\n- **Cover your real buying journeys**  \n  - Include informational, comparison, and transactional queries your audience would realistically ask AI tools.[1][7]\n\nThis query set becomes your \u201cprompt library\u201d for ongoing measurement.[5][9]\n\n---\n\n### 3. Run the queries across AI engines\n\nMost frameworks recommend measuring citation rate **per engine**, because behavior differs between tools.[2][3][4][5]\n\nTypical engines:\n\n- **Perplexity** \u2013 always shows sources as cards and inline pills.[4][3]  \n- **Google AI Overviews / AI Mode** \u2013 shows citations in the overview cards.[1][5]  \n- **ChatGPT / Claude with web browsing** \u2013 will surface references when search is enabled.[2][4][5]\n\nProcess:\n\n- Use **incognito** or logged\u2011out mode and normalize location parameters for Google (`&gl=us&hl=en` etc.) to reduce personalization bias.[1]  \n- For each query and each engine, run the prompt and **expand the full answer** to see all citations.[1][4]  \n- If results are probabilistic, run the same prompts periodically (e.g., weekly or monthly) to smooth randomness.[5][7]\n\n---\n\n### 4. Log the data in a tracking table\n\nCreate a spreadsheet with at least these columns:[4][5]\n\n- Query / prompt text  \n- Platform (Perplexity, Google AI Overviews, ChatGPT, Claude, etc.)  \n- Date run  \n- **Cited?** (Yes/No \u2014 did a clickable citation to your domain or URL appear?)[2][3][4][5]  \n- **Mentioned?** (Yes/No \u2014 text mention without link; tracked separately from citations).[2][5]  \n- Optional: placement (headline vs body), sentiment, and which competitors were cited.[1][5][7]\n\nEach query\u2013engine\u2013date combination is one row. For a 20\u2011query x 3\u2011engine sweep, you\u2019ll have **60 rows per measurement cycle**.[4]\n\n---\n\n### 5. Calculate your citation rate\n\nDepending on definition:\n\n#### A. Citation rate / Share of Citation (most common)\n\nCount:\n\n- \\(C\\) = number of AI responses that include at least one **citation** to your domain or URLs.  \n- \\(T\\) = total AI responses sampled across your query set (e.g., 60).\n\nThen:\n\n\\[\n\\text{Citation rate} = \\frac{C}{T} \\times 100\n\\]\n\n- This is the **\u201cShare of Citation\u201d** metric: frequency with which AI engines cite you across the sampled prompts.[2][3]  \n- freeCodeCamp\u2019s method: sum all \u201ccited?\u201d entries, divide by total rows (e.g., 60), multiply by 100.[4]  \n- Tools like Siftly define citation rate exactly as \u201cthe share of tracked prompts where one of your URLs is cited, per engine.\u201d[3]\n\nYou can calculate:\n\n- **Per\u2011engine citation rate** (e.g., Perplexity only).  \n- **Blended citation rate** across all engines as a high\u2011level KPI.[5][6]\n\n#### B. Citation rate vs mentions\n\nTo understand how often AI turns mentions into links:[8]\n\n- \\(C\\) = number of AI answers that cite your content (clickable link).  \n- \\(M\\) = total AI answers that mention your brand (with or without link).\n\n\\[\n\\text{Citation rate} = \\frac{C}{M} \\times 100\n\\]\n\nThis highlights \u201cleakage\u201d where you are mentioned but not credited as a source.[8][2]\n\n---\n\n### 6. Related metrics and interpretations\n\nOnce you have citation rate, most teams also track:\n\n- **Visibility rate / Brand Visibility Score**  \n  - Percentage of prompts where your brand appears at all, with or without citation.[4][7]  \n- **AI Share of Voice / AI Citation Share**  \n  - Percentage of category\u2011relevant AI queries where your brand appears vs competitors.[1][2][7]  \n- **Citation frequency lift**  \n  - How your citation rate changes after publishing or optimizing content (target lifts of 5\u201310% in 1\u20132 weeks in some playbooks).[6]  \n- **Citation gaps**  \n  - Queries where competitors are cited and you are absent; these indicate topics needing authority building.[2][6][7]\n\nA simple diagnostic: **visibility rate \u2212 citation rate** gives the gap between being mentioned and being formally cited.[4]\n\n---\n\n### 7. Cadence and robustness\n\nBecause AI results are **probabilistic**, single measurements are noisy.[7]\n\nBest practices:\n\n- Run the full query sweep **monthly** or **weekly** for key topics.[4][5]  \n- Track trends for **8+ weeks** before making strategic decisions.[5]  \n- Re\u2011run your **baseline prompts** after publishing new content to measure citation lift and competitor displacement.[6]\n\n---\n\n### 8. Summary formulas\n\nFor quick reference:\n\n- **Per\u2011engine citation rate (query\u2011sampling definition):**  \n  \\[\n  \\text{Citation rate} = \\frac{\\text{AI responses citing your brand or URLs}}{\\text{total AI responses sampled}} \\times 100[2][3][4][5]\n  \\]\n\n- **Citation rate relative to mentions:**  \n  \\[\n  \\text{Citation rate} = \\frac{\\text{AI answers citing your content}}{\\text{total brand mentions}} \\times 100[8]\n  \\]\n\nIf you tell me your domain and typical buyer questions, I can help you draft a concrete 20\u2011query prompt library and a ready\u2011to\u2011use spreadsheet schema.",
+                  "annotations": [
+                    {
+                      "title": "Google AI Overviews citation tracking: How to measure your visibility",
+                      "url": "https://discoveredlabs.com/blog/google-ai-overviews-citation-tracking-how-to-measure-your-visibility"
+                    },
+                    {
+                      "title": "Share of Citation: How AI Engines Decide Which Brands to Cite",
+                      "url": "https://authoritytech.io/blog/share-of-citation"
+                    },
+                    {
+                      "title": "AI Citation Tracking Tools: Top 9 Compared (2026) | Siftly",
+                      "url": "https://siftly.ai/blog/tools-measure-citation-rates-ai-generated-content-brands-2026"
+                    },
+                    {
+                      "title": "How to Measure Your AI Citation Rate Across ChatGPT, Perplexity ...",
+                      "url": "https://www.freecodecamp.org/news/how-to-measure-your-ai-citation-rate-across-chatgpt-perplexity-and-claude/"
+                    },
+                    {
+                      "title": "How to Measure Citation Frequency Across ChatGPT, Perplexity ...",
+                      "url": "https://www.averi.ai/blog/ai-citation-tracking-chatgpt-perplexity-claude"
+                    },
+                    {
+                      "title": "Best Citation Analysis Options for Optimizing AI Search in 2026",
+                      "url": "https://www.useomnia.com/blog/best-citation-analysis-options-optimizing-ai-search"
+                    },
+                    {
+                      "title": "How to Use Citation Analysis to Improve AI Search Visibility",
+                      "url": "https://www.campaigncreators.com/blog/how-to-use-citation-analysis-to-improve-ai-search-visibility"
+                    },
+                    {
+                      "title": "How to Measure AI SEO & Win Visibility in the Age of Chatbots",
+                      "url": "https://nav43.com/blog/how-to-measure-ai-seo-win-visibility-in-the-age-of-chatbots/"
+                    },
+                    {
+                      "title": "AI Citation Tracker | AI Content Citation Tracking Tool - OmniSEO",
+                      "url": "https://omniseo.com/solutions/ai-citation-tracker/"
+                    },
+                    {
+                      "title": "Are AI Citation Rates Overrated? A Deep Dive into Source Dynamics",
+                      "url": "https://www.reddit.com/r/MarketingAutomation/comments/1tohkbw/are_ai_citation_rates_overrated_a_deep_dive_into/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fan_out_queries": null
+        }
+      ]
+    }
+  ]
+}

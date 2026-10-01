@@ -1,0 +1,255 @@
+{
+  "version": "0.1.20260610",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "81.1303 sec.",
+  "cost": 0.004,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "06282019-1516-0629-0000-93d750771c7e",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "81.0745 sec.",
+      "cost": 0.004,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "chat_gpt",
+        "llm_scraper",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "llm_scraper",
+        "se": "chat_gpt",
+        "keyword": "What is LLM readability?",
+        "location_name": "United Kingdom",
+        "language_code": "en",
+        "force_web_search": true,
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "What is LLM readability?",
+          "location_code": 2826,
+          "language_code": "en",
+          "model": "gpt-5-5",
+          "check_url": "https://chatgpt.com/?prompt=What%20is%20LLM%20readability%3F&hints=search",
+          "datetime": "2026-06-28 17:21:19 +00:00",
+          "markdown": "\"LLM readability\" is an emerging term rather than a formally standardized one. It generally refers to **how easily a large language model (LLM) can interpret, retrieve, and accurately use a piece of content**, which is related to\u2014but different from\u2014how easy that content is for a human to read. [thegeolab.net](https://thegeolab.net/llm-readability/?utm_source=chatgpt.com)[readable.com](https://readable.com/readability/what-is-readability/?utm_source=chatgpt.com)\n\nHere's the key distinction:\n\n| Human readability | LLM readability |\n|---|---|\n| Is the text easy for people to read? | Is the text easy for an AI model to understand and reuse? |\n| Focuses on sentence length, vocabulary, grammar, and layout. | Focuses on clear meaning, explicit context, logical structure, and self-contained passages. |\n| Measured by scores like Flesch Reading Ease or Flesch-Kincaid Grade Level. | No universally accepted metric currently exists. [thegeolab.net](https://thegeolab.net/llm-readability/?utm_source=chatgpt.com)[readable.com](https://readable.com/readability/what-is-readability/?utm_source=chatgpt.com)\n\n\nFor example, consider this paragraph:\n\n> \"It works because of the previous method.\"\n\nA human who has read the previous section understands it immediately. An LLM that processes only this paragraph (or a chunk of it) may not know what \"it\" or \"the previous method\" refers to.\n\nA more LLM-readable version would be:\n\n> \"The caching algorithm reduces database queries because it stores frequently requested results in memory.\"\n\nThis version is also human-readable, but it contains explicit references that help an LLM interpret it even if it appears in isolation.\n\nIn practice, content with high LLM readability tends to have:\n- Self-contained paragraphs that don't rely heavily on earlier context.\n- Clear headings that describe the following section.\n- Specific nouns instead of vague pronouns (\"the payment API\" instead of \"it\").\n- Logical organization using lists and short sections.\n- Definitions of important terms when first introduced.\n- Consistent terminology (using the same name for the same concept throughout). [thegeolab.net](https://thegeolab.net/llm-readability/?utm_source=chatgpt.com)[readable.com](https://readable.com/readability/what-is-readability/?utm_source=chatgpt.com)\n\nIt's also worth noting that **LLM readability is still an evolving concept**. Traditional readability has well-established formulas developed over decades, while LLM readability is mostly discussed in AI content strategy and retrieval contexts. Researchers and practitioners generally agree that making content more explicit, well-structured, and semantically clear helps LLMs process it more effectively, but there is not yet a single accepted benchmark or scoring system. [thegeolab.net](https://thegeolab.net/llm-readability/?utm_source=chatgpt.com)",
+          "search_results": [
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://readable.com/text/?utm_source=chatgpt.com",
+              "domain": "readable.com",
+              "title": "Measure the Readability of Text - Text Analysis Tools \u2013 Readable",
+              "description": "MEASURE TEXT READABILITY  PASTE SOME TEXT CONTENT BELOW AND GET A FREE BASIC READABILITY SCORE INSTANTLY.  RESULTS SCORE TEXT  To score the readability of your content, paste it into the box on the l...",
+              "breadcrumb": "readable.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://readable.com/?utm_source=chatgpt.com",
+              "domain": "readable.com",
+              "title": "Readability score | Readability test | Reading level calculator | Readable",
+              "description": "OUR READABILITY CHECKER HELPS YOU TO COMMUNICATE CLEARLY.  READABLE IS AN ONLINE TOOLKIT THAT HELPS WRITERS EVERYWHERE IMPROVE THEIR READABILITY AND BRING THEIR AUDIENCE CLOSER.  Sign Up Today or Try...",
+              "breadcrumb": "readable.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-evaluation-type-judge-prompt-llama.html?utm_source=chatgpt.com",
+              "domain": "docs.aws.amazon.com",
+              "title": "Meta\u00a0Llama 3.1 70B Instruct - Amazon Bedrock",
+              "description": "READABILITY  Readability \u2013 Looks at the model's responses and evaluates the terminological and linguistic complexity of the response. Responses are graded a 5-point Likert scale, and then normalized i...",
+              "breadcrumb": "amazon.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2666920X24001565?utm_source=chatgpt.com",
+              "domain": "www.sciencedirect.com",
+              "title": "Assessing how accurately large language models encode and apply the common European framework of reference for languages - ScienceDirect",
+              "description": "2. RELATED WORK  2.1. PROBING LLMS FOR ACQUIRED KNOWLEDGE  Through exposure to huge internet training sets during pre-training, LLMs can acquire knowledge of real world constructs through context-spec...",
+              "breadcrumb": "sciencedirect.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.sciencedirect.com/science/article/pii/S1877050924026905?utm_source=chatgpt.com",
+              "domain": "www.sciencedirect.com",
+              "title": "Understanding Readability of Large Language Models Output: An Empirical Analysis - ScienceDirect",
+              "description": "PROCEDIA COMPUTER SCIENCE  Volume 246, 2024, Pages 5273-5282  UNDERSTANDING READABILITY OF LARGE LANGUAGE MODELS OUTPUT: AN EMPIRICAL ANALYSIS  https://doi.org/10.1016/j.procs.2024.09.636Get rights a...",
+              "breadcrumb": "sciencedirect.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.aufgesang.de/blog/was-ist-llm-readability/?utm_source=chatgpt.com",
+              "domain": "www.aufgesang.de",
+              "title": "Was ist LLM-Readability? - Aufgesang",
+              "description": "1. Home 2. / 3. SEO 4. / 5. Was ist LLM-Readability?  WAS IST LLM-READABILITY?  von Olaf Kopp | 21. Feb. 2026 | Generative Engine Optimierung (GEO), SEO  Lesedauer: 3 Minuten  Image: 2022-09-01_Leset...",
+              "breadcrumb": "aufgesang.de"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.ranktracker.com/blog/how-to-make-content-llm-readable/?utm_source=chatgpt.com",
+              "domain": "www.ranktracker.com",
+              "title": "How to Make Your Content LLM-Readable",
+              "description": "HOW TO MAKE YOUR CONTENT LLM-READABLE  * Image: Felix Rose-Collins is the Co-founder and CEO/CMO of Ranktracker. With over 15 years of SEO experience, he has single-handedly scaled the Ranktracker si...",
+              "breadcrumb": "ranktracker.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://andresseo.expert/geo/geo-glossary/machine-readability/?utm_source=chatgpt.com",
+              "domain": "andresseo.expert",
+              "title": "Machine Readability: Definition and Impact on AI Search",
+              "description": "April 3, 2026  3 min read  MACHINE READABILITY: DEFINITION, LLM IMPACT & BEST PRACTICES  A technical guide to optimizing content structure for seamless LLM ingestion and generative engine visibility....",
+              "breadcrumb": "andresseo.expert"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.visibilitystack.ai/academy/content-engineering/ai-readability-score?utm_source=chatgpt.com",
+              "domain": "www.visibilitystack.ai",
+              "title": "What is AI Readability Score? Definition and Guide",
+              "description": "WHAT IS AI READABILITY SCORE?  Last Updated: May 18, 2026  Written by  Image: Ameet Mehta  Ameet Mehta  Co-Founder & CEO  On this page  * Why It Matters * How It Works * Common Misconceptions * Frequ...",
+              "breadcrumb": "visibilitystack.ai"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://academic.oup.com/view-large/554579574?utm_source=chatgpt.com",
+              "domain": "academic.oup.com",
+              "title": "Table 1. Open in new tab LLM Output... | Oxford Academic",
+              "description": "Table 1.  Open in new tab  LLM Output Assessment Metrics  Criteria (score) .\u00a0  | Description .\u00a0  | ChatGPT .\u00a0  | Gemini .\u00a0  | Grok .\u00a0  | Copilot . --- | --- | --- | --- | --- | --- Readability (0-5)...",
+              "breadcrumb": "oup.com"
+            }
+          ],
+          "sources": [
+            {
+              "type": "chat_gpt_source",
+              "title": "LLM Readability: What It Means and How to Test It The GEO Lab",
+              "snippet": null,
+              "domain": "thegeolab.net",
+              "url": "https://thegeolab.net/llm-readability/?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "The GEO Lab",
+              "publication_date": "2026-03-25 00:00:00 +00:00",
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "What is readability? \u2013 Readable",
+              "snippet": null,
+              "domain": "readable.com",
+              "url": "https://readable.com/readability/what-is-readability/?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "Readable",
+              "publication_date": null,
+              "markdown": null
+            }
+          ],
+          "fan_out_queries": null,
+          "brand_entities": null,
+          "se_results_count": 0,
+          "item_types": [
+            "chat_gpt_text",
+            "chat_gpt_table"
+          ],
+          "items_count": 3,
+          "items": [
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "markdown": "\"LLM readability\" is an emerging term rather than a formally standardized one. It generally refers to **how easily a large language model (LLM) can interpret, retrieve, and accurately use a piece of content**, which is related to\u2014but different from\u2014how easy that content is for a human to read. [thegeolab.net](https://thegeolab.net/llm-readability/?utm_source=chatgpt.com)[readable.com](https://readable.com/readability/what-is-readability/?utm_source=chatgpt.com)\n\nHere's the key distinction:\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "LLM Readability: What It Means and How to Test It The GEO Lab",
+                  "snippet": null,
+                  "domain": "thegeolab.net",
+                  "url": "https://thegeolab.net/llm-readability/?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "The GEO Lab",
+                  "publication_date": "2026-03-25 00:00:00 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "What is readability? \u2013 Readable",
+                  "snippet": null,
+                  "domain": "readable.com",
+                  "url": "https://readable.com/readability/what-is-readability/?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "Readable",
+                  "publication_date": null,
+                  "markdown": null
+                }
+              ],
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_table",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "text": null,
+              "markdown": "| Human readability | LLM readability |\n|---|---|\n| Is the text easy for people to read? | Is the text easy for an AI model to understand and reuse? |\n| Focuses on sentence length, vocabulary, grammar, and layout. | Focuses on clear meaning, explicit context, logical structure, and self-contained passages. |\n| Measured by scores like Flesch Reading Ease or Flesch-Kincaid Grade Level. | No universally accepted metric currently exists. [thegeolab.net](https://thegeolab.net/llm-readability/?utm_source=chatgpt.com)[readable.com](https://readable.com/readability/what-is-readability/?utm_source=chatgpt.com)\n\n",
+              "table": {
+                "table_header": [
+                  "Human readability",
+                  "LLM readability"
+                ],
+                "table_content": [
+                  [
+                    "Is the text easy for people to read?",
+                    "Is the text easy for an AI model to understand and reuse?"
+                  ],
+                  [
+                    "Focuses on sentence length, vocabulary, grammar, and layout.",
+                    "Focuses on clear meaning, explicit context, logical structure, and self-contained passages."
+                  ],
+                  [
+                    "Measured by scores like Flesch Reading Ease or Flesch-Kincaid Grade Level.",
+                    "No universally accepted metric currently exists. [thegeolab.net](https://thegeolab.net/llm-readability/?utm_source=chatgpt.com)[readable.com](https://readable.com/readability/what-is-readability/?utm_source=chatgpt.com)"
+                  ]
+                ]
+              },
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "markdown": "\nFor example, consider this paragraph:\n\n> \"It works because of the previous method.\"\n\nA human who has read the previous section understands it immediately. An LLM that processes only this paragraph (or a chunk of it) may not know what \"it\" or \"the previous method\" refers to.\n\nA more LLM-readable version would be:\n\n> \"The caching algorithm reduces database queries because it stores frequently requested results in memory.\"\n\nThis version is also human-readable, but it contains explicit references that help an LLM interpret it even if it appears in isolation.\n\nIn practice, content with high LLM readability tends to have:\n- Self-contained paragraphs that don't rely heavily on earlier context.\n- Clear headings that describe the following section.\n- Specific nouns instead of vague pronouns (\"the payment API\" instead of \"it\").\n- Logical organization using lists and short sections.\n- Definitions of important terms when first introduced.\n- Consistent terminology (using the same name for the same concept throughout). [thegeolab.net](https://thegeolab.net/llm-readability/?utm_source=chatgpt.com)[readable.com](https://readable.com/readability/what-is-readability/?utm_source=chatgpt.com)\n\nIt's also worth noting that **LLM readability is still an evolving concept**. Traditional readability has well-established formulas developed over decades, while LLM readability is mostly discussed in AI content strategy and retrieval contexts. Researchers and practitioners generally agree that making content more explicit, well-structured, and semantically clear helps LLMs process it more effectively, but there is not yet a single accepted benchmark or scoring system. [thegeolab.net](https://thegeolab.net/llm-readability/?utm_source=chatgpt.com)",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "LLM Readability: What It Means and How to Test It The GEO Lab",
+                  "snippet": null,
+                  "domain": "thegeolab.net",
+                  "url": "https://thegeolab.net/llm-readability/?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "The GEO Lab",
+                  "publication_date": "2026-03-25 00:00:00 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "What is readability? \u2013 Readable",
+                  "snippet": null,
+                  "domain": "readable.com",
+                  "url": "https://readable.com/readability/what-is-readability/?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "Readable",
+                  "publication_date": null,
+                  "markdown": null
+                }
+              ],
+              "brand_entities": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "version": "0.1.20260610",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "7.1028 sec.",
+  "cost": 0.018054,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "06282012-1516-0612-0000-d4771084aa29",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "7.0450 sec.",
+      "cost": 0.018054,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "perplexity",
+        "llm_responses",
+        "live"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "llm_responses",
+        "se": "perplexity",
+        "user_prompt": "What is LLM readability?",
+        "model_name": "sonar-pro",
+        "web_search": true
+      },
+      "result": [
+        {
+          "model_name": "sonar-pro",
+          "input_tokens": 13,
+          "output_tokens": 761,
+          "reasoning_tokens": 0,
+          "web_search": true,
+          "money_spent": 0.017454,
+          "datetime": "2026-06-28 20:12:40 +00:00",
+          "items": [
+            {
+              "type": "message",
+              "sections": [
+                {
+                  "type": "text",
+                  "text": "**LLM readability** is how easily and accurately a **large language model can process, understand, and extract information from a piece of content**, so that it can use and cite that content in its answers.[1][2][3][7]\n\n### Core idea\n\nIn this context, readability is *not* just about humans finding text easy to read. It focuses on whether AI systems like ChatGPT, Perplexity, or Google\u2019s AI Overviews can:\n\n- Parse the text correctly  \n- Break it into meaningful **chunks**  \n- Understand its semantics and structure  \n- Retrieve the right passage for a given query  \n- Confidently use it as a **citation/source** in their responses[1][2][3][7]\n\nContent with **high LLM readability** is more likely to be:\n\n- Extracted and understood by LLMs[2][3]  \n- Selected as a relevant chunk for a user\u2019s question[2][7]  \n- Cited or linked as a source in AI-generated answers[1][2][3][5][7]  \n\n### Key factors that influence LLM readability\n\nOlaf Kopp and others describe several core dimensions that make content \u201cLLM-readable\u201d:[2][3][7]\n\n- **Natural language quality** \u2013 clear, grammatical, non-obscure wording[2][3]  \n- **Structuring** \u2013 logical headings, short paragraphs, lists, and explicit sections[2][3][7]  \n- **Chunk relevance** \u2013 each section is tightly focused on a specific topic or question[2][3]  \n- **Information hierarchy** \u2013 important points are clearly signposted and easy to locate[2][3][7]  \n- **Context management** \u2013 terms are defined, references are clear, minimal ambiguity[2][3][7]  \n- **Consistency and specificity** \u2013 key terminology is used consistently; answers include concrete data, entities, or numbers where appropriate[2]  \n- **Loading/time & technical accessibility** \u2013 content can be fetched and parsed reliably[2][3][5]  \n\nMeasurable indicators of good LLM readability include, for example:[2]\n\n- Many **question-based headings** (\u201cWhat is\u2026?\u201d, \u201cHow does\u2026?\u201d)  \n- **Short paragraphs** (often < ~400 characters)[2]  \n- Consistent use of core terms (stable n\u2011gram patterns)[2]  \n- Clear alignment between headings and the text that follows[2]  \n- Presence of explicit answer types (numbers, named entities, definitions)[2]  \n\n### Related notions and tools\n\n- **Generative Engine Optimization (GEO)**: A broader practice of optimizing content to be *readable, retrievable, and useful* for LLMs, rather than just ranked in traditional search.[7]  \n- **LLMs.txt**: A proposed standard that provides a **plain-text, Markdown-structured overview** of a site to make it more accessible and structured for AI models\u2014essentially a file that boosts a website\u2019s AI readability.[5]  \n- **LLM Readability Score**: A scoring model created by Olaf Kopp that combines the above factors into a numeric estimate of how citation\u2011worthy content is for LLMs.[2][3]  \n\n### Distinguishing from \u201creadability measured by LLMs\u201d\n\nThere is a separate line of work where LLMs **evaluate human readability** (how easy text is for people to understand) by scoring passages on clarity, vocabulary complexity, and sentence structure.[4][6] That is about using LLMs *as tools* to measure human readability, whereas **LLM readability (as used in SEO/GEO)** is about writing content so that *LLMs themselves* can process and cite it effectively.[1][2][3][7]",
+                  "annotations": [
+                    {
+                      "title": "What is LLM Readability Optimization? - LinkedIn",
+                      "url": "https://www.linkedin.com/pulse/what-llm-readability-optimization-olaf-kopp--u3arf"
+                    },
+                    {
+                      "title": "LLM Readability & Chunk Relevance - The most influential factors to ...",
+                      "url": "https://www.kopp-online-marketing.com/llm-readability-chunk-relevance-the-most-influential-factors-to-become-citation-worthy-by-llms"
+                    },
+                    {
+                      "title": "Ultimate guide for llm readability optimization and better chunk ...",
+                      "url": "https://www.kopp-online-marketing.com/ultimate-guide-for-llm-readability-optimization-and-better-chunk-relevance"
+                    },
+                    {
+                      "title": "Measuring the \"readability\" of texts with Large Language Models",
+                      "url": "https://seantrott.substack.com/p/measuring-the-readability-of-texts"
+                    },
+                    {
+                      "title": "LLMs.txt Explained: Boosting Your Website's AI Readability - Adsby",
+                      "url": "https://adsby.co/blog/llms-txt-explained-boosting-website-s-ai-readability/"
+                    },
+                    {
+                      "title": "seantrott/llm_readability: Using LLMs to measure the readability of text.",
+                      "url": "https://github.com/seantrott/llm_readability"
+                    },
+                    {
+                      "title": "GEO guide to optimize writing for LLMs - Mintlify",
+                      "url": "https://www.mintlify.com/blog/how-to-improve-llm-readability"
+                    },
+                    {
+                      "title": "Readability & quality of large language model responses in CAR-T ...",
+                      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0006497125088731"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fan_out_queries": null
+        }
+      ]
+    }
+  ]
+}

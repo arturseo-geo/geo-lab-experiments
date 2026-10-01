@@ -1,0 +1,95 @@
+{
+  "version": "0.1.20260610",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "7.3951 sec.",
+  "cost": 0.014991,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "06282027-1516-0612-0000-63efe921c8ca",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "7.3683 sec.",
+      "cost": 0.014991,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "perplexity",
+        "llm_responses",
+        "live"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "llm_responses",
+        "se": "perplexity",
+        "user_prompt": "What is System Memory in the GEO Stack framework?",
+        "model_name": "sonar-pro",
+        "web_search": true
+      },
+      "result": [
+        {
+          "model_name": "sonar-pro",
+          "input_tokens": 17,
+          "output_tokens": 556,
+          "reasoning_tokens": 0,
+          "web_search": true,
+          "money_spent": 0.014391,
+          "datetime": "2026-06-28 20:27:34 +00:00",
+          "items": [
+            {
+              "type": "message",
+              "sections": [
+                {
+                  "type": "text",
+                  "text": "System Memory in the GEO Stack framework is **Layer 5**, representing the **accumulated pattern of entity\u2013topic associations that generative AI systems build about your site over time**, which turns your site into a **persistent reference point** for a given topic.[1][2]\n\n### Core definition\n\n- **System Memory** is the **long\u2011term authority signal** in AI search: the pattern of how your **entity** (e.g., your brand, site, author) is consistently associated with specific topics across your content, over months and quarters.[2]  \n- It is **Layer 5 (the highest layer) of the GEO Stack**, sitting on top of:  \n  1. Retrieval Probability  \n  2. Extractability  \n  3. Entity Reinforcement  \n  4. Structural Authority[1][2]\n\n### What System Memory does\n\n- It is what makes some sites **\u201cdefault sources\u201d** for generative AI: systems repeatedly **cite and rely on them** when constructing answers in a topic area.[2]  \n- It reflects whether an AI has built a **stable, repeated association** between your entity and your target topics over time.[1][2]\n\n### How System Memory is built\n\nSystem Memory **cannot be directly optimized or engineered**; it **emerges** from sustained application of Layers 1\u20134:[1][2]\n\n- **Consistent entity usage**  \n  - Same naming conventions and entity signals across all content.[1]  \n\n- **Structural coherence**  \n  - Stable information architecture and URL/content structure over time, avoiding major restructures that \u201creset\u201d learned associations.[1][2]  \n\n- **Regular publishing**  \n  - Ongoing content that reinforces a clear topical focus rather than sporadic, disconnected posts.[1][2]  \n\n- **Cross\u2011page reinforcement**  \n  - Multiple related pages supporting the same topics and entities, creating dense internal signal patterns.[1]\n\nAll **structural and content decisions** in Layers 1\u20134 either **contribute to** or **undermine** the conditions for System Memory to accumulate.[2]\n\n### Key properties\n\n- **Long\u2011term, not quick\u2011fix:** It is built over **months and quarters**, not days or weeks.[2]  \n- **Opaque:** Compared with lower layers, System Memory is more **indirect and hard to measure**, because it depends on how AI systems internally model and remember your site.[2]  \n- **Outcome layer:** It is the **layer the entire GEO Stack builds toward**\u2014the end result of strong retrieval, extractability, entity reinforcement, and structural authority.[2]  \n\nIn short, **System Memory** is the GEO Stack\u2019s final layer describing how AI systems *remember* and *trust* your site as an authoritative source for specific topics, based on consistent, structurally coherent content over time.",
+                  "annotations": [
+                    {
+                      "title": "The GEO Stack: How the Five-Layer GEO Framework Works",
+                      "url": "https://thegeolab.net/geo-stack/"
+                    },
+                    {
+                      "title": "System Memory \u2014 Long-Term Authority in AI Search - The GEO Lab",
+                      "url": "https://thegeolab.net/system-memory/"
+                    },
+                    {
+                      "title": "Self-Evolving Distributed Memory Architecture for Scalable AI Systems",
+                      "url": "https://arxiv.org/html/2601.05569v2"
+                    },
+                    {
+                      "title": "Stack and Heap locations in RAM",
+                      "url": "https://stackoverflow.com/questions/32418750/stack-and-heap-locations-in-ram"
+                    },
+                    {
+                      "title": "The Memory Stack: From RAG to Cognitive AI",
+                      "url": "https://interestingengineering.substack.com/p/the-memory-stack-from-rag-to-cognitive"
+                    },
+                    {
+                      "title": "Building a memory framework - what works and what doesn't - Reddit",
+                      "url": "https://www.reddit.com/r/AI_Agents/comments/1sx1vju/building_a_memory_framework_what_works_and_what/"
+                    },
+                    {
+                      "title": "Modularity & Repairability with Framework | The Bring Up - YouTube",
+                      "url": "https://www.youtube.com/watch?v=5tsMWLwdN_4"
+                    },
+                    {
+                      "title": "NetFx.System.Memory 4.0.0 - NuGet",
+                      "url": "https://www.nuget.org/packages/NetFx.System.Memory/"
+                    },
+                    {
+                      "title": "AI Memory : The Simplest System That Beats Every Complex Solution",
+                      "url": "https://discuss.huggingface.co/t/ai-memory-the-simplest-system-that-beats-every-complex-solution/155483"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fan_out_queries": null
+        }
+      ]
+    }
+  ]
+}
