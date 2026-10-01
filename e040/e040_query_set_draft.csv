@@ -1,0 +1,46 @@
+query_id,page,arm,cluster_id,cluster_concept,form,query,word_count,proposed_google_intent_class,target_url,notes
+GS-1-A,/geo-stack/,caveated (E090 freeze),GS-1,five layers overview,A,GEO Stack framework layers,4,DEFINITION,https://thegeolab.net/geo-stack/,
+GS-1-B,/geo-stack/,caveated (E090 freeze),GS-1,five layers overview,B,how does the GEO Stack framework structure its five layers,10,INSTRUCTION,https://thegeolab.net/geo-stack/,close to E014 Q5 (How does the GEO Stack work?): ceiling risk
+GS-1-C,/geo-stack/,caveated (E090 freeze),GS-1,five layers overview,C,can you explain how the GEO Stack framework organises its five layers,12,INSTRUCTION,https://thegeolab.net/geo-stack/,
+GS-2-A,/geo-stack/,caveated (E090 freeze),GS-2,layer order and bottom-up dependency,A,GEO Stack layer order,4,DEFINITION,https://thegeolab.net/geo-stack/,
+GS-2-B,/geo-stack/,caveated (E090 freeze),GS-2,layer order and bottom-up dependency,B,why does the order of GEO Stack layers matter,9,REASON,https://thegeolab.net/geo-stack/,
+GS-2-C,/geo-stack/,caveated (E090 freeze),GS-2,layer order and bottom-up dependency,C,could you explain why GEO Stack layers must be fixed from the bottom up,14,INSTRUCTION,https://thegeolab.net/geo-stack/,
+GS-3-A,/geo-stack/,caveated (E090 freeze),GS-3,Stage 0 prerequisite gate,A,GEO Stack Stage 0 prerequisite,5,DEFINITION,https://thegeolab.net/geo-stack/,
+GS-3-B,/geo-stack/,caveated (E090 freeze),GS-3,Stage 0 prerequisite gate,B,what is Stage 0 in the GEO Stack framework,9,DEFINITION,https://thegeolab.net/geo-stack/,
+GS-3-C,/geo-stack/,caveated (E090 freeze),GS-3,Stage 0 prerequisite gate,C,I want to understand what Stage 0 means before the GEO Stack layers apply,14,INSTRUCTION,https://thegeolab.net/geo-stack/,
+GS-4-A,/geo-stack/,caveated (E090 freeze),GS-4,comparison with traditional SEO,A,GEO Stack versus traditional SEO,5,COMPARISON,https://thegeolab.net/geo-stack/,
+GS-4-B,/geo-stack/,caveated (E090 freeze),GS-4,comparison with traditional SEO,B,how does the GEO Stack differ from traditional SEO,9,COMPARISON,https://thegeolab.net/geo-stack/,
+GS-4-C,/geo-stack/,caveated (E090 freeze),GS-4,comparison with traditional SEO,C,please explain how the GEO Stack differs from traditional SEO in practice,12,INSTRUCTION,https://thegeolab.net/geo-stack/,
+GS-5-A,/geo-stack/,caveated (E090 freeze),GS-5,auditing content with the stack,A,GEO Stack content audit,4,DEFINITION,https://thegeolab.net/geo-stack/,
+GS-5-B,/geo-stack/,caveated (E090 freeze),GS-5,auditing content with the stack,B,how do I use the GEO Stack to audit content,10,INSTRUCTION,https://thegeolab.net/geo-stack/,
+GS-5-C,/geo-stack/,caveated (E090 freeze),GS-5,auditing content with the stack,C,can you walk me through using the GEO Stack to audit my content,13,INSTRUCTION,https://thegeolab.net/geo-stack/,
+EX-1-A,/extractability/,primary clean pair,EX-1,definition,A,extractability in GEO,3,DEFINITION,https://thegeolab.net/extractability/,
+EX-1-B,/extractability/,primary clean pair,EX-1,definition,B,what is extractability in generative engine optimisation,7,DEFINITION,https://thegeolab.net/extractability/,close to E014 Q6 (Perplexity 3/3 at M5 to M7): ceiling risk
+EX-1-C,/extractability/,primary clean pair,EX-1,definition,C,can you explain what extractability means in generative engine optimisation,10,INSTRUCTION,https://thegeolab.net/extractability/,
+EX-2-A,/extractability/,primary clean pair,EX-2,answer-first structure,A,answer-first content structure,3,DEFINITION,https://thegeolab.net/extractability/,
+EX-2-B,/extractability/,primary clean pair,EX-2,answer-first structure,B,what is answer-first structure in AI search content,8,DEFINITION,https://thegeolab.net/extractability/,
+EX-2-C,/extractability/,primary clean pair,EX-2,answer-first structure,C,could you explain what answer-first structure means for content in AI search,12,INSTRUCTION,https://thegeolab.net/extractability/,
+EX-3-A,/extractability/,primary clean pair,EX-3,section independence,A,section independence for AI retrieval,5,DEFINITION,https://thegeolab.net/extractability/,
+EX-3-B,/extractability/,primary clean pair,EX-3,section independence,B,why does section independence matter for AI search content,9,REASON,https://thegeolab.net/extractability/,
+EX-3-C,/extractability/,primary clean pair,EX-3,section independence,C,I want to understand why each content section needs to stand alone for AI,14,INSTRUCTION,https://thegeolab.net/extractability/,drifts from the term section independence to stand alone: check C2
+EX-4-A,/extractability/,primary clean pair,EX-4,compression resistance,A,compression resistance in content,4,DEFINITION,https://thegeolab.net/extractability/,
+EX-4-B,/extractability/,primary clean pair,EX-4,compression resistance,B,what is compression resistance in AI generated answers,8,DEFINITION,https://thegeolab.net/extractability/,
+EX-4-C,/extractability/,primary clean pair,EX-4,compression resistance,C,please explain what compression resistance means when AI summarises my content,11,INSTRUCTION,https://thegeolab.net/extractability/,
+EX-5-A,/extractability/,primary clean pair,EX-5,ranking without AI citation,A,ranking without AI citation,4,DEFINITION,https://thegeolab.net/extractability/,
+EX-5-B,/extractability/,primary clean pair,EX-5,ranking without AI citation,B,why can high-ranking content still fail in AI search,9,REASON,https://thegeolab.net/extractability/,matches a FAQ question on the page verbatim
+EX-5-C,/extractability/,primary clean pair,EX-5,ranking without AI citation,C,can you explain why my top-ranking page never gets cited in AI answers,13,INSTRUCTION,https://thegeolab.net/extractability/,
+RP-1-A,/retrieval-probability/,primary clean pair,RP-1,definition,A,retrieval probability in GEO,4,DEFINITION,https://thegeolab.net/retrieval-probability/,
+RP-1-B,/retrieval-probability/,primary clean pair,RP-1,definition,B,what is retrieval probability in generative engine optimisation,8,DEFINITION,https://thegeolab.net/retrieval-probability/,identical string to E014 Q2alt (M4 exploratory probe: not cited n=1)
+RP-1-C,/retrieval-probability/,primary clean pair,RP-1,definition,C,can you explain what retrieval probability means in generative engine optimisation,11,INSTRUCTION,https://thegeolab.net/retrieval-probability/,
+RP-2-A,/retrieval-probability/,primary clean pair,RP-2,five variables,A,five retrieval probability variables,4,DEFINITION,https://thegeolab.net/retrieval-probability/,sibling-page risk: /what-raises-retrieval-probability/
+RP-2-B,/retrieval-probability/,primary clean pair,RP-2,five variables,B,what are the five variables that control retrieval probability,9,DEFINITION,https://thegeolab.net/retrieval-probability/,sibling-page risk: /what-raises-retrieval-probability/
+RP-2-C,/retrieval-probability/,primary clean pair,RP-2,five variables,C,could you list the five variables that control retrieval probability for AI search,13,INSTRUCTION,https://thegeolab.net/retrieval-probability/,sibling-page risk: /what-raises-retrieval-probability/
+RP-3-A,/retrieval-probability/,primary clean pair,RP-3,fan-out queries,A,fan-out queries in AI search,5,DEFINITION,https://thegeolab.net/retrieval-probability/,
+RP-3-B,/retrieval-probability/,primary clean pair,RP-3,fan-out queries,B,what are fan-out queries in AI search retrieval,8,DEFINITION,https://thegeolab.net/retrieval-probability/,
+RP-3-C,/retrieval-probability/,primary clean pair,RP-3,fan-out queries,C,I want to understand how AI search splits my question into fan-out queries,13,INSTRUCTION,https://thegeolab.net/retrieval-probability/,
+RP-4-A,/retrieval-probability/,primary clean pair,RP-4,ranking versus retrieval,A,ranking versus AI retrieval,4,COMPARISON,https://thegeolab.net/retrieval-probability/,overlaps EX-5 conceptually: check cluster separation
+RP-4-B,/retrieval-probability/,primary clean pair,RP-4,ranking versus retrieval,B,why does ranking first not guarantee retrieval by AI search,10,REASON,https://thegeolab.net/retrieval-probability/,overlaps EX-5 conceptually: check cluster separation
+RP-4-C,/retrieval-probability/,primary clean pair,RP-4,ranking versus retrieval,C,could you explain why ranking number one on Google doesn't mean AI retrieves my page,15,INSTRUCTION,https://thegeolab.net/retrieval-probability/,overlaps EX-5 conceptually: check cluster separation
+RP-5-A,/retrieval-probability/,primary clean pair,RP-5,measurement and proxy metrics,A,retrieval probability metrics,3,DEFINITION,https://thegeolab.net/retrieval-probability/,
+RP-5-B,/retrieval-probability/,primary clean pair,RP-5,measurement and proxy metrics,B,how can you measure retrieval probability in AI search,9,INSTRUCTION,https://thegeolab.net/retrieval-probability/,sibling-page risk: /what-raises-retrieval-probability/
+RP-5-C,/retrieval-probability/,primary clean pair,RP-5,measurement and proxy metrics,C,please explain how I can measure whether AI search retrieves my content,12,INSTRUCTION,https://thegeolab.net/retrieval-probability/,
