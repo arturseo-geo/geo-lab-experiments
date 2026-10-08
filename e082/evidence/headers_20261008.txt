@@ -1,0 +1,23 @@
+HTTP/2 200 
+date: Thu, 08 Oct 2026 07:59:06 GMT
+content-type: application/json; charset=utf-8
+content-length: 2898657
+access-control-allow-origin: *
+cache-control: no-store
+access-control-allow-headers: Authorization, Content-Type
+access-control-allow-methods: GET, POST, OPTIONS
+access-control-max-age: 86400
+content-security-policy: default-src 'none'; style-src 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'unsafe-inline'; connect-src 'self'; img-src data:; form-action 'self'
+referrer-policy: no-referrer
+x-content-type-options: nosniff
+x-robots-tag: noindex, nofollow, noarchive, nosnippet
+vary: accept-encoding
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=%2Bt%2FY7pIR9UVRlVbEpb8loxyt7LBsXDCwLLGAD%2BAUUSQ8ccRIu7lhu0JXYiriRcIP5SXL8p83TP64t6n1gds%2BheC8L7PMXCaPhA9biIwCPUIGZDm9qoO%2BrSsI1%2BmSt%2Bk%3D"}]}
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+tdm-policy: https://entia.systems/.well-known/tdm-policy.json
+tdm-policy-version: 3
+tdm-reservation: 1
+server: cloudflare
+cf-ray: a4739aac2a90a62e-EWR
+alt-svc: h3=":443"; ma=86400
+
