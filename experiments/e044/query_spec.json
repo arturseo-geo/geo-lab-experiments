@@ -91,8 +91,14 @@
     "persistence_gate": "A trigger must hold for >=2 CONSECUTIVE weekly sessions before it escalates. A single-week appearance is carousel noise — log it, do not escalate."
   },
 
+  "rank_definition": "1-based position of the first URL in the response's top-level citations array whose domain contains the target domain string. Matches on domain, not on the specific target page. 0 if absent.",
+
+  "baseline_note": "No raw responses exist for 2026-10-12 (output was piped through a parser and discarded). The search_results field was never checked against citations. Rows from 2026-10-12 onward are the series; earlier rows are not confirmed like-for-like.",
+
+  "archive_raw": true,
+
   "known_discrepancies": {
-    "temperature": "recursion_check.js pins temperature=0. The E044 sessions in this conversation did not set temperature (API default applies). This means E044 results may have slightly more variance than recursion_check runs. Pinning temperature=0 for future E044 runs is recommended but not yet enforced.",
+    "temperature": "Decision 2026-10-12 (AJ): temperature stays UNSET by design, to match the 2026-10-12 baseline row. Do not pin it and do not change it mid-series. If a pin is ever wanted, treat it as a new instrument version and start a new series.",
     "return_citations": "The E044 curl commands used return_citations=true explicitly. geo_lab_30check.js and recursion_check.js do not set it — the API returns citations by default. The explicit flag is harmless but not strictly necessary.",
     "model": "citation_check.js uses 'sonar' (not sonar-pro). E044 and the 30check/recursion scripts use 'sonar-pro'. These are different models with different retrieval behaviour. E044 is sonar-pro only."
   }
