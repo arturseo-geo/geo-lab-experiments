@@ -1,0 +1,51 @@
+run_id,platform,iteration,query_num,query_tier,query_text,code,url_cited,reconstruction_description,timestamp_utc,notes
+E014M3-001,perplexity,I1,Q1,T2,What is GEO (Generative Engine Optimisation)?,X,,,2026-05-28T21:25:00Z,sources=7 no_tgl
+E014M3-002,perplexity,I1,Q2,T1,What is Retrieval Probability in AI search?,X,,,2026-05-28T21:26:00Z,sources=7 no_tgl
+E014M3-003,perplexity,I1,Q3,T1,What is LLM readability?,X,,,2026-05-28T21:27:00Z,sources=8 no_tgl
+E014M3-004,perplexity,I1,Q4,T2,GEO vs traditional SEO — what changed?,X,,,2026-05-28T21:28:00Z,sources=6 no_tgl
+E014M3-005,perplexity,I1,Q5,T1,How does the GEO Stack work?,X,,,2026-05-28T21:30:00Z,sources=7 misread=geospatial/eSEOspace
+E014M3-006,perplexity,I1,Q6,T1,What is Extractability in GEO?,C,https://thegeolab.net/extractability/,"extractability sits on the structural layer... High extractability means each section or paragraph is a complete thought that: answers a clear question on its own, does not rely on prior context, keeps key entities and terms explicit",2026-05-28T21:32:00Z,sources=8 ann7=tgl
+E014M3-007,perplexity,I1,Q7,T2,Does GEO actually work?,X,,,2026-05-28T21:33:00Z,sources=8 no_tgl
+E014M3-008,perplexity,I1,Q8,T2,How to measure AI citation rate?,X,,,2026-05-28T21:34:00Z,sources=7 no_tgl
+E014M3-009,perplexity,I1,Q9,T1,What is System Memory in GEO?,X,,,2026-05-28T21:35:00Z,sources=7 misread=RAM/hardware
+E014M3-010,perplexity,I1,Q10,T2,How do AI search engines select content to cite?,X,,,2026-05-28T21:36:00Z,sources=6 no_tgl
+E014M3-011,perplexity,I2,Q1,T2,What is GEO (Generative Engine Optimisation)?,X,,,2026-05-29T00:41:30Z,sources=7 no_tgl
+E014M3-012,perplexity,I2,Q2,T1,What is Retrieval Probability in AI search?,X,,,2026-05-29T00:41:36Z,sources=7 no_tgl
+E014M3-013,perplexity,I2,Q3,T1,What is LLM readability?,X,,,2026-05-29T00:41:44Z,sources=8 no_tgl
+E014M3-014,perplexity,I2,Q4,T2,GEO vs traditional SEO — what changed?,X,,,2026-05-29T00:42:04Z,sources=6 no_tgl
+E014M3-015,perplexity,I2,Q5,T1,How does the GEO Stack work?,X,,,2026-05-29T00:42:20Z,sources=6 misread=geospatial/eSEOspace/Azure/Blender
+E014M3-016,perplexity,I2,Q6,T1,What is Extractability in GEO?,C,https://thegeolab.net/extractability/,"extractability is the measure of how easily AI systems can parse, isolate, and directly reuse a specific section of your content as a self-contained citation without losing meaning or needing the rest of the page for context... Layer 2 in some GEO frameworks, focused on how well each passage can be lifted and reused as-is by an AI",2026-05-29T00:42:29Z,sources=8 ann6=tgl
+E014M3-017,perplexity,I2,Q7,T2,Does GEO actually work?,X,,,2026-05-29T00:42:41Z,sources=8 no_tgl
+E014M3-018,perplexity,I2,Q8,T2,How to measure AI citation rate?,X,,,2026-05-29T00:42:54Z,sources=7 no_tgl
+E014M3-019,perplexity,I2,Q9,T1,What is System Memory in GEO?,X,,,2026-05-29T00:43:00Z,sources=7 misread=geospatial_RAM
+E014M3-020,perplexity,I2,Q10,T2,How do AI search engines select content to cite?,X,,,2026-05-29T00:43:11Z,sources=6 no_tgl
+E014M3-021,perplexity,I3,Q1,T2,What is GEO (Generative Engine Optimisation)?,X,,,2026-05-29T00:43:32Z,sources=8 no_tgl
+E014M3-022,perplexity,I3,Q2,T1,What is Retrieval Probability in AI search?,X,,,2026-05-29T00:43:41Z,sources=7 no_tgl
+E014M3-023,perplexity,I3,Q3,T1,What is LLM readability?,X,,,2026-05-29T00:43:49Z,sources=7 no_tgl
+E014M3-024,perplexity,I3,Q4,T2,GEO vs traditional SEO — what changed?,X,,,2026-05-29T00:44:12Z,sources=6 no_tgl
+E014M3-025,perplexity,I3,Q5,T1,How does the GEO Stack work?,X,,,2026-05-29T00:44:23Z,sources=6 misread=geospatial/eSEOspace/Azure
+E014M3-026,perplexity,I3,Q6,T1,What is Extractability in GEO?,C,https://thegeolab.net/extractability/,"extractability is the measure of how easily an AI system can cleanly pull out a specific passage, understand it in isolation, and reuse or cite it without losing meaning or context... Layer 2 concept in GEO: it measures how cleanly AI systems can parse, isolate, and reuse a section without distorting its meaning or misattributing claims",2026-05-29T00:44:32Z,sources=8 ann6=tgl
+E014M3-027,perplexity,I3,Q7,T2,Does GEO actually work?,X,,,2026-05-29T00:44:46Z,sources=7 no_tgl
+E014M3-028,perplexity,I3,Q8,T2,How to measure AI citation rate?,X,,,2026-05-29T00:44:59Z,sources=7 no_tgl
+E014M3-029,perplexity,I3,Q9,T1,What is System Memory in GEO?,X,,,2026-05-29T00:45:05Z,sources=7 misread=RAM/GIS_memory
+E014M3-030,perplexity,I3,Q10,T2,How do AI search engines select content to cite?,X,,,2026-05-29T00:45:24Z,sources=6 no_tgl
+E014M3-031,chatgpt,I1,Q1,T2,What is GEO (Generative Engine Optimisation)?,X,,,2026-05-28T21:45:00Z,no_sources
+E014M3-032,chatgpt,I1,Q2,T1,What is Retrieval Probability in AI search?,X,,,2026-05-28T21:46:00Z,no_sources
+E014M3-033,chatgpt,I1,Q3,T1,What is LLM readability?,X,,,2026-05-28T21:47:00Z,no_sources
+E014M3-034,chatgpt,I1,Q4,T2,GEO vs traditional SEO — what changed?,X,,,2026-05-28T21:48:00Z,misread=geographic/local_SEO no_sources
+E014M3-035,chatgpt,I1,Q5,T1,How does the GEO Stack work?,X,,,2026-05-28T21:49:00Z,misread=geospatial_GIS_stack no_sources
+E014M3-036,chatgpt,I1,Q6,T1,What is Extractability in GEO?,C,https://thegeolab.net/extractability/,"extractability is the degree to which an AI system can easily find, isolate, understand, compress, and reuse a piece of content inside an AI-generated answer... A page may rank highly in search, but if the content is difficult for an LLM to extract cleanly, it may never get cited",2026-05-28T21:50:00Z,sole_source cited_6x_inline FIRST_CHATGPT_CITATION
+E014M3-037,chatgpt,I1,Q7,T2,Does GEO actually work?,X,,,2026-05-28T21:51:00Z,chatgpt_asked_clarification_on_GEO_meaning
+E014M3-038,chatgpt,I1,Q8,T2,How to measure AI citation rate?,X,,,2026-05-28T21:52:00Z,no_sources
+E014M3-039,chatgpt,I1,Q9,T1,What is System Memory in GEO?,X,,,2026-05-28T21:53:00Z,misread=RAM/satellite_memory
+E014M3-040,chatgpt,I1,Q10,T2,How do AI search engines select content to cite?,X,,,2026-05-28T21:54:00Z,no_sources
+E014M3-041,google_aio,I1,Q1,T2,What is GEO (Generative Engine Optimisation)?,X,,,2026-05-28T22:00:00Z,aio=async no_tgl_organic
+E014M3-042,google_aio,I1,Q2,T1,What is Retrieval Probability in AI search?,X,,,2026-05-28T22:01:00Z,aio=async tgl_rank2_not_rank1
+E014M3-043,google_aio,I1,Q3,T1,What is LLM readability?,X,,,2026-05-28T22:02:00Z,aio=async no_tgl_organic
+E014M3-044,google_aio,I1,Q4,T2,GEO vs traditional SEO — what changed?,X,,,2026-05-28T22:03:00Z,aio=async no_tgl_organic
+E014M3-045,google_aio,I1,Q5,T1,How does the GEO Stack work?,C,https://thegeolab.net/geo-stack/,"The GEO Stack is a five-layer framework for measuring and improving AI citation rate: Retrieval Probability, Extractability...",2026-05-28T22:04:00Z,aio=async organic_rank1 E016_precedent
+E014M3-046,google_aio,I1,Q6,T1,What is Extractability in GEO?,C,https://thegeolab.net/extractability/,"Extractability in GEO measures how cleanly AI systems can parse, isolate, and reuse a content section without losing meaning. It is Layer 2 of...",2026-05-28T22:05:00Z,aio=async organic_rank1 E016_precedent
+E014M3-047,google_aio,I1,Q7,T2,Does GEO actually work?,X,,,2026-05-28T22:06:00Z,aio=async no_tgl_organic
+E014M3-048,google_aio,I1,Q8,T2,How to measure AI citation rate?,X,,,2026-05-28T22:07:00Z,aio=async no_tgl_organic
+E014M3-049,google_aio,I1,Q9,T1,What is System Memory in GEO?,X,,,2026-05-28T22:08:00Z,aio=async misread=GEO-SCADA/Schneider_Electric
+E014M3-050,google_aio,I1,Q10,T2,How do AI search engines select content to cite?,X,,,2026-05-28T22:09:00Z,aio=async no_tgl_organic

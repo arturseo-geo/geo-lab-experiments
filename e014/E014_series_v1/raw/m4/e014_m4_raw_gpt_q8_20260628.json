@@ -1,0 +1,271 @@
+{
+  "version": "0.1.20260610",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "56.1207 sec.",
+  "cost": 0.004,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "06282024-1516-0629-0000-8bd5f66d1a20",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "56.0622 sec.",
+      "cost": 0.004,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "chat_gpt",
+        "llm_scraper",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "llm_scraper",
+        "se": "chat_gpt",
+        "keyword": "How to measure AI citation rate?",
+        "location_name": "United Kingdom",
+        "language_code": "en",
+        "force_web_search": true,
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "How to measure AI citation rate?",
+          "location_code": 2826,
+          "language_code": "en",
+          "model": "gpt-5-5",
+          "check_url": "https://chatgpt.com/?prompt=How%20to%20measure%20AI%20citation%20rate%3F&hints=search",
+          "datetime": "2026-06-28 17:25:16 +00:00",
+          "markdown": "\"AI citation rate\" can mean two different things, so it's important to define it before measuring:\n\n1. **Brand/content citation rate**: How often an AI system cites your website, paper, or brand as a source.\n2. **Model citation rate**: How often an AI system provides citations in its answers, regardless of whose sources they are.\n\nThe measurement approach differs slightly for each.\n\n### Brand/content citation rate\n\nThis is the metric commonly used in AI search optimization (sometimes called GEO or AEO).\n\n**Formula**\n\n> **Citation Rate = (Number of prompts where your content is cited \u00f7 Total prompts tested) \u00d7 100**\n\nFor example:\n\n- 500 representative prompts\n- Your domain cited in 75 responses\n\nCitation rate = 75 / 500 = **15%**. [www.ai-advisors.ai](https://www.ai-advisors.ai/glossary/citation-rate?utm_source=chatgpt.com)\n\n### How to measure it\n\n1. Build a representative prompt set (100\u20131000+ prompts).\n2. Run each prompt against one or more AI systems.\n3. Record:\n   - Was your brand mentioned?\n   - Was your URL or document cited?\n   - Which page was cited?\n4. Calculate:\n   - Citation rate\n   - Mention rate\n   - Share of citations\n   - Citation consistency across repeated runs\n\nA simple spreadsheet might look like:\n\n| Prompt | Model | Cited? | URL cited |\n|--------|-------|--------|-----------|\n| \"Best CRM for startups\" | ChatGPT | Yes | yoursite.com/crm |\n| \"How to reduce churn\" | ChatGPT | No | \u2014 |\n\n\nThen compute:\n\n- Citation Rate = Cited responses / Total prompts\n\n### Model citation rate\n\nIf you're evaluating an AI model itself, measure:\n\n> **Model Citation Rate = (Responses containing at least one citation \u00f7 Total responses) \u00d7 100**\n\nExample:\n\n- 200 questions\n- 90 answers include sources\n\nCitation rate = **45%**.\n\nYou can also track:\n\n- Average citations per answer\n- Citation precision (are cited sources actually relevant?)\n- Citation recall (did the model omit important sources?)\n- Citation faithfulness (does the cited source actually support the claim?) Research on citation evaluation increasingly focuses on this last metric because merely including a citation does not guarantee that it supports the generated statement. [arxiv.org](https://arxiv.org/abs/2406.15264?utm_source=chatgpt.com)\n\n### Best practices\n\nA robust evaluation should:\n\n- Use a fixed benchmark of prompts.\n- Repeat each prompt multiple times to account for response variability.\n- Test across multiple AI platforms separately.\n- Segment results by query type (informational, transactional, comparison, etc.).\n- Track trends over time instead of relying on a single snapshot. Citation behavior varies substantially across AI systems and even across repeated runs of the same prompt. [www.ranketai.com](https://www.ranketai.com/en/glossary/citation-rate?utm_source=chatgpt.com)\n\n### Related metrics\n\nCitation rate is most useful when combined with other measures:\n\n- **Mention rate**: How often your brand is mentioned.\n- **Citation share/share of voice**: Your citations compared with competitors.\n- **Citation accuracy**: Whether citations actually support the claims made.\n- **Citation consistency**: How stable citations are across repeated runs and model updates. [llmpulse.ai](https://llmpulse.ai/help-center/how-are-metrics-calculated-at-llm-pulse?utm_source=chatgpt.com)\n\nIf your goal is to evaluate AI search visibility for a website, the first definition (brand/content citation rate) is the standard metric. If you're benchmarking LLM behavior or conducting research, you'll typically use the second definition together with citation quality and faithfulness metrics.",
+          "search_results": [
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://vydera.com/en/glossary/ai-citation-rate?utm_source=chatgpt.com",
+              "domain": "vydera.com",
+              "title": "AI citation rate: definition, measurement, and improvement | Vydera",
+              "description": "Written on 14/4/2026  Modified on 23/4/2026  AI CITATION RATE: THE KEY METRIC FOR MEASURING YOUR GENERATIVE VISIBILITY  Definition  AI citation rate is the percentage of prompts tested on one or more...",
+              "breadcrumb": "vydera.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.withgauge.com/blog/how-gauge-tracks-citation-rate?utm_source=chatgpt.com",
+              "domain": "www.withgauge.com",
+              "title": "Gauge | How Gauge Tracks Citation Rate Across Millions of Prompts",
+              "description": "HOW GAUGE TRACKS CITATION RATE ACROSS MILLIONS OF PROMPTS  Image  Image  WHAT CITATION RATE MEANS FOR AI VISIBILITY  Citation Rate measures how often an AI engine surfaces your brand when you run a f...",
+              "breadcrumb": "withgauge.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://rankfender.com/en/learn/ai-citation-score/?utm_source=chatgpt.com",
+              "domain": "rankfender.com",
+              "title": "AI Citation Score: Measure & Improve It | Rankfender",
+              "description": "LEARN  WHAT IS AI CITATION SCORE? THE NEW CURRENCY OF AI VISIBILITY  AI Citation Score measures how frequently AI systems like ChatGPT, Perplexity, and Gemini cite your content as a source \u2014 not just...",
+              "breadcrumb": "rankfender.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://suprmind.ai/hub/methodology/citation-rate/?utm_source=chatgpt.com",
+              "domain": "suprmind.ai",
+              "title": "Citation Rate - Suprmind",
+              "description": "Metrics  CITATION RATE  Last updated: May 10, 2026 \u2022 3 min read  TL;DR: Citation Rate is the % of AI answers (within a fixed query set) that include a link or named source. It\u2019s different from mentio...",
+              "breadcrumb": "suprmind.ai"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://wellows.com/methodology/?utm_source=chatgpt.com",
+              "domain": "wellows.com",
+              "title": "How We Measure AI Visibility | Wellows Methodology",
+              "description": "HOW WE MEASURE AI Visibility  Most tools count what you can see in an AI response. We count what AI actually reads to write it.  Image: Brand Visibility Dashboard  The Problem  THE PROBLEM WITH HOW A...",
+              "breadcrumb": "wellows.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://capston.ai/ai-visibility-metrics/?utm_source=chatgpt.com",
+              "domain": "capston.ai",
+              "title": "AI Visibility Metrics & KPIs: What To Measure In AI Search",
+              "description": "CapstonAI \u00b7 AI Visibility  AI VISIBILITY METRICS & KPIS: WHAT ACTUALLY TO MEASURE  Mention rate, citation rate, share of voice and sentiment \u2014 the four metrics that define AI visibility, with clear d...",
+              "breadcrumb": "capston.ai"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://llms.superlines.io/llm-citation-differences-how-ai-models-cite?utm_source=chatgpt.com",
+              "domain": "llms.superlines.io",
+              "title": "How Do Different AI Models Cite Sources? | Superlines",
+              "description": "HOW DO DIFFERENT AI MODELS CITE SOURCES?  Our tracking of 189,439 AI responses reveals dramatic differences in how ChatGPT, Perplexity, Grok, Claude, and others cite sources. Here is what the data sh...",
+              "breadcrumb": "superlines.io"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://tufecompany.co.jp/glossary/llm-citation-rate?utm_source=chatgpt.com",
+              "domain": "tufecompany.co.jp",
+              "title": "LLM Citation Rate\u3068\u306f\uff1f\uff08LLM Citation Rate / LLM \u5f15\u7528\u7387\uff09\u610f\u5473\u30fb\u4f7f\u3044\u65b9\u3092\u5b9f\u52d9\u76ee\u7dda\u3067\u89e3\u8aac | Tufe Company",
+              "description": "LLM CITATION RATE\u3068\u306f\uff1f  LLM Citation Rate \u3068\u306f LLM \u5fdc\u7b54\u306e\u5f15\u7528\u30bd\u30fc\u30b9\u306b\u81ea\u793e\u30c9\u30e1\u30a4\u30f3\u304c\u73fe\u308c\u305f KW \u6570\u3092\u8a08\u6e2c KW \u7dcf\u6570\u3067\u5272\u3063\u305f\u6bd4\u7387\u6307\u6a19\u3002Profound \u3084 Answer IO \u306e Citation \u6307\u6a19\u3068\u3057\u3066\u5b9f\u88c5\u3055\u308c\u3001AI \u691c\u7d22\u304b\u3089\u306e\u5b9f\u30c8\u30e9\u30d5\u30a3\u30c3\u30af\u7372\u5f97\u306e\u524d\u63d0\u6761\u4ef6\u3068\u306a\u308b LLMO \u306e\u91cd\u8981 KPI\u3002  Published 2026\u5e745\u670824\u65e56 min r...",
+              "breadcrumb": "tufecompany.co.jp"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://llmpulse.ai/blog/glossary/citation-probability/?utm_source=chatgpt.com",
+              "domain": "llmpulse.ai",
+              "title": "Citation Probability: what it is, how to measure and improve",
+              "description": "CITATION PROBABILITY  * March 30, 2026 * Esteve Castells  Last updated: April 7, 2026  Citation probability is the likelihood that an AI platform will cite a specific page or domain in response to a...",
+              "breadcrumb": "llmpulse.ai"
+            }
+          ],
+          "sources": [
+            {
+              "type": "chat_gpt_source",
+              "title": "Citation Rate | AI Marketing Glossary",
+              "snippet": null,
+              "domain": "www.ai-advisors.ai",
+              "url": "https://www.ai-advisors.ai/glossary/citation-rate?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "AI-Advisors",
+              "publication_date": "2026-05-09 00:00:00 +00:00",
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Towards Fine-Grained Citation Evaluation in Generated Text: A Comparative Analysis of Faithfulness Metrics",
+              "snippet": null,
+              "domain": "arxiv.org",
+              "url": "https://arxiv.org/abs/2406.15264?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "arXiv",
+              "publication_date": "2024-06-21 15:57:24 +00:00",
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Citation Rate \u2014 AI Search Visibility Glossary \u00b7 RanketAI",
+              "snippet": null,
+              "domain": "www.ranketai.com",
+              "url": "https://www.ranketai.com/en/glossary/citation-rate?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "RanketAI",
+              "publication_date": null,
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "How AI Visibility Metrics Are Calculated | LLM Pulse",
+              "snippet": null,
+              "domain": "llmpulse.ai",
+              "url": "https://llmpulse.ai/help-center/how-are-metrics-calculated-at-llm-pulse?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "LLM Pulse",
+              "publication_date": null,
+              "markdown": null
+            }
+          ],
+          "fan_out_queries": null,
+          "brand_entities": null,
+          "se_results_count": 0,
+          "item_types": [
+            "chat_gpt_text",
+            "chat_gpt_table"
+          ],
+          "items_count": 3,
+          "items": [
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "markdown": "\"AI citation rate\" can mean two different things, so it's important to define it before measuring:\n\n1. **Brand/content citation rate**: How often an AI system cites your website, paper, or brand as a source.\n2. **Model citation rate**: How often an AI system provides citations in its answers, regardless of whose sources they are.\n\nThe measurement approach differs slightly for each.\n\n### Brand/content citation rate\n\nThis is the metric commonly used in AI search optimization (sometimes called GEO or AEO).\n\n**Formula**\n\n> **Citation Rate = (Number of prompts where your content is cited \u00f7 Total prompts tested) \u00d7 100**\n\nFor example:\n\n- 500 representative prompts\n- Your domain cited in 75 responses\n\nCitation rate = 75 / 500 = **15%**. [www.ai-advisors.ai](https://www.ai-advisors.ai/glossary/citation-rate?utm_source=chatgpt.com)\n\n### How to measure it\n\n1. Build a representative prompt set (100\u20131000+ prompts).\n2. Run each prompt against one or more AI systems.\n3. Record:\n   - Was your brand mentioned?\n   - Was your URL or document cited?\n   - Which page was cited?\n4. Calculate:\n   - Citation rate\n   - Mention rate\n   - Share of citations\n   - Citation consistency across repeated runs\n\nA simple spreadsheet might look like:\n\n",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Citation Rate | AI Marketing Glossary",
+                  "snippet": null,
+                  "domain": "www.ai-advisors.ai",
+                  "url": "https://www.ai-advisors.ai/glossary/citation-rate?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "AI-Advisors",
+                  "publication_date": "2026-05-09 00:00:00 +00:00",
+                  "markdown": null
+                }
+              ],
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_table",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "text": null,
+              "markdown": "| Prompt | Model | Cited? | URL cited |\n|--------|-------|--------|-----------|\n| \"Best CRM for startups\" | ChatGPT | Yes | yoursite.com/crm |\n| \"How to reduce churn\" | ChatGPT | No | \u2014 |\n\n",
+              "table": {
+                "table_header": [
+                  "Prompt",
+                  "Model",
+                  "Cited?",
+                  "URL cited"
+                ],
+                "table_content": [
+                  [
+                    "\"Best CRM for startups\"",
+                    "ChatGPT",
+                    "Yes",
+                    "yoursite.com/crm"
+                  ],
+                  [
+                    "\"How to reduce churn\"",
+                    "ChatGPT",
+                    "No",
+                    "\u2014"
+                  ]
+                ]
+              },
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "markdown": "\nThen compute:\n\n- Citation Rate = Cited responses / Total prompts\n\n### Model citation rate\n\nIf you're evaluating an AI model itself, measure:\n\n> **Model Citation Rate = (Responses containing at least one citation \u00f7 Total responses) \u00d7 100**\n\nExample:\n\n- 200 questions\n- 90 answers include sources\n\nCitation rate = **45%**.\n\nYou can also track:\n\n- Average citations per answer\n- Citation precision (are cited sources actually relevant?)\n- Citation recall (did the model omit important sources?)\n- Citation faithfulness (does the cited source actually support the claim?) Research on citation evaluation increasingly focuses on this last metric because merely including a citation does not guarantee that it supports the generated statement. [arxiv.org](https://arxiv.org/abs/2406.15264?utm_source=chatgpt.com)\n\n### Best practices\n\nA robust evaluation should:\n\n- Use a fixed benchmark of prompts.\n- Repeat each prompt multiple times to account for response variability.\n- Test across multiple AI platforms separately.\n- Segment results by query type (informational, transactional, comparison, etc.).\n- Track trends over time instead of relying on a single snapshot. Citation behavior varies substantially across AI systems and even across repeated runs of the same prompt. [www.ranketai.com](https://www.ranketai.com/en/glossary/citation-rate?utm_source=chatgpt.com)\n\n### Related metrics\n\nCitation rate is most useful when combined with other measures:\n\n- **Mention rate**: How often your brand is mentioned.\n- **Citation share/share of voice**: Your citations compared with competitors.\n- **Citation accuracy**: Whether citations actually support the claims made.\n- **Citation consistency**: How stable citations are across repeated runs and model updates. [llmpulse.ai](https://llmpulse.ai/help-center/how-are-metrics-calculated-at-llm-pulse?utm_source=chatgpt.com)\n\nIf your goal is to evaluate AI search visibility for a website, the first definition (brand/content citation rate) is the standard metric. If you're benchmarking LLM behavior or conducting research, you'll typically use the second definition together with citation quality and faithfulness metrics.",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Towards Fine-Grained Citation Evaluation in Generated Text: A Comparative Analysis of Faithfulness Metrics",
+                  "snippet": null,
+                  "domain": "arxiv.org",
+                  "url": "https://arxiv.org/abs/2406.15264?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "arXiv",
+                  "publication_date": "2024-06-21 15:57:24 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Citation Rate \u2014 AI Search Visibility Glossary \u00b7 RanketAI",
+                  "snippet": null,
+                  "domain": "www.ranketai.com",
+                  "url": "https://www.ranketai.com/en/glossary/citation-rate?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "RanketAI",
+                  "publication_date": null,
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "How AI Visibility Metrics Are Calculated | LLM Pulse",
+                  "snippet": null,
+                  "domain": "llmpulse.ai",
+                  "url": "https://llmpulse.ai/help-center/how-are-metrics-calculated-at-llm-pulse?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "LLM Pulse",
+                  "publication_date": null,
+                  "markdown": null
+                }
+              ],
+              "brand_entities": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

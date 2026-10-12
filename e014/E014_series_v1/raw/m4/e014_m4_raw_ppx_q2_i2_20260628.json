@@ -1,0 +1,91 @@
+{
+  "version": "0.1.20260610",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "2.6176 sec.",
+  "cost": 0.010488,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "06282014-1516-0612-0000-c7803f776358",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "2.5911 sec.",
+      "cost": 0.010488,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "perplexity",
+        "llm_responses",
+        "live"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "llm_responses",
+        "se": "perplexity",
+        "user_prompt": "What is Retrieval Probability in AI search?",
+        "model_name": "sonar-pro",
+        "web_search": true
+      },
+      "result": [
+        {
+          "model_name": "sonar-pro",
+          "input_tokens": 16,
+          "output_tokens": 256,
+          "reasoning_tokens": 0,
+          "web_search": true,
+          "money_spent": 0.009888,
+          "datetime": "2026-06-28 20:14:49 +00:00",
+          "items": [
+            {
+              "type": "message",
+              "sections": [
+                {
+                  "type": "text",
+                  "text": "In AI search, **retrieval probability** is the likelihood that a document, passage, or chunk will be selected from the search index to be used as evidence for an answer.[2][3] It is essentially a measure of *visibility in the retrieval stage*\u2014if content is not retrieved, it cannot be cited or included in the final response.[1][4]\n\nIn practice, this probability is influenced by factors such as semantic similarity to the query, passage relevance, authority or trust signals, freshness, and how well the content is structured for extraction.[1][3][4] Many AI systems use probabilistic retrieval and reranking, meaning the final selected sources are chosen statistically rather than by a fixed keyword rank alone.[2][3]\n\nA simple way to think about it:\n\n- **High retrieval probability** = your content is more likely to be fetched and considered by the model.[1][4]\n- **Low retrieval probability** = your content may exist on the web but still be ignored by the AI system.[1][4]\n\nThis term is not always used as a formal metric in every product, but in AI search and GEO contexts it usually means the *chance of being retrieved into the candidate set* before generation and citation.[3][5]",
+                  "annotations": [
+                    {
+                      "title": "AI Retrieval Layer Explained: How AI Finds and Chooses Content",
+                      "url": "https://www.useomnia.com/knowledge-base/ai-retrieval-layer"
+                    },
+                    {
+                      "title": "Information Retrieval & Intelligence: How It Works for AI - Splunk",
+                      "url": "https://www.splunk.com/en_us/blog/learn/information-retrieval.html"
+                    },
+                    {
+                      "title": "AI Search: How Generative Engine Optimization Reshapes SEO",
+                      "url": "https://ipullrank.com/probability-ai-search"
+                    },
+                    {
+                      "title": "Retrieval-Layer SEO: Why Most Marketers Are Losing AI Search ...",
+                      "url": "https://kurtuhlir.com/retrieval-layer-seo-why-most-marketers-are-losing-ai-search-and-how-to-win/"
+                    },
+                    {
+                      "title": "How does LLM retrieval work for AI search? (AEO Guide)",
+                      "url": "https://discoveredlabs.com/blog/how-does-llm-retrieval-work-for-ai-search-aeo-guide"
+                    },
+                    {
+                      "title": "How AI Solves the Impossible Search Problem - YouTube",
+                      "url": "https://www.youtube.com/watch?v=laaBLUxJUMY"
+                    },
+                    {
+                      "title": "The Shifting Landscape of Information Retrieval: AI vs Google Search",
+                      "url": "https://blog.bloola.com/digital-change/the-shifting-landscape-of-information-retrieval"
+                    },
+                    {
+                      "title": "Set the Retrieval Reasoning Effort - Azure AI Search - Microsoft Learn",
+                      "url": "https://learn.microsoft.com/en-us/azure/search/agentic-retrieval-how-to-set-retrieval-reasoning-effort"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fan_out_queries": null
+        }
+      ]
+    }
+  ]
+}

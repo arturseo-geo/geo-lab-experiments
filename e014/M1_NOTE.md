@@ -1,0 +1,1 @@
+M1 (28 March 2026) raw row-level data was not recovered. The M1 result is reported from the contemporaneous write-up at https://thegeolab.net/e014-month-1-citation-rate-baseline/ only. Raw row-level data in this directory covers M2 to M7. Zenodo deposit: https://doi.org/10.5281/zenodo.23024418

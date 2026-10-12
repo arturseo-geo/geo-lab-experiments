@@ -1,0 +1,91 @@
+{
+  "version": "0.1.20260610",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "11.7471 sec.",
+  "cost": 0.027192,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "06282017-1516-0612-0000-d78aeeda2a1f",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "11.7198 sec.",
+      "cost": 0.027192,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "perplexity",
+        "llm_responses",
+        "live"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "llm_responses",
+        "se": "perplexity",
+        "user_prompt": "How does the GEO Stack work?",
+        "model_name": "sonar-pro",
+        "web_search": true
+      },
+      "result": [
+        {
+          "model_name": "sonar-pro",
+          "input_tokens": 14,
+          "output_tokens": 1370,
+          "reasoning_tokens": 0,
+          "web_search": true,
+          "money_spent": 0.026592,
+          "datetime": "2026-06-28 20:17:25 +00:00",
+          "items": [
+            {
+              "type": "message",
+              "sections": [
+                {
+                  "type": "text",
+                  "text": "The **GEO Stack** is a proposed **technology stack for AI search visibility**: a set of tools and processes that makes your organization\u2019s content *discoverable and usable by AI systems* (LLMs and AI agents), both passively (via a static file like `llms.txt`) and actively (via a live MCP endpoint AI agents can query).[3][7]\n\nBelow is how it works, layer by layer.\n\n---\n\n## 1. Overall Concept\n\nA **\u201cGEO Stack\u201d** is described as a **four-layer stack** that turns your enterprise content into a structured, AI-ready knowledge base and exposes it through two main channels:[3]\n\n- **Passive channel:** a static **`llms.txt` file** that AI crawlers can read (analogous to `robots.txt` but for LLMs).[3]  \n- **Active channel:** a **Model Context Protocol (MCP) endpoint** that AI agents can query in real time for authoritative answers.[3]\n\nThe goal is to:\n\n- Make your content **AI-visible** and **AI-usable**.  \n- Provide a **single source of AI truth** with quality scoring.[3][7]  \n- Monitor what AI systems and agents are actually asking about your products or brand.[3][7]\n\n---\n\n## 2. Layer 1 \u2013 Content Ingestion & Structuring\n\n**What it does:** Turns your website, PDFs, help center, and docs into a **structured, searchable knowledge base**.[3]\n\n**How it works:**[3]\n\n- A **Sync Agent** crawls your sitemap automatically to collect content.  \n- An **Understanding API** then:\n  - Strips out *noise* (navigation, ads, scripts, tracking pixels).  \n  - Segments/chunks content for retrieval.  \n  - Vectorizes it (embeddings) for semantic search.  \n  - Can generate **markdown natively**, which is the format most LLMs prefer.[3]\n\nResult: Your raw content becomes clean, structured, and ready for retrieval by AI.\n\n---\n\n## 3. Layer 2 \u2013 Indexing, Embedding & Agentic Retrieval\n\n**What it does:** Creates your **single source of AI truth** with built-in **quality scoring**.[3][7]\n\n**How it works:**[3]\n\n- Handles **indexing**, **embedding**, and **OCR** automatically (so PDFs, images, etc. are searchable).  \n- Implements an **agentic retrieval pipeline** with steps:\n  - **predict \u2192 find \u2192 ask \u2192 response**  \n    - *predict*: infer what information is needed.  \n    - *find*: retrieve the most relevant content via embeddings/search.  \n    - *ask*: use content + a model to generate an answer.  \n    - *response*: deliver a structured answer.  \n- The `/ask` endpoint supports:\n  - Conversation history.  \n  - **JSON Schema output** (so answers can be used programmatically).[3]\n\nThis layer is effectively the **retrieval and QA engine** that powers AI answers from your content.\n\n---\n\n## 4. Layer 3 \u2013 `llms.txt` (Passive AI Discovery)\n\n**What it does:** Publishes a **static AI-facing index** of your best resources so LLM crawlers can discover and use them.[3]\n\n**How it works:**[3]\n\n- Query the **ARAG API** for all resources in your knowledge base.  \n- Filter by **taxonomy labels** (e.g., docs, API reference, policies).  \n- Sort by **REMi scores** (quality scores):\n  - Highest quality content in a \u201crequired\u201d section.  \n  - Lower-priority content in an \u201coptional\u201d section.[3]  \n- Automatically generate **markdown** using your choice of LLM/prompt, with **data augmentation agents**.  \n- Serve the result at `/llms.txt` on your domain.[3]\n\nThis file acts as a **curated map of your content for LLMs**, telling AI systems what is authoritative and where to look.\n\n---\n\n## 5. Layer 4 \u2013 MCP Endpoint (Active AI Agent Access)\n\n**What it does:** Provides a **live MCP (Model Context Protocol) server** that AI agents can call for **real-time, authoritative answers**.[3][7]\n\n**How it works:**[3]\n\n1. **Configure the MCP endpoint**  \n   - ARAG\u2019s MCP server driver is built-in.  \n   - Authentication via API keys or as a public service.[3]\n\n2. **Register in MCP directories**  \n   - This is how AI agents discover your endpoint (similar to service registries).[3]\n\n3. **Advertise it in `llms.txt`**  \n   - Layer 3 (llms.txt) explicitly *advertises* Layer 4, telling crawlers and agents where the live endpoint is.[3]\n\nWhen an AI agent needs to answer a question about your product:\n\n- It calls your MCP endpoint.  \n- The endpoint uses the **agentic retrieval pipeline** (Layer 2) against your indexed content.  \n- Returns a **real-time, quality-scored, authoritative answer**.[3]\n\n---\n\n## 6. Monitoring & Optimization Functions\n\nAccording to the broader GEO technology stack description, a complete GEO stack includes four functions beyond just the technical layers:[7]\n\n- **Monitoring:** Track *where* and *how often* your brand is cited across AI platforms and agents.[7]  \n- **Optimization:** Improve how and where your content appears in AI outputs (similar to SEO but for LLMs).[7]  \n- **Execution:** Operationalize the ingestion, indexing, `llms.txt`, and MCP endpoint as a running stack.[7]  \n- **Governance:** Ensure quality scoring, versioning, and policy control over what AI is allowed to say on your behalf.[7]\n\nThese functions sit over the four technical layers and turn the GEO Stack into an ongoing **AI visibility and governance framework**.\n\n---\n\n## 7. How the GEO Stack is Used in Practice\n\nIn practice, using a GEO Stack typically looks like:[3][7]\n\n- You connect your **web, docs, PDFs, help center** to the ingestion layer.  \n- The system builds and continuously updates a **structured, vectorized knowledge base**.  \n- You expose this base via:\n  - **`/llms.txt`** for passive LLM crawling.  \n  - **MCP `/ask` endpoint** for active AI agent queries.  \n- You monitor **queries and usage** to:\n  - See what AI is actually asked about your brand.  \n  - Identify gaps and update content accordingly.  \n- You define **quality scoring and taxonomies** so the stack always serves the **best possible answer**.\n\nIf you tell me your role (e.g., product owner, infra engineer, content lead), I can outline concrete steps for implementing or integrating a GEO Stack in your environment.",
+                  "annotations": [
+                    {
+                      "title": "Stacking Technical Note \u2013 \u2013 Software \u2013 Geometrics Forum",
+                      "url": "https://www.geometrics.com/community/geode-software/stacking-technical-note/"
+                    },
+                    {
+                      "title": "The Elastic Stack is a geospatial powerhouse",
+                      "url": "https://www.elastic.co/geospatial"
+                    },
+                    {
+                      "title": "A GEO Stack in 9 Days? Here's my idea of a blueprint. - LinkedIn",
+                      "url": "https://www.linkedin.com/pulse/geo-stack-9-days-heres-my-idea-blueprint-jay-sanderson-aqtdc"
+                    },
+                    {
+                      "title": "GeoStacker for Blender Stack Anything in Seconds - YouTube",
+                      "url": "https://www.youtube.com/watch?v=fN1qt8-Ygtc"
+                    },
+                    {
+                      "title": "Stacking - DUG Insight User Manual",
+                      "url": "https://help.dugeo.com/m/Insight/l/434256-stacking"
+                    },
+                    {
+                      "title": "Dry Stack Walls and Geo Grids - 78 Fence",
+                      "url": "https://www.78fence.com/dry-stack-walls-and-geo-grids/"
+                    },
+                    {
+                      "title": "The GEO Technology Stack | The Practical Guide to AI Search Visibility",
+                      "url": "https://guptadeepak.com/ebooks/ai-search-visibility-guide/geo-technology-stack/"
+                    },
+                    {
+                      "title": "The Future of Spatial Stack: Why This Could Change Everything for ...",
+                      "url": "https://www.youtube.com/watch?v=hs63GGzGnLo"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fan_out_queries": null
+        }
+      ]
+    }
+  ]
+}

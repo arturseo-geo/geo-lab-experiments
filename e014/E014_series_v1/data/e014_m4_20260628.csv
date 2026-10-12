@@ -1,0 +1,51 @@
+platform,iteration,query_num,query_tier,query_text,code,url_cited,set
+perplexity,I1,Q1,T2,What is GEO (Generative Engine Optimisation)?,X,,canonical
+perplexity,I2,Q1,T2,What is GEO (Generative Engine Optimisation)?,X,,canonical
+perplexity,I3,Q1,T2,What is GEO (Generative Engine Optimisation)?,X,,canonical
+perplexity,I1,Q2,T1,What is Retrieval Probability in AI search?,X,,canonical
+perplexity,I2,Q2,T1,What is Retrieval Probability in AI search?,X,,canonical
+perplexity,I3,Q2,T1,What is Retrieval Probability in AI search?,X,,canonical
+perplexity,I1,Q3,T1,What is LLM readability?,X,,canonical
+perplexity,I2,Q3,T1,What is LLM readability?,X,,canonical
+perplexity,I3,Q3,T1,What is LLM readability?,X,,canonical
+perplexity,I1,Q4,T2,GEO vs traditional SEO — what changed?,X,,canonical
+perplexity,I2,Q4,T2,GEO vs traditional SEO — what changed?,X,,canonical
+perplexity,I3,Q4,T2,GEO vs traditional SEO — what changed?,X,,canonical
+perplexity,I1,Q5,T1,How does the GEO Stack work?,X,,canonical
+perplexity,I2,Q5,T1,How does the GEO Stack work?,C,https://thegeolab.net/geo-stack/,canonical
+perplexity,I3,Q5,T1,How does the GEO Stack work?,X,,canonical
+perplexity,I1,Q6,T1,What is Extractability in GEO?,X,,canonical
+perplexity,I2,Q6,T1,What is Extractability in GEO?,X,,canonical
+perplexity,I3,Q6,T1,What is Extractability in GEO?,X,,canonical
+perplexity,I1,Q7,T2,Does GEO actually work?,X,,canonical
+perplexity,I2,Q7,T2,Does GEO actually work?,X,,canonical
+perplexity,I3,Q7,T2,Does GEO actually work?,X,,canonical
+perplexity,I1,Q8,T2,How to measure AI citation rate?,X,,canonical
+perplexity,I2,Q8,T2,How to measure AI citation rate?,X,,canonical
+perplexity,I3,Q8,T2,How to measure AI citation rate?,X,,canonical
+perplexity,I1,Q9,T1,What is System Memory in GEO?,X,,canonical
+perplexity,I2,Q9,T1,What is System Memory in GEO?,X,,canonical
+perplexity,I3,Q9,T1,What is System Memory in GEO?,X,,canonical
+perplexity,I1,Q10,T2,How do AI search engines select content to cite?,X,,canonical
+perplexity,I2,Q10,T2,How do AI search engines select content to cite?,X,,canonical
+perplexity,I3,Q10,T2,How do AI search engines select content to cite?,X,,canonical
+chatgpt,I1,Q1,T2,What is GEO (Generative Engine Optimisation)?,X,,canonical
+chatgpt,I1,Q2,T1,What is Retrieval Probability in AI search?,X,,canonical
+chatgpt,I1,Q3,T1,What is LLM readability?,C,https://thegeolab.net/llm-readability/?utm_source=chatgpt.com,canonical
+chatgpt,I1,Q4,T2,GEO vs traditional SEO — what changed?,X,,canonical
+chatgpt,I1,Q5,T1,How does the GEO Stack work?,C,https://thegeolab.net/geo-stack/?utm_source=chatgpt.com,canonical
+chatgpt,I1,Q6,T1,What is Extractability in GEO?,X,,canonical
+chatgpt,I1,Q7,T2,Does GEO actually work?,X,,canonical
+chatgpt,I1,Q8,T2,How to measure AI citation rate?,X,,canonical
+chatgpt,I1,Q9,T1,What is System Memory in GEO?,X,,canonical
+chatgpt,I1,Q10,T2,How do AI search engines select content to cite?,X,,canonical
+google_aio,I1,Q1,T2,What is GEO (Generative Engine Optimisation)?,X,,canonical
+google_aio,I1,Q2,T1,What is Retrieval Probability in AI search?,X,,canonical
+google_aio,I1,Q3,T1,What is LLM readability?,X,,canonical
+google_aio,I1,Q4,T2,GEO vs traditional SEO — what changed?,X,,canonical
+google_aio,I1,Q5,T1,How does the GEO Stack work?,X,,canonical
+google_aio,I1,Q6,T1,What is Extractability in GEO?,X,,canonical
+google_aio,I1,Q7,T2,Does GEO actually work?,X,,canonical
+google_aio,I1,Q8,T2,How to measure AI citation rate?,X,,canonical
+google_aio,I1,Q9,T1,What is System Memory in GEO?,X,,canonical
+google_aio,I1,Q10,T2,How do AI search engines select content to cite?,X,,canonical

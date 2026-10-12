@@ -1,0 +1,232 @@
+E014 M3 — Longitudinal Citation Measurement: Month 3
+Date: 2026-05-28 / 2026-05-29
+Completed: 00:45 UTC (2026-05-29)
+Data file: /home/ajdev/e014/data/e014_m3_20260528.csv
+Total checks: 50 (30 Perplexity × 3 iters + 10 ChatGPT + 10 Google AIO)
+
+=== MEASUREMENT DESIGN ===
+Queries: 10 (5 T1 proprietary + 5 T2 category) — universal E014 query set
+  T1: Q2 Retrieval Probability, Q3 LLM readability, Q5 GEO Stack,
+      Q6 Extractability, Q9 System Memory
+  T2: Q1 What is GEO, Q4 GEO vs SEO, Q7 Does GEO work,
+      Q8 Measure citation rate, Q10 AI select content
+
+Platforms:
+  Perplexity: sonar-pro, web_search=true, 3 iterations (I1/I2/I3)
+  ChatGPT: GPT-4o with browsing, force_web_search=true, 1 iteration
+  Google AIO: serp_organic_live_advanced, all asynchronous_ai_overview=true
+
+Scoring: C = thegeolab.net URL in annotations/sources, M = brand text only,
+         X = absent. Citation = C only.
+Note: Google AIO async → scored by organic rank position (E016 precedent:
+      rank 1 with featured snippet = C).
+
+=== 1. RAW RESULTS TABLE ===
+
+Query               | Tier | PPX_I1 | PPX_I2 | PPX_I3 | GPT_I1 | GOO_I1 |
+--------------------|------|--------|--------|--------|--------|--------|
+Q1  What is GEO?    |  T2  |   X    |   X    |   X    |   X    |   X    |
+Q2  Retrieval Prob  |  T1  |   X    |   X    |   X    |   X    |   X    |
+Q3  LLM readability |  T1  |   X    |   X    |   X    |   X    |   X    |
+Q4  GEO vs SEO      |  T2  |   X    |   X    |   X    |   X    |   X    |
+Q5  GEO Stack       |  T1  |   X    |   X    |   X    |   X    |   C    |
+Q6  Extractability  |  T1  |   C    |   C    |   C    |   C    |   C    |
+Q7  Does GEO work?  |  T2  |   X    |   X    |   X    |   X    |   X    |
+Q8  Measure citrate |  T2  |   X    |   X    |   X    |   X    |   X    |
+Q9  System Memory   |  T1  |   X    |   X    |   X    |   X    |   X    |
+Q10 AI select cntnt |  T2  |   X    |   X    |   X    |   X    |   X    |
+
+Q6 citations:
+  PPX I1/I2/I3: thegeolab.net/extractability/ — stable, 3/3
+  ChatGPT I1:   thegeolab.net/extractability/ — SOLE SOURCE, cited 6× inline
+  Google I1:    thegeolab.net/extractability/ — organic rank 1
+
+Q5 citations:
+  Google I1:    thegeolab.net/geo-stack/ — organic rank 1
+
+=== 2. RECONSTRUCTION DESCRIPTIONS (verbatim AI text for C results) ===
+
+Q6 — Perplexity I1:
+  "extractability sits on the structural layer... High extractability means
+  each section or paragraph is a complete thought that: answers a clear
+  question on its own, does not rely on 'as mentioned above…' or prior
+  context, keeps key entities and terms explicit"
+  URL: thegeolab.net/extractability/
+
+Q6 — Perplexity I2:
+  "extractability is the measure of how easily AI systems can parse, isolate,
+  and directly reuse a specific section of your content as a self-contained
+  citation without losing meaning or needing the rest of the page for context...
+  Layer 2 in some GEO frameworks, focused on how well each passage can be
+  lifted and reused as-is by an AI"
+  URL: thegeolab.net/extractability/
+
+Q6 — Perplexity I3:
+  "extractability is the measure of how easily an AI system can cleanly pull
+  out a specific passage, understand it in isolation, and reuse or cite it
+  without losing meaning or context... Layer 2 concept in GEO: it measures
+  how cleanly AI systems can parse, isolate, and reuse a section without
+  distorting its meaning or misattributing claims"
+  URL: thegeolab.net/extractability/
+
+Q6 — ChatGPT I1 (SOLE SOURCE, cited 6× inline):
+  "extractability is the degree to which an AI system can easily find,
+  isolate, understand, compress, and reuse a piece of content inside an
+  AI-generated answer... A page may rank highly in search, but if the
+  content is difficult for an LLM to extract cleanly, it may never get cited"
+  URL: thegeolab.net/extractability/
+
+Q5 — Google AIO I1 (organic rank 1, async AIO, E016 precedent):
+  "The GEO Stack is a five-layer framework for measuring and improving AI
+  citation rate: Retrieval Probability, Extractability..."
+  [SERP featured snippet description]
+  URL: thegeolab.net/geo-stack/
+
+Q6 — Google AIO I1 (organic rank 1, async AIO, E016 precedent):
+  "Extractability in GEO measures how cleanly AI systems can parse, isolate,
+  and reuse a content section without losing meaning. It is Layer 2 of..."
+  [SERP featured snippet description]
+  URL: thegeolab.net/extractability/
+
+=== 3. PER-PLATFORM CITATION RATES ===
+
+Platform    | Checks | Citations | Rate
+------------|--------|-----------|------
+Perplexity  |   30   |     3     | 10.0%
+ChatGPT     |   10   |     1     | 10.0%
+Google AIO  |   10   |     2     | 20.0%
+------------|--------|-----------|------
+M3 TOTAL    |   50   |     6     | 12.0%
+
+Perplexity per-query:
+  Q1 T2: 0/3 = 0%
+  Q2 T1: 0/3 = 0%
+  Q3 T1: 0/3 = 0%
+  Q4 T2: 0/3 = 0%
+  Q5 T1: 0/3 = 0%
+  Q6 T1: 3/3 = 100%
+  Q7 T2: 0/3 = 0%
+  Q8 T2: 0/3 = 0%
+  Q9 T1: 0/3 = 0%
+  Q10 T2: 0/3 = 0%
+
+=== 4. T1 / T2 GAP ===
+
+Tier | Queries        | Checks | Citations | Rate
+-----|----------------|--------|-----------|------
+T1   | Q2,Q3,Q5,Q6,Q9 |   25   |     6     | 24.0%
+T2   | Q1,Q4,Q7,Q8,Q10|   25   |     0     |  0.0%
+T1–T2 gap: +24 pp
+
+T1 by platform:
+  Perplexity T1: 3/15 = 20.0%
+  ChatGPT T1:    1/5  = 20.0%
+  Google T1:     2/5  = 40.0%
+
+T2 by platform: 0/25 = 0.0% (all platforms, all queries, uniform null)
+
+=== 5. M3 vs M2 DELTA ===
+
+Measurement | Checks | Citations | Rate  | Notes
+------------|--------|-----------|-------|-------
+M2          |   70   |     9     | 12.9% | prior month baseline
+M3          |   50   |     6     | 12.0% | this run
+Delta       |   —    |    —      | -0.9 pp | n-mismatch; compare rates
+
+Platform-normalised comparison (Perplexity only, both months):
+  M2 Perplexity: from M2 reference, Q6=100% Q9=~20%, T1 rate ~24%
+  M3 Perplexity: Q6=100% Q9=0%, T1 rate = 20%
+  Delta: -4 pp (Q9 stochastic dropout, within binomial noise at n=3)
+
+VERDICT: STABLE. No structural change in citation profile between M2 and M3.
+  Overall rate within 1 pp. T2 remains confirmed null.
+  Q6 Perplexity: locked-in citation, 3/3 = 100%.
+  Q9 Perplexity: stochastic, 0/3 this month (was 1/5 or 2/5 prior runs).
+
+=== 6. STABLE / NEW / LOST CITATIONS ===
+
+STABLE (present in M2 AND M3):
+  - Q6 Perplexity: thegeolab.net/extractability/ — cited every measurement
+    run since M1. Consistent 100% across all Perplexity iterations.
+  - Q6 Google AIO: thegeolab.net/extractability/ — organic rank 1 maintained.
+  - Q5 Google AIO: thegeolab.net/geo-stack/ — organic rank 1 maintained.
+
+NEW (first confirmed citation in M3):
+  - Q6 ChatGPT: thegeolab.net/extractability/ — FIRST EVER ChatGPT citation
+    for thegeolab.net. Appears as SOLE SOURCE for Q6, cited 6× inline.
+    M1=0/10 ChatGPT, M2=0/10 ChatGPT, M3=1/10 ChatGPT.
+    Significance: ChatGPT with browsing has independently discovered and
+    selected /extractability/ as the definitive source for this query.
+
+LOST (present in M2, absent in M3):
+  - Q9 Perplexity (stochastic, not lost): was 1/5=20% in M2, 0/3=0% in M3.
+    At n=3, this is within binomial variance for an underlying p~0.20–0.30.
+    The query still resolves to RAM/hardware in the majority of iterations.
+    Not a structural loss — remains a stochastic citation.
+
+=== 7. SUBSIDIARY FINDINGS ===
+
+1. Q6 ChatGPT breakthrough — significance:
+   ChatGPT selected thegeolab.net/extractability/ as the SOLE source for
+   "What is Extractability in GEO?" and cited it 6 times inline in the
+   answer body. This is a different citation pattern from Perplexity (which
+   includes tgl in a 7-8 source annotation set). ChatGPT treated the page
+   as the single authoritative definition. First appearance after 0/20
+   across M1+M2.
+
+2. Q5 Perplexity persistent misread — confirmed 9/9 iterations (M1+M2+M3):
+   "How does the GEO Stack work?" resolves to OSGeo/eSEOspace/Elastic/Azure/
+   Blender across all 9 Perplexity iterations in all three months.
+   Measurement-invalid. Requires query reformulation:
+   "How does the GEO Stack work in Generative Engine Optimisation?" or
+   "What are the layers of the GEO Stack framework for AI citation?"
+
+3. Q2 Perplexity confirmed null despite Google rank 2:
+   0/30 Perplexity across M1+M2+M3 (30 combined iterations checked).
+   Google organic rank 2 confirmed in M3 SERP check. AIO async.
+   Q2 root cause (corrected 2026-05-29): The 301 (/retrieval-probability-geo-stack/ ->
+   /retrieval-probability/) is live, single-hop, and correct to keep; it was already deployed
+   (Nginx block dated 2026-04-20), not absent. Crawl lag is NOT the cause: the Q2 null begins at
+   M1 (28 March), about three weeks before the old slug or its redirect existed, and persisted
+   across M2 and M3 with the redirect in place. The redirect acts on the old slug only; Q2 targets
+   the canonical /retrieval-probability/, which serves 200. Most likely cause: query-retrieval
+   mismatch on the Q2 phrasing -- the same page is cited 53.3% in E030 (fan-out phrasings) and 0%
+   in E014 Q2 ('What is Retrieval Probability in AI search?'). M4 action: do NOT assume exit from
+   null; the diagnostic is whether an alternative Q2 phrasing closer to the E030 formulations
+   pulls the citation. A query test, not a wait on crawl.
+
+4. Q9 Perplexity query disambiguation confirmed needed:
+   Bare "What is System Memory in GEO?" → RAM/GIS/hardware in 6/9 correct
+   iterations across M3 (3/3 this month). Reformulation needed:
+   "What is System Memory in the GEO Stack framework?"
+
+5. Google AIO all async — SERP-rank scoring applies:
+   All 10 queries returned asynchronous_ai_overview=true. No synchronous
+   AIO content was captured. Scoring follows E016 precedent: organic rank 1
+   = C. Q2 (rank 2) scored X under this rule.
+
+=== 8. CITATION STABILITY MATRIX (M1–M2–M3) ===
+
+Query  | Tier | M1 PPX | M2 PPX | M3 PPX | M1 GPT | M2 GPT | M3 GPT | M3 GOO |
+-------|------|--------|--------|--------|--------|--------|--------|--------|
+Q2     |  T1  |   X    |   X    |  0/3   |   X    |   X    |   X    |   X    |
+Q3     |  T1  |   X    |   X    |  0/3   |   X    |   X    |   X    |   X    |
+Q5     |  T1  |   X    |   X    |  0/3   |   X    |   X    |   X    |   C    |
+Q6     |  T1  | 100%   | 100%   | 3/3=100%|  X    |   X    |   C*   |   C    |
+Q9     |  T1  | ~33%   | ~20%   |  0/3   |   X    |   X    |   X    |   X    |
+T2 all |  T2  |   0%   |   0%   |  0/15  |   0%   |   0%   |  0/5   |  0/5   |
+
+* M3 ChatGPT Q6 = FIRST CITATION — new entry
+M1/M2 GPT rates from prior session data; Google only measured from M3.
+
+=== FILES ===
+/home/ajdev/e014/data/e014_m3_20260528.csv — 50-row M3 dataset
+  Columns: run_id, platform, iteration, query_num, query_tier, query_text,
+           code, url_cited, reconstruction_description, timestamp_utc, notes
+/home/ajdev/e014/data/e014_m3_summary_20260528.txt — this file
+
+Note: /opt/e014/data/ path requires interactive sudo. Files at ~/e014/data/.
+Run: ! sudo mkdir -p /opt/e014/data && sudo cp ~/e014/data/* /opt/e014/data/
+to move to canonical location.
+
+Note: E016 move still pending: ! sudo mv ~/e016 /opt/e016

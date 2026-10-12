@@ -1,0 +1,302 @@
+{
+  "version": "0.1.20260610",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "16.0607 sec.",
+  "cost": 0.004,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "06282019-1516-0629-0000-4ed6b44bd835",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "16.0337 sec.",
+      "cost": 0.004,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "chat_gpt",
+        "llm_scraper",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "llm_scraper",
+        "se": "chat_gpt",
+        "keyword": "What is Retrieval Probability in AI search?",
+        "location_name": "United Kingdom",
+        "language_code": "en",
+        "force_web_search": true,
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "What is Retrieval Probability in AI search?",
+          "location_code": 2826,
+          "language_code": "en",
+          "model": "gpt-5-5",
+          "check_url": "https://chatgpt.com/?prompt=What%20is%20Retrieval%20Probability%20in%20AI%20search%3F&hints=search",
+          "datetime": "2026-06-28 17:19:54 +00:00",
+          "markdown": "In AI search, **retrieval probability** is the likelihood that a search or retrieval system will select a particular document, passage, or chunk of content as relevant to a user's query before the language model generates an answer.\n\nThink of an AI search system as having two stages:\n\n1. **Retrieve** \u2013 Find the most relevant information from an index, database, or the web.\n2. **Generate** \u2013 Use the retrieved information to produce a natural-language answer.\n\nRetrieval probability describes how likely a piece of information is to make it through the first stage.\n\n### A simple example\n\nSuppose you ask:\n\n> \"What are the health benefits of green tea?\"\n\nThe AI search system may evaluate thousands or millions of documents.\n\n| Document | Estimated retrieval probability |\n|----------|-------------------------------:|\n| Scientific review on green tea | 0.92 |\n| Health blog post | 0.73 |\n| Tea retailer homepage | 0.31 |\n| Unrelated cooking article | 0.01 |\n\n\nThe system is much more likely to retrieve the scientific review because it appears more relevant to the query.\n\n### What affects retrieval probability?\n\nModern AI search systems use many signals, including:\n\n- **Semantic similarity** between the query and the content (using embeddings rather than just keyword matching)\n- **Keyword overlap**, especially in traditional search systems\n- **Authority and trustworthiness** of the source\n- **Freshness**, when recent information matters\n- **Document structure**, such as clear headings and concise passages\n- **Metadata** and structured data\n- **User intent**, inferred from the wording of the query\n\nThese factors influence which documents enter the model's context window. [arxiv.org](https://arxiv.org/abs/1705.01509?utm_source=chatgpt.com)\n\n### In Retrieval-Augmented Generation (RAG)\n\nIn a RAG system, retrieval probability is particularly important because:\n\n```\nUser Query\n      \u2193\nRetriever\n      \u2193\nTop-k documents (highest retrieval probability)\n      \u2193\nLLM\n      \u2193\nGenerated answer\n```\n\nIf the correct document has a low retrieval probability, the language model never sees it\u2014even if that document contains the perfect answer. This is why retrieval quality is often the limiting factor in RAG performance. [arxiv.org](https://arxiv.org/abs/2408.08901?utm_source=chatgpt.com)\n\n### Is \"retrieval probability\" an official metric?\n\nNot exactly. The term is used in two different ways:\n\n- In **information retrieval research**, systems estimate the probability that a document is relevant to a query. This idea underpins probabilistic retrieval models such as the Probabilistic Relevance Model and ranking algorithms like BM25. [en.wikipedia.org](https://en.wikipedia.org/wiki/Probabilistic_relevance_model?utm_source=chatgpt.com)\n- In the newer field of **AI search optimization** (sometimes called Generative Engine Optimization or GEO), \"retrieval probability\" is often used as an informal concept meaning \"how likely an AI search engine is to retrieve your content before generating an answer.\" This is more of an industry term than a standardized academic metric. [arxiv.org](https://arxiv.org/abs/2408.08901?utm_source=chatgpt.com)[en.wikipedia.org](https://en.wikipedia.org/wiki/Probabilistic_relevance_model?utm_source=chatgpt.com)[thegeolab.net](https://thegeolab.net/retrieval-probability/?utm_source=chatgpt.com)\n\n### Retrieval probability vs. citation probability\n\nThese are related but different:\n\n- **Retrieval probability:** \"Will the AI find this content?\"\n- **Citation probability:** \"After finding it, will the AI actually cite or rely on it in its answer?\"\n\nA document can have a high retrieval probability but still not be cited if another retrieved source is judged more authoritative or directly answers the question. [www.hendricks.ai](https://www.hendricks.ai/glossary/retrieval-confidence-score?utm_source=chatgpt.com)\n\nIn short, retrieval probability is the chance that an AI system selects a piece of content as a candidate source for answering a query. It's a foundational concept in search and RAG systems because information that isn't retrieved cannot influence the model's response.",
+          "search_results": [
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.nebulatech.in/research/rasa/retrieval-probability?utm_source=chatgpt.com",
+              "domain": "www.nebulatech.in",
+              "title": "Retrieval Probability (RP) \u2014 RASA Framework | Nebula Personalization Tech Solutions",
+              "description": "Retrieval Probability (RP) RASA Framework \u2014 Discoverability Dynamic 1 Nebula Personalization Tech Solutions Pvt. Ltd. Research basis: Verma & Agarwal (2026), DOI: 10.5281/zenodo.20325460  Download PD...",
+              "breadcrumb": "nebulatech.in"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://seojuice.com/glossary/geo/citation/citation-probability/?utm_source=chatgpt.com",
+              "domain": "seojuice.com",
+              "title": "Citation Probability in GEO - Generative Engine Optimization Definition",
+              "description": "Generative Engine Optimization Intermediate  CITATION PROBABILITY  How likely a page is to be cited by AI answers, based on retrieval fit, extractability, authority, and freshness.  Updated Apr 04, 2...",
+              "breadcrumb": "seojuice.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://aiwiki.ai/wiki/recall?utm_source=chatgpt.com",
+              "domain": "aiwiki.ai",
+              "title": "Recall (metric) | AI Wiki",
+              "description": "Recall (metric)  RECALL (METRIC)  Machine LearningModel Evaluation  22 min read  Updated Jun 20, 2026  Suggest editHistory  At a glance  Recall is a classification and retrieval metric that measures t...",
+              "breadcrumb": "aiwiki.ai"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.sciencedirect.com/topics/computer-science/retrieval-accuracy?utm_source=chatgpt.com",
+              "domain": "www.sciencedirect.com",
+              "title": "Retrieval Accuracy - an overview | ScienceDirect Topics",
+              "description": "RETRIEVAL ACCURACY  In subject area: Computer Science  DEFINITION OF TOPIC  AI  Retrieval accuracy refers to the effectiveness of a retrieval method in returning relevant objects, which can be assess...",
+              "breadcrumb": "sciencedirect.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.sciencedirect.com/topics/computer-science/retrieval-model?utm_source=chatgpt.com",
+              "domain": "www.sciencedirect.com",
+              "title": "retrieval model - an overview | ScienceDirect Topics",
+              "description": "The chapter concludes by outlining facets of IR research and indicating additional reading.  View chapterExplore book  Read full chapter  URL:\u00a0https://www.sciencedirect.com/science/article/pii/S016971...",
+              "breadcrumb": "sciencedirect.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.dcs.gla.ac.uk/Keith/Chapter.6/Ch.6.html?utm_source=chatgpt.com",
+              "domain": "www.dcs.gla.ac.uk",
+              "title": null,
+              "description": "Six  PROBABILISTIC RETRIEVAL  * * *  Introduction  So far in this book we have made very little use of probability theory in modelling any sub-system in IR. The reason for this is simply that the bulk...",
+              "breadcrumb": "gla.ac.uk"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://static.hlt.bme.hu/semantics/external/pages/inform%C3%A1ci%C3%B3-visszakeres%C3%A9s/en.wikipedia.org/wiki/Probabilistic_relevance_model.html?utm_source=chatgpt.com",
+              "domain": "static.hlt.bme.hu",
+              "title": "Probabilistic relevance model - Wikipedia",
+              "description": "PROBABILISTIC RELEVANCE MODEL  Jump to navigation Jump to search  The probabilistic relevance model^{[1]}^{[2]} was devised by Robertson and Jones as a framework for probabilistic models to come. It i...",
+              "breadcrumb": "bme.hu"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://static.hlt.bme.hu/semantics/external/pages/koreferencia-felold%C3%A1s/en.wikipedia.org/wiki/Precision_and_recall.html?utm_source=chatgpt.com",
+              "domain": "static.hlt.bme.hu",
+              "title": "Precision and recall - Wikipedia",
+              "description": "PRECISION AND RECALL  Jump to navigation Jump to search  Precision and recall  In pattern recognition, information retrieval and binary classification, precision (also called positive predictive value...",
+              "breadcrumb": "bme.hu"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.ai-visibility.org.uk/blog/how-ai-search-works/?utm_source=chatgpt.com",
+              "domain": "www.ai-visibility.org.uk",
+              "title": "How AI Search Actually Works: Inside ChatGPT, Claude, Gemini, and Perplexity | AI Visibility",
+              "description": "HOW AI SEARCH ACTUALLY WORKS: INSIDE CHATGPT, CLAUDE, GEMINI, AND PERPLEXITY  AI search engines don't think, they retrieve. This is the full retrieval pipeline that ChatGPT, Claude, Gemini, and Perpl...",
+              "breadcrumb": "ai-visibility.org.uk"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://nizam.seowarroom.app/encyclopedia/sem-information-retrieval/bm25-and-probabilistic-ir?utm_source=chatgpt.com",
+              "domain": "nizam.seowarroom.app",
+              "title": "BM25 and Probabilistic IR \u2013 IDF Scoring, Length Normalization and Modern Retrieval | Nizam SEO War Room",
+              "description": "BM25 AND PROBABILISTIC IR  By NizamUdDeen \u00b7 Updated June 5, 2026 \u00b7 Reviewed by the Nizam SEO War Room editorial team.  First, the short version. Below is the AIO-eligible passage and the question-form...",
+              "breadcrumb": "seowarroom.app"
+            }
+          ],
+          "sources": [
+            {
+              "type": "chat_gpt_source",
+              "title": "Neural Models for Information Retrieval",
+              "snippet": null,
+              "domain": "arxiv.org",
+              "url": "https://arxiv.org/abs/1705.01509?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "arXiv",
+              "publication_date": "2017-05-03 17:08:05 +00:00",
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Bayesian inference to improve quality of Retrieval Augmented Generation",
+              "snippet": null,
+              "domain": "arxiv.org",
+              "url": "https://arxiv.org/abs/2408.08901?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "arXiv",
+              "publication_date": "2024-08-12 08:54:32 +00:00",
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Probabilistic relevance model",
+              "snippet": null,
+              "domain": "en.wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Probabilistic_relevance_model?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "Wikipedia",
+              "publication_date": null,
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Retrieval Probability: The Core Variable of GEO",
+              "snippet": null,
+              "domain": "thegeolab.net",
+              "url": "https://thegeolab.net/retrieval-probability/?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "The GEO Lab",
+              "publication_date": "2026-03-11 00:00:00 +00:00",
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "Retrieval Confidence Score - AI Search Visibility Glossary | Hendricks.AI",
+              "snippet": null,
+              "domain": "www.hendricks.ai",
+              "url": "https://www.hendricks.ai/glossary/retrieval-confidence-score?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "Hendricks",
+              "publication_date": null,
+              "markdown": null
+            }
+          ],
+          "fan_out_queries": null,
+          "brand_entities": null,
+          "se_results_count": 0,
+          "item_types": [
+            "chat_gpt_text",
+            "chat_gpt_table"
+          ],
+          "items_count": 3,
+          "items": [
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "markdown": "In AI search, **retrieval probability** is the likelihood that a search or retrieval system will select a particular document, passage, or chunk of content as relevant to a user's query before the language model generates an answer.\n\nThink of an AI search system as having two stages:\n\n1. **Retrieve** \u2013 Find the most relevant information from an index, database, or the web.\n2. **Generate** \u2013 Use the retrieved information to produce a natural-language answer.\n\nRetrieval probability describes how likely a piece of information is to make it through the first stage.\n\n### A simple example\n\nSuppose you ask:\n\n> \"What are the health benefits of green tea?\"\n\nThe AI search system may evaluate thousands or millions of documents.\n\n",
+              "sources": null,
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_table",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "text": null,
+              "markdown": "| Document | Estimated retrieval probability |\n|----------|-------------------------------:|\n| Scientific review on green tea | 0.92 |\n| Health blog post | 0.73 |\n| Tea retailer homepage | 0.31 |\n| Unrelated cooking article | 0.01 |\n\n",
+              "table": {
+                "table_header": [
+                  "Document",
+                  "Estimated retrieval probability"
+                ],
+                "table_content": [
+                  [
+                    "Scientific review on green tea",
+                    "0.92"
+                  ],
+                  [
+                    "Health blog post",
+                    "0.73"
+                  ],
+                  [
+                    "Tea retailer homepage",
+                    "0.31"
+                  ],
+                  [
+                    "Unrelated cooking article",
+                    "0.01"
+                  ]
+                ]
+              },
+              "brand_entities": null
+            },
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "markdown": "\nThe system is much more likely to retrieve the scientific review because it appears more relevant to the query.\n\n### What affects retrieval probability?\n\nModern AI search systems use many signals, including:\n\n- **Semantic similarity** between the query and the content (using embeddings rather than just keyword matching)\n- **Keyword overlap**, especially in traditional search systems\n- **Authority and trustworthiness** of the source\n- **Freshness**, when recent information matters\n- **Document structure**, such as clear headings and concise passages\n- **Metadata** and structured data\n- **User intent**, inferred from the wording of the query\n\nThese factors influence which documents enter the model's context window. [arxiv.org](https://arxiv.org/abs/1705.01509?utm_source=chatgpt.com)\n\n### In Retrieval-Augmented Generation (RAG)\n\nIn a RAG system, retrieval probability is particularly important because:\n\n```\nUser Query\n      \u2193\nRetriever\n      \u2193\nTop-k documents (highest retrieval probability)\n      \u2193\nLLM\n      \u2193\nGenerated answer\n```\n\nIf the correct document has a low retrieval probability, the language model never sees it\u2014even if that document contains the perfect answer. This is why retrieval quality is often the limiting factor in RAG performance. [arxiv.org](https://arxiv.org/abs/2408.08901?utm_source=chatgpt.com)\n\n### Is \"retrieval probability\" an official metric?\n\nNot exactly. The term is used in two different ways:\n\n- In **information retrieval research**, systems estimate the probability that a document is relevant to a query. This idea underpins probabilistic retrieval models such as the Probabilistic Relevance Model and ranking algorithms like BM25. [en.wikipedia.org](https://en.wikipedia.org/wiki/Probabilistic_relevance_model?utm_source=chatgpt.com)\n- In the newer field of **AI search optimization** (sometimes called Generative Engine Optimization or GEO), \"retrieval probability\" is often used as an informal concept meaning \"how likely an AI search engine is to retrieve your content before generating an answer.\" This is more of an industry term than a standardized academic metric. [arxiv.org](https://arxiv.org/abs/2408.08901?utm_source=chatgpt.com)[en.wikipedia.org](https://en.wikipedia.org/wiki/Probabilistic_relevance_model?utm_source=chatgpt.com)[thegeolab.net](https://thegeolab.net/retrieval-probability/?utm_source=chatgpt.com)\n\n### Retrieval probability vs. citation probability\n\nThese are related but different:\n\n- **Retrieval probability:** \"Will the AI find this content?\"\n- **Citation probability:** \"After finding it, will the AI actually cite or rely on it in its answer?\"\n\nA document can have a high retrieval probability but still not be cited if another retrieved source is judged more authoritative or directly answers the question. [www.hendricks.ai](https://www.hendricks.ai/glossary/retrieval-confidence-score?utm_source=chatgpt.com)\n\nIn short, retrieval probability is the chance that an AI system selects a piece of content as a candidate source for answering a query. It's a foundational concept in search and RAG systems because information that isn't retrieved cannot influence the model's response.",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Neural Models for Information Retrieval",
+                  "snippet": null,
+                  "domain": "arxiv.org",
+                  "url": "https://arxiv.org/abs/1705.01509?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "arXiv",
+                  "publication_date": "2017-05-03 17:08:05 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Bayesian inference to improve quality of Retrieval Augmented Generation",
+                  "snippet": null,
+                  "domain": "arxiv.org",
+                  "url": "https://arxiv.org/abs/2408.08901?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "arXiv",
+                  "publication_date": "2024-08-12 08:54:32 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Probabilistic relevance model",
+                  "snippet": null,
+                  "domain": "en.wikipedia.org",
+                  "url": "https://en.wikipedia.org/wiki/Probabilistic_relevance_model?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "Wikipedia",
+                  "publication_date": null,
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Retrieval Probability: The Core Variable of GEO",
+                  "snippet": null,
+                  "domain": "thegeolab.net",
+                  "url": "https://thegeolab.net/retrieval-probability/?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "The GEO Lab",
+                  "publication_date": "2026-03-11 00:00:00 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "Retrieval Confidence Score - AI Search Visibility Glossary | Hendricks.AI",
+                  "snippet": null,
+                  "domain": "www.hendricks.ai",
+                  "url": "https://www.hendricks.ai/glossary/retrieval-confidence-score?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "Hendricks",
+                  "publication_date": null,
+                  "markdown": null
+                }
+              ],
+              "brand_entities": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

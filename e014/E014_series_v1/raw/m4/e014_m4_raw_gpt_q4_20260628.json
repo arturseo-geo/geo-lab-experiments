@@ -1,0 +1,211 @@
+{
+  "version": "0.1.20260610",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "19.0919 sec.",
+  "cost": 0.004,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "06282021-1516-0629-0000-9a975b334772",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "19.0317 sec.",
+      "cost": 0.004,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "chat_gpt",
+        "llm_scraper",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "llm_scraper",
+        "se": "chat_gpt",
+        "keyword": "GEO vs traditional SEO \u2014 what changed?",
+        "location_name": "United Kingdom",
+        "language_code": "en",
+        "force_web_search": true,
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "GEO vs traditional SEO \u2014 what changed?",
+          "location_code": 2826,
+          "language_code": "en",
+          "model": "gpt-5-5",
+          "check_url": "https://chatgpt.com/?prompt=GEO%20vs%20traditional%20SEO%20%E2%80%94%20what%20changed%3F&hints=search",
+          "datetime": "2026-06-28 17:21:41 +00:00",
+          "markdown": "GEO (Generative Engine Optimization) didn\u2019t replace SEO\u2014it shifted what \u201cvisibility\u201d means and where it happens.\n\nHere\u2019s what actually changed vs traditional SEO:\n\n---\n\n## 1. From \u201crankings\u201d \u2192 \u201cinclusion in answers\u201d\n\n**Traditional SEO**\n- Goal: rank in Google\u2019s top 10 blue links  \n- Success = clicks from search results pages\n\n**GEO**\n- Goal: get *quoted, summarized, or recommended* by AI systems like ChatGPT, Perplexity, Google AI Overviews  \n- Success = being included in the *answer itself* (sometimes no click happens at all) [geo-score.online](https://geo-score.online/learn/what-is-geo?utm_source=chatgpt.com)\n\n---\n\n## 2. From \u201cpages compete\u201d \u2192 \u201cpassages compete\u201d\n\n**SEO**\n- Whole pages compete for rankings\n- Optimized titles, keywords, backlinks\n\n**GEO**\n- Specific *chunks of content* matter (definitions, stats, concise explanations)\n- AI extracts and cites passages, not just URLs [oversearch.ai](https://oversearch.ai/resources/guides/what-is-geo/?utm_source=chatgpt.com)\n\nSo a mediocre page with a strong definition paragraph can outperform a highly optimized page for GEO.\n\n---\n\n## 3. From \u201c10 results\u201d \u2192 \u201c1 synthesized answer\u201d\n\n**SEO world**\n- Users see multiple options and choose\n\n**GEO world**\n- AI gives a single synthesized response (or a few citations)\n- Visibility is winner-takes-more: either you\u2019re in the answer or invisible [geochecktool.com](https://geochecktool.com/blog/geo-vs-seo-what-changed-in-2026?utm_source=chatgpt.com)\n\nThis compresses attention dramatically.\n\n---\n\n## 4. From \u201ckeyword signals\u201d \u2192 \u201ctrust + extractability signals\u201d\n\nSEO still cares about:\n- keywords\n- backlinks\n- technical structure\n\nGEO adds stronger weight to:\n- factual density (clear, verifiable statements)\n- entity clarity (brands, people, concepts clearly defined)\n- citation-worthy writing (self-contained explanations)\n- cross-site authority signals (mentions, reviews, external references) [geochecktool.com](https://geochecktool.com/blog/geo-vs-seo-what-changed-in-2026?utm_source=chatgpt.com)\n\nIn short: AI prefers content it can confidently reuse.\n\n---\n\n## 5. From \u201cGoogle-only thinking\u201d \u2192 \u201cmulti-engine visibility\u201d\n\nTraditional SEO was mostly:\n- Google + Bing SERPs\n\nGEO expands to:\n- ChatGPT browsing/search\n- Perplexity\n- Google AI Overviews / AI Mode\n- Gemini-style assistants\n\nEach system may pick different sources, even if Google rankings are similar.\n\n---\n\n## 6. Measurement changed too\n\n**SEO metrics**\n- rankings\n- CTR\n- organic traffic\n\n**GEO metrics**\n- citations in AI answers\n- brand mentions inside generated responses\n- share-of-answer (how often you appear vs competitors)\n\nThis is harder to track and less standardized.\n\n---\n\n## 7. The key misunderstanding: GEO doesn\u2019t replace SEO\n\nSEO is still the foundation. Most generative systems still rely heavily on pages that already rank or are well-indexed.\n\nSo in practice:\n\n- SEO = getting *into the index + rankings*\n- GEO = getting *selected from that index into AI answers*\n\nWithout SEO, GEO usually has nothing to build on.\n\n---\n\n### Simple way to think about it\n\nSEO is about:\n> \u201cCan people find your page?\u201d\n\nGEO is about:\n> \u201cWill AI choose your page when answering?\u201d\n\n---\n\nIf you want, I can break down a practical checklist for \u201cwhat to change on your site today\u201d to improve GEO visibility without breaking your existing SEO.",
+          "search_results": [
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://seoscore.tools/blog/what-is-geo/?utm_source=chatgpt.com",
+              "domain": "seoscore.tools",
+              "title": "What is GEO? Generative Engine Optimization Explained (2026)",
+              "description": "GEO  WHAT IS GEO? THE COMPLETE GUIDE TO GENERATIVE ENGINE OPTIMIZATION (2026)  March 15, 2026 \u00b7 13 min read \u00b7 By Atilla Kuruk, SEO & AI Search Specialist  Last Updated: March 2026 \u00b7 By Atilla Kuruk,...",
+              "breadcrumb": "seoscore.tools"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://geol.ai/briefing/the-complete-guide-to-geo-vs-traditional-seo-navigating-the-future-of-search-strategies?utm_source=chatgpt.com",
+              "domain": "geol.ai",
+              "title": "GEO vs SEO: Generative Engine Optimization Guide (2026)",
+              "description": "THE COMPLETE GUIDE TO GEO VS TRADITIONAL SEO: NAVIGATING THE FUTURE OF SEARCH STRATEGIES  Learn GEO vs SEO with a step-by-step playbook, testing methodology, key findings, frameworks, and a 90-day pl...",
+              "breadcrumb": "geol.ai"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://growwithba.com/blog/geo-vs-seo-explained?utm_source=chatgpt.com",
+              "domain": "growwithba.com",
+              "title": "GEO vs SEO in 2026: What Changed, What Stayed, and How to",
+              "description": "AI  GEO VS SEO IN 2026: WHAT CHANGED, WHAT STAYED, AND HOW TO WIN BOTH  Generative Engine Optimization (GEO) is not a replacement for SEO, it is a parallel discipline. Here is what changed in 2026, w...",
+              "breadcrumb": "growwithba.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://aristral.com/blog/geo-vs-seo?utm_source=chatgpt.com",
+              "domain": "aristral.com",
+              "title": "GEO vs SEO: What Generative Engine Optimisation Actually Is (2026) | Aristral",
+              "description": "GEO VS SEO: WHAT GENERATIVE ENGINE OPTIMISATION ACTUALLY IS (2026)  GEO vs SEO explained by practitioners: what generative engine optimisation actually is, how it differs from SEO, and the operationa...",
+              "breadcrumb": "aristral.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.wordstream.com/blog/generative-engine-optimization?utm_source=chatgpt.com",
+              "domain": "www.wordstream.com",
+              "title": "GEO vs. SEO: Everything to Know in 2026 | WordStream",
+              "description": "The latest statistics claim that Google search is 373 times bigger today than ChatGPT search, yet most of us feel like it\u2019s the other way around.  That\u2019s because lots of people aren\u2019t clicking anymor...",
+              "breadcrumb": "wordstream.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.overthetopseo.com/what-is-generative-engine-optimization-geo-the-complete-2026-guide/?utm_source=chatgpt.com",
+              "domain": "www.overthetopseo.com",
+              "title": "What Is GEO? The Complete 2026 Guide | OTT SEO",
+              "description": "WHAT IS GENERATIVE ENGINE OPTIMIZATION (GEO)? THE COMPLETE 2026 GUIDE  Author: Guy Sheetrit Updated Date: March 29, 2026 Category: Online marketing  Table of Contents  toggle  * table of contents * w...",
+              "breadcrumb": "overthetopseo.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.novabrandworks.com/blog/what-is-geo-generative-engine-optimization?utm_source=chatgpt.com",
+              "domain": "www.novabrandworks.com",
+              "title": "What is GEO? Generative Engine Optimization Defined for 2026",
+              "description": "WHAT IS GEO? GENERATIVE ENGINE OPTIMIZATION DEFINED FOR 2026  ImageDani Furmenek  May 3, 2026  7 min read  WHAT GEO ACTUALLY MEANS  Generative Engine Optimization (GEO) is the practice of making your...",
+              "breadcrumb": "novabrandworks.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://lumina-seo.com/blog/geo-vs-seo/?utm_source=chatgpt.com",
+              "domain": "lumina-seo.com",
+              "title": "GEO vs SEO in 2026: The Complete Guide | Lumina",
+              "description": "GEO  GEO VS SEO: WHAT GENERATIVE ENGINE OPTIMIZATION CHANGES  GEO optimizes content to be cited inside ChatGPT, Perplexity, and Google AI Overviews. SEO optimizes for blue links. Here is the honest b...",
+              "breadcrumb": "lumina-seo.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.airanklab.com/blog/geo-vs-seo-what-changed-what-stays-what-matters?utm_source=chatgpt.com",
+              "domain": "www.airanklab.com",
+              "title": "GEO vs SEO in 2026: What Changed & What Matters | AI Rank Lab - Free SEO, AEO & GEO Analyzer",
+              "description": "GEO VS SEO IN 2026: WHAT CHANGED, WHAT STAYS, AND WHAT MATTERS  GEO (Generative Engine Optimization) and SEO both matter in 2026, but they reward different behaviors. This guide maps exactly what cha...",
+              "breadcrumb": "airanklab.com"
+            }
+          ],
+          "sources": [
+            {
+              "type": "chat_gpt_source",
+              "title": "What is GEO? Generative Engine Optimization Explained (2026)",
+              "snippet": null,
+              "domain": "geo-score.online",
+              "url": "https://geo-score.online/learn/what-is-geo?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "GEO-Score by Be-Found",
+              "publication_date": "2026-06-01 00:00:00 +00:00",
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "What Is GEO? Generative Engine Optimization Guide (2026)",
+              "snippet": null,
+              "domain": "oversearch.ai",
+              "url": "https://oversearch.ai/resources/guides/what-is-geo/?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "Oversearch",
+              "publication_date": "2026-03-03 00:00:00 +00:00",
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "GEO vs SEO 2026: What Changed, What Stayed the Same, What Wins | GeoCheckTool",
+              "snippet": null,
+              "domain": "geochecktool.com",
+              "url": "https://geochecktool.com/blog/geo-vs-seo-what-changed-in-2026?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "GeoCheckTool",
+              "publication_date": "2026-04-22 00:00:00 +00:00",
+              "markdown": null
+            }
+          ],
+          "fan_out_queries": [
+            "GEO vs traditional SEO what changed generative engine optimization GEO explained 2026"
+          ],
+          "brand_entities": null,
+          "se_results_count": 0,
+          "item_types": [
+            "chat_gpt_text"
+          ],
+          "items_count": 1,
+          "items": [
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "markdown": "GEO (Generative Engine Optimization) didn\u2019t replace SEO\u2014it shifted what \u201cvisibility\u201d means and where it happens.\n\nHere\u2019s what actually changed vs traditional SEO:\n\n---\n\n## 1. From \u201crankings\u201d \u2192 \u201cinclusion in answers\u201d\n\n**Traditional SEO**\n- Goal: rank in Google\u2019s top 10 blue links  \n- Success = clicks from search results pages\n\n**GEO**\n- Goal: get *quoted, summarized, or recommended* by AI systems like ChatGPT, Perplexity, Google AI Overviews  \n- Success = being included in the *answer itself* (sometimes no click happens at all) [geo-score.online](https://geo-score.online/learn/what-is-geo?utm_source=chatgpt.com)\n\n---\n\n## 2. From \u201cpages compete\u201d \u2192 \u201cpassages compete\u201d\n\n**SEO**\n- Whole pages compete for rankings\n- Optimized titles, keywords, backlinks\n\n**GEO**\n- Specific *chunks of content* matter (definitions, stats, concise explanations)\n- AI extracts and cites passages, not just URLs [oversearch.ai](https://oversearch.ai/resources/guides/what-is-geo/?utm_source=chatgpt.com)\n\nSo a mediocre page with a strong definition paragraph can outperform a highly optimized page for GEO.\n\n---\n\n## 3. From \u201c10 results\u201d \u2192 \u201c1 synthesized answer\u201d\n\n**SEO world**\n- Users see multiple options and choose\n\n**GEO world**\n- AI gives a single synthesized response (or a few citations)\n- Visibility is winner-takes-more: either you\u2019re in the answer or invisible [geochecktool.com](https://geochecktool.com/blog/geo-vs-seo-what-changed-in-2026?utm_source=chatgpt.com)\n\nThis compresses attention dramatically.\n\n---\n\n## 4. From \u201ckeyword signals\u201d \u2192 \u201ctrust + extractability signals\u201d\n\nSEO still cares about:\n- keywords\n- backlinks\n- technical structure\n\nGEO adds stronger weight to:\n- factual density (clear, verifiable statements)\n- entity clarity (brands, people, concepts clearly defined)\n- citation-worthy writing (self-contained explanations)\n- cross-site authority signals (mentions, reviews, external references) [geochecktool.com](https://geochecktool.com/blog/geo-vs-seo-what-changed-in-2026?utm_source=chatgpt.com)\n\nIn short: AI prefers content it can confidently reuse.\n\n---\n\n## 5. From \u201cGoogle-only thinking\u201d \u2192 \u201cmulti-engine visibility\u201d\n\nTraditional SEO was mostly:\n- Google + Bing SERPs\n\nGEO expands to:\n- ChatGPT browsing/search\n- Perplexity\n- Google AI Overviews / AI Mode\n- Gemini-style assistants\n\nEach system may pick different sources, even if Google rankings are similar.\n\n---\n\n## 6. Measurement changed too\n\n**SEO metrics**\n- rankings\n- CTR\n- organic traffic\n\n**GEO metrics**\n- citations in AI answers\n- brand mentions inside generated responses\n- share-of-answer (how often you appear vs competitors)\n\nThis is harder to track and less standardized.\n\n---\n\n## 7. The key misunderstanding: GEO doesn\u2019t replace SEO\n\nSEO is still the foundation. Most generative systems still rely heavily on pages that already rank or are well-indexed.\n\nSo in practice:\n\n- SEO = getting *into the index + rankings*\n- GEO = getting *selected from that index into AI answers*\n\nWithout SEO, GEO usually has nothing to build on.\n\n---\n\n### Simple way to think about it\n\nSEO is about:\n> \u201cCan people find your page?\u201d\n\nGEO is about:\n> \u201cWill AI choose your page when answering?\u201d\n\n---\n\nIf you want, I can break down a practical checklist for \u201cwhat to change on your site today\u201d to improve GEO visibility without breaking your existing SEO.",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "What is GEO? Generative Engine Optimization Explained (2026)",
+                  "snippet": null,
+                  "domain": "geo-score.online",
+                  "url": "https://geo-score.online/learn/what-is-geo?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "GEO-Score by Be-Found",
+                  "publication_date": "2026-06-01 00:00:00 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "What Is GEO? Generative Engine Optimization Guide (2026)",
+                  "snippet": null,
+                  "domain": "oversearch.ai",
+                  "url": "https://oversearch.ai/resources/guides/what-is-geo/?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "Oversearch",
+                  "publication_date": "2026-03-03 00:00:00 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "GEO vs SEO 2026: What Changed, What Stayed the Same, What Wins | GeoCheckTool",
+                  "snippet": null,
+                  "domain": "geochecktool.com",
+                  "url": "https://geochecktool.com/blog/geo-vs-seo-what-changed-in-2026?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "GeoCheckTool",
+                  "publication_date": "2026-04-22 00:00:00 +00:00",
+                  "markdown": null
+                }
+              ],
+              "brand_entities": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

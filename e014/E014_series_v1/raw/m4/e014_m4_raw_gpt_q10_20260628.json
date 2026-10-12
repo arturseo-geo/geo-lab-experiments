@@ -1,0 +1,245 @@
+{
+  "version": "0.1.20260610",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "15.0596 sec.",
+  "cost": 0.004,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "06282025-1516-0629-0000-6caf901a73c4",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "15.0327 sec.",
+      "cost": 0.004,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "chat_gpt",
+        "llm_scraper",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "llm_scraper",
+        "se": "chat_gpt",
+        "keyword": "How do AI search engines select content to cite?",
+        "location_name": "United Kingdom",
+        "language_code": "en",
+        "force_web_search": true,
+        "device": "desktop",
+        "os": "windows"
+      },
+      "result": [
+        {
+          "keyword": "How do AI search engines select content to cite?",
+          "location_code": 2826,
+          "language_code": "en",
+          "model": "gpt-5-5",
+          "check_url": "https://chatgpt.com/?prompt=How%20do%20AI%20search%20engines%20select%20content%20to%20cite%3F&hints=search",
+          "datetime": "2026-06-28 17:26:08 +00:00",
+          "markdown": "AI search engines generally don't \"pick citations\" the way a human author does. Instead, citations emerge from a retrieval-and-generation pipeline designed to find information that best supports the answer being generated.\n\nA simplified version of the process looks like this:\n\n1. **Interpret the question.** The system analyzes the user's intent and may rewrite the query into multiple related searches. For example, \"How do solar panels work?\" might become separate searches about photovoltaic cells, semiconductor physics, and energy conversion. [www.conductor.com](https://www.conductor.com/academy/how-ai-citations-differ/?utm_source=chatgpt.com)[thestacc.com](https://thestacc.com/blog/how-ai-search-engines-cite-sources/?utm_source=chatgpt.com)\n\n2. **Retrieve candidate sources.** The engine searches one or more indexes (such as a web search index or its own retrieval system) for relevant documents or passages. Modern systems typically use semantic search, which matches meaning rather than just keywords. [thestacc.com](https://thestacc.com/blog/how-ai-search-engines-cite-sources/?utm_source=chatgpt.com)\n\n3. **Rank and filter.** Retrieved content is evaluated on factors such as:\n   - relevance to the question,\n   - factual density,\n   - authority or trustworthiness,\n   - freshness (when important),\n   - and whether the content is easy to extract and understand. [www.lightspacelabs.com](https://www.lightspacelabs.com/blog/how-ai-search-engines-decide-which-sources-to-cite?utm_source=chatgpt.com)[stellar-ai.co](https://stellar-ai.co/blog/how-ai-search-engines-decide-what-to-cite/?utm_source=chatgpt.com)\n\n4. **Generate the answer.** The language model synthesizes information from the retrieved material into a coherent response.\n\n5. **Choose which sources to display.** Only some of the retrieved sources appear as citations. The system generally prefers sources that directly support specific claims in the generated answer rather than every document it consulted. Research suggests that \"being retrieved\" and \"being cited\" are distinct stages. [arxiv.org](https://arxiv.org/abs/2604.25707?utm_source=chatgpt.com)[stellar-ai.co](https://stellar-ai.co/blog/how-ai-search-engines-decide-what-to-cite/?utm_source=chatgpt.com)\n\nSome characteristics that tend to make content more likely to be cited include:\n\n- Clear, direct answers to common questions.\n- Well-structured pages with headings and concise sections.\n- Original facts, data, or analysis rather than generic summaries.\n- Consistent evidence of expertise and reliability.\n- Up-to-date information when the topic changes frequently. [arxiv.org](https://arxiv.org/abs/2604.25707?utm_source=chatgpt.com)[stellar-ai.co](https://stellar-ai.co/blog/how-ai-search-engines-decide-what-to-cite/?utm_source=chatgpt.com)\n\nIt's also important to know that **different AI search engines have different retrieval systems and editorial tendencies**. The same prompt can produce different citations across systems because they:\n- use different search indexes,\n- retrieve different candidate documents,\n- rank evidence differently,\n- and optimize for different answer styles. Studies have found surprisingly low overlap in citations between major AI search engines. [www.conductor.com](https://www.conductor.com/academy/how-ai-citations-differ/?utm_source=chatgpt.com)\n\nFinally, a citation does **not** necessarily mean:\n- the cited source was the only source consulted,\n- every statement came from that source,\n- or the source is guaranteed to be correct.\n\nThe citation is best understood as evidence the system chose to expose to support part of its answer, not a complete record of its reasoning or all retrieved material. Researchers are increasingly distinguishing between **citation selection** (which sources are shown) and **citation absorption** (which sources actually influenced the generated text). [arxiv.org](https://arxiv.org/abs/2604.25707?utm_source=chatgpt.com)[stellar-ai.co](https://stellar-ai.co/blog/how-ai-search-engines-decide-what-to-cite/?utm_source=chatgpt.com)",
+          "search_results": [
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://geoway.me/en/insights/how-ai-selects-sources.html?utm_source=chatgpt.com",
+              "domain": "geoway.me",
+              "title": "How AI Search Engines Select Citation Sources: RAG Deep Dive | geoway.me",
+              "description": "HOW AI SEARCH ENGINES SELECT CITATION SOURCES: RAG DEEP DIVE  Key Takeaway: AI search engines don't select sources randomly. They use RAG (Retrieval-Augmented Generation) technology with clear select...",
+              "breadcrumb": "geoway.me"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://authoritytech.io/blog/ai-search-engine-source-selection-criteria-2026?utm_source=chatgpt.com",
+              "domain": "authoritytech.io",
+              "title": "How AI Search Engines Choose What to Cite",
+              "description": "HOW AI SEARCH ENGINES CHOOSE WHAT TO CITE: 7 SOURCE SELECTION CRITERIA IN 2026  Research analyzing 21,143 citations across ChatGPT, Perplexity, and Google AI Overviews reveals the seven criteria AI s...",
+              "breadcrumb": "authoritytech.io"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://authoritystack.ai/blog/how-ai-search-engines-choose-sources?utm_source=chatgpt.com",
+              "domain": "authoritystack.ai",
+              "title": "How AI Search Engines Choose Sources for Citation | AuthorityStack.ai",
+              "description": "AI Search January 25, 2026 Updated March 22, 2026 7 min read  HOW AI SEARCH ENGINES CHOOSE SOURCES: WHAT MAKES CONTENT CITATION-WORTHY  Image: Celestine AbakaCA  Celestine Abaka AI Visibility Enginee...",
+              "breadcrumb": "authoritystack.ai"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://gracker.ai/how-ai-engines-cite?utm_source=chatgpt.com",
+              "domain": "gracker.ai",
+              "title": "How AI Engines Choose What to Cite: The Complete Guide | GrackerAI",
+              "description": "HOW AI ENGINES CHOOSE WHAT TO CITE  Every time a buyer asks ChatGPT, Perplexity, Claude, Gemini, Copilot, or Google AI Overviews for a recommendation, the AI engine makes a choice: which brands to na...",
+              "breadcrumb": "gracker.ai"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://techoreo.buzz/ai-search-content-selection.html?utm_source=chatgpt.com",
+              "domain": "techoreo.buzz",
+              "title": "How AI Search Engines Select and Cite Content: Google AI Overviews, ChatGPT & Perplexity Explained (2026)",
+              "description": "HOW AI SEARCH ENGINES SELECT AND CITE CONTENT  February 20, 2026 \u00a0|\u00a0 By TechOreo Editorial Team \u00a0|\u00a0 16 Min Read  The way people find information on the internet has been fundamentally restructured. W...",
+              "breadcrumb": "techoreo.buzz"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.searchenginejournal.com/ai-search-engines-often-cite-third-party-content-study-finds/540692/?utm_source=chatgpt.com",
+              "domain": "www.searchenginejournal.com",
+              "title": "AI Search Optimization: Data Finds Brand Mentions Improve Visibility",
+              "description": "AI SEARCH OPTIMIZATION: DATA FINDS BRAND MENTIONS IMPROVE VISIBILITY  * AI search engines cite third-party content the most. * Citation frequency varies greatly across platforms. * High-quality sourc...",
+              "breadcrumb": "searchenginejournal.com"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://lumengeo.co/blog/ai-search-engines-complete-guide?utm_source=chatgpt.com",
+              "domain": "lumengeo.co",
+              "title": "The Complete List of AI Search Engines (2026): How Each One Cites Sources | LumenGEO",
+              "description": "THE COMPLETE LIST OF AI SEARCH ENGINES (2026): HOW EACH ONE CITES SOURCES  March 21, 2026\u00b718 min read\u00b7By Khalid Hamadeh, Founder, LumenGEO  AI search engines ChatGPT Perplexity Gemini platforms  \u2014 Da...",
+              "breadcrumb": "lumengeo.co"
+            },
+            {
+              "type": "chatgpt_search_result",
+              "url": "https://www.upfront-ai.com/post/how-ai-search-engines-decide-what-content-to-cite?utm_source=chatgpt.com",
+              "domain": "www.upfront-ai.com",
+              "title": "How AI Search Engines Decide What Content to Cite",
+              "description": "HOW AI SEARCH ENGINES DECIDE WHAT CONTENT TO CITE  * Image: Writer: Robin Burkeman  Robin Burkeman * Apr 16 * 11 min read  Updated: May 14  You need to be the source AI agents quote when your buyers...",
+              "breadcrumb": "upfront-ai.com"
+            }
+          ],
+          "sources": [
+            {
+              "type": "chat_gpt_source",
+              "title": "How AI Search Engines Choose Sources and Citations",
+              "snippet": null,
+              "domain": "www.conductor.com",
+              "url": "https://www.conductor.com/academy/how-ai-citations-differ/?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "Conductor",
+              "publication_date": "2026-05-07 00:00:00 +00:00",
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "How AI Search Engines Choose Sources to Cite | theStacc",
+              "snippet": null,
+              "domain": "thestacc.com",
+              "url": "https://thestacc.com/blog/how-ai-search-engines-cite-sources/?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "theStacc",
+              "publication_date": "2026-04-02 00:00:00 +00:00",
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "How AI Search Engines Decide Which Sources to Cite | Lightspace Labs Blog | Lightspace Labs",
+              "snippet": null,
+              "domain": "www.lightspacelabs.com",
+              "url": "https://www.lightspacelabs.com/blog/how-ai-search-engines-decide-which-sources-to-cite?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "lightspacelabs.com",
+              "publication_date": "2026-03-28 00:00:00 +00:00",
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "How AI Engines Decide What to Cite | Stellar AEO Labs",
+              "snippet": null,
+              "domain": "stellar-ai.co",
+              "url": "https://stellar-ai.co/blog/how-ai-search-engines-decide-what-to-cite/?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "stellar-ai.co",
+              "publication_date": "2026-02-03 00:00:00 +00:00",
+              "markdown": null
+            },
+            {
+              "type": "chat_gpt_source",
+              "title": "From Citation Selection to Citation Absorption: A Measurement Framework for Generative Engine Optimization Across AI Search Platforms",
+              "snippet": null,
+              "domain": "arxiv.org",
+              "url": "https://arxiv.org/abs/2604.25707?utm_source=chatgpt.com",
+              "thumbnail": null,
+              "source_name": "arXiv",
+              "publication_date": "2026-04-28 14:34:20 +00:00",
+              "markdown": null
+            }
+          ],
+          "fan_out_queries": null,
+          "brand_entities": null,
+          "se_results_count": 0,
+          "item_types": [
+            "chat_gpt_text"
+          ],
+          "items_count": 1,
+          "items": [
+            {
+              "type": "chat_gpt_text",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "markdown": "AI search engines generally don't \"pick citations\" the way a human author does. Instead, citations emerge from a retrieval-and-generation pipeline designed to find information that best supports the answer being generated.\n\nA simplified version of the process looks like this:\n\n1. **Interpret the question.** The system analyzes the user's intent and may rewrite the query into multiple related searches. For example, \"How do solar panels work?\" might become separate searches about photovoltaic cells, semiconductor physics, and energy conversion. [www.conductor.com](https://www.conductor.com/academy/how-ai-citations-differ/?utm_source=chatgpt.com)[thestacc.com](https://thestacc.com/blog/how-ai-search-engines-cite-sources/?utm_source=chatgpt.com)\n\n2. **Retrieve candidate sources.** The engine searches one or more indexes (such as a web search index or its own retrieval system) for relevant documents or passages. Modern systems typically use semantic search, which matches meaning rather than just keywords. [thestacc.com](https://thestacc.com/blog/how-ai-search-engines-cite-sources/?utm_source=chatgpt.com)\n\n3. **Rank and filter.** Retrieved content is evaluated on factors such as:\n   - relevance to the question,\n   - factual density,\n   - authority or trustworthiness,\n   - freshness (when important),\n   - and whether the content is easy to extract and understand. [www.lightspacelabs.com](https://www.lightspacelabs.com/blog/how-ai-search-engines-decide-which-sources-to-cite?utm_source=chatgpt.com)[stellar-ai.co](https://stellar-ai.co/blog/how-ai-search-engines-decide-what-to-cite/?utm_source=chatgpt.com)\n\n4. **Generate the answer.** The language model synthesizes information from the retrieved material into a coherent response.\n\n5. **Choose which sources to display.** Only some of the retrieved sources appear as citations. The system generally prefers sources that directly support specific claims in the generated answer rather than every document it consulted. Research suggests that \"being retrieved\" and \"being cited\" are distinct stages. [arxiv.org](https://arxiv.org/abs/2604.25707?utm_source=chatgpt.com)[stellar-ai.co](https://stellar-ai.co/blog/how-ai-search-engines-decide-what-to-cite/?utm_source=chatgpt.com)\n\nSome characteristics that tend to make content more likely to be cited include:\n\n- Clear, direct answers to common questions.\n- Well-structured pages with headings and concise sections.\n- Original facts, data, or analysis rather than generic summaries.\n- Consistent evidence of expertise and reliability.\n- Up-to-date information when the topic changes frequently. [arxiv.org](https://arxiv.org/abs/2604.25707?utm_source=chatgpt.com)[stellar-ai.co](https://stellar-ai.co/blog/how-ai-search-engines-decide-what-to-cite/?utm_source=chatgpt.com)\n\nIt's also important to know that **different AI search engines have different retrieval systems and editorial tendencies**. The same prompt can produce different citations across systems because they:\n- use different search indexes,\n- retrieve different candidate documents,\n- rank evidence differently,\n- and optimize for different answer styles. Studies have found surprisingly low overlap in citations between major AI search engines. [www.conductor.com](https://www.conductor.com/academy/how-ai-citations-differ/?utm_source=chatgpt.com)\n\nFinally, a citation does **not** necessarily mean:\n- the cited source was the only source consulted,\n- every statement came from that source,\n- or the source is guaranteed to be correct.\n\nThe citation is best understood as evidence the system chose to expose to support part of its answer, not a complete record of its reasoning or all retrieved material. Researchers are increasingly distinguishing between **citation selection** (which sources are shown) and **citation absorption** (which sources actually influenced the generated text). [arxiv.org](https://arxiv.org/abs/2604.25707?utm_source=chatgpt.com)[stellar-ai.co](https://stellar-ai.co/blog/how-ai-search-engines-decide-what-to-cite/?utm_source=chatgpt.com)",
+              "sources": [
+                {
+                  "type": "chat_gpt_source",
+                  "title": "How AI Search Engines Choose Sources and Citations",
+                  "snippet": null,
+                  "domain": "www.conductor.com",
+                  "url": "https://www.conductor.com/academy/how-ai-citations-differ/?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "Conductor",
+                  "publication_date": "2026-05-07 00:00:00 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "How AI Search Engines Choose Sources to Cite | theStacc",
+                  "snippet": null,
+                  "domain": "thestacc.com",
+                  "url": "https://thestacc.com/blog/how-ai-search-engines-cite-sources/?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "theStacc",
+                  "publication_date": "2026-04-02 00:00:00 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "How AI Search Engines Decide Which Sources to Cite | Lightspace Labs Blog | Lightspace Labs",
+                  "snippet": null,
+                  "domain": "www.lightspacelabs.com",
+                  "url": "https://www.lightspacelabs.com/blog/how-ai-search-engines-decide-which-sources-to-cite?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "lightspacelabs.com",
+                  "publication_date": "2026-03-28 00:00:00 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "How AI Engines Decide What to Cite | Stellar AEO Labs",
+                  "snippet": null,
+                  "domain": "stellar-ai.co",
+                  "url": "https://stellar-ai.co/blog/how-ai-search-engines-decide-what-to-cite/?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "stellar-ai.co",
+                  "publication_date": "2026-02-03 00:00:00 +00:00",
+                  "markdown": null
+                },
+                {
+                  "type": "chat_gpt_source",
+                  "title": "From Citation Selection to Citation Absorption: A Measurement Framework for Generative Engine Optimization Across AI Search Platforms",
+                  "snippet": null,
+                  "domain": "arxiv.org",
+                  "url": "https://arxiv.org/abs/2604.25707?utm_source=chatgpt.com",
+                  "thumbnail": null,
+                  "source_name": "arXiv",
+                  "publication_date": "2026-04-28 14:34:20 +00:00",
+                  "markdown": null
+                }
+              ],
+              "brand_entities": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "version": "0.1.20260610",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "3.5644 sec.",
+  "cost": 0.012546,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "06282014-1516-0612-0000-a1c1fd3f3587",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "3.5357 sec.",
+      "cost": 0.012546,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "perplexity",
+        "llm_responses",
+        "live"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "llm_responses",
+        "se": "perplexity",
+        "user_prompt": "What is GEO (Generative Engine Optimisation)?",
+        "model_name": "sonar-pro",
+        "web_search": true
+      },
+      "result": [
+        {
+          "model_name": "sonar-pro",
+          "input_tokens": 17,
+          "output_tokens": 393,
+          "reasoning_tokens": 0,
+          "web_search": true,
+          "money_spent": 0.011946,
+          "datetime": "2026-06-28 20:14:43 +00:00",
+          "items": [
+            {
+              "type": "message",
+              "sections": [
+                {
+                  "type": "text",
+                  "text": "**GEO (Generative Engine Optimization)** is the practice of structuring and improving content so it is more likely to be **understood, selected, and cited by AI-powered generative search systems** in their answers, rather than only ranking well in traditional search results.[1][6][7]\n\nIn the research paper that introduced the term, GEO is described as a **flexible black-box optimization framework** for improving a website\u2019s visibility in responses from proprietary or closed-source generative engines.[1] In practical marketing usage, GEO usually means writing and formatting content so large language models can parse it easily, trust it, and use it in generated answers.[2][6][8]\n\nA simple way to think about it:\n\n- **SEO** aims to rank pages in search results.\n- **GEO** aims to get your content **mentioned, quoted, or cited inside AI-generated answers**.[3][6][7][8]\n\nCommon GEO tactics include:\n\n- **Clear structure** with headings, concise answers, and well-organized sections.[2][5][7]\n- **Authoritative signals** such as credible sourcing, expert authorship, and factual accuracy.[2][5][6]\n- **Crawlable, accessible content** that AI systems can retrieve and process.[5][6]\n- **Direct answers to real questions** instead of keyword-heavy or vague text.[5][7][8]\n\nOne important caveat: major search platforms like Google emphasize that **foundational SEO remains the main priority**, and they advise against relying on gimmicky \u201cGEO hacks.\u201d[5] So in practice, GEO is best understood as an extension of strong SEO and content quality principles, adapted for AI-generated search experiences.[5][6][7]\n\nIf you want, I can also give you a **one-sentence definition**, a **SEO vs GEO comparison table**, or a **practical checklist for optimizing content for GEO**.",
+                  "annotations": [
+                    {
+                      "title": "[PDF] GEO: Generative Engine Optimization - arXiv",
+                      "url": "https://arxiv.org/pdf/2311.09735"
+                    },
+                    {
+                      "title": "Generative Engine Optimization (GEO): A Practical Guide - Reply",
+                      "url": "https://www.reply.com/en/digital-experience/geo-content-optimization"
+                    },
+                    {
+                      "title": "How Generative Engine Optimization (GEO) Rewrites the Rules of ...",
+                      "url": "https://a16z.com/geo-over-seo/"
+                    },
+                    {
+                      "title": "I've been hearing a lot about Generative Engine Optimization (GEO ...",
+                      "url": "https://www.reddit.com/r/digital_marketing/comments/1l8t628/ive_been_hearing_a_lot_about_generative_engine/"
+                    },
+                    {
+                      "title": "Optimizing your website for generative AI features on Google Search",
+                      "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide"
+                    },
+                    {
+                      "title": "Generative Engine Optimization: A Practical Guide - Semrush",
+                      "url": "https://www.semrush.com/blog/generative-engine-optimization/"
+                    },
+                    {
+                      "title": "What Is Generative Engine Optimization? - Coursera",
+                      "url": "https://www.coursera.org/articles/what-is-generative-engine-optimization"
+                    },
+                    {
+                      "title": "What is Generative Engine Optimization (GEO) and how does it ...",
+                      "url": "https://www.contentful.com/blog/generative-engine-optimization-seo/"
+                    },
+                    {
+                      "title": "Generative Engine Optimization (GEO): The Future Of Search Is Here",
+                      "url": "https://www.forbes.com/councils/forbesagencycouncil/2025/01/02/generative-engine-optimization-geo-the-future-of-search-is-here/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fan_out_queries": null
+        }
+      ]
+    }
+  ]
+}

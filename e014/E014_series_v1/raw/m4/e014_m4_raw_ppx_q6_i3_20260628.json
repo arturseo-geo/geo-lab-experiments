@@ -1,0 +1,95 @@
+{
+  "version": "0.1.20260610",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "4.5540 sec.",
+  "cost": 0.012432,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "06282017-1516-0612-0000-479e5c457b7d",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "4.5274 sec.",
+      "cost": 0.012432,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "perplexity",
+        "llm_responses",
+        "live"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "llm_responses",
+        "se": "perplexity",
+        "user_prompt": "What is Extractability in GEO?",
+        "model_name": "sonar-pro",
+        "web_search": true
+      },
+      "result": [
+        {
+          "model_name": "sonar-pro",
+          "input_tokens": 14,
+          "output_tokens": 386,
+          "reasoning_tokens": 0,
+          "web_search": true,
+          "money_spent": 0.011832,
+          "datetime": "2026-06-28 20:17:33 +00:00",
+          "items": [
+            {
+              "type": "message",
+              "sections": [
+                {
+                  "type": "text",
+                  "text": "Extractability in GEO (Generative Engine Optimization) is **how easily an AI answer engine can lift a clean, self\u2011contained answer from your content and reuse it in a generated response**.[1][3][5]\n\n### What \u201cExtractability\u201d means in GEO\n\nIn the context of GEO and AI search:\n\n- **Extractability** is the degree to which a passage on your site can be *copied out of context* and still function as a clear, accurate, standalone answer.[1][5]  \n- GEO audits explicitly check **answer extractability**: whether a \u201cclean, useful answer can be pulled from your pages without an AI system having to dig through paragraphs of vague marketing copy\u201d.[3]  \n- Highly extractable content is **structured, direct, and standalone**: it states a complete thought in plain language under a clear heading, without needing surrounding paragraphs to make sense.[1][3][5]  \n\nIn practice, for GEO:\n\n- AI engines do not read pages top\u2011to\u2011bottom; they **retrieve chunks and evaluate them in isolation**.[5]  \n- Content with strong extractability uses:\n  - **Answer\u2011first writing** \u2013 the core definition or claim appears in the first ~80\u2013150 words.[3][5]  \n  - **Clear, literal headings** that match the question or concept.[1][3][5]  \n  - **Self\u2011contained answer blocks**: each key claim makes sense alone and doesn\u2019t rely on pronouns or prior context.[1][5]  \n  - **Citation\u2011ready structure** so claims are legible and attributable when quoted in an AI answer.[5]  \n\nGEO services and audits focus on rewriting narrative content into **atomic, extractable units that can be cited by AI during generation**.[3][4] This is distinct from general clarity or SEO; it specifically optimizes content so generative engines can safely copy, understand, and cite it.",
+                  "annotations": [
+                    {
+                      "title": "Extractability - Parsnipp",
+                      "url": "https://parsnipp.com/glossary/extractability/"
+                    },
+                    {
+                      "title": "extractability - Wiktionary, the free dictionary",
+                      "url": "https://en.wiktionary.org/wiki/extractability"
+                    },
+                    {
+                      "title": "GEO Audit Checklist: Entity, Proof, and Extractability | SavageAudit",
+                      "url": "https://savageaudit.com/blog/geo-audit-checklist"
+                    },
+                    {
+                      "title": "How does ABKE GEO translate our technical expertise into ... - AB\u5ba2",
+                      "url": "https://www.cnabke.com/en/faq/abke-ab%E5%AE%A2-geo-translating-technical-expertise-into-ai-citable-facts-product-faq.html"
+                    },
+                    {
+                      "title": "Extractable Content \u2014 Definition - Glossary - AuthorityTech",
+                      "url": "https://authoritytech.io/glossary/extractable-content"
+                    },
+                    {
+                      "title": "SEO Truths: GEO, Extractability, Influence & Durability - LinkedIn",
+                      "url": "https://www.linkedin.com/posts/rquintan_the-truths-what-holds-up-across-platforms-activity-7430304063503851520-hVEB"
+                    },
+                    {
+                      "title": "Leachable vs. Extractable- What are they, what's the difference, and ...",
+                      "url": "https://hollandapt.com/leachable-vs-extractable-what-are-they-whats-the-difference-and-why-are-they-a-hot-button-topic-in-single-use-processes-today/"
+                    },
+                    {
+                      "title": "Manufacturer-Provided Extractable | Leachables - EAG Laboratories",
+                      "url": "https://www.eag.com/app-note/how-to-evaluate-manufacturer-provided-extractable-information/"
+                    },
+                    {
+                      "title": "A comprehensive study of the effect of elevated temperature on the ...",
+                      "url": "https://pubmed.ncbi.nlm.nih.gov/37516062/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fan_out_queries": null
+        }
+      ]
+    }
+  ]
+}
