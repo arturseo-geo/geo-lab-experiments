@@ -1,0 +1,99 @@
+{
+  "_meta": {
+    "description": "E044 instrument definition — weekly competitor retrieval-rank monitoring via Perplexity sonar-pro API",
+    "version": "1.0",
+    "created": "2026-10-12",
+    "note": "No dedicated E044 script exists. Runs are executed as inline API calls in Claude Code sessions using the same sonar-pro + citations pattern as geo_lab_30check.js and recursion_check.js in geolab-auto-measure. This spec codifies what those sessions send and how they derive the CSV columns."
+  },
+
+  "surface": "API-sonar-pro",
+  "surface_rule": "API and UI are non-equivalent surfaces (2026-06-14 instrument-provenance note). Never compare or mix values from different surfaces.",
+
+  "api": {
+    "endpoint": "https://api.perplexity.ai/chat/completions",
+    "method": "POST",
+    "auth_header": "Authorization: Bearer $PERPLEXITY_API_KEY",
+    "request_body_template": {
+      "model": "sonar-pro",
+      "messages": [
+        {
+          "role": "user",
+          "content": "{{query_text}}"
+        }
+      ],
+      "return_citations": true
+    },
+    "parameters_not_set": [
+      "temperature (API default applies; recursion_check.js uses 0, but E044 sessions have not pinned it)",
+      "search_mode",
+      "search_domain_filter",
+      "search_recency_filter",
+      "top_k",
+      "max_tokens",
+      "system prompt (none)"
+    ]
+  },
+
+  "response_parsing": {
+    "rank_source_field": "citations",
+    "rank_source_description": "The API returns a top-level 'citations' array of URLs, ordered by the position in which they were cited in the response. The rank is the 1-based index in this array.",
+    "rank_derivation": {
+      "thegeolab_rank": "Position (1-based) of the first URL in citations[] whose domain contains 'thegeolab.net'. If no thegeolab.net URL appears, rank = 0.",
+      "thatware_rank": "Position (1-based) of the first URL in citations[] whose domain contains 'thatware.co'. If absent, rank = 0.",
+      "hashmeta_rank": "Position (1-based) of the first URL in citations[] whose domain contains 'hashmeta.com'. If absent, rank = 0.",
+      "absent_encoding": "0 (integer zero). This is the log convention across all rows since 2026-05-13. Do not use blank, NR, or n/a."
+    },
+    "thegeolab_cited": "Y if any URL in citations[] contains 'thegeolab.net', N otherwise.",
+    "other_new_competitors": "GEO-specific competitors only (thatware/hashmeta class). Generic domains (arxiv, linkedin, searchengineland, nogood, etc.) are NOT GEO competitors and must not appear in this field. They belong in the raw sources observation only.",
+    "notes_tag": "source:API-sonar-pro pull:P{n} — where P{n} is the pull number within the session (P1 for the first set of 3 queries, P2 for a second pull if run)."
+  },
+
+  "queries": [
+    {
+      "query_id": "Q1",
+      "query_text": "what is the GEO Stack framework",
+      "target_page": "/geo-stack/"
+    },
+    {
+      "query_id": "Q2",
+      "query_text": "what is extractability in AI search",
+      "target_page": "/extractability/"
+    },
+    {
+      "query_id": "Q3",
+      "query_text": "retrieval probability in GEO Stack model",
+      "target_page": "/retrieval-probability/"
+    }
+  ],
+
+  "csv_schema": {
+    "file": "experiments/e044/e044_competitor_rank_log.csv",
+    "columns": [
+      "session_date",
+      "query_id",
+      "query_text",
+      "thegeolab_rank",
+      "thatware_rank",
+      "hashmeta_rank",
+      "thegeolab_cited",
+      "other_new_competitors",
+      "thegeolab_snippet",
+      "rank1_snippet",
+      "rank1_domain"
+    ],
+    "date_format": "YYYY-MM-DD",
+    "one_row_per_query_per_pull": true
+  },
+
+  "escalation": {
+    "displacement_response_slot": "E072 (pre-registered, held)",
+    "stale_instruction": "Do NOT create E045 — that instruction is stale. E045 is now the robots.txt-disallow experiment.",
+    "persistence_gate": "A trigger must hold for >=2 CONSECUTIVE weekly sessions before it escalates. A single-week appearance is carousel noise — log it, do not escalate."
+  },
+
+  "known_discrepancies": {
+    "temperature": "recursion_check.js pins temperature=0. The E044 sessions in this conversation did not set temperature (API default applies). This means E044 results may have slightly more variance than recursion_check runs. Pinning temperature=0 for future E044 runs is recommended but not yet enforced.",
+    "return_citations": "The E044 curl commands used return_citations=true explicitly. geo_lab_30check.js and recursion_check.js do not set it — the API returns citations by default. The explicit flag is harmless but not strictly necessary.",
+    "model": "citation_check.js uses 'sonar' (not sonar-pro). E044 and the 30check/recursion scripts use 'sonar-pro'. These are different models with different retrieval behaviour. E044 is sonar-pro only."
+  }
+}
