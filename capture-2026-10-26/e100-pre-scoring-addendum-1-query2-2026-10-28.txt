@@ -1,0 +1,15 @@
+E100 v1.5 pre-scoring addendum 1: query 2 browse rate
+Recorded 28 Oct 2026. Nothing has been scored. This addendum refers to the pre-scoring record with SHA-256 0884c2c2e5e35b3cf0a5d0f5eb80e5c5712082b4411d870c0d8c16ee261f43de and does not change it.
+
+Facts (from per_call_log.csv in the handoff zip, SHA-256 8cff2893288bdffab6a137241a6fa40d46b1a9d36b01591e1bf05d1be2adf8f2; browse flags only)
+E100 ChatGPT capture: 88 calls, 80 browsed, 8 not browsed. The 80th browsed call is the last call, line 88.
+Browsed calls per query (query 1 to 8): 11, 4, 11, 11, 10, 11, 11, 11.
+Query 2 did not browse in rounds 1, 3, 4, 6, 8, 9 and 11 (7 of 11 calls). Query 5 did not browse in round 4 (1 of 11). Every other query browsed on all 11 calls.
+Pre-check of 22 Oct: query 2 did not browse on its first call and browsed on its second, so it was alive under the registered rule.
+
+Decisions, all following the registered text (E100 v1.5, sections 2.1, 2.6 and 4)
+1. The primary analysis is as registered: per-arm citation rate = cited observations / valid observations (browsed calls), pooled over the eight queries; difference A minus B with a 95% two-proportion confidence interval; null if the interval includes zero or the point estimate is below 22 points; citation floor ceil(0.22 x 80) = 18.
+2. All 80 browsed observations are used. Query 2 is not dropped, substituted or topped up. The dead-query rule applies to the pre-check only (all four calls failing to browse), and section 4 allows no drop after the fact except by the registered substitution rule. No further calls are made.
+3. The report includes the full per-query breakdown with calls, browsed calls and non-browsed calls for every query. Query 2 is shown with n = 4 and flagged as too thin for any per-query inference.
+4. Any view that excludes query 2 or re-weights queries is exploratory and labelled exploratory (section 4).
+5. The write-up states the limitation: the pooled estimate mixes the queries unevenly (query 2 is 4 of 80 observations, 5%, against 12.5% if all eight browsed equally). The arm comparison itself is within each call, because both arms compete in the same answer (section 2.1).

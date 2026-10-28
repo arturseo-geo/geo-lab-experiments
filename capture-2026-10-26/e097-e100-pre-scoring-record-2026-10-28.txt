@@ -1,0 +1,28 @@
+E100 v1.5 and E097 v1.4 capture: handoff check and analysis decisions, fixed before scoring
+Recorded 28 Oct 2026. Nothing has been scored.
+
+1. Handoff received
+Google Drive folder "Study Handoff" (shared by Marwa Rashed Saleh), file e100-e097-transparency-2026-10-27.zip, 2,237,136 bytes.
+Zip SHA-256: 8cff2893288bdffab6a137241a6fa40d46b1a9d36b01591e1bf05d1be2adf8f2 (matches the hash Marwa gave).
+All 30 files listed in her manifest match their SHA-256 values. The MANIFEST-SHA256.txt inside the zip is identical to the manifest on Drive (SHA-256 ba003013a4c311d313362efebc59820d0934fb86c808f6b67e8d97512e923bb3). The zip holds those 30 files plus that manifest.
+This check read only the manifest, the file hashes and call metadata (call id, engine, query index, round, status, browse flag, timestamps). No citation or annotation content was read.
+
+2. Decision on the extra call in E097 ChatGPT (agreed in the LinkedIn DMs of 27 and 28 Oct 2026)
+Primary analysis: all 81 browsed calls.
+Sensitivity analysis: the first 80 browsed calls in call order.
+Call order is line order in raw_calls.jsonl and per_call_log.csv (rows are written in planned call order, not completion order).
+The 80th browsed call is line 81, E097-chatgpt-q1-r11. The 81st is line 82, E097-chatgpt-q2-r11. Both were created at 2026-10-26T12:32:09Z; q1 completed at 12:32:26Z and q2 at 12:32:27Z.
+The first-80 sensitivity set excludes only E097-chatgpt-q2-r11.
+
+3. Calls per cell (capture, 26 Oct 2026)
+E100 ChatGPT: 88 calls, 80 browsed, 8 not browsed. All 80 browsed calls are used.
+E097 ChatGPT: 82 calls, 81 browsed, 1 not browsed (line 43, E097-chatgpt-q3-r6).
+E097 Perplexity: 80 calls, 80 browsed.
+No errors or cut-off answers in capture. ChatGPT calls: gpt-6-luna, medium effort, 4000 max output tokens. Perplexity calls: perplexity/sonar.
+Capture windows (UTC): E100 12:16:47 to 12:22:36; E097 12:23:11 to 12:37:39 (sessions_utc.json).
+
+4. Browsed calls per query (query index 1 to 8)
+E100 ChatGPT: 11, 4, 11, 11, 10, 11, 11, 11.
+E097 ChatGPT, all 81: 11, 11, 9, 10, 10, 10, 10, 10. First 80: 11, 10, 9, 10, 10, 10, 10, 10.
+E097 Perplexity: 10 for every query.
+Observation recorded before scoring: in E100 ChatGPT, query 2 did not browse on 7 of its 11 calls, and query 5 did not browse on 1 of 11. Every other query browsed on all 11. No analysis consequence is decided here.
