@@ -1,0 +1,135 @@
+{
+  "AMBIGUITIES": [
+    "CI method is not named in the registered texts; chosen at run time: newcombe_paired",
+    "LIMITATION: the interval treats calls as independent; calls cluster within 8 queries, so the per-query tables (per_query in E100, per_query_cited in E097) are reported alongside. Not corrected for clustering.",
+    "E100 section 4 null rule: 'point estimate below 22 points' read literally on A minus B; the absolute-value reading is also reported",
+    "E097 v1.4 does not label hreflang-and-ai-search-explained as A and p48213 as B next to the URLs; mapping taken from the order in section 1, to be confirmed",
+    "Perplexity brackets not of the form [n] (e.g. [1,2]) are logged as nonconforming and not counted"
+  ],
+  "arms": {
+    "A": "https://thegeolab.net/guides/paywalls-and-ai-search-a/",
+    "B": "https://thegeolab.net/guides/paywalls-and-ai-search-b/"
+  },
+  "chatgpt": {
+    "all": {
+      "floor": {
+        "either_cited": 0,
+        "floor": 18,
+        "met": false
+      },
+      "per_query": {
+        "1": {
+          "A_cited": 0,
+          "A_surf_not_cited": 5,
+          "B_cited": 0,
+          "B_surf_not_cited": 1,
+          "n": 11
+        },
+        "2": {
+          "A_cited": 0,
+          "A_surf_not_cited": 1,
+          "B_cited": 0,
+          "B_surf_not_cited": 2,
+          "n": 4
+        },
+        "3": {
+          "A_cited": 0,
+          "A_surf_not_cited": 1,
+          "B_cited": 0,
+          "B_surf_not_cited": 1,
+          "n": 11
+        },
+        "4": {
+          "A_cited": 0,
+          "A_surf_not_cited": 6,
+          "B_cited": 0,
+          "B_surf_not_cited": 0,
+          "n": 11
+        },
+        "5": {
+          "A_cited": 0,
+          "A_surf_not_cited": 0,
+          "B_cited": 0,
+          "B_surf_not_cited": 0,
+          "n": 10
+        },
+        "6": {
+          "A_cited": 0,
+          "A_surf_not_cited": 8,
+          "B_cited": 0,
+          "B_surf_not_cited": 4,
+          "n": 11
+        },
+        "7": {
+          "A_cited": 0,
+          "A_surf_not_cited": 0,
+          "B_cited": 0,
+          "B_surf_not_cited": 1,
+          "n": 11
+        },
+        "8": {
+          "A_cited": 0,
+          "A_surf_not_cited": 2,
+          "B_cited": 0,
+          "B_surf_not_cited": 1,
+          "n": 11
+        }
+      },
+      "primary_cited": {
+        "A": 0,
+        "B": 0,
+        "abs_point_below_22": true,
+        "ci95": [
+          -0.0458181295355271,
+          0.0458181295355271
+        ],
+        "ci_includes_zero": true,
+        "ci_method": "newcombe_paired",
+        "diff_A_minus_B": 0.0,
+        "n": 80,
+        "null_literal_reading": true,
+        "paired_cells_both_Aonly_Bonly_neither": [
+          0,
+          0,
+          0,
+          80
+        ],
+        "point_below_22_signed": true,
+        "rate_A": 0.0,
+        "rate_B": 0.0
+      },
+      "primary_reading": "uninformative (floor not met): no difference claimed; surfaced reported as its own finding",
+      "secondary_surfaced_not_cited": {
+        "A": 23,
+        "B": 10,
+        "abs_point_below_22": true,
+        "ci95": [
+          0.02738963911755818,
+          0.29070574561404006
+        ],
+        "ci_includes_zero": false,
+        "ci_method": "newcombe_paired",
+        "diff_A_minus_B": 0.16249999999999998,
+        "n": 80,
+        "null_literal_reading": true,
+        "paired_cells_both_Aonly_Bonly_neither": [
+          1,
+          22,
+          9,
+          48
+        ],
+        "point_below_22_signed": true,
+        "rate_A": 0.2875,
+        "rate_B": 0.125
+      }
+    },
+    "browse_flag_agreement_with_harness": "88/88",
+    "calls": 88,
+    "invalid_markers_total": 0,
+    "nonconforming_brackets_total": 0,
+    "observations": 80
+  },
+  "ci_method": "newcombe_paired",
+  "experiment": "e100",
+  "rules": "registered texts E100 v1.5 / E097 v1.4; raw responses only"
+}

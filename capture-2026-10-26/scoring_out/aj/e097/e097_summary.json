@@ -1,0 +1,294 @@
+{
+  "AMBIGUITIES": [
+    "CI method is not named in the registered texts; chosen at run time: newcombe_paired",
+    "LIMITATION: the interval treats calls as independent; calls cluster within 8 queries, so the per-query tables (per_query in E100, per_query_cited in E097) are reported alongside. Not corrected for clustering.",
+    "E100 section 4 null rule: 'point estimate below 22 points' read literally on A minus B; the absolute-value reading is also reported",
+    "E097 v1.4 does not label hreflang-and-ai-search-explained as A and p48213 as B next to the URLs; mapping taken from the order in section 1, to be confirmed",
+    "Perplexity brackets not of the form [n] (e.g. [1,2]) are logged as nonconforming and not counted"
+  ],
+  "arms": {
+    "A": "https://thegeolab.net/guides/hreflang-and-ai-search-explained/",
+    "B": "https://thegeolab.net/guides/p48213/"
+  },
+  "chatgpt": {
+    "browse_flag_agreement_with_harness": "82/82",
+    "calls": 82,
+    "invalid_markers_total": 0,
+    "nonconforming_brackets_total": 0,
+    "observations": 81,
+    "primary_all": {
+      "both_cited_share_of_either": null,
+      "cited_four_way": {
+        "A_only": 0,
+        "B_only": 0,
+        "both": 0,
+        "neither": 81
+      },
+      "dominant_arm": null,
+      "dominant_share_of_single": null,
+      "floor": {
+        "either_cited": 0,
+        "floor": 18,
+        "met": false
+      },
+      "n": 81,
+      "per_query_cited": {
+        "1": {
+          "A_only": 0,
+          "B_only": 0,
+          "both": 0,
+          "n": 11,
+          "neither": 11
+        },
+        "2": {
+          "A_only": 0,
+          "B_only": 0,
+          "both": 0,
+          "n": 11,
+          "neither": 11
+        },
+        "3": {
+          "A_only": 0,
+          "B_only": 0,
+          "both": 0,
+          "n": 9,
+          "neither": 9
+        },
+        "4": {
+          "A_only": 0,
+          "B_only": 0,
+          "both": 0,
+          "n": 10,
+          "neither": 10
+        },
+        "5": {
+          "A_only": 0,
+          "B_only": 0,
+          "both": 0,
+          "n": 10,
+          "neither": 10
+        },
+        "6": {
+          "A_only": 0,
+          "B_only": 0,
+          "both": 0,
+          "n": 10,
+          "neither": 10
+        },
+        "7": {
+          "A_only": 0,
+          "B_only": 0,
+          "both": 0,
+          "n": 10,
+          "neither": 10
+        },
+        "8": {
+          "A_only": 0,
+          "B_only": 0,
+          "both": 0,
+          "n": 10,
+          "neither": 10
+        }
+      },
+      "reading": "neither-heavy (floor not met): non-competitive, no slug or dedup conclusion; surfaced table reported as retrieval",
+      "single_arm_calls": 0,
+      "surfaced_both_together_share_of_either": null,
+      "surfaced_four_way": {
+        "A_only": 0,
+        "B_only": 0,
+        "both": 0,
+        "neither": 81
+      },
+      "surfaced_measures": {
+        "both_share_of_either": null,
+        "dominant_share_of_single": null
+      }
+    },
+    "sensitivity_first_80": {
+      "both_cited_share_of_either": null,
+      "cited_four_way": {
+        "A_only": 0,
+        "B_only": 0,
+        "both": 0,
+        "neither": 80
+      },
+      "dominant_arm": null,
+      "dominant_share_of_single": null,
+      "floor": {
+        "either_cited": 0,
+        "floor": 18,
+        "met": false
+      },
+      "n": 80,
+      "per_query_cited": {
+        "1": {
+          "A_only": 0,
+          "B_only": 0,
+          "both": 0,
+          "n": 11,
+          "neither": 11
+        },
+        "2": {
+          "A_only": 0,
+          "B_only": 0,
+          "both": 0,
+          "n": 10,
+          "neither": 10
+        },
+        "3": {
+          "A_only": 0,
+          "B_only": 0,
+          "both": 0,
+          "n": 9,
+          "neither": 9
+        },
+        "4": {
+          "A_only": 0,
+          "B_only": 0,
+          "both": 0,
+          "n": 10,
+          "neither": 10
+        },
+        "5": {
+          "A_only": 0,
+          "B_only": 0,
+          "both": 0,
+          "n": 10,
+          "neither": 10
+        },
+        "6": {
+          "A_only": 0,
+          "B_only": 0,
+          "both": 0,
+          "n": 10,
+          "neither": 10
+        },
+        "7": {
+          "A_only": 0,
+          "B_only": 0,
+          "both": 0,
+          "n": 10,
+          "neither": 10
+        },
+        "8": {
+          "A_only": 0,
+          "B_only": 0,
+          "both": 0,
+          "n": 10,
+          "neither": 10
+        }
+      },
+      "reading": "neither-heavy (floor not met): non-competitive, no slug or dedup conclusion; surfaced table reported as retrieval",
+      "single_arm_calls": 0,
+      "surfaced_both_together_share_of_either": null,
+      "surfaced_four_way": {
+        "A_only": 0,
+        "B_only": 0,
+        "both": 0,
+        "neither": 80
+      },
+      "surfaced_measures": {
+        "both_share_of_either": null,
+        "dominant_share_of_single": null
+      }
+    }
+  },
+  "ci_method": "newcombe_paired",
+  "experiment": "e097",
+  "perplexity": {
+    "all": {
+      "both_cited_share_of_either": 0.0,
+      "cited_four_way": {
+        "A_only": 9,
+        "B_only": 0,
+        "both": 0,
+        "neither": 71
+      },
+      "dominant_arm": "A",
+      "dominant_share_of_single": 1.0,
+      "floor": {
+        "either_cited": 9,
+        "floor": 18,
+        "met": false
+      },
+      "n": 80,
+      "per_query_cited": {
+        "1": {
+          "A_only": 1,
+          "B_only": 0,
+          "both": 0,
+          "n": 10,
+          "neither": 9
+        },
+        "2": {
+          "A_only": 4,
+          "B_only": 0,
+          "both": 0,
+          "n": 10,
+          "neither": 6
+        },
+        "3": {
+          "A_only": 1,
+          "B_only": 0,
+          "both": 0,
+          "n": 10,
+          "neither": 9
+        },
+        "4": {
+          "A_only": 0,
+          "B_only": 0,
+          "both": 0,
+          "n": 10,
+          "neither": 10
+        },
+        "5": {
+          "A_only": 0,
+          "B_only": 0,
+          "both": 0,
+          "n": 10,
+          "neither": 10
+        },
+        "6": {
+          "A_only": 1,
+          "B_only": 0,
+          "both": 0,
+          "n": 10,
+          "neither": 9
+        },
+        "7": {
+          "A_only": 1,
+          "B_only": 0,
+          "both": 0,
+          "n": 10,
+          "neither": 9
+        },
+        "8": {
+          "A_only": 1,
+          "B_only": 0,
+          "both": 0,
+          "n": 10,
+          "neither": 9
+        }
+      },
+      "reading": "neither-heavy (floor not met): non-competitive, no slug or dedup conclusion; surfaced table reported as retrieval",
+      "single_arm_calls": 9,
+      "surfaced_both_together_share_of_either": 0.0,
+      "surfaced_four_way": {
+        "A_only": 23,
+        "B_only": 0,
+        "both": 0,
+        "neither": 57
+      },
+      "surfaced_measures": {
+        "both_share_of_either": 0.0,
+        "dominant_share_of_single": 1.0
+      }
+    },
+    "browse_flag_agreement_with_harness": "80/80",
+    "calls": 80,
+    "invalid_markers_total": 0,
+    "nonconforming_brackets_total": 0,
+    "observations": 80
+  },
+  "rules": "registered texts E100 v1.5 / E097 v1.4; raw responses only"
+}
