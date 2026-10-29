@@ -118,6 +118,69 @@ class Stats(unittest.TestCase):
         self.assertTrue(t["null_literal_reading"])  # 12.5 points < 22
 
 
+class PairedNewcombe(unittest.TestCase):
+    """Synthetic only. First two cases are the co-author's own check values (29 Oct 2026)."""
+    def pts(self, cells):
+        d, (lo, hi) = S.newcombe_paired(*cells)
+        return round(d * 100, 1), round(lo * 100, 1), round(hi * 100, 1)
+
+    def test_coauthor_example_1(self):
+        self.assertEqual(self.pts((4, 30, 6, 40)), (30.0, 16.2, 42.4))
+
+    def test_coauthor_example_2(self):
+        self.assertEqual(self.pts((10, 20, 5, 45)), (18.8, 6.7, 30.2))
+
+    def test_swap_arms_negates_interval(self):
+        d, (lo, hi) = S.newcombe_paired(10, 20, 5, 45)
+        d2, (lo2, hi2) = S.newcombe_paired(10, 5, 20, 45)
+        self.assertAlmostEqual(d2, -d); self.assertAlmostEqual(lo2, -hi); self.assertAlmostEqual(hi2, -lo)
+
+    def test_phi_zero_equals_independent(self):
+        # a=b=c=d: ad - bc = 0 so phi = 0 and the paired formula reduces to the independent one
+        n = 20
+        d, (lo, hi) = S.newcombe_paired(5, 5, 5, 5)
+        d2, (lo2, hi2) = S.diff_ci(10, 10, n, "newcombe_independent")
+        self.assertAlmostEqual(lo, lo2); self.assertAlmostEqual(hi, hi2)
+
+    def test_zero_denominator_phi_zero(self):
+        d, (lo, hi) = S.newcombe_paired(0, 0, 0, 80)       # nobody cited
+        self.assertEqual(d, 0.0); self.assertLess(lo, 0.0); self.assertGreater(hi, 0.0)
+        d, (lo, hi) = S.newcombe_paired(80, 0, 0, 0)       # everybody cited both
+        self.assertEqual(d, 0.0)
+
+    def test_symmetric_when_b_equals_c(self):
+        d, (lo, hi) = S.newcombe_paired(10, 7, 7, 56)
+        self.assertAlmostEqual(d, 0.0); self.assertAlmostEqual(lo, -hi)
+
+    def test_positive_correlation_narrows_vs_independent(self):
+        d, (lo, hi) = S.newcombe_paired(40, 5, 5, 30)
+        d2, (lo2, hi2) = S.diff_ci(45, 45, 80, "newcombe_independent")
+        self.assertLess(hi - lo, hi2 - lo2)
+
+    def test_n_zero_is_nan(self):
+        d, (lo, hi) = S.newcombe_paired(0, 0, 0, 0)
+        self.assertTrue(math.isnan(d) and math.isnan(lo) and math.isnan(hi))
+
+    def test_needs_consistent_cells(self):
+        with self.assertRaises(ValueError): S.diff_ci(34, 10, 80, "newcombe_paired")
+        with self.assertRaises(ValueError): S.diff_ci(34, 10, 80, "newcombe_paired", cells=(4, 30, 6, 41))
+        with self.assertRaises(ValueError): S.diff_ci(34, 10, 80, "newcombe_paired", cells=(5, 30, 6, 39))
+        self.assertEqual(S.diff_ci(34, 10, 80, "newcombe_paired", cells=(4, 30, 6, 40))[0], 0.3)
+
+    def test_paired_cells_helper(self):
+        self.assertEqual(S.paired_cells([(1, 1), (1, 0), (0, 1), (0, 0), (0, 0)]), (1, 1, 1, 2))
+
+    def test_old_name_rejected(self):
+        with self.assertRaises(SystemExit):
+            S.main(["--experiment", "e100", "--raw", "x", "--ci", "newcombe", "--out", "y"])
+
+    def test_unchanged_wald_and_independent(self):
+        d, (lo, hi) = S.diff_ci(40, 20, 80, "wald")
+        self.assertAlmostEqual(d, 0.25)
+        d, (lo, hi) = S.diff_ci(56, 48, 70, "newcombe_independent")  # smoke: same code path as before the rename
+        self.assertAlmostEqual(d, 56 / 70 - 48 / 70)
+
+
 def row(a_c, b_c, a_s=None, b_s=None):
     return {"A_cited": a_c, "B_cited": b_c, "A_surfaced": a_c if a_s is None else a_s, "B_surfaced": b_c if b_s is None else b_s}
 
@@ -170,7 +233,7 @@ class EndToEnd(unittest.TestCase):
                  "raw": gpt_raw([A097], [A097])} for i in range(81)]
         d, p = self._write(rows)
         out = os.path.join(d, "out")
-        S.main(["--experiment", "e097", "--raw", p, "--ci", "newcombe", "--out", out])
+        S.main(["--experiment", "e097", "--raw", p, "--ci", "newcombe_paired", "--out", out])
         s = json.load(open(os.path.join(out, "e097_summary.json")))
         self.assertEqual(s["chatgpt"]["primary_all"]["n"], 81)
         self.assertEqual(s["chatgpt"]["sensitivity_first_80"]["n"], 80)

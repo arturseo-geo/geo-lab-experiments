@@ -9,11 +9,15 @@ agreement with the browse state re-derived from raw). It never reads the
 harness's extracted fields (cited_urls, surfaced_urls, text, invalid_markers).
 
 Usage:
-  python3 -I scorer.py --experiment e100 --raw PATH/raw_calls.jsonl --ci wald --out OUTDIR
-  python3 -I scorer.py --experiment e097 --raw PATH/raw_calls.jsonl --ci newcombe --out OUTDIR
+  python3 -I scorer.py --experiment e100 --raw PATH/raw_calls.jsonl --ci newcombe_paired --out OUTDIR
+  python3 -I scorer.py --experiment e097 --raw PATH/raw_calls.jsonl --ci newcombe_paired --out OUTDIR
 The CI method has no default on purpose: the registered texts say
 "95% two-proportion confidence interval" without naming a method, so it must be
 chosen explicitly and recorded before the run.
+Choices: wald, newcombe_independent (Newcombe 1998a hybrid score, independent
+samples), newcombe_paired (Newcombe 1998b, Stat Med 17:2635-2650, paired data,
+as specified by the co-author on 29 Oct 2026). The earlier choice "newcombe"
+was the independent-samples formula under an ambiguous name; it was removed.
 """
 import argparse, csv, json, math, os, re, sys
 from urllib.parse import urlsplit
@@ -142,28 +146,77 @@ def wilson(x, n):
     return (c - h, c + h)
 
 
-def diff_ci(xa, xb, n, method):
-    """95% two-proportion CI for pA - pB with nA = nB = n (independent-samples
-    formulas, as the registered text names a two-proportion interval)."""
+def newcombe_paired(a, b, c, d):
+    """Newcombe hybrid score interval for the difference of two paired
+    proportions, as written out by the co-author (29 Oct 2026). Cells:
+    a = both, b = A only, c = B only, d = neither; n = a+b+c+d.
+    pA = (a+b)/n, pB = (a+c)/n. Wilson 95% intervals, no continuity correction
+    on the Wilson intervals. phi = (ad-bc)/sqrt((a+b)(c+d)(a+c)(b+d)); if ad > bc
+    the numerator is max(ad-bc-n/2, 0); phi = 0 if the denominator is 0.
+    Returns (D, (lower, upper)) with D = pA - pB."""
+    n = a + b + c + d
+    if n == 0:
+        nan = float("nan")
+        return nan, (nan, nan)
+    pa, pb = (a + b) / n, (a + c) / n
+    dd = pa - pb
+    la, ua = wilson(a + b, n)
+    lb, ub = wilson(a + c, n)
+    den = math.sqrt((a + b) * (c + d) * (a + c) * (b + d))
+    if den == 0:
+        phi = 0.0
+    else:
+        num = a * d - b * c
+        if a * d > b * c:
+            num = max(num - n / 2, 0.0)
+        phi = num / den
+    lo = dd - math.sqrt((pa - la) ** 2 - 2 * phi * (pa - la) * (ub - pb) + (ub - pb) ** 2)
+    hi = dd + math.sqrt((ua - pa) ** 2 - 2 * phi * (ua - pa) * (pb - lb) + (pb - lb) ** 2)
+    return dd, (lo, hi)
+
+
+def diff_ci(xa, xb, n, method, cells=None):
+    """95% CI for pA - pB. wald and newcombe_independent use independent-samples
+    formulas with nA = nB = n. newcombe_paired needs the four paired cells
+    (both, A only, B only, neither) and refuses to run without them."""
     pa, pb = xa / n, xb / n
     d = pa - pb
     if method == "wald":
         se = math.sqrt(pa * (1 - pa) / n + pb * (1 - pb) / n)
         return d, (d - Z * se, d + Z * se)
-    if method == "newcombe":  # Newcombe (1998) hybrid score, method 10
+    if method == "newcombe_independent":  # Newcombe (1998a) hybrid score, independent samples
         la, ua = wilson(xa, n)
         lb, ub = wilson(xb, n)
         lo = d - math.sqrt((pa - la) ** 2 + (ub - pb) ** 2)
         hi = d + math.sqrt((ua - pa) ** 2 + (pb - lb) ** 2)
         return d, (lo, hi)
-    raise ValueError("ci method must be wald or newcombe")
+    if method == "newcombe_paired":
+        if cells is None:
+            raise ValueError("newcombe_paired needs the paired cells (both, A only, B only, neither)")
+        a, b, c, dd = cells
+        if min(cells) < 0 or a + b != xa or a + c != xb or a + b + c + dd != n:
+            raise ValueError(f"paired cells {cells} inconsistent with xa={xa}, xb={xb}, n={n}")
+        return newcombe_paired(a, b, c, dd)
+    raise ValueError("ci method must be wald, newcombe_independent or newcombe_paired")
 
 
-def ab_test(xa, xb, n, method):
-    d, (lo, hi) = diff_ci(xa, xb, n, method)
+def paired_cells(pairs):
+    """pairs: iterable of (A_flag, B_flag). Returns (both, A_only, B_only, neither)."""
+    a = b = c = d = 0
+    for x, y in pairs:
+        if x and y: a += 1
+        elif x: b += 1
+        elif y: c += 1
+        else: d += 1
+    return (a, b, c, d)
+
+
+def ab_test(xa, xb, n, method, cells=None):
+    d, (lo, hi) = diff_ci(xa, xb, n, method, cells)
     includes_zero = lo <= 0 <= hi
     return {
         "n": n, "A": xa, "B": xb, "rate_A": xa / n, "rate_B": xb / n,
+        "paired_cells_both_Aonly_Bonly_neither": list(cells) if cells is not None else None,
         "diff_A_minus_B": d, "ci95": [lo, hi], "ci_method": method,
         "ci_includes_zero": includes_zero,
         "point_below_22_signed": d < FLOOR_SHARE,       # literal reading: A minus B below 22 points
@@ -210,7 +263,8 @@ def e097_branch(rows, method):
         out["reading"] = "neither-heavy (floor not met): non-competitive, no slug or dedup conclusion; surfaced table reported as retrieval"
         return out
     if both_share >= BRANCH1_BOTH:
-        t = ab_test(cited["both"] + cited["A_only"], cited["both"] + cited["B_only"], n, method)
+        t = ab_test(cited["both"] + cited["A_only"], cited["both"] + cited["B_only"], n, method,
+                    cells=(cited["both"], cited["A_only"], cited["B_only"], cited["neither"]))
         out["branch1_test"] = t
         out["reading"] = "Branch 1 (pages treated as distinct): slug test as registered"
         out["escalation_condition_A_leads_by_22"] = t["diff_A_minus_B"] >= FLOOR_SHARE
@@ -259,6 +313,7 @@ def summarise(rows, experiment, method):
             "rules": "registered texts E100 v1.5 / E097 v1.4; raw responses only",
             "AMBIGUITIES": [
                 "CI method is not named in the registered texts; chosen at run time: " + method,
+                "LIMITATION: the interval treats calls as independent; calls cluster within 8 queries, so the per-query table (E100) is the check on that. Not corrected for clustering.",
                 "E100 section 4 null rule: 'point estimate below 22 points' read literally on A minus B; the absolute-value reading is also reported",
                 "E097 v1.4 does not label hreflang-and-ai-search-explained as A and p48213 as B next to the URLs; mapping taken from the order in section 1, to be confirmed",
                 "Perplexity brackets not of the form [n] (e.g. [1,2]) are logged as nonconforming and not counted",
@@ -284,11 +339,13 @@ def summarise(rows, experiment, method):
                 sa = sum(1 for r in sub if r["A_surfaced"] and not r["A_cited"])
                 sb = sum(1 for r in sub if r["B_surfaced"] and not r["B_cited"])
                 res = {"floor": floor_check(either, n)}
-                res["primary_cited"] = ab_test(xa, xb, n, method) if n else None
+                cc = paired_cells((r["A_cited"], r["B_cited"]) for r in sub)
+                res["primary_cited"] = ab_test(xa, xb, n, method, cells=cc) if n else None
                 res["primary_reading"] = ("uninformative (floor not met): no difference claimed; surfaced reported as its own finding"
                                           if not res["floor"]["met"] else
                                           ("null" if res["primary_cited"]["null_literal_reading"] else "difference"))
-                res["secondary_surfaced_not_cited"] = ab_test(sa, sb, n, method) if n else None
+                sc = paired_cells((r["A_surfaced"] and not r["A_cited"], r["B_surfaced"] and not r["B_cited"]) for r in sub)
+                res["secondary_surfaced_not_cited"] = ab_test(sa, sb, n, method, cells=sc) if n else None
                 pq = {}
                 for r in sub:
                     q = pq.setdefault(r["query_index"], {"n": 0, "A_cited": 0, "B_cited": 0, "A_surf_not_cited": 0, "B_surf_not_cited": 0})
@@ -307,7 +364,7 @@ def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("--experiment", required=True, choices=["e100", "e097"])
     ap.add_argument("--raw", required=True)
-    ap.add_argument("--ci", required=True, choices=["wald", "newcombe"])
+    ap.add_argument("--ci", required=True, choices=["wald", "newcombe_independent", "newcombe_paired"])
     ap.add_argument("--out", required=True)
     a = ap.parse_args(argv)
     rows = load_rows(a.raw, a.experiment)
