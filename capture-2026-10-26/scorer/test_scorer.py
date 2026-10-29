@@ -238,6 +238,24 @@ class EndToEnd(unittest.TestCase):
         self.assertEqual(s["chatgpt"]["primary_all"]["n"], 81)
         self.assertEqual(s["chatgpt"]["sensitivity_first_80"]["n"], 80)
 
+    def test_e097_per_query_cited_table(self):
+        rows = []
+        for i in range(10):
+            qi = "q1" if i < 6 else "q2"
+            a = i % 2 == 0; b = i % 3 == 0
+            rows.append({"call_id": f"c{i}", "engine": "chatgpt", "query_index": qi, "browsed": True, "error": None,
+                         "raw": gpt_raw([A097, B097], [u for u, f in ((A097, a), (B097, b)) if f])})
+        d, p = self._write(rows)
+        out = os.path.join(d, "out")
+        S.main(["--experiment", "e097", "--raw", p, "--ci", "newcombe_paired", "--out", out])
+        with open(os.path.join(out, "e097_summary.json")) as f:
+            s = json.load(f)
+        pq = s["chatgpt"]["primary_all"]["per_query_cited"]
+        self.assertEqual(sorted(pq), ["q1", "q2"])
+        self.assertEqual(sum(v["n"] for v in pq.values()), 10)
+        self.assertEqual(sum(v["both"] + v["A_only"] + v["B_only"] + v["neither"] for v in pq.values()), 10)
+        self.assertEqual(pq["q1"], {"n": 6, "both": 1, "A_only": 2, "B_only": 1, "neither": 2})
+
     def test_ci_required(self):
         with self.assertRaises(SystemExit):
             S.main(["--experiment", "e100", "--raw", "x", "--out", "y"])

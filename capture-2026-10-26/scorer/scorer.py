@@ -308,12 +308,24 @@ def load_rows(path, experiment):
     return rows
 
 
+def e097_per_query(rows):
+    """Per-query cited four-way cells, reported alongside the interval because calls cluster within queries.
+    Reporting only: no verdict reads this table."""
+    pq = {}
+    for r in rows:
+        q = pq.setdefault(r["query_index"], {"n": 0, "both": 0, "A_only": 0, "B_only": 0, "neither": 0})
+        q["n"] += 1
+        key = "both" if (r["A_cited"] and r["B_cited"]) else "A_only" if r["A_cited"] else "B_only" if r["B_cited"] else "neither"
+        q[key] += 1
+    return dict(sorted(pq.items(), key=lambda kv: str(kv[0])))
+
+
 def summarise(rows, experiment, method):
     summ = {"experiment": experiment, "ci_method": method, "arms": ARMS[experiment],
             "rules": "registered texts E100 v1.5 / E097 v1.4; raw responses only",
             "AMBIGUITIES": [
                 "CI method is not named in the registered texts; chosen at run time: " + method,
-                "LIMITATION: the interval treats calls as independent; calls cluster within 8 queries, so the per-query table (E100) is the check on that. Not corrected for clustering.",
+                "LIMITATION: the interval treats calls as independent; calls cluster within 8 queries, so the per-query tables (per_query in E100, per_query_cited in E097) are reported alongside. Not corrected for clustering.",
                 "E100 section 4 null rule: 'point estimate below 22 points' read literally on A minus B; the absolute-value reading is also reported",
                 "E097 v1.4 does not label hreflang-and-ai-search-explained as A and p48213 as B next to the URLs; mapping taken from the order in section 1, to be confirmed",
                 "Perplexity brackets not of the form [n] (e.g. [1,2]) are logged as nonconforming and not counted",
@@ -356,6 +368,8 @@ def summarise(rows, experiment, method):
                 e[name] = res
             else:
                 e[name] = e097_branch(sub, method) if sub else None
+                if e[name] is not None:
+                    e[name]["per_query_cited"] = e097_per_query(sub)
         summ[eng] = e
     return summ
 
