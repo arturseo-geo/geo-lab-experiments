@@ -1,0 +1,139 @@
+{
+  "date": "2026-06-22",
+  "pull1": [
+    {
+      "qid": "Q1",
+      "query": "what is the GEO Stack framework",
+      "target": "/geo-stack/",
+      "thegeolab_rank": 1,
+      "thatware_rank": 2,
+      "hashmeta_rank": 0,
+      "thegeolab_cited": "Y",
+      "other_new": "gotoclient.com@3,the-geostack-project.github.io@4,guptadeepak.com@5,youtube.com@6,eseospace.com@7",
+      "retrieval_set_size": 7,
+      "pull": "P1",
+      "ranked_urls": [
+        "https://thegeolab.net/geo-stack/",
+        "https://thatware.co/5-layer-geo-stack-ai-visibility-framework/",
+        "https://gotoclient.com/blog/geo-optimised-content-stat/",
+        "https://the-geostack-project.github.io",
+        "https://guptadeepak.com/ebooks/ai-search-visibility-guide/geo-technology-stack/",
+        "https://www.youtube.com/watch?v=hs63GGzGnLo",
+        "https://eseospace.com/blog/the-best-geo-tools-to-use-in-2025/"
+      ]
+    },
+    {
+      "qid": "Q2",
+      "query": "what is extractability in AI search",
+      "target": "/extractability/",
+      "thegeolab_rank": 0,
+      "thatware_rank": 0,
+      "hashmeta_rank": 0,
+      "thegeolab_cited": "N",
+      "other_new": "nrlc.ai@1,mandr-group.com@2,nogood.io@3,syntacticsinc.com@4,learn.microsoft.com@5,conbersa.ai@6",
+      "retrieval_set_size": 8,
+      "pull": "P1",
+      "ranked_urls": [
+        "https://nrlc.ai/en-us/generative-engine-optimization/extractability/",
+        "https://www.mandr-group.com/why-extractability-is-just-as-vital-as-relevance-in-ai-search/",
+        "https://nogood.io/blog/exctractability-principle/",
+        "https://www.syntacticsinc.com/news-articles-cat/structure-content-for-ai-rag-system/",
+        "https://learn.microsoft.com/en-us/azure/search/cognitive-search-skill-document-extraction",
+        "https://www.conbersa.ai/learn/how-to-structure-content-for-ai-extraction",
+        "https://authoritytech.io/glossary/extractable-content",
+        "https://www.linkedin.com/posts/thomaspjacobs_day-4-the-extractability-gap-audit-questions-activity-7397265011397791744-OqGQ"
+      ]
+    },
+    {
+      "qid": "Q3",
+      "query": "retrieval probability in GEO Stack model",
+      "target": "/retrieval-probability/",
+      "thegeolab_rank": 1,
+      "thatware_rank": 0,
+      "hashmeta_rank": 0,
+      "thegeolab_cited": "Y",
+      "other_new": "tandfonline.com@3,nclaursen.dk@4,arxiv.org@5,pmc.ncbi.nlm.nih.gov@6,youtube.com@7,pubs.geoscienceworld.org@8",
+      "retrieval_set_size": 9,
+      "pull": "P1",
+      "ranked_urls": [
+        "https://thegeolab.net/retrieval-probability/",
+        "https://thegeolab.net/geo-stack/",
+        "https://www.tandfonline.com/doi/full/10.1080/01621459.2025.2566449",
+        "https://nclaursen.dk/blog/retrieval-stack-aeo-geo-how-it-actually-works/",
+        "https://arxiv.org/html/2506.00585v1",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10119076/",
+        "https://www.youtube.com/watch?v=TaboD-gmHPo",
+        "https://pubs.geoscienceworld.org/seg/geophysics/article/89/2/B131/634072/Generating-3D-lithology-probability-volumes-using",
+        "https://onlinelibrary.wiley.com/doi/10.1111/tgis.12605"
+      ]
+    }
+  ],
+  "pull2": [
+    {
+      "qid": "Q1",
+      "query": "what is the GEO Stack framework",
+      "target": "/geo-stack/",
+      "thegeolab_rank": 1,
+      "thatware_rank": 2,
+      "hashmeta_rank": 0,
+      "thegeolab_cited": "Y",
+      "other_new": "wiki.osgeo.org@3,worldscientificnews.com@4,gotoclient.com@5,linkedin.com@6,guptadeepak.com@7,eseospace.com@8",
+      "retrieval_set_size": 8,
+      "pull": "P2",
+      "ranked_urls": [
+        "https://thegeolab.net/geo-stack/",
+        "https://thatware.co/5-layer-geo-stack-ai-visibility-framework/",
+        "https://wiki.osgeo.org/wiki/Software_Stack",
+        "https://worldscientificnews.com/geostack-ai-framework-integrating-stacking-ensembles-and-explainable-ai-for-geophysical-parameter-prediction-of-well-productivity/",
+        "https://gotoclient.com/blog/geo-optimised-content-stat/",
+        "https://www.linkedin.com/pulse/geo-stack-9-days-heres-my-idea-blueprint-jay-sanderson-aqtdc",
+        "https://guptadeepak.com/ebooks/ai-search-visibility-guide/geo-technology-stack/",
+        "https://eseospace.com/blog/the-best-geo-tools-to-use-in-2025/"
+      ]
+    },
+    {
+      "qid": "Q2",
+      "query": "what is extractability in AI search",
+      "target": "/extractability/",
+      "thegeolab_rank": 0,
+      "thatware_rank": 0,
+      "hashmeta_rank": 0,
+      "thegeolab_cited": "N",
+      "other_new": "nrlc.ai@1,mandr-group.com@2,nogood.io@3,syntacticsinc.com@4,learn.microsoft.com@5,authoritytech.io@6",
+      "retrieval_set_size": 8,
+      "pull": "P2",
+      "ranked_urls": [
+        "https://nrlc.ai/en-us/generative-engine-optimization/extractability/",
+        "https://www.mandr-group.com/why-extractability-is-just-as-vital-as-relevance-in-ai-search/",
+        "https://nogood.io/blog/exctractability-principle/",
+        "https://www.syntacticsinc.com/news-articles-cat/structure-content-for-ai-rag-system/",
+        "https://learn.microsoft.com/en-us/azure/search/cognitive-search-skill-document-extraction",
+        "https://authoritytech.io/glossary/extractable-content",
+        "https://www.linkedin.com/posts/thomaspjacobs_day-4-the-extractability-gap-audit-questions-activity-7397265011397791744-OqGQ",
+        "https://eseospace.com/blog/how-to-create-extractable-snippets-for-ai-tools/"
+      ]
+    },
+    {
+      "qid": "Q3",
+      "query": "retrieval probability in GEO Stack model",
+      "target": "/retrieval-probability/",
+      "thegeolab_rank": 1,
+      "thatware_rank": 0,
+      "hashmeta_rank": 0,
+      "thegeolab_cited": "Y",
+      "other_new": "arxiv.org@3,tandfonline.com@4,nclaursen.dk@5,pmc.ncbi.nlm.nih.gov@6,pubs.geoscienceworld.org@7,onlinelibrary.wiley.com@8",
+      "retrieval_set_size": 8,
+      "pull": "P2",
+      "ranked_urls": [
+        "https://thegeolab.net/retrieval-probability/",
+        "https://thegeolab.net/geo-stack/",
+        "https://arxiv.org/html/2412.13317v1",
+        "https://www.tandfonline.com/doi/full/10.1080/01621459.2025.2566449",
+        "https://nclaursen.dk/blog/retrieval-stack-aeo-geo-how-it-actually-works/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10119076/",
+        "https://pubs.geoscienceworld.org/seg/geophysics/article/89/2/B131/634072/Generating-3D-lithology-probability-volumes-using",
+        "https://onlinelibrary.wiley.com/doi/10.1111/tgis.12605"
+      ]
+    }
+  ]
+}

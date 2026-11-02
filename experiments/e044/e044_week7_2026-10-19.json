@@ -1,0 +1,157 @@
+{
+  "date": "2026-10-19",
+  "pull1": [
+    {
+      "qid": "Q1",
+      "query": "what is the GEO Stack framework",
+      "target": "/geo-stack/",
+      "thegeolab_rank": 2,
+      "thatware_rank": 8,
+      "hashmeta_rank": 0,
+      "thegeolab_cited": "Y",
+      "other_new": "arxiv.org@1,linkedin.com@4,linkedin.com@5",
+      "other_new_urls": "https://arxiv.org/html/2605.06477v1@1|https://www.linkedin.com/pulse/geo-stack-our-three-layer-b2b-saas-playbook-how-run-justin-berg-fkcgf@4|https://www.linkedin.com/posts/justinnberg_after-12-months-running-ai-search-campaigns-activity-7437127641792589824-18XW@5",
+      "retrieval_set_size": 10,
+      "pull": "P1",
+      "ranked_urls": [
+        "https://arxiv.org/html/2605.06477v1",
+        "https://thegeolab.net/geo-stack/",
+        "https://thegeolab.net/what-is-generative-engine-optimisation/",
+        "https://www.linkedin.com/pulse/geo-stack-our-three-layer-b2b-saas-playbook-how-run-justin-berg-fkcgf",
+        "https://www.linkedin.com/posts/justinnberg_after-12-months-running-ai-search-campaigns-activity-7437127641792589824-18XW",
+        "https://thegeolab.net/field-manual/",
+        "https://thegeolab.net/",
+        "https://thatware.co/5-layer-geo-stack-ai-visibility-framework/",
+        "https://everything-pr.com/the-geo-stack-schema-entity-citation-authority-in-that-order",
+        "https://lauralake.com/geo-stack-brand-discoverability/"
+      ]
+    },
+    {
+      "qid": "Q2",
+      "query": "what is extractability in AI search",
+      "target": "/extractability/",
+      "thegeolab_rank": 1,
+      "thatware_rank": 0,
+      "hashmeta_rank": 0,
+      "thegeolab_cited": "Y",
+      "other_new": "searchscore.io@2,mandr-group.com@3,searchengineland.com@4,authoritytech.io@5,nogood.io@6,blog.hubspot.com@7",
+      "other_new_urls": "https://searchscore.io/guides/seo/glossary/extractability/@2|https://www.mandr-group.com/why-extractability-is-just-as-vital-as-relevance-in-ai-search/@3|https://searchengineland.com/guide/topic-clusters-for-ai-search@4|https://authoritytech.io/glossary/ai-extractability@5|https://nogood.io/blog/exctractability-principle/@6|https://blog.hubspot.com/marketing/ai-search-strategy@7",
+      "retrieval_set_size": 10,
+      "pull": "P1",
+      "ranked_urls": [
+        "https://thegeolab.net/extractability/",
+        "https://searchscore.io/guides/seo/glossary/extractability/",
+        "https://www.mandr-group.com/why-extractability-is-just-as-vital-as-relevance-in-ai-search/",
+        "https://searchengineland.com/guide/topic-clusters-for-ai-search",
+        "https://authoritytech.io/glossary/ai-extractability",
+        "https://nogood.io/blog/exctractability-principle/",
+        "https://blog.hubspot.com/marketing/ai-search-strategy",
+        "https://nrlc.ai/en-us/generative-engine-optimization/extractability/",
+        "https://sloanreview.mit.edu/article/the-new-rules-of-brand-visibility-in-ai-search/",
+        "https://www.localfalcon.com/answers/295-what-is-extractability"
+      ]
+    },
+    {
+      "qid": "Q3",
+      "query": "retrieval probability in GEO Stack model",
+      "target": "/retrieval-probability/",
+      "thegeolab_rank": 1,
+      "thatware_rank": 9,
+      "hashmeta_rank": 7,
+      "thegeolab_cited": "Y",
+      "other_new": "linkedin.com@5",
+      "other_new_urls": "https://www.linkedin.com/posts/maher-elouahabi_everything-you-read-about-geo-is-written-activity-7437868173380669440-l-8V@5",
+      "retrieval_set_size": 10,
+      "pull": "P1",
+      "ranked_urls": [
+        "https://thegeolab.net/geo-stack/",
+        "https://thegeolab.net/retrieval-probability/",
+        "https://thegeolab.net/geo-lab-hub/",
+        "https://thegeolab.net/geo-workbook/",
+        "https://www.linkedin.com/posts/maher-elouahabi_everything-you-read-about-geo-is-written-activity-7437868173380669440-l-8V",
+        "https://thegeolab.net/e042-cross-platform-retrieval-mechanism/",
+        "https://hashmeta.com/insights/infographic/geo-optimization-stack-geo",
+        "https://thegeolab.net/extractability/",
+        "https://thatware.co/5-layer-geo-stack-ai-visibility-framework/",
+        "https://www.rocktherankings.com/playbooks/b2b-saas-ai-search-playbook"
+      ]
+    }
+  ],
+  "pull2": [
+    {
+      "qid": "Q1",
+      "query": "what is the GEO Stack framework",
+      "target": "/geo-stack/",
+      "thegeolab_rank": 2,
+      "thatware_rank": 8,
+      "hashmeta_rank": 0,
+      "thegeolab_cited": "Y",
+      "other_new": "arxiv.org@1,linkedin.com@4,linkedin.com@5",
+      "other_new_urls": "https://arxiv.org/html/2605.06477v1@1|https://www.linkedin.com/pulse/geo-stack-our-three-layer-b2b-saas-playbook-how-run-justin-berg-fkcgf@4|https://www.linkedin.com/posts/justinnberg_after-12-months-running-ai-search-campaigns-activity-7437127641792589824-18XW@5",
+      "retrieval_set_size": 10,
+      "pull": "P2",
+      "ranked_urls": [
+        "https://arxiv.org/html/2605.06477v1",
+        "https://thegeolab.net/geo-stack/",
+        "https://thegeolab.net/what-is-generative-engine-optimisation/",
+        "https://www.linkedin.com/pulse/geo-stack-our-three-layer-b2b-saas-playbook-how-run-justin-berg-fkcgf",
+        "https://www.linkedin.com/posts/justinnberg_after-12-months-running-ai-search-campaigns-activity-7437127641792589824-18XW",
+        "https://thegeolab.net/field-manual/",
+        "https://thegeolab.net/",
+        "https://thatware.co/5-layer-geo-stack-ai-visibility-framework/",
+        "https://everything-pr.com/the-geo-stack-schema-entity-citation-authority-in-that-order",
+        "https://lauralake.com/geo-stack-brand-discoverability/"
+      ]
+    },
+    {
+      "qid": "Q2",
+      "query": "what is extractability in AI search",
+      "target": "/extractability/",
+      "thegeolab_rank": 1,
+      "thatware_rank": 0,
+      "hashmeta_rank": 0,
+      "thegeolab_cited": "Y",
+      "other_new": "searchscore.io@2,mandr-group.com@3,searchengineland.com@4,authoritytech.io@5,nogood.io@6,blog.hubspot.com@7",
+      "other_new_urls": "https://searchscore.io/guides/seo/glossary/extractability/@2|https://www.mandr-group.com/why-extractability-is-just-as-vital-as-relevance-in-ai-search/@3|https://searchengineland.com/guide/topic-clusters-for-ai-search@4|https://authoritytech.io/glossary/ai-extractability@5|https://nogood.io/blog/exctractability-principle/@6|https://blog.hubspot.com/marketing/ai-search-strategy@7",
+      "retrieval_set_size": 10,
+      "pull": "P2",
+      "ranked_urls": [
+        "https://thegeolab.net/extractability/",
+        "https://searchscore.io/guides/seo/glossary/extractability/",
+        "https://www.mandr-group.com/why-extractability-is-just-as-vital-as-relevance-in-ai-search/",
+        "https://searchengineland.com/guide/topic-clusters-for-ai-search",
+        "https://authoritytech.io/glossary/ai-extractability",
+        "https://nogood.io/blog/exctractability-principle/",
+        "https://blog.hubspot.com/marketing/ai-search-strategy",
+        "https://nrlc.ai/en-us/generative-engine-optimization/extractability/",
+        "https://sloanreview.mit.edu/article/the-new-rules-of-brand-visibility-in-ai-search/",
+        "https://www.localfalcon.com/answers/295-what-is-extractability"
+      ]
+    },
+    {
+      "qid": "Q3",
+      "query": "retrieval probability in GEO Stack model",
+      "target": "/retrieval-probability/",
+      "thegeolab_rank": 1,
+      "thatware_rank": 9,
+      "hashmeta_rank": 7,
+      "thegeolab_cited": "Y",
+      "other_new": "linkedin.com@5",
+      "other_new_urls": "https://www.linkedin.com/posts/maher-elouahabi_everything-you-read-about-geo-is-written-activity-7437868173380669440-l-8V@5",
+      "retrieval_set_size": 10,
+      "pull": "P2",
+      "ranked_urls": [
+        "https://thegeolab.net/geo-stack/",
+        "https://thegeolab.net/retrieval-probability/",
+        "https://thegeolab.net/geo-lab-hub/",
+        "https://thegeolab.net/geo-workbook/",
+        "https://www.linkedin.com/posts/maher-elouahabi_everything-you-read-about-geo-is-written-activity-7437868173380669440-l-8V",
+        "https://thegeolab.net/e042-cross-platform-retrieval-mechanism/",
+        "https://hashmeta.com/insights/infographic/geo-optimization-stack-geo",
+        "https://thegeolab.net/extractability/",
+        "https://thatware.co/5-layer-geo-stack-ai-visibility-framework/",
+        "https://www.rocktherankings.com/playbooks/b2b-saas-ai-search-playbook"
+      ]
+    }
+  ]
+}

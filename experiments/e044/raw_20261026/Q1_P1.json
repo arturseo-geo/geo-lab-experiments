@@ -1,0 +1,129 @@
+{
+  "version": "0.1.20261022",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "2.8119 sec.",
+  "cost": 0.010359,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10260830-1516-0612-0000-f27e70fc3bfd",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "2.7856 sec.",
+      "cost": 0.010359,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "perplexity",
+        "llm_responses",
+        "live"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "llm_responses",
+        "se": "perplexity",
+        "user_prompt": "what is the GEO Stack framework",
+        "model_name": "sonar-pro",
+        "web_search": true
+      },
+      "result": [
+        {
+          "model_name": "sonar-pro",
+          "input_tokens": 13,
+          "output_tokens": 248,
+          "reasoning_tokens": 0,
+          "web_search": true,
+          "money_spent": 0.009759,
+          "datetime": "2026-10-26 08:30:55 +00:00",
+          "items": [
+            {
+              "type": "message",
+              "sections": [
+                {
+                  "type": "text",
+                  "text": "The **GEO Stack** is a five-layer framework for **Generative Engine Optimization (GEO)**\u2014improving how reliably AI search systems discover, understand, trust, and cite a brand\u2019s content.[2][4]\n\nIts layers are:\n\n1. **Retrieval Probability** \u2014 Make content discoverable and likely to be retrieved by AI crawlers.\n2. **Extractability** \u2014 Structure content so systems can parse and accurately reuse it, using clear answers, headings, lists, tables, and FAQs.\n3. **Entity Reinforcement** \u2014 Make the brand, people, products, and relationships consistently identifiable across websites and platforms.\n4. **Structural Authority** \u2014 Build trust through quality citations, backlinks, expertise signals, and consistent third-party validation.\n5. **System Memory** \u2014 Maintain freshness and repeated signals so AI systems continue recognizing and citing the content over time.[4][5]\n\nThe framework is intended to be applied **bottom-up**: if content cannot be retrieved or extracted, stronger authority signals will have limited effect.[2] Unlike traditional SEO, which primarily targets rankings in search results, the GEO Stack focuses on visibility and accurate representation within AI-generated answers.[6]",
+                  "annotations": [
+                    {
+                      "title": "GitHub - QuantitativeImagingLaboratory/GeoStack",
+                      "url": "https://github.com/QuantitativeImagingLaboratory/GeoStack",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "The GEO Stack: How the Five-Layer GEO Framework Works",
+                      "url": "https://thegeolab.net/geo-stack/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "Our Three-Layer B2B SaaS GEO Playbook and How to Run It",
+                      "url": "https://www.linkedin.com/pulse/geo-stack-our-three-layer-b2b-saas-playbook-how-run-justin-berg-fkcgf",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "The GEO Lab \u2014 Generative Engine Optimisation Research",
+                      "url": "https://thegeolab.net/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "GEO Field Manual \u2014 Practical GEO Guide",
+                      "url": "https://thegeolab.net/field-manual/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "GEO Stack: 5-Layer AI Visibility & Citation Framework | ThatWare",
+                      "url": "https://thatware.co/5-layer-geo-stack-ai-visibility-framework/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "The GEO Lab Citation Authority Building Review | GEO",
+                      "url": "https://aimarketingconsensusindex.com/ai-search-geo-agencies/citation-authority-building/the-geo-lab",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "The GEO Stack: Signal Architecture For AI Discoverability",
+                      "url": "https://lauralake.com/geo-stack-brand-discoverability/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "GEO Acronym Disambiguation: Gemini Reads GEO as Geography The GEO Lab",
+                      "url": "https://thegeolab.net/geo-acronym-disambiguation/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "Best GEO (Generative Engine Optimization) for Contractors",
+                      "url": "https://socialclimb.org/geo-for-contractors/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fan_out_queries": null
+        }
+      ]
+    }
+  ]
+}

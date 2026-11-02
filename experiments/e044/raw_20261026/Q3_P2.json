@@ -1,0 +1,129 @@
+{
+  "version": "0.1.20261022",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "3.3564 sec.",
+  "cost": 0.012009,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10260844-1516-0612-0000-289a44ab13f0",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "3.3294 sec.",
+      "cost": 0.012009,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "perplexity",
+        "llm_responses",
+        "live"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "llm_responses",
+        "se": "perplexity",
+        "user_prompt": "retrieval probability in GEO Stack model",
+        "model_name": "sonar-pro",
+        "web_search": true
+      },
+      "result": [
+        {
+          "model_name": "sonar-pro",
+          "input_tokens": 13,
+          "output_tokens": 358,
+          "reasoning_tokens": 0,
+          "web_search": true,
+          "money_spent": 0.011409,
+          "datetime": "2026-10-26 08:44:26 +00:00",
+          "items": [
+            {
+              "type": "message",
+              "sections": [
+                {
+                  "type": "text",
+                  "text": "**Retrieval probability** in the GEO Stack is the estimated likelihood that an AI search system retrieves a specific page or content block for a given query. It is **Layer 1**: if content is not retrieved, it cannot be extracted or cited.[1][2]\n\nThe framework treats retrieval probability as a heuristic influenced by five factors:\n\n- **Semantic alignment:** how closely the content matches the query\u2019s meaning and intent.\n- **Entity-match strength:** whether relevant people, products, organizations, or concepts are named explicitly and consistently.\n- **Structural clarity:** clear headings, answer-first openings, and self-contained sections.\n- **Topical isolation:** each section focuses on one subject rather than combining unrelated topics.\n- **Contextual reinforcement:** related pages and surrounding content support the same entities and topic.[1][2]\n\nA conceptual representation is:\n\n\\[\nP(\\text{retrieval}) \\approx f(\\text{semantic alignment},\\text{entity match},\\text{structural clarity},\\text{topical isolation},\\text{contextual reinforcement})\n\\]\n\nThis is **not a directly measurable probability** or a disclosed ranking formula; it is a diagnostic model for comparing content. One proposed proxy is a 100-point score: semantic alignment \\(25\\), entity match \\(20\\), structural clarity \\(20\\), topical isolation \\(20\\), and contextual reinforcement \\(15\\).[3]\n\nIn practical terms, improve it by writing concise, query-aligned sections that state the answer directly, name entities explicitly, use descriptive headings, and keep each section focused on a single intent. Retrieval comes before extractability: making content easy to quote cannot compensate for content that never enters the candidate set.[2][10]",
+                  "annotations": [
+                    {
+                      "title": "The GEO Stack: How the Five-Layer GEO Framework Works",
+                      "url": "https://thegeolab.net/geo-stack/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "Retrieval Probability: The Core Variable of GEO",
+                      "url": "https://thegeolab.net/retrieval-probability/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "GEO Field Manual \u2014 Practical GEO Guide",
+                      "url": "https://thegeolab.net/field-manual/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "GEO Lab \u2014 Declarative Hub The GEO Lab",
+                      "url": "https://thegeolab.net/geo-lab-hub/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "The GEO Lab Citation Authority Building Review | GEO",
+                      "url": "https://aimarketingconsensusindex.com/ai-search-geo-agencies/citation-authority-building/the-geo-lab",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "Maher el Ouahabi Khirat's Post - LinkedIn",
+                      "url": "https://www.linkedin.com/posts/maher-elouahabi_everything-you-read-about-geo-is-written-activity-7437868173380669440-l-8V",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "GEO Optimization Stack",
+                      "url": "https://hashmeta.com/insights/infographic/geo-optimization-stack-geo",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "Md Amanatullah's Post - LinkedIn",
+                      "url": "https://www.linkedin.com/posts/md-amanatullah12345_ai-machinelearning-opensource-activity-7449915871197630465-A8mF",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "5 Reasons to Optimise for AI Search - The GEO Lab",
+                      "url": "https://thegeolab.net/optimise-for-ai-search/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "thegeolab.net \u203a extractabilityContent Extractability: How AI Search Decides What to Lift ...",
+                      "url": "https://thegeolab.net/extractability/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fan_out_queries": null
+        }
+      ]
+    }
+  ]
+}

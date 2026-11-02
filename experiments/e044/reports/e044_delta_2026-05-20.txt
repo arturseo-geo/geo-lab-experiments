@@ -1,0 +1,61 @@
+============================================================
+E044 WEEKLY DELTA REPORT — 2026-05-20
+Generated: 2026-05-20 07:38:03 UTC
+Comparing: 2026-05-20 vs 2026-05-13 (prior session)
+============================================================
+
+ESCALATION STATUS
+----------------------------------------
+  ⚠️  T4: New competitor 'everything-pr.com' at rank 1 on 'what is the GEO Stack framework'
+  ⚠️  T4: New competitor 'lumar.io' at rank 3 on 'what is the GEO Stack framework'
+
+RANK CHANGES — thegeolab.net
+----------------------------------------
+
+Q1 (what is the GEO Stack framework):
+  thegeolab: rank 5 → 5 (STABLE)
+  cited:     YES → YES (stable)
+
+Q2 (what is extractability in AI search):
+  thegeolab: rank 1 → 8 (DOWN 7 ⬇️)
+  cited:     YES → YES (stable)
+
+Q3 (retrieval probability in GEO Stack model):
+  thegeolab: rank 4 → 1 (UP 3 ⬆️🏆)
+  cited:     YES → YES (stable)
+
+COMPETITOR MOVEMENTS
+----------------------------------------
+
+ThatWare:
+  Q1: rank 6 → 6 (STABLE)
+  Q3: rank 8 → 6 (UP 2 ⬆️)
+
+Hashmeta:
+  All queries: absent → absent (stable)
+
+NEW ENTRANTS THIS WEEK
+----------------------------------------
+  everything-pr.com: Q1 rank 1 (NEW — substitution risk)
+  lumar.io: Q1 rank 3 (NEW — substitution risk)
+
+DOMAINS THAT DROPPED OUT
+----------------------------------------
+  None
+
+TREND SUMMARY (all sessions to date)
+----------------------------------------
+Sessions: 2 (2026-05-13, 2026-05-20)
+
+thegeolab Q1 rank history: [5, 5] — stable
+thegeolab Q2 rank history: [1, 8] — declining ⬇️
+thegeolab Q3 rank history: [4, 1] — improving ⬆️
+
+ThatWare Q1 rank history: [6, 6] — stable
+ThatWare Q3 rank history: [8, 6] — improving ⬆️
+
+SNIPPET COMPARISON
+----------------------------------------
+  snippet columns not yet populated — add after Week 3 session
+
+============================================================

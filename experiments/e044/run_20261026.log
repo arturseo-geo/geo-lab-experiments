@@ -1,0 +1,40 @@
+=== E044 WEEK 18 -- PULL 1 ===
+  [P1] Q1: what is the GEO Stack framework
+    thegeolab=2 stripped=1 thatware=6 hashmeta=0 CITED set_size=10
+  [P1] Q2: what is extractability in AI search
+    thegeolab=2 stripped=2 thatware=0 hashmeta=0 CITED set_size=10
+  [P1] Q3: retrieval probability in GEO Stack model
+    thegeolab=1 stripped=1 thatware=0 hashmeta=7 CITED set_size=10
+  Raw P1 saved to /opt/e044/data/raw_20261026 (3 files)
+
+Waiting 13 minutes for pull 2...
+
+=== E044 WEEK 18 -- PULL 2 ===
+  [P2] Q1: what is the GEO Stack framework
+    thegeolab=2 stripped=1 thatware=6 hashmeta=0 CITED set_size=10
+  [P2] Q2: what is extractability in AI search
+    thegeolab=2 stripped=2 thatware=0 hashmeta=0 CITED set_size=10
+  [P2] Q3: retrieval probability in GEO Stack model
+    thegeolab=1 stripped=1 thatware=0 hashmeta=7 CITED set_size=10
+  Raw P2 saved to /opt/e044/data/raw_20261026 (3 files)
+
+Appended 6 rows to /opt/e044/data/e044_competitor_rank_log.csv
+
+=== INTRA-SESSION STABILITY ===
+  Q1: STABLE (thegeolab=2, thatware=6)
+  Q2: STABLE (thegeolab=2, thatware=0)
+  Q3: STABLE (thegeolab=1, thatware=0)
+
+=== WEEK 6 ENTRANT DURABILITY ===
+  gotoclient: CHURNED
+  lauralake: CONFIRMED DURABLE
+  nrlc.ai: CHURNED
+  authoritytech.io: CHURNED
+
+=== ESCALATION CHECK ===
+  Prior session: 2026-10-19
+
+JSON: /opt/e044/data/e044_week7_2026-10-26.json
+
+=== COMPLETE ===
+EXIT=0

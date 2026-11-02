@@ -1,0 +1,199 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "8.6974 sec.",
+  "cost": 0.011274,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09281050-1516-0612-0000-c0735a13b18e",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "8.6131 sec.",
+      "cost": 0.011274,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "perplexity",
+        "llm_responses",
+        "live"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "llm_responses",
+        "se": "perplexity",
+        "user_prompt": "what is the GEO Stack framework",
+        "model_name": "sonar-pro",
+        "web_search": true
+      },
+      "result": [
+        {
+          "model_name": "sonar-pro",
+          "input_tokens": 13,
+          "output_tokens": 309,
+          "reasoning_tokens": 0,
+          "web_search": true,
+          "money_spent": 0.010674,
+          "datetime": "2026-09-28 10:50:17 +00:00",
+          "items": [
+            {
+              "type": "message",
+              "sections": [
+                {
+                  "type": "text",
+                  "text": "The **GEO Stack** is a five-layer framework for **Generative Engine Optimisation (GEO)** that explains how content becomes visible, extractable, and citeable in AI-driven search systems.[1][2][4] In the version developed by **The GEO Lab / Artur Ferreira**, the layers are **Retrieval Probability, Extractability, Entity Reinforcement, Structural Authority, and System Memory**.[2][4][17]\n\nIn practical terms, the framework asks:\n- **Can AI find the content?** \u2192 *Retrieval Probability*.[4][10]\n- **Can AI parse and quote it cleanly?** \u2192 *Extractability*.[4][10]\n- **Does the system recognize the brand/entity consistently?** \u2192 *Entity Reinforcement*.[2][4]\n- **Does the page/site signal trust and authority?** \u2192 *Structural Authority*.[2][4]\n- **Does the content remain remembered and referenced over time?** \u2192 *System Memory*.[2][4]\n\nThe GEO Lab describes it as a **diagnostic and optimization model** for identifying where content fails in the AI retrieval pipeline and what to improve at each stage.[8][10] Some other writers use \u201cGEO stack\u201d to mean different, proprietary frameworks with other layer names, so the term is **not standardized** across the industry.[3][6][15]",
+                  "annotations": [
+                    {
+                      "title": "The GEO Stack: How the Five-Layer GEO Framework Works",
+                      "url": "https://thegeolab.net/geo-stack/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "The GEO Lab \u2014 Generative Engine Optimisation Research",
+                      "url": "https://thegeolab.net/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "GEO Stack: 5-Layer AI Visibility & Citation Framework",
+                      "url": "https://thatware.co/5-layer-geo-stack-ai-visibility-framework/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "GEO Field Manual: The Complete Practitioner Guide",
+                      "url": "https://thegeolab.net/field-manual/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "Our Three-Layer B2B SaaS GEO Playbook and How to Run It",
+                      "url": "https://www.linkedin.com/pulse/geo-stack-our-three-layer-b2b-saas-playbook-how-run-justin-berg-fkcgf",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "How to Get Your Product Recommended in AI Search",
+                      "url": "https://www.rocktherankings.com/learn/saas-geo-strategy",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "How to Get Your Business Recommended by ChatGPT, ...",
+                      "url": "https://www.seosmart.co.ke/how-to-get-recommended-by-chatgpt-gemini-perplexity/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "What Is Generative Engine Optimisation? | The GEO Lab Guide",
+                      "url": "https://thegeolab.net/what-is-generative-engine-optimisation/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "Inside Our GEO Stack: Architecture + Real Results | CloudNSite",
+                      "url": "https://cloudnsite.com/blog/how-we-built-our-geo-stack",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "Measuring Geo Performance &...",
+                      "url": "https://thegeolab.net/generative-engine-optimisation-guide/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "GEO Repositories: 10 GitHub Repos Every Practitioner Should Know",
+                      "url": "https://thegeolab.net/geo-github-repos/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "The GEO Stack: Signal Architecture For AI Discoverability",
+                      "url": "https://lauralake.com/geo-stack-brand-discoverability/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "Unlock AI Visibility with THE GEO STACK Framework",
+                      "url": "https://www.linkedin.com/posts/justinnberg_after-12-months-running-ai-search-campaigns-activity-7437127641792589824-18XW",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "The GEO Stack: Schema, Entity, Citation, Authority \u2014 In That Order",
+                      "url": "https://everything-pr.com/the-geo-stack-schema-entity-citation-authority-in-that-order",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "The GEO Stack I Teach to My Private Clients - eSEOspace",
+                      "url": "https://eseospace.com/geo-stack-i-teach-my-clients/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "GEO Optimization Stack",
+                      "url": "https://hashmeta.com/insights/infographic/geo-optimization-stack-geo",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "About Artur Ferreira - The GEO Lab",
+                      "url": "https://thegeolab.net/about/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "The GEO Operating Stack: 14 Layers to Earn AI Citation",
+                      "url": "https://everything-pr.com/geo-operating-stack-14-layers-audit",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "The GEO Analytics Stack: What We Should Be Measuring (But Aren't)",
+                      "url": "https://www.lumar.io/blog/best-practice/geo-analytics-stack-ai-search/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "The GEO Technology Stack | The Practical Guide to AI ...",
+                      "url": "https://guptadeepak.com/ebooks/ai-search-visibility-guide/geo-technology-stack/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fan_out_queries": null
+        }
+      ]
+    }
+  ]
+}

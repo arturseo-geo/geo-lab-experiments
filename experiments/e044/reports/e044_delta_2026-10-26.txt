@@ -1,0 +1,80 @@
+============================================================
+E044 WEEKLY DELTA REPORT — 2026-10-26
+Generated: 2026-10-26 08:47:29 UTC
+Comparing: 2026-10-26 vs 2026-10-19 (prior session)
+============================================================
+
+ESCALATION STATUS
+----------------------------------------
+  ⚠️  T4: New competitor 'ranketai.com' at rank 5 on 'what is extractability in AI search'
+  ⚠️  T4: New competitor 'aimarketingconsensusindex.com' at rank 5 on 'retrieval probability in GEO Stack model'
+  🚨 T3 FIRED: thegeolab.net uncited for 2+ consecutive sessions on 'what is extractability in AI search'
+
+RANK CHANGES — thegeolab.net
+----------------------------------------
+
+Q1 (what is the GEO Stack framework):
+  thegeolab: rank 2 → 2 (STABLE)
+  cited:     YES → YES (stable)
+
+Q2 (what is extractability in AI search):
+  thegeolab: rank 1 → 2 (DOWN 1 ⬇️)
+  cited:     YES → YES (stable)
+
+Q3 (retrieval probability in GEO Stack model):
+  thegeolab: rank 1 → 1 (STABLE)
+  cited:     YES → YES (stable)
+
+Q4 (GEO Stack five layers measurement):
+  thegeolab: absent → absent (STABLE)
+  cited:     NO → NO (stable)
+
+Q5 (GEO Stack framework measurement experiments):
+  thegeolab: absent → absent (STABLE)
+  cited:     NO → NO (stable)
+
+COMPETITOR MOVEMENTS
+----------------------------------------
+
+ThatWare:
+  Q1: rank 8 → 6 (UP 2 ⬆️)
+  Q3: rank 9 → absent (DROPPED OUT ❌)
+
+Hashmeta:
+  Q3: rank 7 → 7 (STABLE)
+
+NEW ENTRANTS THIS WEEK
+----------------------------------------
+  github.com: Q1 rank unknown (NEW — substitution risk)
+  aimarketingconsensusindex.com: Q1 rank 7 (NEW — substitution risk)
+  ranketai.com: Q2 rank 5 (NEW — substitution risk)
+  oshwetank.com: Q2 rank 6 (NEW — substitution risk)
+  aimarketingconsensusindex.com: Q3 rank 5 (NEW — substitution risk)
+
+DOMAINS THAT DROPPED OUT
+----------------------------------------
+  arxiv.org: Q1 was rank 1 → absent
+  authoritytech.io: Q2 was rank 5 → absent
+  nogood.io: Q2 was rank 6 → absent
+  blog.hubspot.com: Q2 was rank 7 → absent
+
+TREND SUMMARY (all sessions to date)
+----------------------------------------
+Sessions: 15 (2026-05-13, 2026-05-20, 2026-05-27, 2026-06-22, 2026-06-28, 2026-07-20, 2026-08-10, 2026-08-17, 2026-08-24, 2026-09-07, 2026-09-14, 2026-09-21, 2026-09-28, 2026-10-19, 2026-10-26)
+
+thegeolab Q1 rank history: [5, 5, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2] — declining ⬇️
+thegeolab Q2 rank history: [1, 8, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 2] — declining ⬇️
+thegeolab Q3 rank history: [4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1] — improving ⬆️
+thegeolab Q4 rank history: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] — absent all sessions
+thegeolab Q5 rank history: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] — absent all sessions
+
+ThatWare Q1 rank history: [6, 6, 0, 2, 2, 2, 3, 2, 2, 2, 6, 5, 3, 8, 6] — improving ⬆️
+ThatWare Q3 rank history: [8, 6, 3, 0, 0, 7, 8, 6, 6, 7, 0, 8, 8, 9, 0] — dropped out ❌
+Hashmeta Q1 rank history: [0, 0, 0, 0, 0, 0, 0, 0, 18, 0, 15, 16, 16, 0, 0] — dropped out ❌
+Hashmeta Q3 rank history: [0, 0, 0, 0, 0, 9, 5, 0, 0, 0, 5, 5, 10, 7, 7] — recently appeared
+
+SNIPPET COMPARISON
+----------------------------------------
+  snippet columns not yet populated — add after Week 3 session
+
+============================================================

@@ -1,0 +1,129 @@
+{
+  "version": "0.1.20261022",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "6.1480 sec.",
+  "cost": 0.010902,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "10260844-1516-0612-0000-16185791ffa8",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "6.1057 sec.",
+      "cost": 0.010902,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "perplexity",
+        "llm_responses",
+        "live"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "llm_responses",
+        "se": "perplexity",
+        "user_prompt": "what is extractability in AI search",
+        "model_name": "sonar-pro",
+        "web_search": true
+      },
+      "result": [
+        {
+          "model_name": "sonar-pro",
+          "input_tokens": 14,
+          "output_tokens": 284,
+          "reasoning_tokens": 0,
+          "web_search": true,
+          "money_spent": 0.010302,
+          "datetime": "2026-10-26 08:44:21 +00:00",
+          "items": [
+            {
+              "type": "message",
+              "sections": [
+                {
+                  "type": "text",
+                  "text": "**Extractability in AI search** is how easily an AI system can identify, understand, and reuse a specific passage from a webpage in its answer without needing surrounding context.[1][2]\n\nIt differs from **retrieval**:\n\n- **Retrieval:** The AI finds your page or content.\n- **Extractability:** The AI can cleanly lift a useful, accurate passage from it.\n- **Citation:** The AI ultimately uses and cites that passage.\n\nHighly extractable content typically:\n\n- Gives the answer immediately.\n- Uses clear, specific language.\n- States the subject explicitly instead of relying on pronouns like \u201cit\u201d or \u201cthey.\u201d\n- Makes each paragraph understandable on its own.\n- Uses descriptive headings, lists, tables, or FAQs.\n- Avoids burying key claims in long or ambiguous paragraphs.[3][4]\n\n**Example**\n\nLess extractable:\n\n> This approach has several benefits. It is also easier to implement and can improve performance.\n\nMore extractable:\n\n> **Extractability is how easily an AI search engine can lift a self-contained statement from a webpage and use it in an answer.**\n\nThe second version is more likely to be understood, reused, and cited because it defines the term directly and stands alone. Extractability is therefore a key part of optimizing content for AI search and generative-engine optimization (GEO).[2][5]",
+                  "annotations": [
+                    {
+                      "title": "Extractability - SearchScore",
+                      "url": "https://searchscore.io/guides/seo/glossary/extractability/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "thegeolab.net \u203a extractabilityContent Extractability: How AI Search Decides What to Lift ...",
+                      "url": "https://thegeolab.net/extractability/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "How to build topic clusters that AI will cite - Search Engine Land",
+                      "url": "https://searchengineland.com/guide/topic-clusters-for-ai-search",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "Why \u201cExtractability\u201d Is Just as Vital as \u201cRelevance\u201d in AI Search",
+                      "url": "https://www.mandr-group.com/why-extractability-is-just-as-vital-as-relevance-in-ai-search/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "Extractability \u2014 AI Search Visibility Glossary",
+                      "url": "https://www.ranketai.com/en/glossary/extractability",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "What Is Extractability? AI Content Structure Explained",
+                      "url": "https://www.oshwetank.com/glossary/extractability",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "What Is Extractability? Definition & Example | Roborank",
+                      "url": "https://roborank.io/glossary/extractability/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "Extractability | AI Search Glossary | LLM Metrix",
+                      "url": "https://llmmetrix.com/glossary/extractability",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "Extractability \u2014 AI Visibility Glossary | Acromatico",
+                      "url": "https://acromatico.com/glossary/extractability",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "AI search strategy: A guide for modern marketing teams",
+                      "url": "https://blog.hubspot.com/marketing/ai-search-strategy",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fan_out_queries": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+============================================================
+E044 WEEKLY DELTA REPORT — 2026-08-24
+Generated: 2026-08-24 11:34:07 UTC
+Comparing: 2026-08-24 vs 2026-08-17 (prior session)
+============================================================
+
+ESCALATION STATUS
+----------------------------------------
+  🚨 T1 FIRED: what is the GEO Stack framework — ThatWare at rank 2
+  🚨 T3 FIRED: thegeolab.net uncited for 2+ consecutive sessions on 'what is extractability in AI search'
+
+RANK CHANGES — thegeolab.net
+----------------------------------------
+
+Q1 (what is the GEO Stack framework):
+  thegeolab: rank 1 → 1 (STABLE)
+  cited:     YES → YES (stable)
+
+Q2 (what is extractability in AI search):
+  thegeolab: rank 1 → 1 (STABLE)
+  cited:     YES → YES (stable)
+
+Q3 (retrieval probability in GEO Stack model):
+  thegeolab: rank 1 → 1 (STABLE)
+  cited:     YES → YES (stable)
+
+Q4 (GEO Stack five layers measurement):
+  thegeolab: absent → absent (STABLE)
+  cited:     NO → NO (stable)
+
+Q5 (GEO Stack framework measurement experiments):
+  thegeolab: absent → absent (STABLE)
+  cited:     NO → NO (stable)
+
+COMPETITOR MOVEMENTS
+----------------------------------------
+
+ThatWare:
+  Q1: rank 2 → 2 (STABLE)
+  Q3: rank 6 → 6 (STABLE)
+
+Hashmeta:
+  Q1: absent → rank 18 (APPEARED ✨)
+
+NEW ENTRANTS THIS WEEK
+----------------------------------------
+  None
+
+DOMAINS THAT DROPPED OUT
+----------------------------------------
+  quantitativeimaginglaboratory.github.io: Q1 was rank 4 → absent
+  linkedin.com: Q3 was rank 4 → absent
+
+TREND SUMMARY (all sessions to date)
+----------------------------------------
+Sessions: 9 (2026-05-13, 2026-05-20, 2026-05-27, 2026-06-22, 2026-06-28, 2026-07-20, 2026-08-10, 2026-08-17, 2026-08-24)
+
+thegeolab Q1 rank history: [5, 5, 0, 1, 1, 1, 1, 1, 1] — stable
+thegeolab Q2 rank history: [1, 8, 0, 0, 1, 1, 1, 1, 1] — declining ⬇️
+thegeolab Q3 rank history: [4, 1, 1, 1, 1, 1, 1, 1, 1] — improving ⬆️
+thegeolab Q4 rank history: [0, 0, 0, 0, 0, 0, 0, 0, 0] — absent all sessions
+thegeolab Q5 rank history: [0, 0, 0, 0, 0, 0, 0, 0, 0] — absent all sessions
+
+ThatWare Q1 rank history: [6, 6, 0, 2, 2, 2, 3, 2, 2] — stable
+ThatWare Q3 rank history: [8, 6, 3, 0, 0, 7, 8, 6, 6] — improving ⬆️
+Hashmeta Q1 rank history: [0, 0, 0, 0, 0, 0, 0, 0, 18] — recently appeared
+Hashmeta Q3 rank history: [0, 0, 0, 0, 0, 9, 5, 0, 0] — dropped out ❌
+
+SNIPPET COMPARISON
+----------------------------------------
+  snippet columns not yet populated — add after Week 3 session
+
+============================================================

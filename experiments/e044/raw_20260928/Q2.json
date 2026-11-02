@@ -1,0 +1,178 @@
+{
+  "version": "0.1.20260917",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "2.6839 sec.",
+  "cost": 0.011172,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "09281050-1516-0612-0000-08e8cd9d5998",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "2.6187 sec.",
+      "cost": 0.011172,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "perplexity",
+        "llm_responses",
+        "live"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "llm_responses",
+        "se": "perplexity",
+        "user_prompt": "what is extractability in AI search",
+        "model_name": "sonar-pro",
+        "web_search": true
+      },
+      "result": [
+        {
+          "model_name": "sonar-pro",
+          "input_tokens": 14,
+          "output_tokens": 302,
+          "reasoning_tokens": 0,
+          "web_search": true,
+          "money_spent": 0.010572,
+          "datetime": "2026-09-28 10:50:22 +00:00",
+          "items": [
+            {
+              "type": "message",
+              "sections": [
+                {
+                  "type": "text",
+                  "text": "In **AI search**, *extractability* is how easily an AI system can **pull a clean, self-contained fact or passage** from your content and reuse it in an answer without losing meaning.[2][5][14]\n\nIt is less about whether the content is *relevant* and more about whether it is **easy to isolate, understand, and quote**.[1][6][11] In practice, highly extractable content is usually **answer-first, clearly structured, unambiguous, and supported by headings, short paragraphs, lists, tables, or schema**.[1][3][15][17]\n\nA simple way to think about it:\n- **Relevance** = is the content about the query?\n- **Extractability** = can the AI cleanly lift a usable answer from it?[1][5][11]\n\nContent with high extractability tends to have:\n- **Self-contained statements** that make sense on their own.[2][4][6]\n- **Clear topic sentences** and explicit relationships between ideas.[3]\n- **Compact sections** that do not depend heavily on surrounding context.[4][15]\n- **Structured markup or formatting** that helps AI systems parse the page.[1][3][17]\n\nIf you want, I can also show you **how to improve extractability on a webpage** or give a **before/after example**.",
+                  "annotations": [
+                    {
+                      "title": "Why \u201cExtractability\u201d Is Just as Vital as \u201cRelevance\u201d in AI ...",
+                      "url": "https://www.mandr-group.com/why-extractability-is-just-as-vital-as-relevance-in-ai-search/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "AI Extractability",
+                      "url": "https://authoritytech.io/glossary/ai-extractability",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "AI search strategy: A guide for modern marketing teams",
+                      "url": "https://blog.hubspot.com/marketing/ai-search-strategy",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "How to Make Content Extractable for AI \u2014 Enterno.io",
+                      "url": "https://enterno.io/en/articles/ai-content-extractability-guide",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "What Is Extractability in GEO?",
+                      "url": "https://www.menra.ai/glossary/extractability",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "Extractability - SearchScore",
+                      "url": "https://searchscore.io/guides/seo/glossary/extractability/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "The Extractability Principle: What Social Content AI Cites - NoGood",
+                      "url": "https://nogood.io/blog/exctractability-principle/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "Extractability: Making Sure Your Expertise Leads Back to You",
+                      "url": "https://www.linkedin.com/pulse/extractability-making-sure-your-expertise-leads-back-you-othello-xtddc",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "AI Extractability | How to Structure Content for AI Search",
+                      "url": "https://greenbananaseo.com/ai-search-optimization/extractability/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "The 7 Core Metrics Used to Measure AI Extractability",
+                      "url": "https://eseospace.com/blog/the-7-core-metrics-used-to-measure-ai-extractability/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "AI Visibility: Authority vs Extractability | Uprankly posted on ...",
+                      "url": "https://www.linkedin.com/posts/uprankly_a-moderately-authoritative-source-with-clean-activity-7490006907806437377-Jj6J",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "AI Content Extractability: Win More AI Citations | Omnia",
+                      "url": "https://www.useomnia.com/knowledge-base/ai-content-extractability",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "How to Run an AI Extractability Audit on Your Site (I Found 6 ...",
+                      "url": "https://www.freecodecamp.org/news/how-to-run-an-ai-extractability-audit/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "What is extractability?",
+                      "url": "https://www.localfalcon.com/answers/295-what-is-extractability",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "Extractable Content: The 8 Structural Rules That Determine",
+                      "url": "https://authoritytech.io/blog/extractable-content-structure-ai-citations-2026",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "Improve Extractability for AI Systems with Answer-First Structure",
+                      "url": "https://www.linkedin.com/posts/arturgeo_extractability-in-geo-what-it-is-and-how-activity-7462109762667724800-DIEf",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "SEO in 2026: How AI is reshaping the fundamentals of search",
+                      "url": "https://business.adobe.com/blog/seo-in-2026-fundamentals",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fan_out_queries": null
+        }
+      ]
+    }
+  ]
+}

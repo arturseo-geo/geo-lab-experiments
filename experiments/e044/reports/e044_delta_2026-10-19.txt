@@ -1,0 +1,76 @@
+============================================================
+E044 WEEKLY DELTA REPORT — 2026-10-19
+Generated: 2026-10-19 07:34:09 UTC
+Comparing: 2026-10-19 vs 2026-09-28 (prior session)
+============================================================
+
+ESCALATION STATUS
+----------------------------------------
+  ⚠️  T4: New competitor 'searchengineland.com' at rank 4 on 'what is extractability in AI search'
+  🚨 T3 FIRED: thegeolab.net uncited for 2+ consecutive sessions on 'what is extractability in AI search'
+
+RANK CHANGES — thegeolab.net
+----------------------------------------
+
+Q1 (what is the GEO Stack framework):
+  thegeolab: rank 1 → 2 (DOWN 1 ⬇️)
+  cited:     YES → YES (stable)
+
+Q2 (what is extractability in AI search):
+  thegeolab: absent → rank 1 (APPEARED ✨)
+  cited:     NO → YES (GAINED ✅)
+
+Q3 (retrieval probability in GEO Stack model):
+  thegeolab: rank 1 → 1 (STABLE)
+  cited:     YES → YES (stable)
+
+Q4 (GEO Stack five layers measurement):
+  thegeolab: absent → absent (STABLE)
+  cited:     NO → NO (stable)
+
+Q5 (GEO Stack framework measurement experiments):
+  thegeolab: absent → absent (STABLE)
+  cited:     NO → NO (stable)
+
+COMPETITOR MOVEMENTS
+----------------------------------------
+
+ThatWare:
+  Q1: rank 3 → 8 (DOWN 5 ⬇️)
+  Q3: rank 8 → 9 (DOWN 1 ⬇️)
+
+Hashmeta:
+  Q1: rank 16 → absent (DROPPED OUT ❌)
+  Q3: rank 10 → 7 (UP 3 ⬆️)
+
+NEW ENTRANTS THIS WEEK
+----------------------------------------
+  searchengineland.com: Q2 rank 4 (NEW — substitution risk)
+
+DOMAINS THAT DROPPED OUT
+----------------------------------------
+  rocktherankings.com: Q1 was rank 6 → absent
+  seosmart.co.ke: Q1 was rank 7 → absent
+  enterno.io: Q2 was rank 4 → absent
+  menra.ai: Q2 was rank 5 → absent
+
+TREND SUMMARY (all sessions to date)
+----------------------------------------
+Sessions: 14 (2026-05-13, 2026-05-20, 2026-05-27, 2026-06-22, 2026-06-28, 2026-07-20, 2026-08-10, 2026-08-17, 2026-08-24, 2026-09-07, 2026-09-14, 2026-09-21, 2026-09-28, 2026-10-19)
+
+thegeolab Q1 rank history: [5, 5, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2] — declining ⬇️
+thegeolab Q2 rank history: [1, 8, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1] — declining ⬇️
+thegeolab Q3 rank history: [4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1] — improving ⬆️
+thegeolab Q4 rank history: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] — absent all sessions
+thegeolab Q5 rank history: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] — absent all sessions
+
+ThatWare Q1 rank history: [6, 6, 0, 2, 2, 2, 3, 2, 2, 2, 6, 5, 3, 8] — stable
+ThatWare Q3 rank history: [8, 6, 3, 0, 0, 7, 8, 6, 6, 7, 0, 8, 8, 9] — stable
+Hashmeta Q1 rank history: [0, 0, 0, 0, 0, 0, 0, 0, 18, 0, 15, 16, 16, 0] — dropped out ❌
+Hashmeta Q3 rank history: [0, 0, 0, 0, 0, 9, 5, 0, 0, 0, 5, 5, 10, 7] — recently appeared
+
+SNIPPET COMPARISON
+----------------------------------------
+  snippet columns not yet populated — add after Week 3 session
+
+============================================================

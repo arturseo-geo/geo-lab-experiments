@@ -1,0 +1,147 @@
+============================================================
+E044 WEEKLY DELTA REPORT — 2026-05-27
+Generated: 2026-05-27 07:35:27 UTC
+Comparing: 2026-05-27 vs 2026-05-20 (prior session)
+============================================================
+
+ESCALATION STATUS
+----------------------------------------
+  🚨 T2 FIRED: thegeolab.net absent on 'what is the GEO Stack framework'
+  ⚠️  T4: New competitor 'arxiv.org' at rank 1 on 'what is the GEO Stack framework'
+  ⚠️  T4: New competitor 'lauralake.com' at rank 2 on 'what is the GEO Stack framework'
+  ⚠️  T4: New competitor 'digitalapplied.com' at rank 3 on 'what is the GEO Stack framework'
+  ⚠️  T4: New competitor 'mersel.ai' at rank 5 on 'what is the GEO Stack framework'
+  🚨 T2 FIRED: thegeolab.net absent on 'what is extractability in AI search'
+  ⚠️  T4: New competitor 'lumar.io' at rank 1 on 'what is extractability in AI search'
+  ⚠️  T4: New competitor 'limelightmarketing.com' at rank 2 on 'what is extractability in AI search'
+  ⚠️  T4: New competitor 'iquanti.com' at rank 3 on 'what is extractability in AI search'
+  ⚠️  T4: New competitor 'innovationlabs.harvard.edu' at rank 4 on 'what is extractability in AI search'
+  ⚠️  T4: New competitor 'davidcosgrove.com' at rank 5 on 'what is extractability in AI search'
+  🚨 T1 FIRED: retrieval probability in GEO Stack model — ThatWare at rank 3
+  ⚠️  T4: New competitor 'arxiv.org' at rank 2 on 'retrieval probability in GEO Stack model'
+  ⚠️  T4: New competitor 'nebulatech.in' at rank 4 on 'retrieval probability in GEO Stack model'
+  🚨 T2 FIRED: thegeolab.net absent on 'GEO Stack five layers measurement'
+  ⚠️  T4: New competitor 'everything-pr.com' at rank 1 on 'GEO Stack five layers measurement'
+  ⚠️  T4: New competitor 'digitalapplied.com' at rank 2 on 'GEO Stack five layers measurement'
+  ⚠️  T4: New competitor 'lauralake.com' at rank 3 on 'GEO Stack five layers measurement'
+  ⚠️  T4: New competitor 'machinerelations.ai' at rank 4 on 'GEO Stack five layers measurement'
+  ⚠️  T4: New competitor 'swydo.com' at rank 5 on 'GEO Stack five layers measurement'
+  🚨 T2 FIRED: thegeolab.net absent on 'GEO Stack framework measurement experiments'
+  ⚠️  T4: New competitor 'journals.sagepub.com' at rank 1 on 'GEO Stack framework measurement experiments'
+  ⚠️  T4: New competitor 'digitalapplied.com' at rank 2 on 'GEO Stack framework measurement experiments'
+  ⚠️  T4: New competitor 'arxiv.org' at rank 3 on 'GEO Stack framework measurement experiments'
+  ⚠️  T4: New competitor 'therankingrobot.com' at rank 4 on 'GEO Stack framework measurement experiments'
+  ⚠️  T4: New competitor 'emcoutdoor.com' at rank 5 on 'GEO Stack framework measurement experiments'
+
+RANK CHANGES — thegeolab.net
+----------------------------------------
+
+Q1 (what is the GEO Stack framework):
+  thegeolab: rank 5 → absent (DROPPED OUT ❌)
+  cited:     YES → NO (LOST 🚨)
+
+Q2 (what is extractability in AI search):
+  thegeolab: rank 8 → absent (DROPPED OUT ❌)
+  cited:     YES → NO (LOST 🚨)
+
+Q3 (retrieval probability in GEO Stack model):
+  thegeolab: rank 1 → 1 (STABLE)
+  cited:     YES → YES (stable)
+
+Q4 (GEO Stack five layers measurement):
+  thegeolab: absent → absent (STABLE)
+  cited:     NO → NO (stable)
+
+Q5 (GEO Stack framework measurement experiments):
+  thegeolab: absent → absent (STABLE)
+  cited:     NO → NO (stable)
+
+COMPETITOR MOVEMENTS
+----------------------------------------
+
+ThatWare:
+  Q1: rank 6 → absent (DROPPED OUT ❌)
+  Q3: rank 6 → 3 (UP 3 ⬆️)
+
+Hashmeta:
+  All queries: absent → absent (stable)
+
+NEW ENTRANTS THIS WEEK
+----------------------------------------
+  arxiv.org: Q1 rank 1 (NEW — substitution risk)
+  lauralake.com: Q1 rank 2 (NEW — substitution risk)
+  digitalapplied.com: Q1 rank 3 (NEW — substitution risk)
+  mersel.ai: Q1 rank 5 (NEW — substitution risk)
+  eseospace.com: Q1 rank 6 (NEW — substitution risk)
+  lumar.io: Q2 rank 1 (NEW — substitution risk)
+  limelightmarketing.com: Q2 rank 2 (NEW — substitution risk)
+  iquanti.com: Q2 rank 3 (NEW — substitution risk)
+  innovationlabs.harvard.edu: Q2 rank 4 (NEW — substitution risk)
+  davidcosgrove.com: Q2 rank 5 (NEW — substitution risk)
+  searchatlas.com: Q2 rank 6 (NEW — substitution risk)
+  bluetangerine.com: Q2 rank 7 (NEW — substitution risk)
+  arxiv.org: Q3 rank 2 (NEW — substitution risk)
+  nebulatech.in: Q3 rank 4 (NEW — substitution risk)
+  everything-pr.com: Q4 rank 1 (NEW — substitution risk)
+  digitalapplied.com: Q4 rank 2 (NEW — substitution risk)
+  lauralake.com: Q4 rank 3 (NEW — substitution risk)
+  machinerelations.ai: Q4 rank 4 (NEW — substitution risk)
+  swydo.com: Q4 rank 5 (NEW — substitution risk)
+  uber.com: Q4 rank 6 (NEW — substitution risk)
+  youtube.com: Q4 rank 7 (NEW — substitution risk)
+  developers.google.com: Q4 rank 8 (NEW — substitution risk)
+  journals.sagepub.com: Q5 rank 1 (NEW — substitution risk)
+  digitalapplied.com: Q5 rank 2 (NEW — substitution risk)
+  arxiv.org: Q5 rank 3 (NEW — substitution risk)
+  therankingrobot.com: Q5 rank 4 (NEW — substitution risk)
+  emcoutdoor.com: Q5 rank 5 (NEW — substitution risk)
+  measured.com: Q5 rank 6 (NEW — substitution risk)
+  improvado.io: Q5 rank 7 (NEW — substitution risk)
+  coherentsolutions.com: Q5 rank 8 (NEW — substitution risk)
+
+DOMAINS THAT DROPPED OUT
+----------------------------------------
+  lumar.io: Q1 was rank 3 → absent
+
+TREND SUMMARY (all sessions to date)
+----------------------------------------
+Sessions: 3 (2026-05-13, 2026-05-20, 2026-05-27)
+
+thegeolab Q1 rank history: [5, 5, 0] — dropped out ❌
+thegeolab Q2 rank history: [1, 8, 0] — dropped out ❌
+thegeolab Q3 rank history: [4, 1, 1] — improving ⬆️
+thegeolab Q4 rank history: [0, 0, 0] — absent all sessions
+thegeolab Q5 rank history: [0, 0, 0] — absent all sessions
+
+ThatWare Q1 rank history: [6, 6, 0] — dropped out ❌
+ThatWare Q3 rank history: [8, 6, 3] — improving ⬆️
+
+SNIPPET COMPARISON
+----------------------------------------
+
+Q1: rank 1 (arxiv.org) extracted:
+  "The **GEO Stack framework** is a structured way of designing your brand’s entire digital presence so that **generative AI engines (ChatGPT, Gemini, Perplexity, etc.) can accurately understand, trust, and cite your brand*"
+thegeolab.net extracted:
+  ""
+
+Q2: rank 1 (lumar.io) extracted:
+  "In **AI search**, *extractability* means how easily an AI system can **pull a clear, relevant piece of information** from your content and use it in a generated answer.  Put simply, content is more extractable when it is"
+thegeolab.net extracted:
+  ""
+
+Q3: rank 1 (thegeolab.net) extracted:
+  "In the GEO Stack model (used for AI visibility / AI-native search), **retrieval probability** is the central metric estimating how likely your content is to be *selected and pulled into* an AI system’s answer for a given"
+thegeolab.net extracted:
+  "In the GEO Stack model (used for AI visibility / AI-native search), **retrieval probability** is the central metric estimating how likely your content is to be *selected and pulled into* an AI system’s answer for a given"
+
+Q4: rank 1 (everything-pr.com) extracted:
+  "“GEO Stack five layers measurement” most likely refers to the **AI / Generative Engine Optimization (GEO)–related stacks** that are described in “stack” frameworks with layers like GEO and measurement, not to GIS/geo-map"
+thegeolab.net extracted:
+  ""
+
+Q5: rank 1 (journals.sagepub.com) extracted:
+  "The phrase “GEO Stack framework measurement experiments” currently refers to **two adjacent but distinct ideas**:   1) **Generative Engine Optimization (GEO) measurement frameworks and the GEO ops stack** (marketing/AI-s"
+thegeolab.net extracted:
+  ""
+
+============================================================
