@@ -1,0 +1,191 @@
+{
+  "version": "0.1.20261022",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "3.2002 sec.",
+  "cost": 0.010599,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "11021200-1516-0612-0000-1b70bb024041",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "3.1592 sec.",
+      "cost": 0.010599,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "perplexity",
+        "llm_responses",
+        "live"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "llm_responses",
+        "se": "perplexity",
+        "user_prompt": "retrieval probability in GEO Stack model",
+        "model_name": "sonar-pro",
+        "web_search": true
+      },
+      "result": [
+        {
+          "model_name": "sonar-pro",
+          "input_tokens": 13,
+          "output_tokens": 264,
+          "reasoning_tokens": 0,
+          "web_search": true,
+          "money_spent": 0.009999,
+          "datetime": "2026-11-02 12:00:50 +00:00",
+          "items": [
+            {
+              "type": "message",
+              "sections": [
+                {
+                  "type": "text",
+                  "text": "**Retrieval Probability** is Layer 1 of the GEO Stack: the estimated likelihood that an AI search system retrieves a page or content section for a particular query. If content is not retrieved, it cannot be extracted or cited.[1][3]\n\nIt is influenced by five main factors:\n\n- **Semantic alignment:** how closely the content matches the query.\n- **Entity match strength:** whether relevant people, products, organizations, or concepts are explicitly named.\n- **Structural clarity:** clear headings, sections, and direct opening statements.\n- **Topical isolation:** each section focuses on one specific subject.\n- **Contextual reinforcement:** related pages and surrounding content strengthen the topic.[1][3]\n\nThe model is sequential:\n\n1. **Retrieval Probability:** Is the content selected?\n2. **Extractability:** Can the system understand and use it?\n3. **Entity Reinforcement:** Are the entities consistently supported?\n4. **Structural Authority:** Does the site demonstrate organized expertise?\n5. **System Memory:** Has the system accumulated familiarity with the site?[2][3]\n\nThere is no publicly computable universal formula because search systems use different internal weights. The concept is best used as a diagnostic framework for improving query\u2013content alignment, explicit entity references, section structure, and topical focus.[3]",
+                  "annotations": [
+                    {
+                      "title": "The GEO Stack: How the Five-Layer GEO Framework Works",
+                      "url": "https://thegeolab.net/geo-stack/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "GEO Lab \u2014 Declarative Hub The GEO Lab",
+                      "url": "https://thegeolab.net/geo-lab-hub/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "Retrieval Probability: The Core Variable of GEO",
+                      "url": "https://thegeolab.net/retrieval-probability/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "10 GEO Terms and the GEO Stack: The Vocabulary of AI ...",
+                      "url": "https://thegeolab.net/geo-glossary-2026/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "thegeolab.net \u00b7 what-is-generative-engine-optimisationWhat Is Generative Engine Optimisation? | The GEO Lab Guide",
+                      "url": "https://thegeolab.net/what-is-generative-engine-optimisation/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "The SEO Floor: Why GEO Without SEO Is a Strategy Built on Sand ...",
+                      "url": "https://thegeolab.net/seo-floor-geo/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "AI Search Optimization: How to Get Your Content Cited - The GEO Lab",
+                      "url": "https://thegeolab.net/ai-search-optimization/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "The GEO Workbook \u2014 30-Day Action Plan | The GEO Lab",
+                      "url": "https://thegeolab.net/geo-workbook/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "Retrieval Mechanism Map: E042 Cross-Platform Comparison The ...",
+                      "url": "https://thegeolab.net/e042-cross-platform-retrieval-mechanism/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "E014 Month 1: Citation Rate Baseline After 30 Days The GEO Lab",
+                      "url": "https://thegeolab.net/e014-month-1-citation-rate-baseline/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fan_out_queries": null,
+          "search_results": [
+            {
+              "title": "The GEO Stack: How the Five-Layer GEO Framework Works",
+              "url": "https://thegeolab.net/geo-stack/",
+              "date": "2026-10-08 00:00:00 +00:00",
+              "snippet": "Retrieval Probability determines whether content enters the AI synthesis process at all.\nA page that is never retrieved cannot be cited, regardless of its quality or authority.\nRetrieval Probability is the foundational layer of the GEO Stack.\nBefore any extraction or synthesis can occur, content mus..."
+            },
+            {
+              "title": "GEO Lab \u2014 Declarative Hub The GEO Lab",
+              "url": "https://thegeolab.net/geo-lab-hub/",
+              "date": "2026-10-15 00:00:00 +00:00",
+              "snippet": "# GEO Lab \u2014 Declarative Hub\n## Priority Pages\n/geo-stack/ \u2014 The GEO Stack framework \u2014 the five-layer model (Retrieval Probability, Extractability, Entity Reinforcement, Structural Authority, System Memory) that organises the GEO Lab\u2019s experimental programme.\n...\n/retrieval-probability/ \u2014 Retrieval p..."
+            },
+            {
+              "title": "Retrieval Probability: The Core Variable of GEO",
+              "url": "https://thegeolab.net/retrieval-probability/",
+              "date": "2026-10-19 00:00:00 +00:00",
+              "snippet": "# Retrieval Probability: The Core Variable of GEO \u2014 The GEO Lab\nRetrieval Probability is the likelihood that your content gets selected by an AI system \u2014 Perplexity, ChatGPT, or Google AI Overviews \u2014 during its live search phase.\nIt is Layer 1 of the GEO Stack \u2014 if your content is not retrieved, it ..."
+            },
+            {
+              "title": "10 GEO Terms and the GEO Stack: The Vocabulary of AI ...",
+              "url": "https://thegeolab.net/geo-glossary-2026/",
+              "date": "2026-10-14 00:00:00 +00:00",
+              "snippet": "### Retrieval Probability\nDefinition\nThe likelihood that an AI system fetches a given URL from its retrieval index when a specific query is issued.\nPosition\nLayer 1 of the GEO Stack.\nEvery other layer depends on this one \u2014 a page that is never retrieved cannot be extracted, cited, or reinforced.\nInp..."
+            },
+            {
+              "title": "thegeolab.net \u00b7 what-is-generative-engine-optimisationWhat Is Generative Engine Optimisation? | The GEO Lab Guide",
+              "url": "https://thegeolab.net/what-is-generative-engine-optimisation/",
+              "date": "2026-10-12 00:00:00 +00:00",
+              "snippet": "L1\n**Retrieval Probability**\nThe probability that a content section is fetched in response to a relevant sub-query.\nGoverned by topical alignment, query-section match, and the fan-out coverage of the page.\nSee: Retrieval Probability in the GEO Stack.\n...\n## How to Measure GEO Performance\nThe distinc..."
+            },
+            {
+              "title": "The SEO Floor: Why GEO Without SEO Is a Strategy Built on Sand ...",
+              "url": "https://thegeolab.net/seo-floor-geo/",
+              "date": "2026-10-21 00:00:00 +00:00",
+              "snippet": "Retrieval probability is the first layer of the GEO Stack \u2014 the retrieval probability framework maps exactly the conditions Ray describes: a page can be technically excellent and still never enter an AI response if the crawlability or indexation prerequisites fail.\n...\n**The architecture in plain la..."
+            },
+            {
+              "title": "AI Search Optimization: How to Get Your Content Cited - The GEO Lab",
+              "url": "https://thegeolab.net/ai-search-optimization/",
+              "date": "2026-10-16 00:00:00 +00:00",
+              "snippet": "The GEO Stack is a five-layer framework developed at The GEO Lab for engineering content visibility in AI search systematically.\nEach layer addresses a specific point in the retrieval pipeline.\nLayers are sequential \u2014 a failure at Layer 1 means Layers 2\u20135 produce no improvement.\n- **Layer 1 \u2014 Retrie..."
+            },
+            {
+              "title": "The GEO Workbook \u2014 30-Day Action Plan | The GEO Lab",
+              "url": "https://thegeolab.net/geo-workbook/",
+              "date": "2026-10-17 00:00:00 +00:00",
+              "snippet": "The GEO Stack is a five-layer model for AI citation: Retrieval Probability, Extractability, Entity Reinforcement, Structural Authority, and System Memory, plus a Layer 0 covering infrastructure accessibility.\n...\nThe AI visibility audit on Day 1 measures your current Layer 1 position \u2014 how often you..."
+            },
+            {
+              "title": "Retrieval Mechanism Map: E042 Cross-Platform Comparison The ...",
+              "url": "https://thegeolab.net/e042-cross-platform-retrieval-mechanism/",
+              "date": "2026-10-12 00:00:00 +00:00",
+              "snippet": "|Query|Tier|Perplexity|ChatGPT|Gemini|Platforms citing|\n|--|--|--|--|--|--|\n|retrieval probability GEO|2-4w|\u2713|\u2713|\u2717|2|\n|retrieval probability in GEO Stack model|6-8w|\u2713|\u2717|\u2717|1|\n|what is retrieval probability and how does it affect AI citation|10-12w|\u2717|\u2717|\u2717|0 (3-platform failure)|"
+            },
+            {
+              "title": "E014 Month 1: Citation Rate Baseline After 30 Days The GEO Lab",
+              "url": "https://thegeolab.net/e014-month-1-citation-rate-baseline/",
+              "date": "2026-10-14 00:00:00 +00:00",
+              "snippet": "System Memory is Layer 5 of the GEO Stack \u2014 the accumulated contextual model AI retrieval systems build about a site over time.\nUnlike Layers 1\u20134, which optimise individual retrieval events, Layer 5 compounds.\n...\n|2|What is Retrieval Probability in AI search?|\u2713|M|M|Dominant \u2014 /retrieval-probability..."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

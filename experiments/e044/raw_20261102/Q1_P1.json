@@ -1,0 +1,191 @@
+{
+  "version": "0.1.20261022",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "2.7099 sec.",
+  "cost": 0.009789,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "11021200-1516-0612-0000-8a9ad0a00f97",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "2.6656 sec.",
+      "cost": 0.009789,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "perplexity",
+        "llm_responses",
+        "live"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "llm_responses",
+        "se": "perplexity",
+        "user_prompt": "what is the GEO Stack framework",
+        "model_name": "sonar-pro",
+        "web_search": true
+      },
+      "result": [
+        {
+          "model_name": "sonar-pro",
+          "input_tokens": 13,
+          "output_tokens": 210,
+          "reasoning_tokens": 0,
+          "web_search": true,
+          "money_spent": 0.009189,
+          "datetime": "2026-11-02 12:00:39 +00:00",
+          "items": [
+            {
+              "type": "message",
+              "sections": [
+                {
+                  "type": "text",
+                  "text": "The **GEO Stack** is a five-layer framework for **Generative Engine Optimization (GEO)**\u2014improving how reliably AI search systems find, understand, trust, and cite a company\u2019s content.[2][4]\n\nIts layers are:\n\n1. **Retrieval Probability** \u2014 whether AI crawlers can discover and retrieve the content.\n2. **Extractability** \u2014 whether the content is structured clearly enough to be accurately quoted or summarized.\n3. **Entity Reinforcement** \u2014 whether the brand, people, and concepts are consistently identified across websites and data sources.\n4. **Structural Authority** \u2014 whether trust signals such as citations, backlinks, expertise, and reputable mentions make the content credible.\n5. **System Memory** \u2014 whether freshness and repeated signals help AI systems continue recalling and citing the content over time.[3][9]\n\nThe framework is intended to be applied **from the bottom up**: improving authority or brand recognition is less useful if AI systems cannot first retrieve and extract the underlying content.[2][3]",
+                  "annotations": [
+                    {
+                      "title": "GitHub - QuantitativeImagingLaboratory/GeoStack",
+                      "url": "https://github.com/QuantitativeImagingLaboratory/GeoStack",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "The GEO Stack: How the Five-Layer GEO Framework Works",
+                      "url": "https://thegeolab.net/geo-stack/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "GEO Field Manual \u2014 Practical GEO Guide",
+                      "url": "https://thegeolab.net/field-manual/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "The GEO Lab \u2014 Generative Engine Optimisation Research",
+                      "url": "https://thegeolab.net/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "GEO Lab \u2014 Declarative Hub The GEO Lab",
+                      "url": "https://thegeolab.net/geo-lab-hub/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "Our Three-Layer B2B SaaS GEO Playbook and How to Run It",
+                      "url": "https://www.linkedin.com/pulse/geo-stack-our-three-layer-b2b-saas-playbook-how-run-justin-berg-fkcgf",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "10 GEO Terms and the GEO Stack: The Vocabulary of AI ...",
+                      "url": "https://thegeolab.net/geo-glossary-2026/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "Unlock AI Visibility with THE GEO STACK Framework",
+                      "url": "https://www.linkedin.com/posts/justinnberg_after-12-months-running-ai-search-campaigns-activity-7437127641792589824-18XW",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "The GEO Glossary & Quick Reference | The GEO Lab",
+                      "url": "https://thegeolab.net/geo-glossary/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "The GEO Stack: Signal Architecture For AI Discoverability",
+                      "url": "https://lauralake.com/geo-stack-brand-discoverability/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fan_out_queries": null,
+          "search_results": [
+            {
+              "title": "GitHub - QuantitativeImagingLaboratory/GeoStack",
+              "url": "https://github.com/QuantitativeImagingLaboratory/GeoStack",
+              "date": "2026-10-13 00:00:00 +00:00",
+              "snippet": "# GeoStack: A Framework for Abelian Knowledge Composition in VLMs\nOfficial implementation of **GeoStack**, a modular framework for aggregating domain-specific expertise into Vision-Language Models (VLMs) with zero additional inference complexity.\nGeoStack introduces **GeoLayers**\u2014bilinear adapters t..."
+            },
+            {
+              "title": "The GEO Stack: How the Five-Layer GEO Framework Works",
+              "url": "https://thegeolab.net/geo-stack/",
+              "date": "2026-10-08 00:00:00 +00:00",
+              "snippet": "# The GEO Stack: How the Five-Layer GEO Framework Works\nThe GEO Stack is a five-layer measurement framework for Generative Engine Optimisation (GEO), developed by Artur Ferreira at The GEO Lab and first published in February 2026.\nThe five layers are Retrieval Probability, Extractability, Entity Rei..."
+            },
+            {
+              "title": "GEO Field Manual \u2014 Practical GEO Guide",
+              "url": "https://thegeolab.net/field-manual/",
+              "date": "2026-10-08 00:00:00 +00:00",
+              "snippet": "The five GEO Stack layers in full: Layer 1 \u2014 Retrieval: technical signals that determine whether AI crawlers find and index your content.\nLayer 2 \u2014 Extractability: structural signals that allow AI to quote your content accurately \u2014 direct answer placement, heading hierarchy, FAQ sections, tables, an..."
+            },
+            {
+              "title": "The GEO Lab \u2014 Generative Engine Optimisation Research",
+              "url": "https://thegeolab.net/",
+              "date": "2026-10-02 00:00:00 +00:00",
+              "snippet": "# The GEO Lab, Engineering Search for the Generative Era\n## What Is The GEO Stack?\n### Five Layers of GEO Visibility\nThe GEO Stack organises optimisation variables by layer, allowing practitioners to diagnose issues and prioritise fixes systematically rather than applying ad-hoc changes.\nThe GEO Sta..."
+            },
+            {
+              "title": "GEO Lab \u2014 Declarative Hub The GEO Lab",
+              "url": "https://thegeolab.net/geo-lab-hub/",
+              "date": "2026-10-15 00:00:00 +00:00",
+              "snippet": "## Priority Pages\n/geo-stack/ \u2014 The GEO Stack framework \u2014 the five-layer model (Retrieval Probability, Extractability, Entity Reinforcement, Structural Authority, System Memory) that organises the GEO Lab\u2019s experimental programme.\nThe GEO Stack is a measurement-first research framework.\nIt is update..."
+            },
+            {
+              "title": "Our Three-Layer B2B SaaS GEO Playbook and How to Run It",
+              "url": "https://www.linkedin.com/pulse/geo-stack-our-three-layer-b2b-saas-playbook-how-run-justin-berg-fkcgf",
+              "date": "2026-08-14 00:00:00 +00:00",
+              "snippet": "So in this article, I'll share the full framework we use at Rock the Rankings: the GEO Stack.\nThree layers, built in a specific order, because each layer feeds the one after it.\n...\nEvery GEO engagement we run uses the same three-layer architecture.\nThe emphasis shifts by client and by month.\nThe la..."
+            },
+            {
+              "title": "10 GEO Terms and the GEO Stack: The Vocabulary of AI ...",
+              "url": "https://thegeolab.net/geo-glossary-2026/",
+              "date": "2026-10-14 00:00:00 +00:00",
+              "snippet": "Six of the ten terms map directly to layers in the GEO Stack.\nThe Stack is the Lab\u2019s framework for separating AI visibility into independent, measurable layers \u2014 each with its own signals, interventions, and failure modes.\nLayer 1\nRetrieval Probability\nFetch\nLayer 2\nExtractability\nIsolate\nLayer 3\nEn..."
+            },
+            {
+              "title": "Unlock AI Visibility with THE GEO STACK Framework",
+              "url": "https://www.linkedin.com/posts/justinnberg_after-12-months-running-ai-search-campaigns-activity-7437127641792589824-18XW",
+              "date": "2026-08-08 00:00:00 +00:00",
+              "snippet": "After 12 months running AI search campaigns for 20+ B2B SaaS companies, we built a framework for what actually drives visibility that converts into pipeline\nWe call it THE GEO STACK.\nThree layers.\nIn order.\nLAYER 1: SOLUTION-AWARE PRESENCE (Results in 1-4 weeks)\nBOFU first.\n...\nLAYER 2: CITATION VEL..."
+            },
+            {
+              "title": "The GEO Glossary & Quick Reference | The GEO Lab",
+              "url": "https://thegeolab.net/geo-glossary/",
+              "date": "2026-10-08 00:00:00 +00:00",
+              "snippet": "The GEO Stack is the five-layer framework for AI search visibility developed by The GEO Lab.\nThe five layers are: Layer 1 \u2014 Retrieval Probability (can AI find your content?), Layer 2 \u2014 Extractability (can AI quote it accurately?), Layer 3 \u2014 Entity Reinforcement (does AI recognise your brand?), Layer..."
+            },
+            {
+              "title": "The GEO Stack: Signal Architecture For AI Discoverability",
+              "url": "https://lauralake.com/geo-stack-brand-discoverability/",
+              "date": "2026-10-29 00:00:00 +00:00",
+              "snippet": "There\u2019s a framework that helps make sense of this: the GEO Stack \u2014 signal architecture for AI representation accuracy, not visibility volume.\n...\nA GEO Stack is signal architecture for AI representation accuracy \u2014 the system of surfaces, signals, and structural alignment that determines how accurate..."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

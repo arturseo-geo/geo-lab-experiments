@@ -1,0 +1,240 @@
+#!/usr/bin/env python3
+"""E044 Week 7 competitor rank monitoring — 2026-06-22. API sonar-pro surface."""
+import sys, json, time, csv, os
+from datetime import datetime, timezone
+from urllib.parse import urlparse
+
+sys.path.insert(0, "/opt/geolab-auto-measure")
+from dotenv import dotenv_values
+import requests
+
+cfg = dotenv_values("/opt/geolab-auto-measure/.env")
+login = cfg.get("DATAFORSEO_LOGIN", "")
+pwd = cfg.get("DATAFORSEO_PASS", "")
+API = "https://api.dataforseo.com/v3/ai_optimization/perplexity/llm_responses/live"
+TARGET_DOMAIN = "thegeolab.net"
+
+QUERIES = [
+    ("Q1", "what is the GEO Stack framework", "/geo-stack/"),
+    ("Q2", "what is extractability in AI search", "/extractability/"),
+    ("Q3", "retrieval probability in GEO Stack model", "/retrieval-probability/"),
+]
+
+COMPETITORS = {
+    "thatware": ["thatware.co", "thatware.in"],
+    "hashmeta": ["hashmeta.com"],
+}
+
+WEEK6_ENTRANTS = ["gotoclient", "lauralake", "nrlc.ai", "authoritytech.io"]
+
+
+def run_pull(pull_label):
+    results = []
+    for qid, query, target in QUERIES:
+        print(f"  [{pull_label}] {qid}: {query}", flush=True)
+        resp = requests.post(API, auth=(login, pwd),
+            json=[{"user_prompt": query, "model_name": "sonar-pro", "web_search": True}],
+            timeout=120)
+        resp.raise_for_status()
+        body = resp.json()
+        task = body.get("tasks", [{}])[0]
+        result = (task.get("result") or [{}])[0]
+
+        all_urls = []
+        for item in result.get("items", []):
+            for sec in item.get("sections", []):
+                for ann in sec.get("annotations", []):
+                    url = ann.get("url", "")
+                    if url:
+                        all_urls.append(url)
+
+        seen = set()
+        ranked_urls = []
+        for u in all_urls:
+            if u not in seen:
+                seen.add(u)
+                ranked_urls.append(u)
+
+        thegeolab_rank = 0
+        thegeolab_cited = 0
+        for i, u in enumerate(ranked_urls, 1):
+            if TARGET_DOMAIN in u:
+                thegeolab_rank = i
+                thegeolab_cited = 1
+                break
+
+        def find_comp_rank(domains):
+            for i, u in enumerate(ranked_urls, 1):
+                for d in domains:
+                    if d in u:
+                        return i
+            return 0
+
+        thatware_rank = find_comp_rank(COMPETITORS["thatware"])
+        hashmeta_rank = find_comp_rank(COMPETITORS["hashmeta"])
+
+        other_new = []
+        for i, u in enumerate(ranked_urls[:8], 1):
+            domain = urlparse(u).netloc.lower()
+            if domain.startswith("www."):
+                domain = domain[4:]
+            if domain == TARGET_DOMAIN:
+                continue
+            skip = False
+            for comp_domains in COMPETITORS.values():
+                for d in comp_domains:
+                    if d in domain:
+                        skip = True
+            if not skip:
+                other_new.append(domain + "@" + str(i))
+
+        # ADDITIVE (2026-06-23): full URLs with rank for source-set traceability
+        other_new_urls = []
+        for i, u in enumerate(ranked_urls[:8], 1):
+            d = urlparse(u).netloc.lower()
+            if d.startswith("www."):
+                d = d[4:]
+            if d == TARGET_DOMAIN:
+                continue
+            skip = False
+            for comp_domains in COMPETITORS.values():
+                for cd in comp_domains:
+                    if cd in d:
+                        skip = True
+            if not skip:
+                other_new_urls.append(u + "@" + str(i))
+
+        row = {
+            "qid": qid, "query": query, "target": target,
+            "thegeolab_rank": thegeolab_rank,
+            "thatware_rank": thatware_rank,
+            "hashmeta_rank": hashmeta_rank,
+            "thegeolab_cited": "Y" if thegeolab_cited else "N",
+            "other_new": ",".join(other_new[:6]),
+            "other_new_urls": "|".join(other_new_urls[:6]),
+            "retrieval_set_size": len(ranked_urls),
+            "pull": pull_label,
+            "ranked_urls": ranked_urls,
+        }
+        results.append(row)
+        status = "CITED" if thegeolab_cited else "ABSENT"
+        print("    thegeolab=%d thatware=%d hashmeta=%d %s set_size=%d" % (
+            thegeolab_rank, thatware_rank, hashmeta_rank, status, len(ranked_urls)))
+        time.sleep(2)
+    return results
+
+
+print("=== E044 WEEK 7 — PULL 1 ===")
+pull1 = run_pull("P1")
+print("\nWaiting 13 minutes for pull 2...")
+time.sleep(780)
+print("\n=== E044 WEEK 7 — PULL 2 ===")
+pull2 = run_pull("P2")
+
+# Write to CSV
+csv_path = "/opt/e044/data/e044_competitor_rank_log.csv"
+today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+with open(csv_path, "a", newline="") as f:
+    w = csv.writer(f)
+    for pull_data, plabel in [(pull1, "P1"), (pull2, "P2")]:
+        for r in pull_data:
+            notes = "source:API-sonar-pro pull:" + r["pull"]
+            w.writerow([
+                today, r["qid"], r["query"],
+                r["thegeolab_rank"], r["thatware_rank"], r["hashmeta_rank"],
+                r["thegeolab_cited"], r["other_new"],
+                "", "", notes, r["other_new_urls"],
+            ])
+
+print("\nAppended %d rows to %s" % (len(pull1) + len(pull2), csv_path))
+
+# Stability check
+print("\n=== INTRA-SESSION STABILITY ===")
+for i in range(3):
+    p1, p2 = pull1[i], pull2[i]
+    qid = p1["qid"]
+    geo_stable = p1["thegeolab_rank"] == p2["thegeolab_rank"]
+    tw_stable = p1["thatware_rank"] == p2["thatware_rank"]
+    if geo_stable and tw_stable:
+        print("  %s: STABLE (thegeolab=%d, thatware=%d)" % (
+            qid, p1["thegeolab_rank"], p1["thatware_rank"]))
+    else:
+        parts = []
+        if not geo_stable:
+            parts.append("thegeolab %d->%d" % (p1["thegeolab_rank"], p2["thegeolab_rank"]))
+        if not tw_stable:
+            parts.append("thatware %d->%d" % (p1["thatware_rank"], p2["thatware_rank"]))
+        print("  %s: FLICKER — %s" % (qid, ", ".join(parts)))
+
+# Durability check
+print("\n=== WEEK 6 ENTRANT DURABILITY ===")
+all_pull_urls = []
+for pull_data in [pull1, pull2]:
+    for r in pull_data:
+        all_pull_urls.extend(r["ranked_urls"])
+all_urls_str = " ".join(all_pull_urls)
+
+for ent in WEEK6_ENTRANTS:
+    found = ent in all_urls_str
+    status = "CONFIRMED DURABLE" if found else "CHURNED"
+    print("  %s: %s" % (ent, status))
+
+# Escalation check
+print("\n=== ESCALATION CHECK ===")
+# Load prior data for 2-consecutive check
+prior_rows = []
+with open(csv_path, newline="") as f:
+    for row in csv.DictReader(f):
+        if row["session_date"] != today:
+            prior_rows.append(row)
+
+# Find most recent prior session date
+prior_dates = sorted(set(r["session_date"] for r in prior_rows), reverse=True)
+if prior_dates:
+    last_date = prior_dates[0]
+    print("  Prior session: %s" % last_date)
+    for qid_check in ["Q1", "Q2", "Q3"]:
+        prior_q = [r for r in prior_rows if r["session_date"] == last_date and r["query_id"] == qid_check]
+        curr_p1 = [r for r in [pull1[j] for j in range(3)] if r["qid"] == qid_check]
+        if prior_q and curr_p1:
+            pq = prior_q[0]
+            cq = curr_p1[0]
+            # T1: ThatWare/Hashmeta rank 1-3
+            tw_curr = cq["thatware_rank"]
+            tw_prev = int(pq.get("thatware_rank", 0) or 0)
+            if 1 <= tw_curr <= 3 and 1 <= tw_prev <= 3:
+                print("  T1 FIRE: %s — ThatWare rank %d (prior %d) — 2 consecutive!" % (
+                    qid_check, tw_curr, tw_prev))
+            elif 1 <= tw_curr <= 3:
+                print("  T1 watch: %s — ThatWare rank %d this week (prior %d) — 1st session" % (
+                    qid_check, tw_curr, tw_prev))
+            # T3: thegeolab absent
+            geo_curr = cq["thegeolab_rank"]
+            geo_prev = int(pq.get("thegeolab_rank", 0) or 0)
+            if geo_curr == 0 and geo_prev == 0:
+                print("  T3 FIRE: %s — thegeolab absent 2 consecutive sessions!" % qid_check)
+            elif geo_curr == 0:
+                print("  T3 watch: %s — thegeolab absent this week (prior rank %d) — 1st session" % (
+                    qid_check, geo_prev))
+            # T5: thegeolab not cited
+            cited_curr = cq["thegeolab_cited"]
+            cited_prev = pq.get("thegeolab_cited", "")
+            if cited_curr == "N" and cited_prev == "N":
+                print("  T5 FIRE: %s — thegeolab not cited 2 consecutive sessions!" % qid_check)
+            elif cited_curr == "N":
+                print("  T5 watch: %s — thegeolab not cited this week (prior: %s) — 1st session" % (
+                    qid_check, cited_prev))
+else:
+    print("  No prior sessions found for comparison")
+
+# Save JSON
+json_out = "/opt/e044/data/e044_week7_%s.json" % today
+with open(json_out, "w") as f:
+    # Convert ranked_urls lists for JSON
+    def clean(r):
+        return {k: v for k, v in r.items()}
+    json.dump({"date": today, "pull1": [clean(r) for r in pull1],
+               "pull2": [clean(r) for r in pull2]}, f, indent=2)
+print("\nJSON: %s" % json_out)
+print("\n=== WEEK 7 COMPLETE ===")

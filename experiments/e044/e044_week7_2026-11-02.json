@@ -1,0 +1,163 @@
+{
+  "date": "2026-11-02",
+  "pull1": [
+    {
+      "qid": "Q1",
+      "query": "what is the GEO Stack framework",
+      "target": "/geo-stack/",
+      "thegeolab_rank": 2,
+      "pollution_stripped_rank": 1,
+      "thatware_rank": 0,
+      "hashmeta_rank": 0,
+      "thegeolab_cited": "Y",
+      "other_new": "github.com@1 [POLLUTION],linkedin.com@6,linkedin.com@8",
+      "other_new_urls": "https://github.com/QuantitativeImagingLaboratory/GeoStack@1|https://www.linkedin.com/pulse/geo-stack-our-three-layer-b2b-saas-playbook-how-run-justin-berg-fkcgf@6|https://www.linkedin.com/posts/justinnberg_after-12-months-running-ai-search-campaigns-activity-7437127641792589824-18XW@8",
+      "retrieval_set_size": 10,
+      "pull": "P1",
+      "ranked_urls": [
+        "https://github.com/QuantitativeImagingLaboratory/GeoStack",
+        "https://thegeolab.net/geo-stack/",
+        "https://thegeolab.net/field-manual/",
+        "https://thegeolab.net/",
+        "https://thegeolab.net/geo-lab-hub/",
+        "https://www.linkedin.com/pulse/geo-stack-our-three-layer-b2b-saas-playbook-how-run-justin-berg-fkcgf",
+        "https://thegeolab.net/geo-glossary-2026/",
+        "https://www.linkedin.com/posts/justinnberg_after-12-months-running-ai-search-campaigns-activity-7437127641792589824-18XW",
+        "https://thegeolab.net/geo-glossary/",
+        "https://lauralake.com/geo-stack-brand-discoverability/"
+      ]
+    },
+    {
+      "qid": "Q2",
+      "query": "what is extractability in AI search",
+      "target": "/extractability/",
+      "thegeolab_rank": 3,
+      "pollution_stripped_rank": 3,
+      "thatware_rank": 0,
+      "hashmeta_rank": 0,
+      "thegeolab_cited": "Y",
+      "other_new": "searchengineland.com@1,searchscore.io@2,ranketai.com@4,heybuffy.com@5,mandr-group.com@6,datadab.com@7",
+      "other_new_urls": "https://searchengineland.com/guide/topic-clusters-for-ai-search@1|https://searchscore.io/guides/seo/glossary/extractability/@2|https://www.ranketai.com/en/glossary/extractability@4|https://heybuffy.com/glossary/extractability@5|https://www.mandr-group.com/why-extractability-is-just-as-vital-as-relevance-in-ai-search/@6|https://www.datadab.com/research/ai-visibility-glossary@7",
+      "retrieval_set_size": 10,
+      "pull": "P1",
+      "ranked_urls": [
+        "https://searchengineland.com/guide/topic-clusters-for-ai-search",
+        "https://searchscore.io/guides/seo/glossary/extractability/",
+        "https://thegeolab.net/extractability/",
+        "https://www.ranketai.com/en/glossary/extractability",
+        "https://heybuffy.com/glossary/extractability",
+        "https://www.mandr-group.com/why-extractability-is-just-as-vital-as-relevance-in-ai-search/",
+        "https://www.datadab.com/research/ai-visibility-glossary",
+        "https://llmmetrix.com/glossary/extractability",
+        "https://ethanlazuk.com/blog/extractability-for-ai-assistants-tips-for-seo-geo-content-creation/",
+        "https://www.menra.ai/glossary/extractability"
+      ]
+    },
+    {
+      "qid": "Q3",
+      "query": "retrieval probability in GEO Stack model",
+      "target": "/retrieval-probability/",
+      "thegeolab_rank": 1,
+      "pollution_stripped_rank": 1,
+      "thatware_rank": 0,
+      "hashmeta_rank": 0,
+      "thegeolab_cited": "Y",
+      "other_new": "",
+      "other_new_urls": "",
+      "retrieval_set_size": 10,
+      "pull": "P1",
+      "ranked_urls": [
+        "https://thegeolab.net/geo-stack/",
+        "https://thegeolab.net/geo-lab-hub/",
+        "https://thegeolab.net/retrieval-probability/",
+        "https://thegeolab.net/geo-glossary-2026/",
+        "https://thegeolab.net/what-is-generative-engine-optimisation/",
+        "https://thegeolab.net/seo-floor-geo/",
+        "https://thegeolab.net/ai-search-optimization/",
+        "https://thegeolab.net/geo-workbook/",
+        "https://thegeolab.net/e042-cross-platform-retrieval-mechanism/",
+        "https://thegeolab.net/e014-month-1-citation-rate-baseline/"
+      ]
+    }
+  ],
+  "pull2": [
+    {
+      "qid": "Q1",
+      "query": "what is the GEO Stack framework",
+      "target": "/geo-stack/",
+      "thegeolab_rank": 2,
+      "pollution_stripped_rank": 1,
+      "thatware_rank": 0,
+      "hashmeta_rank": 0,
+      "thegeolab_cited": "Y",
+      "other_new": "github.com@1 [POLLUTION],linkedin.com@6,linkedin.com@8",
+      "other_new_urls": "https://github.com/QuantitativeImagingLaboratory/GeoStack@1|https://www.linkedin.com/pulse/geo-stack-our-three-layer-b2b-saas-playbook-how-run-justin-berg-fkcgf@6|https://www.linkedin.com/posts/justinnberg_after-12-months-running-ai-search-campaigns-activity-7437127641792589824-18XW@8",
+      "retrieval_set_size": 10,
+      "pull": "P2",
+      "ranked_urls": [
+        "https://github.com/QuantitativeImagingLaboratory/GeoStack",
+        "https://thegeolab.net/geo-stack/",
+        "https://thegeolab.net/field-manual/",
+        "https://thegeolab.net/",
+        "https://thegeolab.net/geo-lab-hub/",
+        "https://www.linkedin.com/pulse/geo-stack-our-three-layer-b2b-saas-playbook-how-run-justin-berg-fkcgf",
+        "https://thegeolab.net/geo-glossary-2026/",
+        "https://www.linkedin.com/posts/justinnberg_after-12-months-running-ai-search-campaigns-activity-7437127641792589824-18XW",
+        "https://thegeolab.net/geo-glossary/",
+        "https://lauralake.com/geo-stack-brand-discoverability/"
+      ]
+    },
+    {
+      "qid": "Q2",
+      "query": "what is extractability in AI search",
+      "target": "/extractability/",
+      "thegeolab_rank": 3,
+      "pollution_stripped_rank": 3,
+      "thatware_rank": 0,
+      "hashmeta_rank": 0,
+      "thegeolab_cited": "Y",
+      "other_new": "searchengineland.com@1,searchscore.io@2,ranketai.com@4,heybuffy.com@5,mandr-group.com@6,datadab.com@7",
+      "other_new_urls": "https://searchengineland.com/guide/topic-clusters-for-ai-search@1|https://searchscore.io/guides/seo/glossary/extractability/@2|https://www.ranketai.com/en/glossary/extractability@4|https://heybuffy.com/glossary/extractability@5|https://www.mandr-group.com/why-extractability-is-just-as-vital-as-relevance-in-ai-search/@6|https://www.datadab.com/research/ai-visibility-glossary@7",
+      "retrieval_set_size": 10,
+      "pull": "P2",
+      "ranked_urls": [
+        "https://searchengineland.com/guide/topic-clusters-for-ai-search",
+        "https://searchscore.io/guides/seo/glossary/extractability/",
+        "https://thegeolab.net/extractability/",
+        "https://www.ranketai.com/en/glossary/extractability",
+        "https://heybuffy.com/glossary/extractability",
+        "https://www.mandr-group.com/why-extractability-is-just-as-vital-as-relevance-in-ai-search/",
+        "https://www.datadab.com/research/ai-visibility-glossary",
+        "https://llmmetrix.com/glossary/extractability",
+        "https://ethanlazuk.com/blog/extractability-for-ai-assistants-tips-for-seo-geo-content-creation/",
+        "https://www.menra.ai/glossary/extractability"
+      ]
+    },
+    {
+      "qid": "Q3",
+      "query": "retrieval probability in GEO Stack model",
+      "target": "/retrieval-probability/",
+      "thegeolab_rank": 1,
+      "pollution_stripped_rank": 1,
+      "thatware_rank": 0,
+      "hashmeta_rank": 0,
+      "thegeolab_cited": "Y",
+      "other_new": "",
+      "other_new_urls": "",
+      "retrieval_set_size": 10,
+      "pull": "P2",
+      "ranked_urls": [
+        "https://thegeolab.net/geo-stack/",
+        "https://thegeolab.net/what-raises-retrieval-probability/",
+        "https://thegeolab.net/field-manual/",
+        "https://thegeolab.net/geo-lab-hub/",
+        "https://thegeolab.net/retrieval-probability/",
+        "https://thegeolab.net/geo-glossary-2026/",
+        "https://thegeolab.net/ai-search-optimization/",
+        "https://thegeolab.net/what-is-generative-engine-optimisation/",
+        "https://thegeolab.net/seo-floor-geo/",
+        "https://thegeolab.net/"
+      ]
+    }
+  ]
+}

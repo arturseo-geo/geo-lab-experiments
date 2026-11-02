@@ -1,0 +1,191 @@
+{
+  "version": "0.1.20261022",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "3.2179 sec.",
+  "cost": 0.010362,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "11021213-1516-0612-0000-fce363543d4f",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "3.1858 sec.",
+      "cost": 0.010362,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "ai_optimization",
+        "perplexity",
+        "llm_responses",
+        "live"
+      ],
+      "data": {
+        "api": "ai_optimization",
+        "function": "llm_responses",
+        "se": "perplexity",
+        "user_prompt": "what is extractability in AI search",
+        "model_name": "sonar-pro",
+        "web_search": true
+      },
+      "result": [
+        {
+          "model_name": "sonar-pro",
+          "input_tokens": 14,
+          "output_tokens": 248,
+          "reasoning_tokens": 0,
+          "web_search": true,
+          "money_spent": 0.009762,
+          "datetime": "2026-11-02 12:14:01 +00:00",
+          "items": [
+            {
+              "type": "message",
+              "sections": [
+                {
+                  "type": "text",
+                  "text": "**Extractability in AI search** is how easily an AI system can find, understand, and reuse a clear, self-contained passage from a webpage in its answer.[1][2]\n\nIt differs from **retrievability**:\n\n- **Retrievability:** Can the AI find and access the page?\n- **Extractability:** Can the AI pull out a specific passage without losing its meaning?\n- **Citability:** Is that passage trustworthy and useful enough to cite?\n\nHighly extractable content typically:\n\n- Gives the direct answer first\n- Uses short, precise, unambiguous sentences\n- Defines terms explicitly\n- Identifies entities by name rather than vague pronouns\n- Organizes information with headings, lists, tables, or FAQs\n- Makes each section understandable without surrounding paragraphs[2][3]\n\nFor example, this is more extractable:\n\n> \u201cExtractability is the ease with which an AI search engine can lift a self-contained passage from a webpage and use it in an answer.\u201d\n\nA long paragraph that eventually implies the same definition is less extractable. In practice, extractability helps determine whether a page that AI search has found will actually contribute to\u2014or receive a citation in\u2014the generated response.[1][3]",
+                  "annotations": [
+                    {
+                      "title": "How to build topic clusters that AI will cite - Search Engine Land",
+                      "url": "https://searchengineland.com/guide/topic-clusters-for-ai-search",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "Extractability - SearchScore",
+                      "url": "https://searchscore.io/guides/seo/glossary/extractability/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "Content Extractability: How AI Search Decides What to Lift ...",
+                      "url": "https://thegeolab.net/extractability/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "Extractability \u2014 AI Search Visibility Glossary",
+                      "url": "https://www.ranketai.com/en/glossary/extractability",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "Extractability \u00b7 Buffy glossary",
+                      "url": "https://heybuffy.com/glossary/extractability",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "Why \u201cExtractability\u201d Is Just as Vital as \u201cRelevance\u201d in AI Search",
+                      "url": "https://www.mandr-group.com/why-extractability-is-just-as-vital-as-relevance-in-ai-search/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "AI Visibility Glossary - AEO, GEO, AI Citation, Extraction, Decision-Stage Content | DataDab Research",
+                      "url": "https://www.datadab.com/research/ai-visibility-glossary",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "Extractability | AI Search Glossary | LLM Metrix",
+                      "url": "https://llmmetrix.com/glossary/extractability",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "Extractability for AI Assistants: 11 Tips for SEO/GEO Content ...",
+                      "url": "https://ethanlazuk.com/blog/extractability-for-ai-assistants-tips-for-seo-geo-content-creation/",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    },
+                    {
+                      "title": "What Is Extractability in GEO? | Menra | Menra",
+                      "url": "https://www.menra.ai/glossary/extractability",
+                      "start_index": null,
+                      "end_index": null,
+                      "text": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fan_out_queries": null,
+          "search_results": [
+            {
+              "title": "How to build topic clusters that AI will cite - Search Engine Land",
+              "url": "https://searchengineland.com/guide/topic-clusters-for-ai-search",
+              "date": "2026-09-14 00:00:00 +00:00",
+              "snippet": "# How to build topic clusters that AI will cite\n## On-page optimization: Design for extractability\nExtractability is a measure of how easily an AI search engine can take a passage of text from your page and use it in an answer.\nAI engines don\u2019t use whole pages of content.\nThey pull individual chunks..."
+            },
+            {
+              "title": "Extractability - SearchScore",
+              "url": "https://searchscore.io/guides/seo/glossary/extractability/",
+              "date": "2026-10-12 00:00:00 +00:00",
+              "snippet": "How easily an AI engine can lift a clean, self-contained statement from your page to use in its answer.\n...\nExtractability describes whether your key claims are phrased so a machine can quote them without surrounding context - short, factual, unambiguous sentences rather than clauses that only make ..."
+            },
+            {
+              "title": "Content Extractability: How AI Search Decides What to Lift ...",
+              "url": "https://thegeolab.net/extractability/",
+              "date": "2026-10-07 00:00:00 +00:00",
+              "snippet": "GEO Stack \u203a L1 Retrieval \u203a L2 Extractability \u203a L3 Entity \u203a L4 Authority \u203a L5 Memory\nExtractability is the property of a content section that determines whether an AI system can isolate, parse, and reuse it in a generated answer without losing its meaning.\nA page can be retrieved \u2014 present in the sea..."
+            },
+            {
+              "title": "Extractability \u2014 AI Search Visibility Glossary",
+              "url": "https://www.ranketai.com/en/glossary/extractability",
+              "date": "2026-10-26 00:00:00 +00:00",
+              "snippet": "# Extractability\nHow much of a page an AI can extract and cite in an answer.\nIn AI search, extractability \u2014 not length \u2014 determines visibility.\n...\n## What is extractability?\n**Extractability is how much of a page an AI can extract and cite in an answer.** In AI search, what decides visibility is le..."
+            },
+            {
+              "title": "Extractability \u00b7 Buffy glossary",
+              "url": "https://heybuffy.com/glossary/extractability",
+              "date": "2026-10-22 00:00:00 +00:00",
+              "snippet": "Extractability is how cleanly an AI engine can lift a single, self-contained answer out of a page.\nRetrieval and citation happen at the passage level, so a page an engine has already fetched still only gets quoted if it contains a passage the engine can pull whole \u2014 a statistic line, a definition, a..."
+            },
+            {
+              "title": "Why \u201cExtractability\u201d Is Just as Vital as \u201cRelevance\u201d in AI Search",
+              "url": "https://www.mandr-group.com/why-extractability-is-just-as-vital-as-relevance-in-ai-search/",
+              "date": "2026-10-13 00:00:00 +00:00",
+              "snippet": "AI tools are not just evaluating whether your content is relevant.\nThey are evaluating whether they can *use* it efficiently, accurately, and confidently.\nExtractability is the measure of how well your content holds up to that test.\n...\nExtractability is not a single tactic.\nIt is a quality of conte..."
+            },
+            {
+              "title": "AI Visibility Glossary - AEO, GEO, AI Citation, Extraction, Decision-Stage Content | DataDab Research",
+              "url": "https://www.datadab.com/research/ai-visibility-glossary",
+              "date": "2026-11-01 00:00:00 +00:00",
+              "snippet": "If you need to win AI citations in 2026, the vocabulary you actually need is small: **answer engine** (the system you're optimizing for), **citation** (the unit of outcome), **prompt set** (the input you measure against), **extractability** (the property of your pages that determines whether the eng..."
+            },
+            {
+              "title": "Extractability | AI Search Glossary | LLM Metrix",
+              "url": "https://llmmetrix.com/glossary/extractability",
+              "date": "2026-08-25 00:00:00 +00:00",
+              "snippet": "**Extractability** is how easily an AI engine can pull a clear, self-contained answer out of your content to quote in its response.\nTwo pages can contain the same facts, but the one that presents them in an extractable way is far more likely to be cited.\n## What makes content extractable\n- **Answer-..."
+            },
+            {
+              "title": "Extractability for AI Assistants: 11 Tips for SEO/GEO Content ...",
+              "url": "https://ethanlazuk.com/blog/extractability-for-ai-assistants-tips-for-seo-geo-content-creation/",
+              "date": "2026-10-27 00:00:00 +00:00",
+              "snippet": "# Extractability for AI Assistants: 11 Tips for SEO/GEO Content Creation\nAugust 10, 2026\nExtractability refers to how easily AI assistants can understand useful passages from your content and use them as part of AI-generated answers.\nAnother way to think about extractability is as part of a broader ..."
+            },
+            {
+              "title": "What Is Extractability in GEO? | Menra | Menra",
+              "url": "https://www.menra.ai/glossary/extractability",
+              "date": "2026-10-25 00:00:00 +00:00",
+              "snippet": "# What Is Extractability in GEO?\nExtractability is the degree to which an AI engine can lift a correct, self-contained answer from your content without misreading, mis-scoping, or missing it.\nIt is the structural precondition for citation: an engine that cannot cleanly extract a passage cannot cite ..."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
